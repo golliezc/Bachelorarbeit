@@ -1,0 +1,338 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% File:  minutes.tex -- Main file of the meeting minutes
+% Author(s): Juergen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+% Time-stamp: <Tue 2013-08-13 20:14 juergen>
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://www.ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+
+% ********
+% Preamble
+% ********
+
+% Documentclass using KOMA-script
+% ===============================
+
+\documentclass[
+  paper=a4,                         % Paper format
+  fontsize=11pt,                    % Fontsize
+  DIV=12,                           % Divided page horizontally and vertically
+  BCOR=10mm,                        % Binding correction
+  twoside=true,                     % Double or one-sided typesetting
+  parskip=half,                     % Parskip
+  headings=small,                   % small font size for headings
+]{scrreprt}                         % KOMA - class
+
+% Usepackages
+% ===========
+
+\usepackage[utf8]{inputenc}         % Input caracters
+% \usepackage[T1]{fontenc}          % Font encodings
+\usepackage[english,german]{babel}    % Language
+\usepackage{scrpage2}               % Headers and footers
+\pagestyle{scrheadings}             % Headers and footers
+\usepackage{graphicx}               % Enhanced support for graphics
+\usepackage{xcolor}                 % Color extensions
+\usepackage{enumitem}               % Layout of itemize, enumerate, ...
+\usepackage{multicol}               % Multiple columns
+\usepackage{subfig}                 % Figures broken into subfigures
+\usepackage{rotating}               % Rotation tools
+\usepackage{longtable}              % Long tables
+\usepackage{tabularx}               % Adjustable Tabulars
+\usepackage{booktabs}               % Tabular rules
+\usepackage{float}                  % Float environment
+\usepackage{amsmath}                % AMS mathematical facilities
+\usepackage{amssymb}                % AMS symbol fonts
+\usepackage{makeidx}                % Index
+\usepackage[intoc]{nomencl}         % Nomenclature
+\usepackage{acronym}                % Acronyms
+\usepackage{tikz}                   % TikZ
+\usepackage{pgfplots}               % PGF plots
+\usepackage{units}                  % Typeset units
+\usepackage{cite}                   % Citations
+\usepackage{natbib}                 % Citation Style
+\renewcommand{\bibsection}{}      % No auto headings
+\usepackage{blindtext}              % Some random text
+\usepackage{pgfgantt}               % Gantt Chart
+
+\usepackage{minutes}
+\minutesstyle{
+    header   = {list}, %or {table},
+    vote     = {table}, %or {list},
+    contents = {true}, %or {false}
+}
+
+
+% Header
+% ======
+
+\automark[section]{chapter}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+% Table rule
+% ----------
+
+% \renewcommand{\arraystretch}{2}
+% \setlength{\arrayrulewidth}{1pt}
+% \lightrulewidth=1pt
+% \heavyrulewidth=.5pt
+
+
+
+% Colors
+% ======
+
+\definecolor{ibiBlue}{RGB}{0,106,175}
+
+
+% Hyphenations
+% =============
+
+\hyphenation{ex-am-ple hy-phen-ate}
+
+
+% MISC
+% ====
+\raggedbottom
+\makeindex
+
+
+
+
+%=============================================================================
+
+% *************
+% Main Document
+% *************
+
+% \minutesstyle{
+% header = {table}
+% }
+
+% Document
+% ========
+
+
+\begin{document}
+\selectlanguage{english}
+
+\vspace*{-2cm}
+  \begin{figure}[htbp]
+    \begin{minipage}{0.4\textwidth}
+      \begin{tikzpicture}[y=.80pt, x=.80pt,yscale=-1, inner sep=0pt, outer sep=0pt]
+        \begin{scope}[cm={{1.25,0.0,0.0,-1.25,(0.0,56.687)}}]% g3012
+          \begin{scope}[shift={(46.2141,45.0657)}]% g3014
+            \path[fill=black,nonzero rule] (0.0000,0.0000) -- (-1.4770,-6.1240) --
+            (-5.4400,-6.1240) -- (-4.1060,0.0000) -- (-41.7030,0.0000) --
+            (-45.4820,-16.9610) -- (-30.4040,-16.9610) -- (-29.4190,-12.5520) --
+            (-38.2440,-12.5520) -- (-37.7560,-10.4240) -- (-29.2500,-10.4240) --
+            (-28.3620,-6.4280) -- (-36.7960,-6.4280) -- (-36.3390,-4.3970) --
+            (-22.6580,-4.3970) -- (-25.4520,-16.9610) -- (-19.2100,-16.9640) --
+            (-16.4110,-4.3970) -- (-11.1610,-4.4010) -- (-13.9640,-16.9570) --
+            (-7.8940,-16.9610) -- (-6.3200,-10.4450) -- (-2.4650,-10.4450) --
+            (-3.8280,-16.9610) -- (2.0630,-16.9640) -- (5.8420,0.0000) -- (0.0000,0.0000)
+            -- cycle;
+          \end{scope}
+          \node (ger) at (0,16) [anchor=west,font=\scriptsize] {\sf {\textbf{Eidgenössische Technische Hochschule Zürich}}};
+          \node (eng) at (0,4.5) [anchor=west,font=\scriptsize] {\sf {\textbf{Swiss Federal Institute of Technology Zurich}}};
+        \end{scope}
+      \end{tikzpicture}
+    \end{minipage}\hfill
+    \begin{minipage}{0.4\textwidth}
+      \hfill
+      \begin{tikzpicture}[y=0.80pt, x=0.8pt,yscale=-1, inner sep=0pt, outer sep=0pt]
+        \begin{scope}[yshift=-2.5mm]
+          \node (a1) at (0,0) [anchor=west,font=\scriptsize] {\sf {\textbf{Institut für Bau- und}}};
+          \node (a2) at (0,12) [anchor=west,font=\scriptsize] {\sf {\textbf{Infrastrukturmanagement}}};
+          \node (a3) at (0,24) [anchor=west,font=\scriptsize] {\sf {{Professur für}}};
+          \node (a4) at (0,36) [anchor=west,font=\scriptsize] {\sf {{Infrastrukturmanagement}}};
+          \node (a5) at (0,48) [anchor=west,font=\scriptsize] {\sf {{Prof. Dr. Bryan T. Adey}}};
+        \end{scope}
+        \begin{scope}[xshift=4cm,yscale=3,xscale=3]
+          \foreach \x in {0,5,10}
+          \foreach \y in {0,5,10}
+          \fill[ibiBlue] (\x,\y) rectangle ++ (4,4);
+          \fill[white] (-0.1,-0.1) rectangle ++ (4.5,4.5);
+          \begin{scope}[rotate=-20]
+            \fill[ibiBlue] (0,0) rectangle ++ (4,-4);
+          \end{scope}
+        \end{scope}
+      \end{tikzpicture}
+    \end{minipage}
+  \end{figure}
+\vspace{-7mm}
+\hrulefill\\
+
+\begin{Minutes}{Title of the english minutes}
+%%\subtitle{}
+%%\moderation{}
+%%\minutetaker{}
+\participant{list of participants}
+\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+\guest{guests}
+\minutesdate{27. December 2000}
+%%\starttime{}
+%%\endtime{}
+\location{Esslingen}
+%%\cc{}
+\maketitle
+
+\topic{Topic one}%<-- insert title of topic
+\subtopic{Sub Topic to Topic one}
+Text for the topic.
+
+\topic{Dates}
+\schedule{2000/12/24}{Christmas eve}
+\schedule{2000/12/24}[20:00]{distribution of presents}
+\schedule*{2000/12/25}{Christmas day (without entry in calendar)}
+
+\topic{Tasks}
+\task{Who}{Action}
+\task*{Somebody has to do it}
+\task*[today]{Somebody do it}
+\task[done]{responsible}[yesterday]{Somebody did it}
+
+\newcols[][1]%because of a Bug
+\begin{Secret}
+\topic{Secret Topic}
+This topic is secret and is printed with the option
+\texttt{Secret}.
+\end{Secret}
+\subtopic{After secret topic}
+\secret{small secret}
+If this section is printed outside the section "secret", some
+secret stuff is not printed. Check the option \texttt{Secret}.
+\newcols
+
+\addtopic{Additional Topic}
+\subtopic{subtopic}
+
+\topic{Attachments}
+\attachment{Attachment with two pages}{2}
+
+\topic{Decisions and votes}
+\subtopic{Opinions and Argumentations}
+\opinion{Herder}{Different Opinion}
+
+A discussion to the theme:
+\begin{Opinions}
+\item[Goethe] One opinion
+\item[Schiller] Another opinion
+\end{Opinions}
+
+Arguments can be discussed with pro and contra
+\begin{Argumentation}
+\pro reason for it
+\Pro important reason for it
+\contra reason against it
+\Contra important reason against it
+\item a comment
+\result result
+\end{Argumentation}
+
+\subtopic{A single vote}
+\vote{Short voting}{1}{2}{3}
+
+And a single vote with decision:\par
+\vote{Short voting}{1}{2}{3}[Decision]
+
+\subtopic{A couple of votes}
+\begin{Vote}
+\vote{Vote one}{1}{2}{3}
+\vote{Vote two}{1}{2}{3}[decision]
+\vote{Vote three}{1}{2}{3}
+\end{Vote}
+
+\subtopic{Decisions}
+\decisiontheme{Theme}{Theme for a decision}
+\decision{Theme}{Decision}
+\decision*{Decision without theme}[Long text for the decision]
+
+\topic{Gantt Chart}
+
+\begin{figure}[h]
+\begin{center}
+
+\begin{ganttchart}[y unit title=0.4cm,
+y unit chart=0.5cm,
+vgrid,hgrid, 
+title label anchor/.style={below=-1.6ex},
+title left shift=.05,
+title right shift=-.05,
+title height=1,
+bar/.style={fill=darkgray!70,draw},
+%incomplete/.style={fill=white},
+progress label text={},
+bar height=0.7,
+group right shift=0,
+group top shift=.6,
+group height=.3,
+%group peaks={}{}{.2}
+]{1}{24}
+
+%labels
+\gantttitle{Week}{24} \\
+\gantttitle{Monday}{4} 
+\gantttitle{Tuesday}{4} 
+\gantttitle{Wednesday}{4} 
+\gantttitle{Thursday}{4} 
+\gantttitle{Friday}{4} 
+\gantttitle{Saturday}{4} \\
+%tasks
+\ganttbar{first task}{1}{2} \\
+\ganttbar{task 2}{3}{8} \\
+\ganttbar{task 3}{9}{10} \\
+\ganttbar{task 4}{11}{15} \\
+\ganttbar[progress=33]{task 5}{20}{22} \\
+\ganttbar{task 6}{18}{19} \\
+\ganttbar{task 7}{16}{18} \\
+\ganttbar[progress=0]{task 8}{21}{24}
+
+%relations 
+\ganttlink{elem0}{elem1} 
+\ganttlink{elem0}{elem3} 
+\ganttlink{elem1}{elem2} 
+\ganttlink{elem3}{elem4} 
+\ganttlink{elem1}{elem5} 
+\ganttlink{elem3}{elem5} 
+\ganttlink{elem2}{elem6} 
+\ganttlink{elem3}{elem6} 
+\ganttlink{elem5}{elem7} 
+
+\end{ganttchart}
+\end{center}
+\caption{Gantt Chart}
+\end{figure}
+
+
+\end{Minutes}
+
+\appendix
+\selectlanguage{english}
+\chapter{Appendix}
+\section{List of decisions}\listofdecisions
+\section{List of open tasks}\listoftasks
+\section{List of attachments}\listofattachments
+
+
+\end{document}
+
+%=============================================================================
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

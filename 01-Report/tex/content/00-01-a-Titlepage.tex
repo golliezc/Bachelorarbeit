@@ -1,0 +1,58 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% Time-stamp: <Mon 2016-04-04 08:51 juergen>
+% File:  00-01-b-Titlepage.tex -- Titlepage for a thesis
+% Author(s): Juergen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://www.ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+
+
+\begin{titlepage}
+
+\input{./figures/f-00-00-Background.tex} %% DO NOT REMOVE THIS LINE!
+
+{\sf
+\vspace{5mm}
+{\Huge\textcolor{white}{Master Arbeit}}\\[2mm]
+{\Huge\textcolor{white}{\textbf{\mytitle}}}
+
+{\color{white} 
+%\vspace{40mm}
+\begin{tabbing}
+Author(s): \hspace{20mm} \= \myauthor \hspace{20mm} \= ETH-Nr. \myethnr \\[3mm]
+%\> Max Mustermann \> ETH-Nr. XX-XXX-XXX
+%\\[3mm]
+Supervisor: \> \myprofessor\\[1mm]
+\> \mysupervisor\\[3mm]
+Date: \> \today
+\end{tabbing}
+}
+}
+\vspace{7mm}
+\begin{figure}[h!]
+  \centering
+  \input{./figures/f-00-01-cover.tex}
+\end{figure}
+
+
+
+
+\end{titlepage}
+
+
+% ===========================================================================
+% EOF
+%
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../main"
+%%% End:
