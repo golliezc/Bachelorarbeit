@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  17 MAR 2020 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  17 MAR 2020 22:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1593,59 +1593,7 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
 e 168.
 \BKM@id=\count415
 )) (content/00-01-a-Titlepage.tex
-(figures/f-00-00-Background.tex
-
-! Class scrreprt Error: undefined old font command `\sf'.
-
-See the scrreprt class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 ...(0,0) [anchor=west,font=\scriptsize] {\sf
-                                                   {\textbf{Institut fÃ¼r Ba...
-
-? 
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-28.
-
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
-ss.fd"
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-
-! Class scrreprt Error: undefined old font command `\sf'.
-
-See the scrreprt class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129 ...(0,4) [anchor=west,font=\scriptsize] {\sf
-                                                   {\textbf{Infrastrukturman...
-
-? 
-
-! Class scrreprt Error: undefined old font command `\sf'.
-
-See the scrreprt class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 ...(0,8) [anchor=west,font=\scriptsize] {\sf
-                                                   {{Professur fÃ¼r Infrastr...
-
-? 
-)
-
-! Class scrreprt Error: undefined old font command `\sf'.
-
-See the scrreprt class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 {\sf
-         
-? 
-(figures/f-00-01-cover.tex) [1
+(figures/f-00-00-Background.tex) (figures/f-00-01-cover.tex) [1
 
 
 
@@ -1657,7 +1605,7 @@ l.22 {\sf
 
 pdfTeX warning: pdflatex (file ./content/00-02-a-Declaration.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<content/00-02-a-Declaration.pdf, id=22, 597.55246pt x 845.07718pt>
+<content/00-02-a-Declaration.pdf, id=21, 597.55246pt x 845.07718pt>
 File: content/00-02-a-Declaration.pdf Graphic file (type pdf)
 <use content/00-02-a-Declaration.pdf>
 Package pdftex.def Info: content/00-02-a-Declaration.pdf  used on input line 82
@@ -1680,7 +1628,7 @@ n: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./content/00-02-a-Declaration.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<content/00-02-a-Declaration.pdf, id=25, page=1, 597.55246pt x 845.07718pt>
+<content/00-02-a-Declaration.pdf, id=24, page=1, 597.55246pt x 845.07718pt>
 File: content/00-02-a-Declaration.pdf Graphic file (type pdf)
 <use content/00-02-a-Declaration.pdf, page 1>
 Package pdftex.def Info: content/00-02-a-Declaration.pdf , page1 used on input 
@@ -1710,8 +1658,15 @@ line 82.
 
 
 ] (content/00-03-Abstract.tex
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+7.
 
-Package hyperref Warning: Suppressing empty link on input line 20.
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
+ss.fd"
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Warning: Reference `chap:abstract' on page v undefined on input line 20.
 
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
@@ -1872,17 +1827,21 @@ File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/f-01-02-a-FORM.pdf, id=205, 110.89128pt x 135.6267pt>
+
+LaTeX Warning: Reference `fig:f-01-02-FORM' on page 5 undefined on input line 2
+02.
+
+<./figures/f-01-02-a-FORM.pdf, id=216, 110.89128pt x 135.6267pt>
 File: ./figures/f-01-02-a-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-a-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-a-FORM.pdf  used on input line 207.
 (pdftex.def)             Requested size: 136.57637pt x 167.04128pt.
-<./figures/f-01-02-b-FORM.pdf, id=206, 109.2893pt x 135.6267pt>
+<./figures/f-01-02-b-FORM.pdf, id=217, 109.2893pt x 135.6267pt>
 File: ./figures/f-01-02-b-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-b-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-b-FORM.pdf  used on input line 209.
 (pdftex.def)             Requested size: 136.57637pt x 169.49983pt.
-<./figures/f-01-02-c-FORM.pdf, id=207, 109.2893pt x 135.04352pt>
+<./figures/f-01-02-c-FORM.pdf, id=218, 109.2893pt x 135.04352pt>
 File: ./figures/f-01-02-c-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-c-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
@@ -1910,84 +1869,255 @@ chapter 2.
 
 ]
 chapter 3.
+) (content/03-Zielfunktion.tex [9
+
+]
+chapter 4.
+[10
+
+]
+
+LaTeX Warning: Reference `table:1' on page 11 undefined on input line 36.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Overfull \hbox (5.25516pt too wide) in paragraph at lines 43--43
+[]|\T1/cmr/m/n/10.95 Interessensgruppen| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]|\T1/cmr/m/n/10.95 Menge an Ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\T1/cmr/m/n/10.95 Menge an Ar-
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 51--51
+[]|\T1/cmr/m/n/10.95 Reduktion der Rei-se-
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 51--53
+\T1/cmr/m/n/10.95 Verlust von Ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/cmr/m/n/10.95 Reduktion der Fahr-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/cmr/m/n/10.95 zeug-be-triebs-kos-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]|\T1/cmr/m/n/10.95 Arbeitsstunden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10.95 für In-stand-hal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10.95 Materialmenge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10.95 für In-stand-hal-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 57--57
+[]|\T1/cmr/m/n/10.95 Reduktion der Un-fall-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 57--58
+[]|\T1/cmr/m/n/10.95 Anzahl Ma-te-ri-al-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 57--58
+\T1/cmr/m/n/10.95 Anzahl und Art
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/10.95 von Per-so-nen-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 59--59
+[]|\T1/cmr/m/n/10.95 Reduktion der Kos-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\T1/cmr/m/n/10.95 durch Ver-än-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\T1/cmr/m/n/10.95 de-rung des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\T1/cmr/m/n/10.95 Physisch durch
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 59--61
+\T1/cmr/m/n/10.95 holp-ri-ge Stras-sen
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 64--65
+\T1/cmr/m/n/10.95 Mänge an Luft-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\T1/cmr/m/it/10.95 Durch Ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\T1/cmr/m/it/10.95 min-de-rung des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]|\T1/cmr/m/n/10.95 Reduktion der
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 66--67
+\T1/cmr/m/n/10.95 An-zahl Pas-sa-gie-
+ []
+
+
+LaTeX Warning: Float too large for page by 87.95648pt on input line 72.
+
+
+Overfull \hbox (18.45335pt too wide) detected at line 81
+\OML/cmm/m/it/10.95 TN[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 N[]\OT1/
+cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 
+N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/i
+t/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML
+/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 
+) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
+n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT
+1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
+.95 t\OT1/cmr/m/n/10.95 )) \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 e[]dt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
 )
 No file main.bbl.
 No file main.ind.
 
 Package natbib Warning: There were undefined citations.
 
-[9
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+[13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 43233 strings out of 480934
- 994486 string characters out of 2895703
- 1629486 words of memory out of 3000000
- 58186 multiletter control sequences out of 15000+200000
- 560421 words of font info for 92 fonts, out of 3000000 for 9000
+ 43255 strings out of 480934
+ 994846 string characters out of 2895703
+ 1628045 words of memory out of 3000000
+ 58194 multiletter control sequences out of 15000+200000
+ 560506 words of font info for 92 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  70i,18n,119p,10150b,1756s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecbx0900.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Cyrano Golliez\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Cyrano Go
-lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> 
+c/dpi600\ecbl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Cyrano Golliez\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Cyrano Go
+lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> 
 <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm0900.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Cyrano Golli
+pi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Cyrano Golli
 ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:
 \Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ecti1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
 ur/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
 X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Cyrano Golliez\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Us
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Us
 ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
+ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
 .9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\App
 Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users
-\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecs
-s1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecsx2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\Cyrano Golliez\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Cy
-rano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx08
-00.pk><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Cyrano Golliez/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
-rs/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Cyrano Golliez/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Cyrano Gollie
-z/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
-:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Gol
-liez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/User
-s/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-b8a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-urw/palatino/uplr8a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (23 pages, 557103 bytes).
+\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+x2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecrm2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyr
+ano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
+sers/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Goll
+iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano 
+Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
+yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on main.pdf (27 pages, 592390 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
