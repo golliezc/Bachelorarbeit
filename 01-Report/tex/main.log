@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  18 MAR 2020 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  18 MAR 2020 17:00
 entering extended mode
 **./main.tex
 (main.tex
@@ -1479,14 +1479,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count406
 \l__pdf_internal_box=\box126
-) (main.aux
-
-LaTeX Warning: Label `chap:background' multiply defined.
-
-
-LaTeX Warning: Label `chap:background' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1734,7 +1727,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ] [14
 
 
-] (content/01-Introduction.tex
+] (content/01-Einleitung.tex
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1889,140 +1882,140 @@ chapter 4.
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Overfull \hbox (5.25516pt too wide) in paragraph at lines 45--45
+Overfull \hbox (5.25516pt too wide) in paragraph at lines 47--47
 []|\T1/cmr/m/n/10.95 Interessensgruppen| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []|\T1/cmr/m/n/10.95 Menge an Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \T1/cmr/m/n/10.95 Menge an Ar-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 53--53
+Underfull \hbox (badness 4967) in paragraph at lines 55--55
 []|\T1/cmr/m/n/10.95 Reduktion der Rei-se-
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 53--55
+Underfull \hbox (badness 2941) in paragraph at lines 55--57
 \T1/cmr/m/n/10.95 Verlust von Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/cmr/m/n/10.95 Reduktion der Fahr-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/cmr/m/n/10.95 zeug-be-triebs-kos-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 []|\T1/cmr/m/n/10.95 Arbeitsstunden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 \T1/cmr/m/n/10.95 für In-stand-hal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 \T1/cmr/m/n/10.95 Materialmenge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 \T1/cmr/m/n/10.95 für In-stand-hal-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 59--59
+Underfull \hbox (badness 1688) in paragraph at lines 61--61
 []|\T1/cmr/m/n/10.95 Reduktion der Un-fall-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 59--60
+Underfull \hbox (badness 1337) in paragraph at lines 61--62
 []|\T1/cmr/m/n/10.95 Anzahl Ma-te-ri-al-
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 59--60
+Underfull \hbox (badness 1939) in paragraph at lines 61--62
 \T1/cmr/m/n/10.95 Anzahl und Art
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 \T1/cmr/m/n/10.95 von Per-so-nen-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 61--61
+Underfull \hbox (badness 1502) in paragraph at lines 63--63
 []|\T1/cmr/m/n/10.95 Reduktion der Kos-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 \T1/cmr/m/n/10.95 durch Ver-än-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 \T1/cmr/m/n/10.95 de-rung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 \T1/cmr/m/n/10.95 Physisch durch
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 61--63
+Underfull \hbox (badness 1215) in paragraph at lines 63--65
 \T1/cmr/m/n/10.95 holp-ri-ge Stras-sen
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 66--67
+Underfull \hbox (badness 2644) in paragraph at lines 68--69
 \T1/cmr/m/n/10.95 Mänge an Luft-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/cmr/m/it/10.95 Durch Ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/cmr/m/it/10.95 min-de-rung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 []|\T1/cmr/m/n/10.95 Reduktion der
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 68--69
+Underfull \hbox (badness 1668) in paragraph at lines 70--71
 \T1/cmr/m/n/10.95 An-zahl Pas-sa-gie-
  []
 
 
-LaTeX Warning: Float too large for page by 87.95648pt on input line 74.
+LaTeX Warning: Float too large for page by 87.95648pt on input line 76.
 
 
-Overfull \hbox (18.45335pt too wide) detected at line 83
+Overfull \hbox (18.45335pt too wide) detected at line 85
 \OML/cmm/m/it/10.95 TN[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 N[]\OT1/
 cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 
 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/i
@@ -2035,17 +2028,17 @@ n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -2061,16 +2054,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 43255 strings out of 480934
- 994941 string characters out of 2895703
- 1629606 words of memory out of 3000000
- 58194 multiletter control sequences out of 15000+200000
+ 43257 strings out of 480934
+ 994954 string characters out of 2895703
+ 1629772 words of memory out of 3000000
+ 58196 multiletter control sequences out of 15000+200000
  560506 words of font info for 92 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  70i,18n,119p,10150b,1756s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2121,9 +2110,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
 yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
 .pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 595818 bytes).
+Output written on main.pdf (27 pages, 601928 bytes).
 PDF statistics:
- 957 PDF objects out of 1000 (max. 8388607)
+ 971 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
  280 words of extra memory for PDF output out of 10000 (max. 10000000)
 

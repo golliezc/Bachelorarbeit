@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{Abstract}{v}{figure.caption.1}%
 \contentsline {chapter}{Acknowledgment}{vii}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Some formal aspects}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Plain text}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Footnotes}{2}{subsection.1.1.2}%
@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {1.1.6}Figures}{5}{subsection.1.1.6}%
 \contentsline {subsection}{\numberline {1.1.7}Citations}{6}{subsection.1.1.7}%
 \contentsline {chapter}{\numberline {2}Zielformulierung}{8}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Infrastruktur Objekt}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Infrastrukturobjekt}{9}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Objective funtion and Steakholder}{10}{chapter.4}%
 \contentsline {section}{\numberline {4.1}\textbf {{Einleitung}}}{10}{section.4.1}%
 \contentsline {section}{\numberline {4.2}\textbf {{Steakholder}}}{11}{section.4.2}%
