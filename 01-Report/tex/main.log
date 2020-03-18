@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  17 MAR 2020 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  18 MAR 2020 15:51
 entering extended mode
 **./main.tex
 (main.tex
@@ -1479,7 +1479,14 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count406
 \l__pdf_internal_box=\box126
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `chap:background' multiply defined.
+
+
+LaTeX Warning: Label `chap:background' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1666,7 +1673,7 @@ ss.fd"
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
-LaTeX Warning: Reference `chap:abstract' on page v undefined on input line 20.
+Package hyperref Warning: Suppressing empty link on input line 20.
 
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
@@ -1827,21 +1834,17 @@ File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:f-01-02-FORM' on page 5 undefined on input line 2
-02.
-
-<./figures/f-01-02-a-FORM.pdf, id=216, 110.89128pt x 135.6267pt>
+<./figures/f-01-02-a-FORM.pdf, id=217, 110.89128pt x 135.6267pt>
 File: ./figures/f-01-02-a-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-a-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-a-FORM.pdf  used on input line 207.
 (pdftex.def)             Requested size: 136.57637pt x 167.04128pt.
-<./figures/f-01-02-b-FORM.pdf, id=217, 109.2893pt x 135.6267pt>
+<./figures/f-01-02-b-FORM.pdf, id=218, 109.2893pt x 135.6267pt>
 File: ./figures/f-01-02-b-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-b-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-b-FORM.pdf  used on input line 209.
 (pdftex.def)             Requested size: 136.57637pt x 169.49983pt.
-<./figures/f-01-02-c-FORM.pdf, id=218, 109.2893pt x 135.04352pt>
+<./figures/f-01-02-c-FORM.pdf, id=219, 109.2893pt x 135.04352pt>
 File: ./figures/f-01-02-c-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-c-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
@@ -1865,155 +1868,161 @@ e 235.
 
 ) (content/02-Theory.tex [7]
 chapter 2.
-) (content/02-DeepTheory.tex [8
+) (content/03-DeepTheory.tex [8
 
 ]
 chapter 3.
-) (content/03-Zielfunktion.tex [9
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+) (content/04-Zielfunktion.tex [9
 
 ]
 chapter 4.
 [10
 
 ]
-
-LaTeX Warning: Reference `table:1' on page 11 undefined on input line 36.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Overfull \hbox (5.25516pt too wide) in paragraph at lines 43--43
+Overfull \hbox (5.25516pt too wide) in paragraph at lines 45--45
 []|\T1/cmr/m/n/10.95 Interessensgruppen| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []|\T1/cmr/m/n/10.95 Menge an Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 \T1/cmr/m/n/10.95 Menge an Ar-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 51--51
+Underfull \hbox (badness 4967) in paragraph at lines 53--53
 []|\T1/cmr/m/n/10.95 Reduktion der Rei-se-
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 51--53
+Underfull \hbox (badness 2941) in paragraph at lines 53--55
 \T1/cmr/m/n/10.95 Verlust von Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\T1/cmr/m/n/10.95 Reduktion der Fahr-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 \T1/cmr/m/n/10.95 zeug-be-triebs-kos-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 []|\T1/cmr/m/n/10.95 Arbeitsstunden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 \T1/cmr/m/n/10.95 für In-stand-hal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 \T1/cmr/m/n/10.95 Materialmenge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 \T1/cmr/m/n/10.95 für In-stand-hal-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 57--57
+Underfull \hbox (badness 1688) in paragraph at lines 59--59
 []|\T1/cmr/m/n/10.95 Reduktion der Un-fall-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 57--58
+Underfull \hbox (badness 1337) in paragraph at lines 59--60
 []|\T1/cmr/m/n/10.95 Anzahl Ma-te-ri-al-
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 57--58
+Underfull \hbox (badness 1939) in paragraph at lines 59--60
 \T1/cmr/m/n/10.95 Anzahl und Art
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 \T1/cmr/m/n/10.95 von Per-so-nen-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 59--59
+Underfull \hbox (badness 1502) in paragraph at lines 61--61
 []|\T1/cmr/m/n/10.95 Reduktion der Kos-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 \T1/cmr/m/n/10.95 durch Ver-än-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 \T1/cmr/m/n/10.95 de-rung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 \T1/cmr/m/n/10.95 Physisch durch
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 59--61
+Underfull \hbox (badness 1215) in paragraph at lines 61--63
 \T1/cmr/m/n/10.95 holp-ri-ge Stras-sen
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 64--65
+Underfull \hbox (badness 2644) in paragraph at lines 66--67
 \T1/cmr/m/n/10.95 Mänge an Luft-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 \T1/cmr/m/it/10.95 Durch Ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 \T1/cmr/m/it/10.95 min-de-rung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 []|\T1/cmr/m/n/10.95 Reduktion der
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 66--67
+Underfull \hbox (badness 1668) in paragraph at lines 68--69
 \T1/cmr/m/n/10.95 An-zahl Pas-sa-gie-
  []
 
 
-LaTeX Warning: Float too large for page by 87.95648pt on input line 72.
+LaTeX Warning: Float too large for page by 87.95648pt on input line 74.
 
 
-Overfull \hbox (18.45335pt too wide) detected at line 81
+Overfull \hbox (18.45335pt too wide) detected at line 83
 \OML/cmm/m/it/10.95 TN[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 N[]\OT1/
 cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 
 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/i
@@ -2026,17 +2035,17 @@ n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
@@ -2047,23 +2056,20 @@ No file main.ind.
 Package natbib Warning: There were undefined citations.
 
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  43255 strings out of 480934
  994846 string characters out of 2895703
- 1628045 words of memory out of 3000000
+ 1629546 words of memory out of 3000000
  58194 multiletter control sequences out of 15000+200000
  560506 words of font info for 92 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2084,8 +2090,8 @@ ur/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
 X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Cyrano Golliez\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Us
 ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
+ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
 .9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\App
 Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users
 \Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
@@ -2115,9 +2121,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
 yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
 .pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 592390 bytes).
+Output written on main.pdf (27 pages, 596364 bytes).
 PDF statistics:
- 946 PDF objects out of 1000 (max. 8388607)
+ 958 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
  280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
