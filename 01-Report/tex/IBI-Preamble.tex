@@ -47,7 +47,7 @@
 \usepackage{subfig}                 % Figures broken into subfigures
 \usepackage{rotating}               % Rotation tools
 \usepackage{longtable}              % Long tables
-\usepackage{tabularx}               % Adjustable Tabulars
+\usepackage{array,tabularx}               % Adjustable Tabulars
 \usepackage{booktabs}               % Tabular rules
 \usepackage{float}                  % Float environment
 \usepackage{amsmath}                % AMS mathematical facilities
@@ -66,18 +66,37 @@
 \usepackage{blindtext}              % Some random text
 \usepackage{ifthen}                 % If commands
 
+
+
+% my own packages
+% ---------------
+\usepackage{setspace} 				% for {\setstretch{0.75}
+									%	  ...(Text/Inhalt)...
+									%	  }
+
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent
+   \tabularx{\columnwidth}{>{$}l<{$} @{${}={}$} >{\raggedright\arraybackslash}X}}
+  {\endtabularx\par\vspace{\belowdisplayskip}}
+
+%\usepackage[document]{ragged2e}
+
+%\setlength{\arrayrulewidth}{1mm}
+%\setlength{\tabcolsep}{18pt}
+%\renewcommand{\arraystretch}{1.5}
+
 % BibLaTeX using biber as backend (recommended)
 % ---------------------------------------------
 
-% \usepackage[authordate,backend=biber]{biblatex-chicago}
-% \bibliography{literature}
-% \setlength\bibitemsep{1.5\itemsep}
+%\usepackage[authordate,backend=biber]{biblatex-chicago}
+%\bibliography{literature}
+%\setlength\bibitemsep{1.5\itemsep}
 
 
 % BibTeX
 % ------
 
-% \usepackage{cite}                   % Citations
+%\usepackage{cite}                   % Citations
 \usepackage{natbib}                 % Citation Style
 % \usepackage{apacite}                % APA cite Style
 % \renewcommand{\bibsection}{}        % No auto headings
@@ -87,7 +106,7 @@
 % ------------
 \ifthenelse{\equal{\myspacing}{true}}
 {
-\usepackage[doublespacing]{setspace} % Set line space to 2
+\usepackage[doublespacing]{setspace} % Set line space to 2 
 }{}
 % \usepackage[onehalfspacing]{setspace} % Set line space to 1.5
 
@@ -102,8 +121,8 @@
 % Font settings
 % -------------
 
-% \usepackage[scaled]{helvet}
-% \renewcommand*\familydefault{\sfdefault}
+%\usepackage[scaled]{helvet}
+%\renewcommand*\familydefault{\sfdefault}
 
 
 % PDF settings
@@ -141,6 +160,17 @@
 \setlength{\arrayrulewidth}{1pt}
 \lightrulewidth=1pt
 \heavyrulewidth=.5pt
+
+\usepackage[singlelinecheck=false]{caption}
+
+%\newenvironment{conditions}{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}{\end{tabular}\par\vspace{\belowdisplayskip}}
+
+%\newenvironment{conditions}
+%  {\par\vspace{\abovedisplayskip}\noindent
+ %  \tabularx{\columnwidth}{>{$}l<{$} @{${}={}$} >{\raggedright\arraybackslash}X}}
+  %{\endtabularx\par\vspace{\belowdisplayskip}}
+
+
 
 
 % Colors

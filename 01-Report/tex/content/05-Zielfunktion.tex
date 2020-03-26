@@ -1,0 +1,58 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% File:  2-Theory.tex -- Basic Theory
+% Author(s): Jürgen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+% Time-stamp: <Tue 2013-08-13 20:14 juergen>
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+
+\chapter{Zielfunktion}
+\label{chap:Funktion}
+
+Das Ziel meiner Optimierung ist es den Gesamtnutzen zu steigern mit speziellem Augenmerk auf der Vermehrung des Nutzens der Fahrradfahrer.
+
+Die geplanten Infrastruktur Interventionen sollen die Kapazität und somit das Angebot auf der Route Bahnhof - Sportanlage erhöhen. 
+
+Mithilfe der Optimierung und der anschliessenden Analyse soll diejenige Intervention bestimmt werden, die den totalen Nutzen über den betrachteten Zeitraum am meisten steigert. 
+
+
+Die Gleichung \ref{equation:1} stellt das Optimierungsproblem als mathematische Funktion dar.
+Die totalen Kosten $TK$ einer Interventionsstrategie sind definiert als die netto Kosten aller Steakholder über einen untersuchten Zeitraum $[0,T]$ 
+
+Da in userem Fall die Erlöse, während einer Zeitperiode $[0,T]$ generiert werden können, nicht in Betracht gezogen werden, ist die minimierung der Gesamtkosten äquivalent zur maximierung des netto Nutzens aller beteiligter Interessensverände. 
+Die Zeit $0$ kennzeichnet den Startpunkt der Untersuchung wobei die Zeit $T$ das Ende der Untersuchungsperiode ist. 
+
+\begin{equation}
+Min. \thinspace TK_{i} = Min. \thinspace [K_{U}^i + K_{TT}^i + K_{B}^i + K_{E}^i + K_{A}^i]
+\label{equation:1}
+\end{equation} 
+
+{\setstretch{0.75}
+wobei:
+\begin{conditions}
+ TK_{i}   	    &  Totale Kosten für den betrachteten Zeitraum von $T$ Jahren \\
+ K_{TT}^i       &  Totale Reisezeitkosten der Variante $i$ für den Zeitraum von $T$ Jahren   \\
+ K_{B}^i        &  Totale Unterhaltskosten der Variante $i$ für den Zeitraum von $T$ Jahren  \\
+ K_{E}^i	    &  Totale Umweltbelastungskosten der Variante $i$ für den Zeitraum von $T$ Jahren  \\
+ K_{A}^i        &  Totale Unfallkosten der Variante $i$ für der Zeitraum von $T$ Jahren 
+\end{conditions}
+}
+
+
+
+% ===========================================================================
+% EOF
+%
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../main"
+%%% End:

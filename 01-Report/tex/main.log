@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  18 MAR 2020 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  26 MAR 2020 23:08
 entering extended mode
 **./main.tex
 (main.tex
@@ -451,10 +451,6 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 )
 Class scrreprt Info: longtable captions redefined on input line 50.
 
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tab
-ularx.sty"
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\arr
 ay.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
@@ -466,6 +462,9 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip79
 \ar@cellbox=\box102
 )
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tab
+ularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen173
 \TX@old@table=\dimen174
 \TX@old@col=\dimen175
@@ -1279,6 +1278,10 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count386
 \c@blind@pangrammax=\count387
 )
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\
+setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\na
 tbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -1699,55 +1702,11 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ] [8
 
 
-] (main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
+]
+(content/00-05-Hilfestellung.tex [9
 
-
-[9
-
-] [10
-
-
-] (main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- [11
-
-] [12
-
-
-] (main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
- [13
-
-] [14
-
-
-] (content/01-Einleitung.tex
-chapter 1.
-
-Class scrreprt Warning: \float@addtolists detected!
-(scrreprt)              Implementation of \float@addtolist became
-(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
-(scrreprt)              has been replaced by several more flexible
-(scrreprt)              features of package `tocbasic`.
-(scrreprt)              Since Version 3.12 support for deprecated
-(scrreprt)              \float@addtolist interface has been
-(scrreprt)              restricted to only some of the KOMA-Script
-(scrreprt)              features and been removed from others.
-(scrreprt)              Loading of package `scrhack' may help to
-(scrreprt)              avoid this warning, if you are using a
-(scrreprt)              a package that still implements the
-(scrreprt)              deprecated \float@addtolist interface .
-
-[1
-
-] [2] [3] [4] (tables/t-01-01-IsingModel.tex)
-(figures/f-01-01-a-SafetyMargin.tex
+] [10] [11] [12]
+(tables/t-01-01-IsingModel.tex) (figures/f-01-01-a-SafetyMargin.tex
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fro
 ntendlayer/tikz/libraries\tikzlibraryshapes.code.tex"
 File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1827,17 +1786,17 @@ File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/f-01-02-a-FORM.pdf, id=217, 110.89128pt x 135.6267pt>
+<./figures/f-01-02-a-FORM.pdf, id=154, 110.89128pt x 135.6267pt>
 File: ./figures/f-01-02-a-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-a-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-a-FORM.pdf  used on input line 207.
 (pdftex.def)             Requested size: 136.57637pt x 167.04128pt.
-<./figures/f-01-02-b-FORM.pdf, id=218, 109.2893pt x 135.6267pt>
+<./figures/f-01-02-b-FORM.pdf, id=155, 109.2893pt x 135.6267pt>
 File: ./figures/f-01-02-b-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-b-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-b-FORM.pdf  used on input line 209.
 (pdftex.def)             Requested size: 136.57637pt x 169.49983pt.
-<./figures/f-01-02-c-FORM.pdf, id=219, 109.2893pt x 135.04352pt>
+<./figures/f-01-02-c-FORM.pdf, id=156, 109.2893pt x 135.04352pt>
 File: ./figures/f-01-02-c-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-c-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
@@ -1845,226 +1804,166 @@ Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] [6 <./figures/f-01-02-a-FORM.pdf> <./figures/f-01-02-b-FORM.pdf> <./figures
-/f-01-02-c-FORM.pdf>]
+[13] [14 <./figures/f-01-02-a-FORM.pdf> <./figures/f-01-02-b-FORM.pdf> <./figur
+es/f-01-02-c-FORM.pdf>]
 
-Package natbib Warning: Citation `chicago2010' on page 7 undefined on input lin
-e 223.
-
-
-Package natbib Warning: Citation `Nowak2000' on page 7 undefined on input line 
-230.
+Package natbib Warning: Citation `chicago2010' on page xv undefined on input li
+ne 223.
 
 
-Package natbib Warning: Citation `Stewart2009' on page 7 undefined on input lin
-e 235.
+Package natbib Warning: Citation `Nowak2000' on page xv undefined on input line
+ 230.
 
-) (content/02-Zielformulierung.tex [7]
+
+Package natbib Warning: Citation `Stewart2009' on page xv undefined on input li
+ne 235.
+
+) [15] [16
+
+
+] (main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [17
+
+] [18
+
+
+] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [19
+
+] [20
+
+
+] (main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [21
+
+] [22
+
+
+]
+(content/01-Einleitung.tex
+chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface .
+
+) (content/02-Zielformulierung.tex [1
+
+] [2]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Package natbib Warning: Citation `STEK Kap.7' on page 3 undefined on input line
+ 21.
 
- []
-
-) (content/03-Infrastrukturobjekt.tex [8
+) (content/03-Infrastrukturobjekt.tex [3
 
 ]
 chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-) (content/04-Zielfunktion.tex [9
+) (content/04-Interessensgruppen.tex [4
 
 ]
 chapter 4.
-[10
+(tables/t-04-01-Interessensgruppen.tex
+Overfull \hbox (2.24445pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/bx/n/10.95 Symbol| 
+ []
+
+)) (content/05-Zielfunktion.tex [5
+
+] [6]
+chapter 5.
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 40--46
+[] 
+ []
+
+) (content/06-Kostenstrukturen.tex [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+chapter 6.
+[8
 
+]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 53--59
+[] 
+ []
+
+[9]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 88--93
+[] 
+ []
+
+[10]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 113--119
+[] 
+ []
+
+[11]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 138--143
+[] 
+ []
+
+[12]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 171--176
+[] 
  []
 
 
-Overfull \hbox (5.25516pt too wide) in paragraph at lines 47--47
-[]|\T1/cmr/m/n/10.95 Interessensgruppen| 
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 188--194
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-[]|\T1/cmr/m/n/10.95 Menge an Ar-
+[13] [14]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 227--234
+[] 
  []
 
+) (content/07-Varianten.tex [15]
+chapter 7.
+[16
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\T1/cmr/m/n/10.95 Menge an Ar-
- []
-
-
-Underfull \hbox (badness 4967) in paragraph at lines 55--55
-[]|\T1/cmr/m/n/10.95 Reduktion der Rei-se-
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 55--57
-\T1/cmr/m/n/10.95 Verlust von Ar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/cmr/m/n/10.95 Reduktion der Fahr-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/cmr/m/n/10.95 zeug-be-triebs-kos-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-[]|\T1/cmr/m/n/10.95 Arbeitsstunden
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-\T1/cmr/m/n/10.95 für In-stand-hal-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-\T1/cmr/m/n/10.95 Materialmenge
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-\T1/cmr/m/n/10.95 für In-stand-hal-
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 61--61
-[]|\T1/cmr/m/n/10.95 Reduktion der Un-fall-
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 61--62
-[]|\T1/cmr/m/n/10.95 Anzahl Ma-te-ri-al-
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 61--62
-\T1/cmr/m/n/10.95 Anzahl und Art
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-\T1/cmr/m/n/10.95 von Per-so-nen-
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 63--63
-[]|\T1/cmr/m/n/10.95 Reduktion der Kos-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-\T1/cmr/m/n/10.95 durch Ver-än-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-\T1/cmr/m/n/10.95 de-rung des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-\T1/cmr/m/n/10.95 Physisch durch
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 63--65
-\T1/cmr/m/n/10.95 holp-ri-ge Stras-sen
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 68--69
-\T1/cmr/m/n/10.95 Mänge an Luft-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/cmr/m/it/10.95 Durch Ver-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/cmr/m/it/10.95 min-de-rung des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-[]|\T1/cmr/m/n/10.95 Reduktion der
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 70--71
-\T1/cmr/m/n/10.95 An-zahl Pas-sa-gie-
- []
-
-
-LaTeX Warning: Float too large for page by 87.95648pt on input line 76.
-
-
-Overfull \hbox (18.45335pt too wide) detected at line 85
-\OML/cmm/m/it/10.95 TN[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 N[]\OT1/
-cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 
-N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/i
-t/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML
-/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 
-) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
-n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT
-1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 N[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
-.95 t\OT1/cmr/m/n/10.95 )) \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 e[]dt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-)
+])
 No file main.bbl.
 No file main.ind.
 
 Package natbib Warning: There were undefined citations.
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 43257 strings out of 480934
- 994954 string characters out of 2895703
- 1629772 words of memory out of 3000000
- 58196 multiletter control sequences out of 15000+200000
- 560506 words of font info for 92 fonts, out of 3000000 for 9000
+ 43370 strings out of 480934
+ 997499 string characters out of 2895703
+ 1630846 words of memory out of 3000000
+ 58260 multiletter control sequences out of 15000+200000
+ 559667 words of font info for 91 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 70i,18n,119p,10150b,1756s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,18n,119p,10150b,1760s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecbl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
+c/dpi600\ecsl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
 k/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Cyrano Golliez\AppData\Local
 \MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Cyrano Go
 lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> 
@@ -2072,47 +1971,51 @@ lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk>
 pi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
 jfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
 KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Cyrano Golli
-ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:
+ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:
 \Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecti1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Cyrano Golliez\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Us
+00\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Us
 ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users
-\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
-x2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecrm2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyr
-ano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
-sers/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Goll
-iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano 
-Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
-yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
-.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 601928 bytes).
+ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users
+\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
+m2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/
+Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Go
+lliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano
+ Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/Cyrano Golliez/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Cyrano
+ Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.p
+fb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cyrano Golliez/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Cyrano 
+Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+
+Output written on main.pdf (39 pages, 661810 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 312 words of extra memory for PDF output out of 10000 (max. 10000000)
 

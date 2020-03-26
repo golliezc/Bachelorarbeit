@@ -1,0 +1,47 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% File:  t-05-01-IsingModel.tex -- Table for the Ising
+% Author(s): Juergen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+% Time-stamp: <Tue 2013-08-13 20:14 juergen>
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+
+\begin{table}[hbt!]
+\flushleft
+%\small\renewcommand{\arraystretch}{1.2} 
+%
+%
+\begin{tabular}{@{}p{3.5cm} p{4cm} p{1.35cm} p{4.65cm}@{}} \\   
+\toprule
+\textbf{Interessensgruppe} & \textbf{Kostentyp} & \textbf{Symbol} & \textbf{Einheitskosten} \\
+\midrule
+Besitzer                   & Unterhaltkosten (\textit{U})                    & $K_{U}(t)$    & 15'000 $\frac{CHF}{m^2 \ Jahr}$              \\
+Nutzer		               & Reisezeitkosten (\textit{TT})                   & $K_{TT}(t)$   & 85 $\frac{CHF}{Stunde \ Jahr}$               \\
+                           & Betriebskosten (\textit{B})            		 & $K_{B}(t)$    & 100 $\frac{CHF}{Nutzer \ Jahr}$              \\
+Öffentliche Hand           & Kosten durch Belastung \newline der Umwelt \newline (Environment) (\textit{E})   & $K_{E}(t)$    & 5000 $\frac{CHF}{Fahrzeug \ Jahr}$      \\
+                           & Unfallkosten (\textit{A})                       & $K_{A}(t)$    & 15'000 - 3.7mio \ $\frac{CHF}{Unfall \ Jahr}$    \\
+\bottomrule
+
+\end{tabular}
+\caption{Tabelle der Interessensgruppen und Kostenstrukturen}
+\label{tab:t-04-01-Interessensgruppen}
+\end{table}
+
+
+%=============================================================================
+% EOF
+%
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../guidelines"
+%%% End:
+
