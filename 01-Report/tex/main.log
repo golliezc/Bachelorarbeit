@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  26 MAR 2020 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  3 APR 2020 01:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -1278,34 +1278,288 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count386
 \c@blind@pangrammax=\count387
 )
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cases\cas
+es.sty"
+Package: cases 2020/03/10 ver 3.1
+\numc@numwid=\dimen331
+)
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\
 setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\na
-tbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip90
-\bibsep=\skip91
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count388
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago\biblatex-chicago.sty"
+Package: biblatex-chicago 2018/01/10 v 3.10 biblatex style
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\
+biblatex.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmd
+s\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions
+\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetke
+ys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\lo
+greq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count388
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\lo
+greq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.s
+ty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count389
+\c@listtotal=\count390
+\c@listcount=\count391
+\c@liststart=\count392
+\c@liststop=\count393
+\c@citecount=\count394
+\c@citetotal=\count395
+\c@multicitecount=\count396
+\c@multicitetotal=\count397
+\c@instcount=\count398
+\c@maxnames=\count399
+\c@minnames=\count400
+\c@maxitems=\count401
+\c@minitems=\count402
+\c@citecounter=\count403
+\c@maxcitecounter=\count404
+\c@savedcitecounter=\count405
+\c@uniquelist=\count406
+\c@uniquename=\count407
+\c@refsection=\count408
+\c@refsegment=\count409
+\c@maxextratitle=\count410
+\c@maxextratitleyear=\count411
+\c@maxextraname=\count412
+\c@maxextradate=\count413
+\c@maxextraalpha=\count414
+\c@abbrvpenalty=\count415
+\c@highnamepenalty=\count416
+\c@lownamepenalty=\count417
+\c@maxparens=\count418
+\c@parenlevel=\count419
+\blx@tempcnta=\count420
+\blx@tempcntb=\count421
+\blx@tempcntc=\count422
+\blx@maxsection=\count423
+\blx@maxsegment@0=\count424
+\blx@notetype=\count425
+\blx@parenlevel@text=\count426
+\blx@parenlevel@foot=\count427
+\blx@sectionciteorder@0=\count428
+\blx@entrysetcounter=\count429
+\labelnumberwidth=\skip90
+\labelalphawidth=\skip91
+\biblabelsep=\skip92
+\bibitemsep=\skip93
+\bibnamesep=\skip94
+\bibinitsep=\skip95
+\bibparsep=\skip96
+\bibhang=\skip97
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language78
+\c@mincomprange=\count430
+\c@maxcomprange=\count431
+\c@mincompwidth=\count432
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\
+blx-dm.def"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count433
+\c@savedafterword=\count434
+\c@annotator=\count435
+\c@savedannotator=\count436
+\c@author=\count437
+\c@savedauthor=\count438
+\c@bookauthor=\count439
+\c@savedbookauthor=\count440
+\c@commentator=\count441
+\c@savedcommentator=\count442
+\c@editor=\count443
+\c@savededitor=\count444
+\c@editora=\count445
+\c@savededitora=\count446
+\c@editorb=\count447
+\c@savededitorb=\count448
+\c@editorc=\count449
+\c@savededitorc=\count450
+\c@foreword=\count451
+\c@savedforeword=\count452
+\c@holder=\count453
+\c@savedholder=\count454
+\c@introduction=\count455
+\c@savedintroduction=\count456
+\c@namea=\count457
+\c@savednamea=\count458
+\c@nameb=\count459
+\c@savednameb=\count460
+\c@namec=\count461
+\c@savednamec=\count462
+\c@translator=\count463
+\c@savedtranslator=\count464
+\c@shortauthor=\count465
+\c@savedshortauthor=\count466
+\c@shorteditor=\count467
+\c@savedshorteditor=\count468
+\c@labelname=\count469
+\c@savedlabelname=\count470
+\c@institution=\count471
+\c@savedinstitution=\count472
+\c@lista=\count473
+\c@savedlista=\count474
+\c@listb=\count475
+\c@savedlistb=\count476
+\c@listc=\count477
+\c@savedlistc=\count478
+\c@listd=\count479
+\c@savedlistd=\count480
+\c@liste=\count481
+\c@savedliste=\count482
+\c@listf=\count483
+\c@savedlistf=\count484
+\c@location=\count485
+\c@savedlocation=\count486
+\c@organization=\count487
+\c@savedorganization=\count488
+\c@origlocation=\count489
+\c@savedoriglocation=\count490
+\c@origpublisher=\count491
+\c@savedorigpublisher=\count492
+\c@publisher=\count493
+\c@savedpublisher=\count494
+\c@language=\count495
+\c@savedlanguage=\count496
+\c@origlanguage=\count497
+\c@savedoriglanguage=\count498
+\c@pageref=\count499
+\c@savedpageref=\count500
+\shorthandwidth=\skip98
+\shortjournalwidth=\skip99
+\shortserieswidth=\skip100
+\shorttitlewidth=\skip101
+\shortauthorwidth=\skip102
+\shorteditorwidth=\skip103
+\locallabelnumberwidth=\skip104
+\locallabelalphawidth=\skip105
+\localshorthandwidth=\skip106
+\localshortjournalwidth=\skip107
+\localshortserieswidth=\skip108
+\localshorttitlewidth=\skip109
+\localshortauthorwidth=\skip110
+\localshorteditorwidth=\skip111
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\
+blx-compat.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\
+biblatex.def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count501
+\c@textcitetotal=\count502
+\c@textcitemaxnames=\count503
+\c@biburlbigbreakpenalty=\count504
+\c@biburlbreakpenalty=\count505
+\c@biburlnumpenalty=\count506
+\c@biburlucpenalty=\count507
+\c@biburllcpenalty=\count508
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count509
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
+.
+Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/bbx\chicago-authordate.bbx"
+File: chicago-authordate.bbx 2018/01/11 v 3.10 biblatex bibliography style
+\lositemsep=\skip112
+\c@bbx:relatedcount=\count510
+\c@bbx:relatedtotal=\count511
+)
+Package biblatex Info: Trying to load citation style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/cbx\chicago-authordate.cbx"
+File: chicago-authordate.cbx 2018/01/11 v 3.10 biblatex citation style
+Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
+Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/cbx\chicago-dates-common.cbx"
+File: chicago-dates-common.cbx 2018/01/11 v 3.10 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Patching 'autolang=other' option.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\
+biblatex.cfg"
+File: biblatex.cfg 
+)))
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\li
 neno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count389
+\linenopenalty=\count512
 \output=\toks53
-\linenoprevgraf=\count390
-\linenumbersep=\dimen331
-\linenumberwidth=\dimen332
-\c@linenumber=\count391
-\c@pagewiselinenumber=\count392
-\c@LN@truepage=\count393
-\c@internallinenumber=\count394
-\c@internallinenumbers=\count395
-\quotelinenumbersep=\dimen333
-\bframerule=\dimen334
-\bframesep=\dimen335
+\linenoprevgraf=\count513
+\linenumbersep=\dimen332
+\linenumberwidth=\dimen333
+\c@linenumber=\count514
+\c@pagewiselinenumber=\count515
+\c@LN@truepage=\count516
+\c@internallinenumber=\count517
+\c@internallinenumbers=\count518
+\quotelinenumbersep=\dimen334
+\bframerule=\dimen335
+\bframesep=\dimen336
 \bframebox=\box125
 
 
@@ -1318,18 +1572,6 @@ LaTeX Info: Redefining \\ on input line 3056.
 hyperref.sty"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmd
-s\pdftexcmds.sty"
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetke
-ys\kvsetkeys.sty"
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefin
 ekeys\kvdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -1350,13 +1592,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 uxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions
-\kvoptions.sty"
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen336
-\Hy@linkcounter=\count396
-\Hy@pagecounter=\count397
+\@linkdim=\dimen337
+\Hy@linkcounter=\count519
+\Hy@pagecounter=\count520
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\
 pd1enc.def"
@@ -1372,7 +1610,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s\etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count398
+\Hy@SavedSpaceFactor=\count521
 
 
 Package hyperref Warning: Option `a4paper' is no longer used.
@@ -1405,15 +1643,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks OFF on input line 4806.
-\c@Hy@tempcnt=\count399
-
-("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.s
-ty"
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count522
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen337
+\XeTeXLinkMargin=\dimen338
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\
 bitset.sty"
@@ -1424,9 +1656,9 @@ alc\bigintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count400
-\Field@Width=\dimen338
-\Fld@charsize=\dimen339
+\Fld@menulength=\count523
+\Field@Width=\dimen339
+\Fld@charsize=\dimen340
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -1436,9 +1668,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count401
-\c@Item=\count402
-\c@Hfootnote=\count403
+\Hy@abspage=\count524
+\c@Item=\count525
+\c@Hfootnote=\count526
 )
 Package hyperref Info: Driver: hpdftex.
 
@@ -1450,8 +1682,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 \atveryend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count404
-\c@bookmark@seq@number=\count405
+\Fld@listcount=\count527
+\c@bookmark@seq@number=\count528
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfile
 check\rerunfilecheck.sty"
@@ -1464,10 +1696,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip92
+\Hy@SectionHShift=\skip113
 )
-\@indexfile=\write4
-\openout4 = `main.idx'.
+\@indexfile=\write5
+\openout5 = `main.idx'.
 
 
 Writing index file main.idx
@@ -1480,7 +1712,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend
 \l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count406
+\l__kernel_color_stack_int=\count529
 \l__pdf_internal_box=\box126
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -1505,16 +1737,16 @@ LaTeX Font Info:    ... okay on input line 67.
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mk
 ii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count407
-\scratchdimen=\dimen340
+\scratchcounter=\count530
+\scratchdimen=\dimen341
 \scratchbox=\box127
-\nofMPsegments=\count408
-\nofMParguments=\count409
+\nofMPsegments=\count531
+\nofMParguments=\count532
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count410
-\MPscratchDim=\dimen341
-\MPnumerator=\count411
-\makeMPintoPDFobject=\count412
+\MPscratchCnt=\count533
+\MPscratchDim=\dimen342
+\MPnumerator=\count534
+\makeMPintoPDFobject=\count535
 \everyMPtoPDFconversion=\toks55
 )
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-
@@ -1543,7 +1775,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into
 your preamble.
  on input line 67.
 
-\c@lstlisting=\count413
+\c@lstlisting=\count536
 \AtBeginShipoutBox=\box128
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdflscape
@@ -1556,6 +1788,68 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+Package biblatex Info: Trying to load language 'ngerman' -> 'cms-ngerman'...
+Package biblatex Info: ... file 'cms-ngerman.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/lbx\cms-ngerman.lbx"
+File: cms-ngerman.lbx 2018/01/09 v 3.10 biblatex localization
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/
+lbx\ngerman.lbx"
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'cms-german'...
+Package biblatex Info: ... file 'cms-german.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/lbx\cms-german.lbx"
+File: cms-german.lbx 2018/01/09 v 3.10 biblatex localization
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/
+lbx\german.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/
+lbx\ngerman.lbx"
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'cms-german'...
+Package biblatex Info: ... file 'cms-german.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-
+chicago/lbx\cms-german.lbx"
+File: cms-german.lbx 2018/01/09 v 3.10 biblatex localization
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/
+lbx\german.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                STEK Kap.7
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
 Package hyperref Info: Link coloring OFF on input line 67.
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\
@@ -1570,7 +1864,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count414
+\c@section@level=\count537
 )
 LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
@@ -1594,7 +1888,7 @@ File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 168.
-\BKM@id=\count415
+\BKM@id=\count538
 )) (content/00-01-a-Titlepage.tex
 (figures/f-00-00-Background.tex) (figures/f-00-01-cover.tex) [1
 
@@ -1786,17 +2080,17 @@ File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/f-01-02-a-FORM.pdf, id=154, 110.89128pt x 135.6267pt>
+<./figures/f-01-02-a-FORM.pdf, id=153, 110.89128pt x 135.6267pt>
 File: ./figures/f-01-02-a-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-a-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-a-FORM.pdf  used on input line 207.
 (pdftex.def)             Requested size: 136.57637pt x 167.04128pt.
-<./figures/f-01-02-b-FORM.pdf, id=155, 109.2893pt x 135.6267pt>
+<./figures/f-01-02-b-FORM.pdf, id=154, 109.2893pt x 135.6267pt>
 File: ./figures/f-01-02-b-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-b-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-b-FORM.pdf  used on input line 209.
 (pdftex.def)             Requested size: 136.57637pt x 169.49983pt.
-<./figures/f-01-02-c-FORM.pdf, id=156, 109.2893pt x 135.04352pt>
+<./figures/f-01-02-c-FORM.pdf, id=155, 109.2893pt x 135.04352pt>
 File: ./figures/f-01-02-c-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-c-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
@@ -1806,24 +2100,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13] [14 <./figures/f-01-02-a-FORM.pdf> <./figures/f-01-02-b-FORM.pdf> <./figur
 es/f-01-02-c-FORM.pdf>]
-
-Package natbib Warning: Citation `chicago2010' on page xv undefined on input li
-ne 223.
-
-
-Package natbib Warning: Citation `Nowak2000' on page xv undefined on input line
- 230.
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+  
+ []
 
 
-Package natbib Warning: Citation `Stewart2009' on page xv undefined on input li
-ne 235.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 240.
 
 ) [15] [16
 
 
 ] (main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
  [17
 
@@ -1831,8 +2120,8 @@ ne 235.
 
 
 ] (main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
  [19
 
@@ -1840,8 +2129,8 @@ ne 235.
 
 
 ] (main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
  [21
 
@@ -1870,10 +2159,6 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ] [2]
 chapter 2.
-
-Package natbib Warning: Citation `STEK Kap.7' on page 3 undefined on input line
- 21.
-
 ) (content/03-Infrastrukturobjekt.tex [3
 
 ]
@@ -1903,119 +2188,136 @@ chapter 6.
 [8
 
 ]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 53--59
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 55--61
 [] 
  []
 
-[9]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 88--93
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 92--98
 [] 
  []
 
-[10]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 113--119
+[9] [10]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 129--134
 [] 
  []
 
 [11]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 138--143
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 154--160
 [] 
  []
 
 [12]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 171--176
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 179--184
+[] 
+ []
+
+[13]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 212--217
 [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 188--194
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 229--235
 [] 
  []
 
-[13] [14]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 227--234
+[14] [15]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 268--275
 [] 
  []
 
-) (content/07-Varianten.tex [15]
+) ("content/07- Szenarien.tex" [16]
 chapter 7.
-[16
+) (content/08-Varianten.tex [17
 
-])
-No file main.bbl.
+]
+chapter 8.
+[18
+
+]) [19]
+chapter without number
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+75.
+
+("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
+tt.fd"
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 No file main.ind.
+[20
 
-Package natbib Warning: There were undefined citations.
-
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 187.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 43370 strings out of 480934
- 997499 string characters out of 2895703
- 1630846 words of memory out of 3000000
- 58260 multiletter control sequences out of 15000+200000
- 559667 words of font info for 91 fonts, out of 3000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 70i,18n,119p,10150b,1760s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50989 strings out of 480934
+ 1156968 string characters out of 2895703
+ 2272227 words of memory out of 3000000
+ 65794 multiletter control sequences out of 15000+200000
+ 560657 words of font info for 93 fonts, out of 3000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecsl1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Cyrano Golliez\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Cyrano Go
-lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> 
+c/dpi600\ectt1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\Cyrano Golliez\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Cyrano Go
+lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> 
 <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Cyrano Golli
-ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:
+pi600\ecrm1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Cyrano Golli
+ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:
 \Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Us
+00\ecsx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Us
 ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users
-\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
-m2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/
-Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Go
-lliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
-><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano
- Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/Cyrano Golliez/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Cyrano
- Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.p
-fb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cyrano Golliez/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Cyrano 
-Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-
-Output written on main.pdf (39 pages, 661810 bytes).
+ecsx1200.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users
+\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+x2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecrm2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyr
+ano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
+sers/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Goll
+iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano 
+Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/Cyrano Golliez/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Cyrano 
+Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pf
+b><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cyrano Golliez/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Cyrano G
+olliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (42 pages, 687133 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 312 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1224 PDF objects out of 1440 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

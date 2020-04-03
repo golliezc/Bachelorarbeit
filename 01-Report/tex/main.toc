@@ -1,22 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{v}{figure.caption.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Acknowledgment}{vii}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Hilfestellung}{ix}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Zielformulierung}{3}{chapter.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Infrastrukturobjekt}{4}{chapter.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Interessensgruppen}{5}{chapter.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Zielfunktion}{7}{chapter.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Kostenstrukturen}{8}{chapter.6}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Besitzer}{8}{section.6.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Unterhaltskosten}{8}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Nutzer}{10}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Reisezeitkosten}{10}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Betriebskosten}{11}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Öffentliche Hand}{13}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Kosten durch Belastung der Umwelt}{13}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Unfallkosten}{15}{subsection.6.3.2}%
-\contentsline {chapter}{\numberline {7}Varianten}{16}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Variante: \ 1}{16}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {7.0.2}Variante: \ 2}{16}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {7.0.3}Variante: \ 3}{17}{subsection.7.0.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Nutzer}{11}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Reisezeitkosten}{11}{subsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Betriebskosten}{12}{subsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Öffentliche Hand}{14}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Kosten durch Belastung der Umwelt}{14}{subsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Unfallkosten}{16}{subsection.6.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Szenarien}{17}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Varianten}{18}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Variante: \ 1}{18}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Variante: \ 2}{18}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Variante: \ 3}{19}{section.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{20}{chapter*.23}%

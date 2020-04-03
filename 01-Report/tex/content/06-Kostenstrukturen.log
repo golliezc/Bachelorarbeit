@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  26 MAR 2020 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  2 APR 2020 21:34
 entering extended mode
 **./06-Kostenstrukturen.tex
 (06-Kostenstrukturen.tex
@@ -491,8 +491,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.35 \subsection
-                {Besitzer}
+l.35 \section
+             {Besitzer}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1227,8 +1227,8 @@ Overfull \hbox (5.55557pt too wide) in paragraph at lines 39--40
  []
 
 ! Undefined control sequence.
-l.41 \subsubsection
-                   {Unterhaltskosten}
+l.41 \subsection
+                {Unterhaltskosten}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1669,12 +1669,25 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 46--46
  []
 
 
-Overfull \hbox (165.70268pt too wide) detected at line 49
-\OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = \OML/cmm/m
-/it/10 K[] \/cmr/m/n/10 + [] (\OML/cmm/m/it/10 K[] \/cmr/m/n/10 + \OML/cmm/m/it
-/10 [] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 K[]\/cmr/m/n/10 )[]
+Overfull \hbox (177.4161pt too wide) detected at line 49
+[]\OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = \OML/cmm
+/m/it/10 K[] \/cmr/m/n/10 + [] (\OML/cmm/m/it/10 K[] \/cmr/m/n/10 + \OML/cmm/m/
+it/10 [] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 K[]\/cmr/m/n/10 )
  []
 
+! Undefined control sequence.
+l.51 {\setstretch
+                 {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -1688,7 +1701,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \begin{conditions}
+l.53 \begin{conditions}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1698,14 +1711,14 @@ Missing character: There is no K in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53  K_
-        {U}(t)     &  Totale Unterhaltskosten im Jahr $t$ \\
+l.54  K_
+        {U}(t)     	&  Totale Unterhaltskosten im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.53  K_{U}(t)     &
-                      Totale Unterhaltskosten im Jahr $t$ \\
+l.54  K_{U}(t)     	&
+                       Totale Unterhaltskosten im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1715,8 +1728,8 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.54  K_{Inv}      &
-                      Investitionskosten für den Bau der Infrastruktur    \\
+l.55  K_{Inv}      	&
+                       Investitionskosten für den Bau der Infrastruktur    \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1725,24 +1738,24 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 54.
+LaTeX Warning: Command \" invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 54.
+LaTeX Warning: Command \" invalid in math mode on input line 55.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.54  K_{Inv}      &  Investitionskosten fü
-                                            r den Bau der Infrastruktur    \\
+l.55  K_{Inv}      	&  Investitionskosten fü
+                                             r den Bau der Infrastruktur    \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.54  K_{Inv}      &  Investitionskosten fü
-                                            r den Bau der Infrastruktur    \\
+l.55  K_{Inv}      	&  Investitionskosten fü
+                                             r den Bau der Infrastruktur    \\
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1751,16 +1764,16 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.54  K_{Inv}      &  Investitionskosten fü
-                                            r den Bau der Infrastruktur    \\
+l.55  K_{Inv}      	&  Investitionskosten fü
+                                             r den Bau der Infrastruktur    \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.55  K_{Unt,t}    &
-                      Unterhaltskosten im Jahr $t$  \\
+l.56  K_{Unt,t}    	&
+                       Unterhaltskosten im Jahr $t$  \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1771,8 +1784,8 @@ might try typing `S' now just to see what is salvageable.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.55  K_{Unt,t}    &  Unterhaltskosten im Jahr $
-                                                t$  \\
+l.56  K_{Unt,t}    	&  Unterhaltskosten im Jahr $
+                                                 t$  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1782,8 +1795,8 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.56  K_{Int,t}	  &
-                     Ausserordentliche Interventionskosten im Jahr $t$  \\
+l.57  K_{Int,t}	  	&
+                      Ausserordentliche Interventionskosten im Jahr $t$  \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1793,8 +1806,8 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.57 $ $\delta_t$ $  &
-                        $\in [0,1]$  \\
+l.58  $ $\delta_t$ $ &
+                        $\in [0,1]$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1805,8 +1818,8 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 $ $\delta_t$ $  &  $\in
-                             [0,1]$  \\
+l.58  $ $\delta_t$ $ &  $\in
+                             [0,1]$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1817,46 +1830,232 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \end{conditions}
+l.59 \end{conditions}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 51--59
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--61
 []
  []
 
 
-Overfull \hbox (160.29897pt too wide) in paragraph at lines 51--59
+Overfull \hbox (160.29897pt too wide) in paragraph at lines 51--61
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleUnterhal
 tskostenimJahr$$[] 
  []
 
 
-Overfull \hbox (380.71906pt too wide) in paragraph at lines 51--59
+Overfull \hbox (380.71906pt too wide) in paragraph at lines 51--61
 \OML/cmm/m/it/10 K[]Investitionskostenf[]$$[] 
  []
 
 
-Overfull \hbox (235.56075pt too wide) in paragraph at lines 51--59
+Overfull \hbox (235.56075pt too wide) in paragraph at lines 51--61
 \OML/cmm/m/it/10 K[]AusserordentlicheInterventionskostenimJahr$$[] 
  []
 
 
-Overfull \hbox (7.96529pt too wide) in paragraph at lines 51--59
+Overfull \hbox (7.96529pt too wide) in paragraph at lines 51--61
 \OML/cmm/m/it/10 []$
  []
 
 
-Overfull \hbox (6.66669pt too wide) in paragraph at lines 51--59
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 51--61
 \OMS/cmsy/m/n/10 2
  []
 
 
-Overfull \hbox (20.00002pt too wide) in paragraph at lines 51--59
-\/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \/cmr/m/n/10 1]$ 
+Overfull \hbox (20.00002pt too wide) in paragraph at lines 51--61
+\/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \/cmr/m/n/10 1]$
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--62
+[] 
+ []
+
+
+Overfull \hbox (177.34122pt too wide) detected at line 65
+[]\OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = \OML/cmm
+/m/it/10 K[] \/cmr/m/n/10 + []  \OML/cmm/m/it/10 EK[] \OMS/cmsy/m/n/10  \OML/c
+mm/m/it/10 s[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 []
+ []
+
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--68
+[] 
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \begin{description}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \item[$K_{Bau,i}$]
+                        Sind die Kosten für den Bau der Variante $i$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 70--71
+\/cmr/m/n/10 u
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 70--71
+\OML/cmm/m/it/10 i$ 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \item[$EK_{U}$]
+                     Kosten der Instandhaltung pro Kilometer
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no K in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \item[$s_i$]
+                  Länger der Variante $i$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Runaway argument?
+$\lambda _{\mathrm {Unterhalt}$] := \begin {cases} 0.8 & \text {falls\ETC.
+! Paragraph ended before \@item was complete.
+<to be read again> 
+                   \par 
+l.79 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--79
+\/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 72--79
+\OML/cmm/m/it/10 i$ 
  []
 
 Missing character: There is no D in font nullfont!
@@ -1899,7 +2098,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...1-Interessensgruppen' on page \thepage 
                                                   \space undefined\on@line .
-l.61 ...belle \ref{tab:t-04-01-Interessensgruppen}
+l.82 ...belle \ref{tab:t-04-01-Interessensgruppen}
                                                    angegeben werden, setzten...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1909,7 +2108,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `tab:t-04-01-Interessensgruppen' on page  undefined on
- input line 61.
+ input line 82.
 
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -2079,22 +2278,22 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--62
+Overfull \hbox (20.0pt too wide) in paragraph at lines 82--83
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 61--62
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 82--83
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 61--62
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 82--83
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 61--62
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 82--83
 \/cmr/m/n/10 u
  []
 
@@ -3057,117 +3256,117 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 63--68
+Overfull \hbox (20.0pt too wide) in paragraph at lines 84--89
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 63--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 84--89
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (99.42157pt too wide) in paragraph at lines 63--68
+Overfull \hbox (99.42157pt too wide) in paragraph at lines 84--89
 \OT1/cmr/m/it/10 Bevolkerungswachstum
  []
 
@@ -3179,7 +3378,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \newpage
+l.89 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3189,7 +3388,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{chap:Kosten}{{}{\thepage 
                                            }}
-l.68 \newpage
+l.89 \newpage
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3202,7 +3401,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{equation:2}{{1}{\thepage 
                                            }}
-l.68 \newpage
+l.89 \newpage
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3211,10 +3410,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{equation:2}{{1}{}}
+! Undefined control sequence.
+<write> \newlabel{equation:13}{{2}{\thepage 
+                                            }}
+l.89 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{equation:13}{{2}{}}
 ]
 ! Undefined control sequence.
-l.70 \subsection
-                {Nutzer}
+l.91 \section
+             {Nutzer}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3228,7 +3439,7 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 91--92
 [] 
  []
 
@@ -3795,48 +4006,48 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (25.55557pt too wide) in paragraph at lines 72--74
+Overfull \hbox (25.55557pt too wide) in paragraph at lines 93--95
 []\/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--74
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 93--95
 \/cmr/m/n/10 a
  []
 
 ! Undefined control sequence.
-l.75 \subsubsection
-                   {Reisezeitkosten}
+l.96 \subsection
+                {Reisezeitkosten}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3859,7 +4070,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 75--76
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--97
 [] 
  []
 
@@ -3900,7 +4111,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `equation:3' on page \thepage 
                                                   \space undefined\on@line .
-l.77 ...hre werden gemäss Formel \ref{equation:3}
+l.98 ...hre werden gemäss Formel \ref{equation:3}
                                                    berechnet.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3909,7 +4120,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:3' on page  undefined on input line 77.
+LaTeX Warning: Reference `equation:3' on page  undefined on input line 98.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4207,58 +4418,271 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 77--79
+Overfull \hbox (20.0pt too wide) in paragraph at lines 98--100
 []
  []
 
 
-Overfull \hbox (77.11348pt too wide) in paragraph at lines 77--79
+Overfull \hbox (77.11348pt too wide) in paragraph at lines 98--100
 \OT1/cmr/bx/n/10 Reisezeitkosten
  []
 
 
-Overfull \hbox (20.59236pt too wide) in paragraph at lines 77--79
+Overfull \hbox (20.59236pt too wide) in paragraph at lines 98--100
 \OML/cmm/m/it/10 K[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (7.23265pt too wide) in paragraph at lines 77--79
+Overfull \hbox (7.23265pt too wide) in paragraph at lines 98--100
 \OML/cmm/m/it/10 T$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--79
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 98--100
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--100
 \/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 101--101
+[] 
+ []
+
+
+Overfull \hbox (215.38464pt too wide) detected at line 104
+\OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = [] (\OML/c
+mm/m/it/10 S[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 T[] \OMS/cmsy/m/n/10  \OML/
+cmm/m/it/10 K[]\/cmr/m/n/10 )[]
+ []
+
+! Undefined control sequence.
+l.106 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no : in font nullfont!
+
+! LaTeX Error: Environment conditions undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 \begin{conditions}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no K in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109  K_
+         {TT}(t)		 &  Totale Kosten der verloreren Zeit im Jahr $t$  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.109  K_{TT}(t)		 &
+                      Totale Kosten der verloreren Zeit im Jahr $t$  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no t in font nullfont!
+! Misplaced alignment tab character &.
+l.110  S_{Nutzer,t}    &
+                          Totale Anzahl Nutzer im Jahr $t$ \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no t in font nullfont!
+! Misplaced alignment tab character &.
+l.111  T_{Zeitverlust} &
+                          Verlorene Zeit pro Nutzer auf der Infrastruktur, \...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 111.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 111.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.111 ... auf der Infrastruktur, \newline in Abhä
+                                                  ngigkeit der Kapazität de...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \edef 
+l.111 ... auf der Infrastruktur, \newline in Abhä
+                                                  ngigkeit der Kapazität de...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.111 ... auf der Infrastruktur, \newline in Abhä
+                                                  ngigkeit der Kapazität de...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 111.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.111 ..., \newline in Abhängigkeit der Kapazitä
+                                                  t der Fahrbahn \\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.111 ..., \newline in Abhängigkeit der Kapazitä
+                                                  t der Fahrbahn \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Misplaced alignment tab character &.
+l.112  K_{Zeitverlust} &
+                          Einheitskosten der verlorenen Zeit pro Stunde
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{conditions}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \end{conditions}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.113 \end{conditions}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113 \end{conditions}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--115
+[]
+ []
+
+
+Overfull \hbox (201.36151pt too wide) in paragraph at lines 106--115
+[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleKostende
+rverlorerenZeitimJahr$$[] 
+ []
+
+
+Overfull \hbox (167.46098pt too wide) in paragraph at lines 106--115
+\OML/cmm/m/it/10 S[]TotaleAnzahlNutzerimJahr$$[] 
+ []
+
+
+Overfull \hbox (261.75594pt too wide) in paragraph at lines 106--115
+\OML/cmm/m/it/10 T[]VerloreneZeitproNutzeraufderInfrastruktur; [] 
+ []
+
+
+Overfull \hbox (438.17921pt too wide) in paragraph at lines 106--115
+\OML/cmm/m/it/10 inAbh[]$
  []
 
 Missing character: There is no D in font nullfont!
@@ -4869,67 +5293,67 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 80--82
+Overfull \hbox (20.0pt too wide) in paragraph at lines 116--118
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 116--118
 \/cmr/m/n/10 u 
  []
 
@@ -5133,27 +5557,27 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 83--84
+Overfull \hbox (20.0pt too wide) in paragraph at lines 119--120
 []
  []
 
 
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 83--84
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 au
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 83--84
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 83--84
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 83--84
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 o 
  []
 
@@ -5529,268 +5953,40 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 85--87
+Overfull \hbox (20.0pt too wide) in paragraph at lines 121--123
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 85--87
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 85--87
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 85--87
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 85--87
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 85--87
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (28.34229pt too wide) in paragraph at lines 85--87
+Overfull \hbox (28.34229pt too wide) in paragraph at lines 121--123
 []$
  []
 
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--88
-[] 
- []
-
-
-Overfull \hbox (215.38464pt too wide) detected at line 91
-\OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = [] (\OML/c
-mm/m/it/10 S[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 T[] \OMS/cmsy/m/n/10  \OML/
-cmm/m/it/10 K[]\/cmr/m/n/10 )[]
- []
-
-Missing character: There is no w in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no : in font nullfont!
-
-! LaTeX Error: Environment conditions undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \begin{conditions}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no K in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.95  K_
-        {TT}(t)		 &  Totale Kosten der verloreren Zeit im Jahr $t$  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced alignment tab character &.
-l.95  K_{TT}(t)		 &
-                     Totale Kosten der verloreren Zeit im Jahr $t$  \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no t in font nullfont!
-! Misplaced alignment tab character &.
-l.96  S_{Nutzer,t}    &
-                         Totale Anzahl Nutzer im Jahr $t$ \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no t in font nullfont!
-! Misplaced alignment tab character &.
-l.97  T_{Zeitverlust} &
-                         Verlorene Zeit pro Nutzer auf der Infrastruktur, \n...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 97.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.97 ...r auf der Infrastruktur, \newline in Abhä
-                                                  ngigkeit der Kapazität de...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \edef 
-l.97 ...r auf der Infrastruktur, \newline in Abhä
-                                                  ngigkeit der Kapazität de...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ... \accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.97 ...r auf der Infrastruktur, \newline in Abhä
-                                                  ngigkeit der Kapazität de...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 97.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.97 ...r, \newline in Abhängigkeit der Kapazitä
-                                                  t der Fahrbahn \\
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ... \accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.97 ...r, \newline in Abhängigkeit der Kapazitä
-                                                  t der Fahrbahn \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Misplaced alignment tab character &.
-l.98  K_{Zeitverlust} &
-                         Einheitskosten der verlorenen Zeit pro Stunde
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{document} ended by \end{conditions}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \end{conditions}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.99 \end{conditions}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.99 \end{conditions}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmex10!
-Missing character: There is no � in font cmex10!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 93--100
-[]
- []
-
-
-Overfull \hbox (201.36151pt too wide) in paragraph at lines 93--100
-[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleKostende
-rverlorerenZeitimJahr$$[] 
- []
-
-
-Overfull \hbox (167.46098pt too wide) in paragraph at lines 93--100
-\OML/cmm/m/it/10 S[]TotaleAnzahlNutzerimJahr$$[] 
- []
-
-
-Overfull \hbox (261.75594pt too wide) in paragraph at lines 93--100
-\OML/cmm/m/it/10 T[]VerloreneZeitproNutzeraufderInfrastruktur; [] 
- []
-
-
-Overfull \hbox (438.17921pt too wide) in paragraph at lines 93--100
-\OML/cmm/m/it/10 inAbh[]$ 
- []
-
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 \newpage
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[2
-! Undefined control sequence.
-<write> \newlabel{equation:3}{{2}{\thepage 
-                                           }}
-l.101 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{equation:3}{{2}{}}
-]
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -5821,11 +6017,10 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
-
 ! Undefined control sequence.
 <write> ...eference `equation:4' on page \thepage 
                                                   \space undefined\on@line .
-l.103 ...utzer kann wie in Formel \ref{equation:4}
+l.124 ...utzer kann wie in Formel \ref{equation:4}
                                                    dargestellt, berechnet we...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5834,7 +6029,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:4' on page  undefined on input line 103.
+LaTeX Warning: Reference `equation:4' on page  undefined on input line 124.
 
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -5865,27 +6060,40 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--125
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 103--104
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 124--125
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
+Overfull \hbox (20.0pt too wide) in paragraph at lines 126--126
 [] 
  []
 
 
-Overfull \hbox (282.82864pt too wide) detected at line 108
+Overfull \hbox (282.82864pt too wide) detected at line 129
 \OML/cmm/m/it/10 S[] \/cmr/m/n/10 = \OML/cmm/m/it/10 S[] \/cmr/m/n/10 + \OML/cm
 m/m/it/10 S[] \/cmr/m/n/10 + \OML/cmm/m/it/10 S[] \/cmr/m/n/10 + \OML/cmm/m/it/
 10 S[][]
  []
 
+! Undefined control sequence.
+l.131 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -5893,18 +6101,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 110--111
-[] 
- []
-
-
 ! LaTeX Error: Environment conditions undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{conditions}
+l.133 \begin{conditions}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5914,13 +6117,13 @@ Missing character: There is no S in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.113  S_
+l.134  S_
          {Nutzer,t}  	   &  Totale Anzahl Nutzer im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.113  S_{Nutzer,t}  	   &
+l.134  S_{Nutzer,t}  	   &
                             Totale Anzahl Nutzer im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5931,7 +6134,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.114  S_{Nutzer,0}      &
+l.135  S_{Nutzer,0}      &
                             Initiale Anzahl Nutzer im Jahr $0$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5942,7 +6145,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 0 in font nullfont!
 ! Misplaced alignment tab character &.
-l.115  S_{Bev,Nutzer,t}  &
+l.136  S_{Bev,Nutzer,t}  &
                             Veränderung der Anzahl Nutzer aufgrund des Bev�...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5952,15 +6155,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 115.
+LaTeX Warning: Command \" invalid in math mode on input line 136.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 115.
+LaTeX Warning: Command \" invalid in math mode on input line 136.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.115  S_{Bev,Nutzer,t}  &  Verä
+l.136  S_{Bev,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund des Bev�...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -5968,7 +6171,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.115  S_{Bev,Nutzer,t}  &  Verä
+l.136  S_{Bev,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund des Bev�...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -5978,7 +6181,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.115  S_{Bev,Nutzer,t}  &  Verä
+l.136  S_{Bev,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund des Bev�...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -5986,12 +6189,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 115.
+LaTeX Warning: Command \" invalid in math mode on input line 136.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.115 ...rung der Anzahl Nutzer aufgrund des Bevö
+l.136 ...rung der Anzahl Nutzer aufgrund des Bevö
                                                   lkerungswachstum im Jahr $...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -5999,7 +6202,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.115 ...rung der Anzahl Nutzer aufgrund des Bevö
+l.136 ...rung der Anzahl Nutzer aufgrund des Bevö
                                                   lkerungswachstum im Jahr $...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6009,7 +6212,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.115 ...grund des Bevölkerungswachstum im Jahr $
+l.136 ...grund des Bevölkerungswachstum im Jahr $
                                                   t$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6021,7 +6224,7 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.116  S_{SBB,Nutzer,t}  &
+l.137  S_{SBB,Nutzer,t}  &
                             Veränderung der Anzahl Nutzer aufgrund der Kapa...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6031,15 +6234,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 116.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 116.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.116  S_{SBB,Nutzer,t}  &  Verä
+l.137  S_{SBB,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der Kapa...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -6047,7 +6250,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.116  S_{SBB,Nutzer,t}  &  Verä
+l.137  S_{SBB,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der Kapa...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -6057,7 +6260,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.116  S_{SBB,Nutzer,t}  &  Verä
+l.137  S_{SBB,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der Kapa...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6065,12 +6268,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 116.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.116 ... der Anzahl Nutzer aufgrund der Kapazitä
+l.137 ... der Anzahl Nutzer aufgrund der Kapazitä
                                                   tserhöhung der SBB-Linie ...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -6078,7 +6281,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.116 ... der Anzahl Nutzer aufgrund der Kapazitä
+l.137 ... der Anzahl Nutzer aufgrund der Kapazitä
                                                   tserhöhung der SBB-Linie ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6086,12 +6289,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 116.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.116 ...zahl Nutzer aufgrund der Kapazitätserhö
+l.137 ...zahl Nutzer aufgrund der Kapazitätserhö
                                                   hung der SBB-Linie im Jahr...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -6099,7 +6302,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.116 ...zahl Nutzer aufgrund der Kapazitätserhö
+l.137 ...zahl Nutzer aufgrund der Kapazitätserhö
                                                   hung der SBB-Linie im Jahr...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6109,7 +6312,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.116 ...azitätserhöhung der SBB-Linie im Jahr $
+l.137 ...azitätserhöhung der SBB-Linie im Jahr $
                                                   t$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6122,7 +6325,7 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.117  S_{Var,Nutzer,t}  &
+l.138  S_{Var,Nutzer,t}  &
                             Veränderung der Anzahl Nutzer aufgrund der geba...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6132,15 +6335,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 117.
+LaTeX Warning: Command \" invalid in math mode on input line 138.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 117.
+LaTeX Warning: Command \" invalid in math mode on input line 138.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.117  S_{Var,Nutzer,t}  &  Verä
+l.138  S_{Var,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der geba...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -6148,7 +6351,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.117  S_{Var,Nutzer,t}  &  Verä
+l.138  S_{Var,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der geba...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -6158,7 +6361,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.117  S_{Var,Nutzer,t}  &  Verä
+l.138  S_{Var,Nutzer,t}  &  Verä
                                  nderung der Anzahl Nutzer aufgrund der geba...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -6168,7 +6371,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.117 ... aufgrund der gebauten Variaten im Jahr $
+l.138 ... aufgrund der gebauten Variaten im Jahr $
                                                   t$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6185,7 +6388,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \end{conditions}
+l.139 \end{conditions}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6194,7 +6397,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.118 \end{conditions}
+l.139 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6203,28 +6406,33 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (181.32904pt too wide) in paragraph at lines 113--119
-[]$[]\OML/cmm/m/it/10 TotaleAnzahlNutzerimJahr$$[] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--141
+[]
  []
 
 
-Overfull \hbox (174.41954pt too wide) in paragraph at lines 113--119
+Overfull \hbox (161.32904pt too wide) in paragraph at lines 131--141
+[]\OML/cmm/m/it/10 TotaleAnzahlNutzerimJahr$$[] 
+ []
+
+
+Overfull \hbox (174.41954pt too wide) in paragraph at lines 131--141
 \OML/cmm/m/it/10 S[]InitialeAnzahlNutzerimJahr$$[] 
  []
 
 
-Overfull \hbox (396.87022pt too wide) in paragraph at lines 113--119
+Overfull \hbox (396.87022pt too wide) in paragraph at lines 131--141
 \OML/cmm/m/it/10 S[]Ver[]$$[] 
  []
 
 
-Overfull \hbox (459.83282pt too wide) in paragraph at lines 113--119
+Overfull \hbox (459.83282pt too wide) in paragraph at lines 131--141
 \OML/cmm/m/it/10 S[]Ver[]$$[] 
  []
 
 
-Overfull \hbox (369.21889pt too wide) in paragraph at lines 113--119
-\OML/cmm/m/it/10 S[]Ver[]$$$ 
+Overfull \hbox (369.21889pt too wide) in paragraph at lines 131--141
+\OML/cmm/m/it/10 S[]Ver[]$$$
  []
 
 Missing character: There is no D in font nullfont!
@@ -6435,23 +6643,23 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 121--122
+Overfull \hbox (20.0pt too wide) in paragraph at lines 142--143
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 142--143
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 142--143
 \/cmr/m/n/10 a
  []
 
 ! Undefined control sequence.
-l.125 \subsubsection
-                    {Betriebskosten}
+l.145 \subsection
+                 {Betriebskosten}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6473,7 +6681,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 125--126
+Overfull \hbox (20.0pt too wide) in paragraph at lines 145--146
 [] 
  []
 
@@ -6546,7 +6754,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `equation:5' on page \thepage 
                                                   \space undefined\on@line .
-l.127 ...en werden gemäss Formel \ref{equation:5}
+l.147 ...en werden gemäss Formel \ref{equation:5}
                                                    berechnet.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6555,7 +6763,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:5' on page  undefined on input line 127.
+LaTeX Warning: Reference `equation:5' on page  undefined on input line 147.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -6570,6 +6778,19 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -6607,23 +6828,71 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no U in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -7518,142 +7787,155 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 127--130
+Overfull \hbox (20.0pt too wide) in paragraph at lines 147--150
 []
  []
 
 
-Overfull \hbox (17.28464pt too wide) in paragraph at lines 127--130
+Overfull \hbox (17.28464pt too wide) in paragraph at lines 147--150
 \OT1/cmr/bx/n/10 Be-
  []
 
 
-Overfull \hbox (27.8957pt too wide) in paragraph at lines 127--130
+Overfull \hbox (27.8957pt too wide) in paragraph at lines 147--150
 \OT1/cmr/bx/n/10 trieb-
  []
 
 
-Overfull \hbox (36.70395pt too wide) in paragraph at lines 127--130
+Overfull \hbox (36.70395pt too wide) in paragraph at lines 147--150
 \OT1/cmr/bx/n/10 skosten
  []
 
 
-Overfull \hbox (15.37605pt too wide) in paragraph at lines 127--130
+Overfull \hbox (15.37605pt too wide) in paragraph at lines 147--150
 \OML/cmm/m/it/10 K[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (7.23265pt too wide) in paragraph at lines 127--130
+Overfull \hbox (7.23265pt too wide) in paragraph at lines 147--150
 \OML/cmm/m/it/10 T$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 127--130
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 147--150
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 147--150
 []\/cmr/m/n/10 U 
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 127--130
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 147--150
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 131--131
+Overfull \hbox (20.0pt too wide) in paragraph at lines 151--151
 [] 
  []
 
 
-Overfull \hbox (201.76706pt too wide) detected at line 134
+Overfull \hbox (201.76706pt too wide) detected at line 154
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = [] [(\OML/
 cmm/m/it/10 K[] \/cmr/m/n/10 + \OML/cmm/m/it/10 K[]\/cmr/m/n/10 ) \OMS/cmsy/m/n
 /10  \OML/cmm/m/it/10 S[]\/cmr/m/n/10 ][]
  []
 
+! Undefined control sequence.
+l.156 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -7667,7 +7949,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \begin{conditions}
+l.158 \begin{conditions}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7677,13 +7959,13 @@ Missing character: There is no K in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.138  K_
+l.159  K_
          {B}(t)		   &  Totale Fahrzeugbetriebskosten im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.138  K_{B}(t)		   &
+l.159  K_{B}(t)		   &
                        Totale Fahrzeugbetriebskosten im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7694,7 +7976,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.139  K_{Arbeit,t}      &
+l.160  K_{Arbeit,t}      &
                             Kosten für die Arbeitsstunden für die Instands...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7704,15 +7986,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 139.
+LaTeX Warning: Command \" invalid in math mode on input line 160.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 139.
+LaTeX Warning: Command \" invalid in math mode on input line 160.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.139  K_{Arbeit,t}      &  Kosten fü
+l.160  K_{Arbeit,t}      &  Kosten fü
                                       r die Arbeitsstunden für die Instands...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -7720,7 +8002,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.139  K_{Arbeit,t}      &  Kosten fü
+l.160  K_{Arbeit,t}      &  Kosten fü
                                       r die Arbeitsstunden für die Instands...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -7730,7 +8012,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.139  K_{Arbeit,t}      &  Kosten fü
+l.160  K_{Arbeit,t}      &  Kosten fü
                                       r die Arbeitsstunden für die Instands...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7738,12 +8020,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 139.
+LaTeX Warning: Command \" invalid in math mode on input line 160.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.139 ...    &  Kosten für die Arbeitsstunden fü
+l.160 ...    &  Kosten für die Arbeitsstunden fü
                                                   r die Instandsetzung pro J...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -7751,7 +8033,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.139 ...    &  Kosten für die Arbeitsstunden fü
+l.160 ...    &  Kosten für die Arbeitsstunden fü
                                                   r die Instandsetzung pro J...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7759,7 +8041,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.140  K_{Material,t}    &
+l.161  K_{Material,t}    &
                             Kosten für die Ersatz- und Verschleissteile pro...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7769,12 +8051,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 140.
+LaTeX Warning: Command \" invalid in math mode on input line 161.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.140  K_{Material,t}    &  Kosten fü
+l.161  K_{Material,t}    &  Kosten fü
                                       r die Ersatz- und Verschleissteile pro...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -7782,7 +8064,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.140  K_{Material,t}    &  Kosten fü
+l.161  K_{Material,t}    &  Kosten fü
                                       r die Ersatz- und Verschleissteile pro...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7790,7 +8072,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.141  S_{Nutzer,t}      &
+l.162  S_{Nutzer,t}      &
                             Totale Anzahl Nutzer im Jahr $t$. Berechnet gem�...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7802,7 +8084,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.141 ...t}      &  Totale Anzahl Nutzer im Jahr $
+l.162 ...t}      &  Totale Anzahl Nutzer im Jahr $
                                                   t$. Berechnet gemäss Form...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -7815,15 +8097,15 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 
-LaTeX Warning: Command \" invalid in math mode on input line 141.
+LaTeX Warning: Command \" invalid in math mode on input line 162.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 141.
+LaTeX Warning: Command \" invalid in math mode on input line 162.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.141 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.162 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:4}...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -7831,7 +8113,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.141 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.162 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:4}...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -7841,7 +8123,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.141 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.162 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:4}...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -7851,7 +8133,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Undefined control sequence.
 <write> ...eference `equation:4' on page \thepage 
                                                   \space undefined\on@line .
-l.141 ...Berechnet gemäss Formel \ref{equation:4}
+l.162 ...Berechnet gemäss Formel \ref{equation:4}
                                                      \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7860,7 +8142,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:4' on page  undefined on input line 141.
+LaTeX Warning: Reference `equation:4' on page  undefined on input line 162.
 
 
 ! LaTeX Error: \begin{document} ended by \end{conditions}.
@@ -7869,7 +8151,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \end{conditions}
+l.163 \end{conditions}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7878,7 +8160,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.142 \end{conditions}
+l.163 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -7889,7 +8171,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.142 \end{conditions}
+l.163 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -7899,19 +8181,19 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no � in font cmex10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 136--143
+Overfull \hbox (20.0pt too wide) in paragraph at lines 156--165
 []
  []
 
 
-Overfull \hbox (189.66484pt too wide) in paragraph at lines 136--143
+Overfull \hbox (189.66484pt too wide) in paragraph at lines 156--165
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleFahrzeug
 betriebskostenimJahr$$[] 
  []
 
 
-Overfull \hbox (882.25275pt too wide) in paragraph at lines 136--143
-\OML/cmm/m/it/10 K[]Kostenf[]$$:Berechnetgem[]$ 
+Overfull \hbox (882.25275pt too wide) in paragraph at lines 156--165
+\OML/cmm/m/it/10 K[]Kostenf[]$$:Berechnetgem[]$
  []
 
 Missing character: There is no D in font nullfont!
@@ -8226,22 +8508,22 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 144--145
+Overfull \hbox (20.0pt too wide) in paragraph at lines 166--167
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 166--167
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (29.06367pt too wide) in paragraph at lines 144--145
+Overfull \hbox (29.06367pt too wide) in paragraph at lines 166--167
 []$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 166--167
 \/cmr/m/n/10 u
  []
 
@@ -8253,17 +8535,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 \newpage
+l.168 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3
+[2
 ! Undefined control sequence.
-<write> \newlabel{equation:4}{{3}{\thepage 
+<write> \newlabel{equation:3}{{3}{\thepage 
                                            }}
-l.146 \newpage
+l.168 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8271,11 +8553,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{equation:4}{{3}{}}
+\newlabel{equation:3}{{3}{}}
 ! Undefined control sequence.
-<write> \newlabel{equation:5}{{4}{\thepage 
+<write> \newlabel{equation:4}{{4}{\thepage 
                                            }}
-l.146 \newpage
+l.168 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8283,11 +8565,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{equation:5}{{4}{}}
+\newlabel{equation:4}{{4}{}}
+! Undefined control sequence.
+<write> \newlabel{equation:5}{{5}{\thepage 
+                                           }}
+l.168 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{equation:5}{{5}{}}
 ]
 ! Undefined control sequence.
-l.148 \subsection
-                 {Öffentliche Hand}
+l.170 \section
+              {Öffentliche Hand}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8309,7 +8603,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 
-Overfull \hbox (27.7778pt too wide) in paragraph at lines 148--150
+Overfull \hbox (27.7778pt too wide) in paragraph at lines 170--172
 [][]\/cmr/m/n/10 O
  []
 
@@ -8427,7 +8721,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...1-Interessensgruppen' on page \thepage 
                                                   \space undefined\on@line .
-l.151 ...elle \ref{tab:t-04-01-Interessensgruppen}
+l.173 ...elle \ref{tab:t-04-01-Interessensgruppen}
                                                    aufgeführt aus direkt un...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8437,7 +8731,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `tab:t-04-01-Interessensgruppen' on page  undefined on
- input line 151.
+ input line 173.
 
 Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -8497,28 +8791,28 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 151--152
+Overfull \hbox (20.0pt too wide) in paragraph at lines 173--174
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 151--152
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 173--174
 []\/cmr/m/n/10 O
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 151--152
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 173--174
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 151--152
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 173--174
 \/cmr/m/n/10 u
  []
 
 ! Undefined control sequence.
-l.154 \subsubsection
-                    {Kosten durch Belastung der Umwelt}
+l.176 \subsection
+                 {Kosten durch Belastung der Umwelt}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8555,7 +8849,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 154--156
+Overfull \hbox (20.0pt too wide) in paragraph at lines 176--178
 []
  []
 
@@ -8889,127 +9183,140 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 157--161
+Overfull \hbox (20.0pt too wide) in paragraph at lines 179--183
 []
  []
 
 
-Overfull \hbox (35.43175pt too wide) in paragraph at lines 157--161
+Overfull \hbox (35.43175pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 Kosten
  []
 
 
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 157--161
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 die
  []
 
 
-Overfull \hbox (28.6943pt too wide) in paragraph at lines 157--161
+Overfull \hbox (28.6943pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 durch
  []
 
 
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 157--161
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 die
  []
 
 
-Overfull \hbox (17.28464pt too wide) in paragraph at lines 157--161
+Overfull \hbox (17.28464pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 Be-
  []
 
 
-Overfull \hbox (17.15404pt too wide) in paragraph at lines 157--161
+Overfull \hbox (17.15404pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 las-
  []
 
 
-Overfull \hbox (22.99988pt too wide) in paragraph at lines 157--161
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 tung
  []
 
 
-Overfull \hbox (16.39577pt too wide) in paragraph at lines 157--161
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 der
  []
 
 
-Overfull \hbox (39.03452pt too wide) in paragraph at lines 157--161
+Overfull \hbox (39.03452pt too wide) in paragraph at lines 179--183
 \OT1/cmr/bx/n/10 Umwelt
  []
 
 
-Overfull \hbox (26.63754pt too wide) in paragraph at lines 157--161
+Overfull \hbox (26.63754pt too wide) in paragraph at lines 179--183
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (15.98323pt too wide) in paragraph at lines 157--161
+Overfull \hbox (15.98323pt too wide) in paragraph at lines 179--183
 \OT1/cmr/m/it/10 En-
  []
 
 
-Overfull \hbox (24.02206pt too wide) in paragraph at lines 157--161
+Overfull \hbox (24.02206pt too wide) in paragraph at lines 179--183
 \OT1/cmr/m/it/10 glisch
  []
 
 
-Overfull \hbox (25.67505pt too wide) in paragraph at lines 157--161
+Overfull \hbox (25.67505pt too wide) in paragraph at lines 179--183
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 179--183
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (25.86812pt too wide) in paragraph at lines 157--161
+Overfull \hbox (25.86812pt too wide) in paragraph at lines 179--183
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 179--183
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 179--183
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 179--183
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (38.2779pt too wide) in paragraph at lines 157--161
+Overfull \hbox (38.2779pt too wide) in paragraph at lines 179--183
 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 157--161
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 179--183
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (38.2779pt too wide) in paragraph at lines 157--161
+Overfull \hbox (38.2779pt too wide) in paragraph at lines 179--183
 []$ 
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 162--162
+Overfull \hbox (20.0pt too wide) in paragraph at lines 184--184
 [] 
  []
 
 
-Overfull \hbox (147.07587pt too wide) detected at line 165
+Overfull \hbox (147.07587pt too wide) detected at line 187
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = [] [(\OML/
 cmm/m/it/10 K[] \/cmr/m/n/10 + \OML/cmm/m/it/10 K[]\/cmr/m/n/10 ) \OMS/cmsy/m/n
 /10  \OML/cmm/m/it/10 S[]\/cmr/m/n/10 ][]
  []
 
+! Undefined control sequence.
+l.189 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -9023,7 +9330,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{conditions}
+l.191 \begin{conditions}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9033,13 +9340,13 @@ Missing character: There is no K in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.169  K_
+l.192  K_
          {E}(t)	   &  Totale Umwelkosten im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.169  K_{E}(t)	   &
+l.192  K_{E}(t)	   &
                       Totale Umwelkosten im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9050,7 +9357,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.170  K_{S,t}       &
+l.193  K_{S,t}       &
                         Kosten durch die Schadstoffbelastung pro Jahr \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9060,7 +9367,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.171  K_{L,t}       &
+l.194  K_{L,t}       &
                         Kosten durch die Lärmbelastung pro Jahr  \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9070,15 +9377,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 171.
+LaTeX Warning: Command \" invalid in math mode on input line 194.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 171.
+LaTeX Warning: Command \" invalid in math mode on input line 194.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.171  K_{L,t}       &  Kosten durch die Lä
+l.194  K_{L,t}       &  Kosten durch die Lä
                                             rmbelastung pro Jahr  \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -9086,7 +9393,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.171  K_{L,t}       &  Kosten durch die Lä
+l.194  K_{L,t}       &  Kosten durch die Lä
                                             rmbelastung pro Jahr  \\
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -9096,7 +9403,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.171  K_{L,t}       &  Kosten durch die Lä
+l.194  K_{L,t}       &  Kosten durch die Lä
                                             rmbelastung pro Jahr  \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9104,7 +9411,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.172  S_{MIV,t}     &
+l.195  S_{MIV,t}     &
                         Totale Anzahl Nutzer im Jahr $t$. Berechnet gemäss ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9116,7 +9423,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.172 ...,t}     &  Totale Anzahl Nutzer im Jahr $
+l.195 ...,t}     &  Totale Anzahl Nutzer im Jahr $
                                                   t$. Berechnet gemäss Form...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9127,15 +9434,15 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 
-LaTeX Warning: Command \" invalid in math mode on input line 172.
+LaTeX Warning: Command \" invalid in math mode on input line 195.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 172.
+LaTeX Warning: Command \" invalid in math mode on input line 195.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.172 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.195 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:7}...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -9143,7 +9450,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.172 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.195 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:7}...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -9153,7 +9460,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.172 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
+l.195 ...nzahl Nutzer im Jahr $t$. Berechnet gemä
                                                   ss Formel \ref{equation:7}...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9163,7 +9470,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Undefined control sequence.
 <write> ...eference `equation:7' on page \thepage 
                                                   \space undefined\on@line .
-l.172 ...Berechnet gemäss Formel \ref{equation:7}
+l.195 ...Berechnet gemäss Formel \ref{equation:7}
                                                      \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9172,7 +9479,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:7' on page  undefined on input line 172.
+LaTeX Warning: Reference `equation:7' on page  undefined on input line 195.
 
 
 ! LaTeX Error: \begin{document} ended by \end{conditions}.
@@ -9181,7 +9488,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \end{conditions}
+l.196 \end{conditions}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9190,7 +9497,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.173 \end{conditions}
+l.196 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9201,7 +9508,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 \end{conditions}
+l.196 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9211,24 +9518,24 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no � in font cmex10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 167--174
+Overfull \hbox (20.0pt too wide) in paragraph at lines 189--198
 []
  []
 
 
-Overfull \hbox (142.81581pt too wide) in paragraph at lines 167--174
+Overfull \hbox (142.81581pt too wide) in paragraph at lines 189--198
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleUmwelkos
 tenimJahr$$[] 
  []
 
 
-Overfull \hbox (223.337pt too wide) in paragraph at lines 167--174
+Overfull \hbox (223.337pt too wide) in paragraph at lines 189--198
 \OML/cmm/m/it/10 K[]KostendurchdieSchadstoffbelastungproJahr[] 
  []
 
 
-Overfull \hbox (483.5735pt too wide) in paragraph at lines 167--174
-\OML/cmm/m/it/10 K[]KostendurchdieL[]$$:Berechnetgem[]$ 
+Overfull \hbox (483.5735pt too wide) in paragraph at lines 189--198
+\OML/cmm/m/it/10 K[]KostendurchdieL[]$$:Berechnetgem[]$
  []
 
 Missing character: There is no D in font nullfont!
@@ -9351,7 +9658,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `equation:7' on page \thepage 
                                                   \space undefined\on@line .
-l.175 ...ind, wird gemäss Formel \ref{equation:7}
+l.199 ...ind, wird gemäss Formel \ref{equation:7}
                                                    berechnet.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9360,7 +9667,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:7' on page  undefined on input line 175.
+LaTeX Warning: Reference `equation:7' on page  undefined on input line 199.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -9373,32 +9680,45 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 175--176
+Overfull \hbox (20.0pt too wide) in paragraph at lines 199--200
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 175--176
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 199--200
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 175--176
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 199--200
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 177--177
+Overfull \hbox (20.0pt too wide) in paragraph at lines 201--201
 [] 
  []
 
 
-Overfull \hbox (239.7501pt too wide) detected at line 180
+Overfull \hbox (239.7501pt too wide) detected at line 204
 \OML/cmm/m/it/10 S[] \/cmr/m/n/10 = \OML/cmm/m/it/10 S[] \/cmr/m/n/10 + \OML/cm
 m/m/it/10 S[] \/cmr/m/n/10 + \OML/cmm/m/it/10 S[] \/cmr/m/n/10 + \OML/cmm/m/it/
 10 S[][]
  []
 
+! Undefined control sequence.
+l.206 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -9412,7 +9732,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 \begin{conditions}
+l.208 \begin{conditions}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9422,14 +9742,14 @@ Missing character: There is no S in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.184  S_
-         {Nutzer,t}  	   &  Totale Anzahl Fahrzeuge im Jahr $t$ \\
+l.209  S_
+         {MIV,t}      &  Totale Anzahl Fahrzeuge im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.184  S_{Nutzer,t}  	   &
-                            Totale Anzahl Fahrzeuge im Jahr $t$ \\
+l.209  S_{MIV,t}      &
+                         Totale Anzahl Fahrzeuge im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9439,8 +9759,8 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.185  S_{Nutzer,0}      &
-                            Initiale Anzahl Fahrzeuge im Jahr $0$ \\
+l.210  S_{MIV,0}      &
+                         Initiale Anzahl Fahrzeuge im Jahr $0$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9450,8 +9770,8 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 0 in font nullfont!
 ! Misplaced alignment tab character &.
-l.186  S_{Bev,Nutzer,t}  &
-                            Veränderung der Anzahl Fahrzeuge \newline aufgr...
+l.211  S_{Bev,MIV,t}  &
+                         Veränderung der Anzahl Fahrzeuge aufgrund des Bev�...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9460,24 +9780,24 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 186.
+LaTeX Warning: Command \" invalid in math mode on input line 211.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 186.
+LaTeX Warning: Command \" invalid in math mode on input line 211.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.186  S_{Bev,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.211  S_{Bev,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund des Bev�...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.186  S_{Bev,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.211  S_{Bev,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund des Bev�...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -9486,20 +9806,20 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.186  S_{Bev,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.211  S_{Bev,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund des Bev�...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 186.
+LaTeX Warning: Command \" invalid in math mode on input line 211.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.186 ...ahl Fahrzeuge \newline aufgrund des Bevö
+l.211 ...g der Anzahl Fahrzeuge aufgrund des Bevö
                                                   lkerungswachstum im Jahr $...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -9507,7 +9827,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.186 ...ahl Fahrzeuge \newline aufgrund des Bevö
+l.211 ...g der Anzahl Fahrzeuge aufgrund des Bevö
                                                   lkerungswachstum im Jahr $...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9517,7 +9837,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...grund des Bevölkerungswachstum im Jahr $
+l.211 ...grund des Bevölkerungswachstum im Jahr $
                                                   t$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9529,8 +9849,8 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.187  S_{SBB,Nutzer,t}  &
-                            Veränderung der Anzahl Fahrzeuge \newline aufgr...
+l.212  S_{SBB,MIV,t}  &
+                         Veränderung der Anzahl Fahrzeuge aufgrund der Kapa...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9539,24 +9859,24 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 187.
+LaTeX Warning: Command \" invalid in math mode on input line 212.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 187.
+LaTeX Warning: Command \" invalid in math mode on input line 212.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.187  S_{SBB,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.212  S_{SBB,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der Kapa...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.187  S_{SBB,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.212  S_{SBB,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der Kapa...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -9565,20 +9885,20 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.187  S_{SBB,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.212  S_{SBB,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der Kapa...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 187.
+LaTeX Warning: Command \" invalid in math mode on input line 212.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.187 ...Fahrzeuge \newline aufgrund der Kapazitä
+l.212 ...r Anzahl Fahrzeuge aufgrund der Kapazitä
                                                   tserhöhung der SBB-Linie ...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -9586,7 +9906,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.187 ...Fahrzeuge \newline aufgrund der Kapazitä
+l.212 ...r Anzahl Fahrzeuge aufgrund der Kapazitä
                                                   tserhöhung der SBB-Linie ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9594,12 +9914,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 187.
+LaTeX Warning: Command \" invalid in math mode on input line 212.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.187 ...ge \newline aufgrund der Kapazitätserhö
+l.212 ...l Fahrzeuge aufgrund der Kapazitätserhö
                                                   hung der SBB-Linie im Jahr...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -9607,7 +9927,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.187 ...ge \newline aufgrund der Kapazitätserhö
+l.212 ...l Fahrzeuge aufgrund der Kapazitätserhö
                                                   hung der SBB-Linie im Jahr...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -9617,7 +9937,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.187 ...azitätserhöhung der SBB-Linie im Jahr $
+l.212 ...azitätserhöhung der SBB-Linie im Jahr $
                                                   t$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9630,8 +9950,8 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.188  S_{Var,Nutzer,t}  &
-                            Veränderung der Anzahl Fahrzeuge \newline aufgr...
+l.213  S_{Var,MIV,t}  &
+                         Veränderung der Anzahl Fahrzeuge aufgrund der geba...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9640,24 +9960,24 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 188.
+LaTeX Warning: Command \" invalid in math mode on input line 213.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 188.
+LaTeX Warning: Command \" invalid in math mode on input line 213.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.188  S_{Var,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.213  S_{Var,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der geba...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.188  S_{Var,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.213  S_{Var,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der geba...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -9666,8 +9986,8 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.188  S_{Var,Nutzer,t}  &  Verä
-                                 nderung der Anzahl Fahrzeuge \newline aufgr...
+l.213  S_{Var,MIV,t}  &  Verä
+                              nderung der Anzahl Fahrzeuge aufgrund der geba...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -9676,7 +9996,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.188 ... aufgrund der gebauten Variaten im Jahr $
+l.213 ... aufgrund der gebauten Variaten im Jahr $
                                                   t$ \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9693,7 +10013,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 \end{conditions}
+l.214 \end{conditions}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9702,7 +10022,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.189 \end{conditions}
+l.214 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9711,32 +10031,32 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 182--190
+Overfull \hbox (20.0pt too wide) in paragraph at lines 206--216
 []
  []
 
 
-Overfull \hbox (177.24461pt too wide) in paragraph at lines 182--190
+Overfull \hbox (168.6289pt too wide) in paragraph at lines 206--216
 []\OML/cmm/m/it/10 TotaleAnzahlFahrzeugeimJahr$$[] 
  []
 
 
-Overfull \hbox (190.33511pt too wide) in paragraph at lines 182--190
+Overfull \hbox (181.7194pt too wide) in paragraph at lines 206--216
 \OML/cmm/m/it/10 S[]InitialeAnzahlFahrzeugeimJahr$$[] 
  []
 
 
-Overfull \hbox (412.7858pt too wide) in paragraph at lines 182--190
+Overfull \hbox (404.17009pt too wide) in paragraph at lines 206--216
 \OML/cmm/m/it/10 S[]Ver[]$$[] 
  []
 
 
-Overfull \hbox (475.7484pt too wide) in paragraph at lines 182--190
+Overfull \hbox (467.13269pt too wide) in paragraph at lines 206--216
 \OML/cmm/m/it/10 S[]Ver[]$$[] 
  []
 
 
-Overfull \hbox (385.13446pt too wide) in paragraph at lines 182--190
+Overfull \hbox (376.51875pt too wide) in paragraph at lines 206--216
 \OML/cmm/m/it/10 S[]Ver[]$$[] 
  []
 
@@ -9991,22 +10311,22 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 191--192
+Overfull \hbox (20.0pt too wide) in paragraph at lines 217--218
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 191--192
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 217--218
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (3.61111pt too wide) in paragraph at lines 191--192
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 217--218
 \OML/cmm/m/it/10 t$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 191--192
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 217--218
 \/cmr/m/n/10 a
  []
 
@@ -10225,77 +10545,77 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 193--194
+Overfull \hbox (20.0pt too wide) in paragraph at lines 219--220
 []
  []
 
 
-Overfull \hbox (35.43175pt too wide) in paragraph at lines 193--194
+Overfull \hbox (35.43175pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 Kosten
  []
 
 
-Overfull \hbox (28.6943pt too wide) in paragraph at lines 193--194
+Overfull \hbox (28.6943pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 durch
  []
 
 
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 193--194
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 die
  []
 
 
-Overfull \hbox (33.38174pt too wide) in paragraph at lines 193--194
+Overfull \hbox (33.38174pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 Schad-
  []
 
 
-Overfull \hbox (25.29985pt too wide) in paragraph at lines 193--194
+Overfull \hbox (25.29985pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 stoff-
  []
 
 
-Overfull \hbox (15.81242pt too wide) in paragraph at lines 193--194
+Overfull \hbox (15.81242pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 be-
  []
 
 
-Overfull \hbox (17.15404pt too wide) in paragraph at lines 193--194
+Overfull \hbox (17.15404pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 las-
  []
 
 
-Overfull \hbox (22.99988pt too wide) in paragraph at lines 193--194
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 219--220
 \OT1/cmr/bx/n/10 tung
  []
 
 
-Overfull \hbox (14.28613pt too wide) in paragraph at lines 193--194
+Overfull \hbox (14.28613pt too wide) in paragraph at lines 219--220
 \OML/cmm/m/it/10 K[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 219--220
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 219--220
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 219--220
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 219--220
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 219--220
 \/cmr/m/n/10 a
  []
 
@@ -11635,117 +11955,117 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 195--199
+Overfull \hbox (20.0pt too wide) in paragraph at lines 221--225
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 195--199
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 221--225
 []\/cmr/m/n/10 O
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (24.27763pt too wide) in paragraph at lines 195--199
+Overfull \hbox (24.27763pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Stopp
  []
 
 
-Overfull \hbox (15.84436pt too wide) in paragraph at lines 195--199
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 and
  []
 
 
-Overfull \hbox (12.84715pt too wide) in paragraph at lines 195--199
+Overfull \hbox (12.84715pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Go
  []
 
 
-Overfull \hbox (3.57774pt too wide) in paragraph at lines 195--199
+Overfull \hbox (3.57774pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 -
  []
 
 
-Overfull \hbox (38.09972pt too wide) in paragraph at lines 195--199
+Overfull \hbox (38.09972pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Verkehrs
  []
 
 
-Overfull \hbox (24.27763pt too wide) in paragraph at lines 195--199
+Overfull \hbox (24.27763pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Stopp
  []
 
 
-Overfull \hbox (15.84436pt too wide) in paragraph at lines 195--199
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 and
  []
 
 
-Overfull \hbox (12.84715pt too wide) in paragraph at lines 195--199
+Overfull \hbox (12.84715pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Go
  []
 
 
-Overfull \hbox (3.57774pt too wide) in paragraph at lines 195--199
+Overfull \hbox (3.57774pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 -
  []
 
 
-Overfull \hbox (34.01085pt too wide) in paragraph at lines 195--199
+Overfull \hbox (34.01085pt too wide) in paragraph at lines 221--225
 \OT1/cmr/m/it/10 Verkehr
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 195--199
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 221--225
 \/cmr/m/n/10 a 
  []
 
@@ -12070,72 +12390,72 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 200--203
+Overfull \hbox (20.0pt too wide) in paragraph at lines 226--229
 []
  []
 
 
-Overfull \hbox (35.43175pt too wide) in paragraph at lines 200--203
+Overfull \hbox (35.43175pt too wide) in paragraph at lines 226--229
 \OT1/cmr/bx/n/10 Kosten
  []
 
 
-Overfull \hbox (28.6943pt too wide) in paragraph at lines 200--203
+Overfull \hbox (28.6943pt too wide) in paragraph at lines 226--229
 \OT1/cmr/bx/n/10 durch
  []
 
 
-Overfull \hbox (74.8065pt too wide) in paragraph at lines 200--203
+Overfull \hbox (74.8065pt too wide) in paragraph at lines 226--229
 \OT1/cmr/bx/n/10 Larmbelastung
  []
 
 
-Overfull \hbox (14.4792pt too wide) in paragraph at lines 200--203
+Overfull \hbox (14.4792pt too wide) in paragraph at lines 226--229
 \OML/cmm/m/it/10 K[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 200--203
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 ua
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 226--229
 \/cmr/m/n/10 a
  []
 
@@ -12147,17 +12467,41 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 \newpage
+l.230 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4
+[3
 ! Undefined control sequence.
-<write> \newlabel{chap:Public}{{}{\thepage 
+<write> \newlabel{sec:Public}{{}{\thepage 
+                                          }}
+l.230 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:Public}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{sec:Umweltkosten}{{}{\thepage 
+                                                }}
+l.230 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:Umweltkosten}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{equation:6}{{6}{\thepage 
                                            }}
-l.204 \newpage
+l.230 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12165,23 +12509,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{chap:Public}{{}{}}
+\newlabel{equation:6}{{6}{}}
 ! Undefined control sequence.
-<write> \newlabel{chap:Umweltkosten}{{}{\thepage 
-                                                 }}
-l.204 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{chap:Umweltkosten}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{equation:6}{{5}{\thepage 
+<write> \newlabel{equation:7}{{7}{\thepage 
                                            }}
-l.204 \newpage
+l.230 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12189,23 +12521,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\newlabel{equation:6}{{5}{}}
-! Undefined control sequence.
-<write> \newlabel{equation:7}{{6}{\thepage 
-                                           }}
-l.204 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{equation:7}{{6}{}}
+\newlabel{equation:7}{{7}{}}
 ]
 ! Undefined control sequence.
-l.206 \subsubsection
-                    {Unfallkosten}
+l.232 \subsection
+                 {Unfallkosten}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12225,7 +12545,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 206--208
+Overfull \hbox (20.0pt too wide) in paragraph at lines 232--234
 []
  []
 
@@ -12293,7 +12613,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `equation:8' on page \thepage 
                                                   \space undefined\on@line .
-l.209 ...en werden gemäss Formel \ref{equation:8}
+l.235 ...en werden gemäss Formel \ref{equation:8}
                                                    berechnet.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12302,7 +12622,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `equation:8' on page  undefined on input line 209.
+LaTeX Warning: Reference `equation:8' on page  undefined on input line 235.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -12601,108 +12921,121 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 209--213
+Overfull \hbox (20.0pt too wide) in paragraph at lines 235--239
 []
  []
 
 
-Overfull \hbox (19.06934pt too wide) in paragraph at lines 209--213
+Overfull \hbox (19.06934pt too wide) in paragraph at lines 235--239
 \OT1/cmr/bx/n/10 Un-
  []
 
 
-Overfull \hbox (16.13184pt too wide) in paragraph at lines 209--213
+Overfull \hbox (16.13184pt too wide) in paragraph at lines 235--239
 \OT1/cmr/bx/n/10 fal-
  []
 
 
-Overfull \hbox (35.3623pt too wide) in paragraph at lines 209--213
+Overfull \hbox (35.3623pt too wide) in paragraph at lines 235--239
 \OT1/cmr/bx/n/10 lkosten
  []
 
 
-Overfull \hbox (15.00697pt too wide) in paragraph at lines 209--213
+Overfull \hbox (15.00697pt too wide) in paragraph at lines 235--239
 \OML/cmm/m/it/10 K[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (7.23265pt too wide) in paragraph at lines 209--213
+Overfull \hbox (7.23265pt too wide) in paragraph at lines 235--239
 \OML/cmm/m/it/10 T$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 209--213
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 235--239
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (55.5078pt too wide) in paragraph at lines 209--213
+Overfull \hbox (55.5078pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 11[]500[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (60.50781pt too wide) in paragraph at lines 209--213
+Overfull \hbox (60.50781pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 100[]000[]$
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 209--213
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (57.55247pt too wide) in paragraph at lines 209--213
+Overfull \hbox (57.55247pt too wide) in paragraph at lines 235--239
 \/cmr/m/n/10 3\OML/cmm/m/it/10 :\/cmr/m/n/10 7\OML/cmm/m/it/10 mio[]$
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 214--214
+Overfull \hbox (20.0pt too wide) in paragraph at lines 240--240
 [] 
  []
 
 
-Overfull \hbox (238.26506pt too wide) detected at line 217
+Overfull \hbox (238.26506pt too wide) detected at line 243
 \OML/cmm/m/it/10 K[]\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 ) = [] [(\OML/
 cmm/m/it/10 K[] \/cmr/m/n/10 + \OML/cmm/m/it/10 K[]\/cmr/m/n/10 ) \OMS/cmsy/m/n
 /10  \OML/cmm/m/it/10 i[] \/cmr/m/n/10 + \OML/cmm/m/it/10 K[] \OMS/cmsy/m/n/10
   \OML/cmm/m/it/10 j[]\/cmr/m/n/10 ][]
  []
 
+! Undefined control sequence.
+l.245 {\setstretch
+                  {0.75}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -12716,7 +13049,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.220 \begin{conditions}
+l.247 \begin{conditions}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12726,13 +13059,13 @@ Missing character: There is no K in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.221  K_
+l.248  K_
          {A}(t) 		 &  Totale Unfallkosten im Jahr $t$ \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.221  K_{A}(t) 		 &
+l.248  K_{A}(t) 		 &
                       Totale Unfallkosten im Jahr $t$ \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12743,7 +13076,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.222  K_{A,Einnahmen} &
+l.249  K_{A,Einnahmen} &
                           Kosten aufgrund Einnahmeverlust für 30 Tage pro U...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12753,15 +13086,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 222.
+LaTeX Warning: Command \" invalid in math mode on input line 249.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 222.
+LaTeX Warning: Command \" invalid in math mode on input line 249.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.222 ...n} &  Kosten aufgrund Einnahmeverlust fü
+l.249 ...n} &  Kosten aufgrund Einnahmeverlust fü
                                                   r 30 Tage pro Unfall und J...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12769,7 +13102,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \edef 
-l.222 ...n} &  Kosten aufgrund Einnahmeverlust fü
+l.249 ...n} &  Kosten aufgrund Einnahmeverlust fü
                                                   r 30 Tage pro Unfall und J...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -12779,7 +13112,7 @@ so that I will find a matching right brace soon.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.222 ...n} &  Kosten aufgrund Einnahmeverlust fü
+l.249 ...n} &  Kosten aufgrund Einnahmeverlust fü
                                                   r 30 Tage pro Unfall und J...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12787,8 +13120,8 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.223  K_{A,Pflege} 	 &
-                         Kosten für die Gesundheit bzw. Pflege \newline fü...
+l.250  K_{A,Pflege} 	 &
+                         Kosten für die Gesundheit bzw. Pflege für 30 Tage...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -12797,33 +13130,33 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 223.
+LaTeX Warning: Command \" invalid in math mode on input line 250.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.223  K_{A,Pflege} 	 &  Kosten fü
-                                   r die Gesundheit bzw. Pflege \newline fü...
+l.250  K_{A,Pflege} 	 &  Kosten fü
+                                   r die Gesundheit bzw. Pflege für 30 Tage...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.223  K_{A,Pflege} 	 &  Kosten fü
-                                   r die Gesundheit bzw. Pflege \newline fü...
+l.250  K_{A,Pflege} 	 &  Kosten fü
+                                   r die Gesundheit bzw. Pflege für 30 Tage...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 223.
+LaTeX Warning: Command \" invalid in math mode on input line 250.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.223 ...r die Gesundheit bzw. Pflege \newline fü
+l.250 ...osten für die Gesundheit bzw. Pflege fü
                                                   r 30 Tage pro Unfall und J...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12831,7 +13164,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.223 ...r die Gesundheit bzw. Pflege \newline fü
+l.250 ...osten für die Gesundheit bzw. Pflege fü
                                                   r 30 Tage pro Unfall und J...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12839,7 +13172,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.224  K_{A,Tod}		 &
+l.251  K_{A,Tod}		 &
                       Kosten für Unfall mit Todesfolge pro Unfall und Jahr \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12849,12 +13182,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 224.
+LaTeX Warning: Command \" invalid in math mode on input line 251.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.224  K_{A,Tod}		 &  Kosten fü
+l.251  K_{A,Tod}		 &  Kosten fü
                                 r Unfall mit Todesfolge pro Unfall und Jahr \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12862,7 +13195,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.224  K_{A,Tod}		 &  Kosten fü
+l.251  K_{A,Tod}		 &  Kosten fü
                                 r Unfall mit Todesfolge pro Unfall und Jahr \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12870,7 +13203,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.225  i_t        	 &
+l.252  i_t        	 &
                        Anzahl Unfälle mit Ausfall der Einnahmen sowie Pfleg...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12880,12 +13213,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 225.
+LaTeX Warning: Command \" invalid in math mode on input line 252.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.225  i_t        	 &  Anzahl Unfä
+l.252  i_t        	 &  Anzahl Unfä
                                    lle mit Ausfall der Einnahmen sowie Pfleg...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12893,7 +13226,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.225  i_t        	 &  Anzahl Unfä
+l.252  i_t        	 &  Anzahl Unfä
                                    lle mit Ausfall der Einnahmen sowie Pfleg...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12901,12 +13234,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 225.
+LaTeX Warning: Command \" invalid in math mode on input line 252.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.225 ...l der Einnahmen sowie Pflege \newline fü
+l.252 ...it Ausfall der Einnahmen sowie Pflege fü
                                                   r 30 Tage pro Jahr \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12914,7 +13247,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.225 ...l der Einnahmen sowie Pflege \newline fü
+l.252 ...it Ausfall der Einnahmen sowie Pflege fü
                                                   r 30 Tage pro Jahr \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12922,7 +13255,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Misplaced alignment tab character &.
-l.226  j_t        	 &
+l.253  j_t        	 &
                        Anzahl Unfälle mit Todesfolge pro Jahr \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12932,12 +13265,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 226.
+LaTeX Warning: Command \" invalid in math mode on input line 253.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.226  j_t        	 &  Anzahl Unfä
+l.253  j_t        	 &  Anzahl Unfä
                                    lle mit Todesfolge pro Jahr \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -12945,7 +13278,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.226  j_t        	 &  Anzahl Unfä
+l.253  j_t        	 &  Anzahl Unfä
                                    lle mit Todesfolge pro Jahr \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -12959,7 +13292,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 \end{conditions}
+l.254 \end{conditions}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12968,7 +13301,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.227 \end{conditions}
+l.254 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -12979,7 +13312,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.227 \end{conditions}
+l.254 \end{conditions}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -12995,19 +13328,19 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 219--228
+Overfull \hbox (20.0pt too wide) in paragraph at lines 245--256
 []
  []
 
 
-Overfull \hbox (142.15057pt too wide) in paragraph at lines 219--228
+Overfull \hbox (142.15057pt too wide) in paragraph at lines 245--256
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 t\/cmr/m/n/10 )\OML/cmm/m/it/10 TotaleUnfallko
 stenimJahr$$[] 
  []
 
 
-Overfull \hbox (1476.43997pt too wide) in paragraph at lines 219--228
-\OML/cmm/m/it/10 K[]KostenaufgrundEinnahmeverlustf[]$ 
+Overfull \hbox (1476.43997pt too wide) in paragraph at lines 245--256
+\OML/cmm/m/it/10 K[]KostenaufgrundEinnahmeverlustf[]$
  []
 
 Missing character: There is no H in font nullfont!
@@ -13482,47 +13815,47 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 229--232
+Overfull \hbox (20.0pt too wide) in paragraph at lines 257--260
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 o 
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 257--260
 \/cmr/m/n/10 u 
  []
 
@@ -13536,9 +13869,9 @@ Overfull \hbox (5.55557pt too wide) in paragraph at lines 229--232
 Here is how much of TeX's memory you used:
  50 strings out of 480934
  916 string characters out of 2895703
- 244327 words of memory out of 3000000
+ 245327 words of memory out of 3000000
  16014 multiletter control sequences out of 15000+200000
  532992 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,16p,763b,105s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,5n,16p,831b,120s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

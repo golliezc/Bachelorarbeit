@@ -70,6 +70,9 @@
 
 % my own packages
 % ---------------
+
+\usepackage{cases} 					% for math-cases
+
 \usepackage{setspace} 				% for {\setstretch{0.75}
 									%	  ...(Text/Inhalt)...
 									%	  }
@@ -88,16 +91,17 @@
 % BibLaTeX using biber as backend (recommended)
 % ---------------------------------------------
 
-%\usepackage[authordate,backend=biber]{biblatex-chicago}
-%\bibliography{literature}
-%\setlength\bibitemsep{1.5\itemsep}
+\usepackage[authordate,backend=biber]{biblatex-chicago}
+\addbibresource{./literature.bib}
+\setlength\bibitemsep{1.5\itemsep}
+
 
 
 % BibTeX
 % ------
 
 %\usepackage{cite}                   % Citations
-\usepackage{natbib}                 % Citation Style
+%\usepackage{natbib}                 % Citation Style
 % \usepackage{apacite}                % APA cite Style
 % \renewcommand{\bibsection}{}        % No auto headings
 

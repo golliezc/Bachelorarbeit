@@ -40,12 +40,14 @@ Für unsere Untersuchungen, welche die Infrastruktur in den nächsten 40 Jahren 
 
 \subsection{Unterhaltskosten}
 
+\begin{IMleftrightskip}
 Die \textbf{Unterhaltskosten $K_{U}(t)$} werden in Formel \ref{equation:2} dargestellt. Sie setzen sich zusammen aus den einmaligen Investitionskosten für den Bau der Infrastruktur $K_{Inv}$. 
 Die jährlich anfallenden Unterhaltskosten $K_{Unt,t}$ sowie die ausserordentlichen Interventionskosten pro Jahr $K_{Int,t}$. In den Jahren in denen an der Infrastruktur ausserplanmässige Unterhaltsarbeiten durchgeführt werden, wird $\delta_t = 1$ gesetzt ansonsten $0$. 
+\end{IMleftrightskip}
 
 \begin{equation}
-K_{U}(t) = K_{Inv} + \sum_{t=0}^T \ (K_{Unt,t} + \delta_{t} \cdot K_{Int,t})
 \label{equation:2}
+K_{U,i}(t) = K_{Bau,i} + \sum_{t=0}^T \ (K_{Unt,t} + \delta_{t} \cdot K_{Int,t})
 \end{equation} 
 
 {\setstretch{0.75}
@@ -58,6 +60,45 @@ wobei:
  $ $\delta_t$ $ &  $\in [0,1]$  
 \end{conditions}
 }
+
+\begin{equation}
+\label{equation:13}
+K_{U,i}(t) = K_{\text{Bau,i}} + \sum_{t=0}^T \  EK_{U} \cdot s_{i} \cdot \lambda_{Unterhalt}
+\end{equation}
+
+\begin{align*}
+      \lambda_{\mathrm{Unterhalt}} &=
+      \begin{cases}
+        \begin{aligned}
+          & 0.8  \\
+          & 1 \\
+          & 2
+        \end{aligned} &
+        \begin{aligned}
+         & \text{falls}\ \thinspace \\
+         & \text{falls}\ \thinspace \\
+         & \text{falls}\ \thinspace
+        \end{aligned}
+        \begin{aligned}
+          & DTV < Kapazit"at_{i} \\
+          & DTV = Kapazit"at_{i} \\
+          & DTV > Kapazit"at_{i}
+        \end{aligned}
+      \end{cases}
+\end{align*}
+
+{\setstretch{0.75}
+wobei:
+\begin{conditions}
+ K_{U}(t)     	     			&  Totale Unterhaltskosten im Jahr $t$ \\
+ K_{Bau,i}           			&  Baukosten der Variante $i$    \\
+ EK_{U}      	     			&  Kosten der Instandhaltung pro Kilometer im Jahr $t$  \\
+ s_i	    	     			&  Länge der Variante $i$ \\  
+ \lambda_{\mathrm{Unterhalt}} 	&  Auslastungsgrad
+\end{conditions}
+}
+
+
 
 Die Einheitskosten pro Jahr, die in Tabelle \ref{tab:t-04-01-Interessensgruppen} angegeben werden, setzten sich nur aus den jährlich anfallenden Unterhaltskosten zusammen. Die Baukosten sowie die ausserordentlichen Interventionskosten müssen gesondert betrachtet werden. 
 
