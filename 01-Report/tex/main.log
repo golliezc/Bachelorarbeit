@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  3 APR 2020 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  4 APR 2020 12:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -2100,12 +2100,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13] [14 <./figures/f-01-02-a-FORM.pdf> <./figures/f-01-02-b-FORM.pdf> <./figur
 es/f-01-02-c-FORM.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-  
- []
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 241.
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 240.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 243.
 
 ) [15] [16
 
@@ -2223,19 +2222,25 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 229--235
  []
 
 [14] [15]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 268--275
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 322--330
 [] 
  []
 
-) ("content/07- Szenarien.tex" [16]
+[16]
+Overfull \hbox (4.93695pt too wide) in paragraph at lines 341--342
+ \T1/cmr/m/n/10.95 die Be-hand-lung und Pfle-ge ei-ner schwer-ver-letz-ten Per-
+son wer-den mit $\OT1/cmr/m/n/10.95 100[]000 []$ 
+ []
+
+) ("content/07- Szenarien.tex" [17]
 chapter 7.
-) (content/08-Varianten.tex [17
+) (content/08-Varianten.tex [18
 
 ]
 chapter 8.
-[18
+[19
 
-]) [19]
+]) [20]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 75.
@@ -2245,7 +2250,7 @@ tt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 No file main.ind.
-[20
+[21
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
@@ -2259,9 +2264,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  50989 strings out of 480934
- 1156968 string characters out of 2895703
- 2272227 words of memory out of 3000000
- 65794 multiletter control sequences out of 15000+200000
+ 1156960 string characters out of 2895703
+ 2272233 words of memory out of 3000000
+ 65795 multiletter control sequences out of 15000+200000
  560657 words of font info for 93 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2307,17 +2312,14 @@ Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano
 Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/Cyrano Golliez/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Cyrano 
-Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pf
-b><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cyrano Golliez/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Cyrano G
-olliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (42 pages, 687133 bytes).
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
+yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on main.pdf (43 pages, 693192 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

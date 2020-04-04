@@ -253,30 +253,110 @@ Der Lärm entsteht mehrheitlich durch Motorengeräusche sowie der Abrollgeräusc
 \subsection{Unfallkosten}
 \label{sec:Unfallkosten}
 
-Die totalen \textbf{Unfallkosten} $K_{A}$ für den betrachteten Zeitraum von $T$ Jahren werden gemäss Formel \ref{equation:8} berechnet. 
-In Betracht gezogen werden drei Komponenten. Einerseits der Verlust an Einnahmen für 30 Tage pro Unfall. Dies wird mit $11'500 \thinspace \frac{CHF}{Unfall}$ verrechnet. 
-Weiter die Kosten für die Gesundheit bzw. die Pflege der verunfallten Person für 30 Tage. Die geschätzten Kosten belaufen sich auf $100'000 \thinspace \frac{CHF}{Unfall}$. 
-Und zuletzt die Kosten für einen Unfall mit Todesfolge. Hierfür werden $3.7mio \thinspace \frac{CHF}{Unfall}$ angesetzt. 
+Die totalen \textbf{Unfallkosten} $K_{A}$ für den betrachteten Zeitraum von $T$ Jahren werden gemäss Formel \ref{equation:8} berechnet. \\
+Die Berechnung dieser Kosten basiert auf der Kostenberechnung in ADEY (ZITAT).
+In Betracht gezogen werden drei verschiedene Unfaltypen [a,b,c]. Unfälle mit Leichtverletzte Personen und entstandenem Materialschaden werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. Die Kategorien unterscheidenen sich in der Häufigkeit des Unfalls pro Fahrzeug \( \lambda_{k} \) sowie der entstehenden Einheitskosten pro Unfall $EK_{k,n}$. \\
+Die enstehenden Einheitskosten pro Unfall werden auf der nächsten Seite dargestellt.
 
 \begin{equation}
-K_{A}(t) = \sum_{t=0}^T \ [(K_{A,Einnahmen}  + K_{A,Pflege}) \cdot i_t + K_{A,Tod} \cdot j_t]
+K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdot \gamma_{k,n} \Bigr) \cdot DTV_{k} \cdot \lambda_{k} \Biggr] 
 \label{equation:8}
 \end{equation}
+
+\begin{align*}
+      n &=
+      \begin{cases}
+        \begin{aligned}
+          & a  \\
+          & b \\
+          & c
+        \end{aligned} &
+        \begin{aligned}
+         & \text{für}\ \thinspace \\
+         & \text{für}\ \thinspace \\
+         & \text{für}\ \thinspace
+        \end{aligned}
+        \begin{aligned}
+          & {Materialschaden und Leichtverletzte} \\
+          & {Schwerverletzte} \\
+          & {Todesfall}
+        \end{aligned}
+      \end{cases}  \\
+      
+      k &=
+      \begin{cases}
+        \begin{aligned}
+          & 1 \\
+          & 2
+        \end{aligned} &
+        \begin{aligned}
+         & \text{für}\ \thinspace \\
+         & \text{für}\ \thinspace
+        \end{aligned}
+        \begin{aligned}
+          & Velo \\
+          & Auto
+        \end{aligned}
+      \end{cases} \\
+      
+      \lambda_{k} &=
+      \begin{cases}
+        \begin{aligned}
+          & 0.8  \\
+          & 1 \\
+          & 2
+        \end{aligned} &
+        \begin{aligned}
+         & \text{falls}\ \thinspace \\
+         & \text{falls}\ \thinspace \\
+         & \text{falls}\ \thinspace
+        \end{aligned}
+        \begin{aligned}
+          & DTV_{k} < Kapazit"at_{k} \\
+          & DTV_{k} = Kapazit"at_{k} \\
+          & DTV_{k} > Kapazit"at_{k}
+        \end{aligned}
+      \end{cases}
+\end{align*}
+ 
+\begin{equation*}
+\gamma_{k,n} = \frac{\# Unfälle_{n}}{\* Fahrzeuge_{k,2019,tot}}
+\end{equation*} 
+
+Die Anzahl Velofahrer wird gemäss \cite{Velo2014} auf jährlich 2.5 mio  geschätzt.\footcite{Velo2014}. \\
+Die Anzahl Motorfahrzeuge wird gemäss \cite{Bestand2019} auf 6.2 mio Fahrzeuge.\footcite{Bestand2019}
+Die Anzahl Unfälle der verschiedenen Typen wird der Strassenverkehrsunfall-Statistik des Bundesamt für Strassen entnommen. Die Werte beziehen sich auf das Jahr 2019.\footcite{Unfall2019}
+
+
 
 {\setstretch{0.75}
 wobei:
 \begin{conditions}
  K_{A}(t) 		 &  Totale Unfallkosten im Jahr $t$ \\
- K_{A,Einnahmen} &  Kosten aufgrund Einnahmeverlust für 30 Tage pro Unfall und Jahr  \\
- K_{A,Pflege} 	 &  Kosten für die Gesundheit bzw. Pflege für 30 Tage pro Unfall und Jahr \\
- K_{A,Tod}		 &  Kosten für Unfall mit Todesfolge pro Unfall und Jahr \\
- i_t        	 &  Anzahl Unfälle mit Ausfall der Einnahmen sowie Pflege für 30 Tage pro Jahr \\
- j_t        	 &  Anzahl Unfälle mit Todesfolge pro Jahr \\   
+ EK_{k,n} 		 &  Einheitskosten pro Unfall  \\
+ \gamma_{k,n} 	 &  Anzahl Unfälle pro Fahrzeug \\
+ \lambda_{k}	 &  Ausnützungsgrad der Infrastruktur\\
+ C_{k}       	 &  Kapazität der Infrastruktur \\
+ k          	 &  Art des Fahrzeugs \\   
+ n 				 &  Unfallart  \\
 \end{conditions}
 }
 
+\newpage
+
+Die Unfallkosten pro Jahr werden bestimmt durch die Anzahl an Unfällen die in einem Jahr auf der betrachteten Infrastruktur passieren. Die Anzahl Unfälle pro Jahr wurde mithilfe der Unfalldaten aus dem GIS-Browser geschätzt. So wurde Anzahl Unfälle pro Jahr und Kategorie aufsummiert und durch die totale Anzahl Fahrzeuge geteilt. Dies generierte den Faktor \( \gamma_{k,n} \) welcher die Anzahl Unfälle der Kategorie $n$ pro Fahrzeuge der Art $k$ beschreibt. \\
+Der Ausnützungsgrad \( \lambda_{k} \) bezieht die Auslastung der Kapazitäten der Infrastruktur in die Berechnung der Kosten mit ein. So verdoppelt sich die Anzahl Unfälle bei Überschreiten der Kapazitätsgrenze $C_{k}$ und verringert sich um 20\% bei Unterschreiten der Kapazität.
+
+\begin{IMleftrightskip}
+Für die Kategorie $a$ setzen sich die Einheitskosten pro Unfall aus dem Verlust der Einnahmen für 30 Tage pro Unfall sowie der entstehenden durchschnittlichen Materialschäden zusammen. Der Verlust an Einnahmen wird mit $11'500 \thinspace \frac{CHF}{Unfall}$ verrechnet. Die entstehenden Materialschäden können stark variiere. Zur Vereinfachung wird hier $3'500 \thinspace \frac{CHF}{Unfall}$ angesetzt. Dies entspricht in etwas dem Wiederverkaufswert eine 12 Jahre alten Autos.
+
+Die Kosten für Unfälle der Kategorie $b$ werden durch die enstehenden Behandlungskosten dominiert. Da die Kosten der Materialschäden deutlich geringen ausfallen werden diese in diesem Fall vernachlässigt. Die durchschnittliche Kosten für die Behandlung und Pflege einer schwerverletzten Person werden mit $100'000 \thinspace \frac{CHF}{Unfall}$ angesetzt.
+
+Und zuletzt die Kategorie $c$, die Kosten für einen Unfall mit Todesfolge. Hierfür werden $3.7mio \thinspace \frac{CHF}{Unfall}$ angesetzt. 
+\end{IMleftrightskip}
+
 Hier ist zu Vermerken, dass die Anzahl Unfälle pro Jahr mit einer Unsichererheit behaftet ist, welche aus der Ungewissheit resultiert, um wie viel die Nachfrage auf der Route steigen wird. \\ [2ex]
-So ist in diesem Fall die Anzahl Unfälle pro Jahr abhängig von der Anzahl Nutzer pro Jahr. Die Anzahl Nutzer wiederum ist abhängig von der gebauten Variante sowie vom progonstizierten Bevölkerungswachstum. \\
+So ist in diesem Fall die Anzahl Unfälle pro Jahr abhängig von der Anzahl Nutzer pro Jahr. Die Anzahl Nutzer wiederum ist abhängig von der Verkehrstechnischen Entwicklung Usters sowie vom progonstizierten Bevölkerungswachstum. \\
 Für die Unfallkosten sind somit die Anzahl Unfälle und demnach die Anzahl Nutzer die unsicheren Randbedingungen die im Falle einer Optimierung modeliert werden müssten.
 
 

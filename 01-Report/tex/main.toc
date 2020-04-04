@@ -35,14 +35,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.2}Unfallkosten}{16}{subsection.6.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Szenarien}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Szenarien}{18}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Varianten}{18}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Varianten}{19}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Variante: \ 1}{18}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Variante: \ 1}{19}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Variante: \ 2}{18}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Variante: \ 2}{19}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Variante: \ 3}{19}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Variante: \ 3}{20}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{20}{chapter*.23}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{21}{chapter*.23}%

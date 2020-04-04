@@ -33,4 +33,23 @@
   doi     = {10.1016/j.strusafe.2007.12.001},
 }
 
+@Book{Velo2014,
+  author    = {Simon Rikus and Adrian Fischer and Markus Lamprecht},
+  publisher = {Hrsg. Bundesamt für Strassen und SchweizMobil},
+  title     = {Velofahren in der Schweiz 2014},
+  year      = {Bern 2015},
+}
+
+@TechReport{Unfall2019,
+  author = {{Bundesamt für Strassen ASTRA}},
+  title  = {{Strassenverkehrsunfall-Statistik 2015 - 2019}},
+  year   = {2020},
+}
+
+@TechReport{Bestand2019,
+  author = {{BFS} and {Bundesamt für Strassen ASTRA}},
+  title  = {{Strassenfahrzeugbestand (MFZ)}},
+  year   = {2019},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
