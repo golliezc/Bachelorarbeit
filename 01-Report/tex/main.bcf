@@ -3869,6 +3869,10 @@
     <bcf:citekey order="6">Nowak2000</bcf:citekey>
     <bcf:citekey order="7">Nowak2000</bcf:citekey>
     <bcf:citekey order="8">STEK Kap.7</bcf:citekey>
+    <bcf:citekey order="9">Unfallrisiko2019</bcf:citekey>
+    <bcf:citekey order="10">Bestand2019</bcf:citekey>
+    <bcf:citekey order="11">Unfall2019</bcf:citekey>
+    <bcf:citekey order="12">Unfall2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

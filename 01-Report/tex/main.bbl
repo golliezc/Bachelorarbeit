@@ -19,6 +19,82 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{Unfallrisiko2019}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
+           family={{BFS}},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
+           family={{Bundesamt für Strassen ASTRA}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{fullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{bibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authorbibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authornamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authorfullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Risikovergleich ausgewählter Landverkehrsmittel, 2008-2017}}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
+    \entry{Bestand2019}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
+           family={{BFS}},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
+           family={{Bundesamt für Strassen ASTRA}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{fullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{bibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authorbibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authornamehash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{authorfullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Strassenfahrzeugbestand (MFZ)}}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
+    \entry{Unfall2019}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
+           family={{Bundesamt für Strassen ASTRA}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{749efa97b626cb04e76af02310551cec}
+      \strng{fullhash}{749efa97b626cb04e76af02310551cec}
+      \strng{bibnamehash}{749efa97b626cb04e76af02310551cec}
+      \strng{authorbibnamehash}{749efa97b626cb04e76af02310551cec}
+      \strng{authornamehash}{749efa97b626cb04e76af02310551cec}
+      \strng{authorfullhash}{749efa97b626cb04e76af02310551cec}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Strassenverkehrsunfall-Statistik 2010 - 2019}}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
     \entry{chicago2010}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a83f49d3cb847229a8f512acd76a7155}{%

@@ -255,11 +255,11 @@ Der Lärm entsteht mehrheitlich durch Motorengeräusche sowie der Abrollgeräusc
 
 Die totalen \textbf{Unfallkosten} $K_{A}$ für den betrachteten Zeitraum von $T$ Jahren werden gemäss Formel \ref{equation:8} berechnet. \\
 Die Berechnung dieser Kosten basiert auf der Kostenberechnung in ADEY (ZITAT).
-In Betracht gezogen werden drei verschiedene Unfaltypen [a,b,c]. Unfälle mit Leichtverletzte Personen und entstandenem Materialschaden werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. Die Kategorien unterscheidenen sich in der Häufigkeit des Unfalls pro Fahrzeug \( \lambda_{k} \) sowie der entstehenden Einheitskosten pro Unfall $EK_{k,n}$. \\
+In Betracht gezogen werden drei verschiedene Unfaltypen [a,b,c]. Unfälle mit Leichtverletzte Personen und entstandenem Sachschaden werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. Die Kategorien unterscheidenen sich in der Häufigkeit des Unfalls pro Fahrzeug \( \lambda_{k} \) sowie der entstehenden Einheitskosten pro Unfall $EK_{k,n}$. \\
 Die enstehenden Einheitskosten pro Unfall werden auf der nächsten Seite dargestellt.
 
 \begin{equation}
-K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdot \gamma_{k,n} \Bigr) \cdot DTV_{k} \cdot \lambda_{k} \Biggr] 
+K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdot \gamma_{k,n} \Bigr) \cdot DTV_{k} \cdot s_i \cdot \lambda_{k} \Biggr] 
 \label{equation:8}
 \end{equation}
 
@@ -282,7 +282,6 @@ K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdo
           & {Todesfall}
         \end{aligned}
       \end{cases}  \\
-      
       k &=
       \begin{cases}
         \begin{aligned}
@@ -298,7 +297,6 @@ K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdo
           & Auto
         \end{aligned}
       \end{cases} \\
-      
       \lambda_{k} &=
       \begin{cases}
         \begin{aligned}
@@ -318,16 +316,6 @@ K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdo
         \end{aligned}
       \end{cases}
 \end{align*}
- 
-\begin{equation*}
-\gamma_{k,n} = \frac{\# Unfälle_{n}}{\* Fahrzeuge_{k,2019,tot}}
-\end{equation*} 
-
-Die Anzahl Velofahrer wird gemäss \cite{Velo2014} auf jährlich 2.5 mio  geschätzt.\footcite{Velo2014}. \\
-Die Anzahl Motorfahrzeuge wird gemäss \cite{Bestand2019} auf 6.2 mio Fahrzeuge.\footcite{Bestand2019}
-Die Anzahl Unfälle der verschiedenen Typen wird der Strassenverkehrsunfall-Statistik des Bundesamt für Strassen entnommen. Die Werte beziehen sich auf das Jahr 2019.\footcite{Unfall2019}
-
-
 
 {\setstretch{0.75}
 wobei:
@@ -335,12 +323,25 @@ wobei:
  K_{A}(t) 		 &  Totale Unfallkosten im Jahr $t$ \\
  EK_{k,n} 		 &  Einheitskosten pro Unfall  \\
  \gamma_{k,n} 	 &  Anzahl Unfälle pro Fahrzeug \\
- \lambda_{k}	 &  Ausnützungsgrad der Infrastruktur\\
  C_{k}       	 &  Kapazität der Infrastruktur \\
- k          	 &  Art des Fahrzeugs \\   
  n 				 &  Unfallart  \\
+ k          	 &  Art des Fahrzeugs \\   
+ \lambda_{k}	 &  Ausnützungsgrad der Infrastruktur\\
 \end{conditions}
-}
+} 
+
+Die Anzahl Unfälle pro Personenkilometer wird mithilfe der Risiken eines Unfall mit Todesfolge gemäss \cite{Unfallrisiko2019} ermittelt. 
+Die Anzahl Strassenmotorfahrzeuge in der Schweiz betrug 2019 6'160'262 Fahrzeuge.\footcite[Vlg.]{Bestand2019}
+Davon waren 744'542 Motorräder, was einem Anteil von 12.09\% entspricht, der Rest wird in dieser Betrachtung als Autos definiert. Da das Unfallrisiko für Motorräder deutlich höher ist als für Autos, wurde der prozentuale Anteil an der gesamten Menge an Strassenmotorfahrzeugen verwendet um das Unfallrisiko des MIV's zu berechnen. \\
+$\gamma_{MIV,c} = Anteil_{Motorrad} \cdot \gamma_{Motorrad,c} + Anteil_{Auto,c} \cdot \gamma_{Auto,c}$ 
+Die Berechnung der Unfallrisiken der Unfalltypen $a$ und $b$ erfolgte mithilfe der prozentualen Anteile der Unfalltypen an der Gesamtanzahl an Unfällen im Jahr 2019.\footcite{Unfall2019}
+Die Anzahl Unfälle der verschiedenen Typen wird der Strassenverkehrsunfall-Statistik des Bundesamt für Strassen entnommen. Die Werte beziehen sich auf das Jahr 2019.
+So waren 2019 0.334\% aller Unfälle, Unfälle mit Todesfolge, 6.45\% aller Unfäller waren Unfälle mit Schwerverletzten und 93.21\% der Unfälle haten Sachschaden und Leichtverletzte Personen zur Folge.\footcite{Unfall2019}
+Die Unfallrisiken der Unfalltypen $a$ und $b$ wurden somit mithilfer dieser Anteile aus dem Unfallrisiko für die Unfälle des Typs $c$ geschätzt.
+
+Die folgenden Tabelle \ref{tab:t-06-01-Unfallrisiko} listet die Unfallrisiken $\gamma_{k,n}\,\Bigl[\frac{Unf"alle_{k,n}}{Pkm_{k}}\Bigl]$ der verschiedenene Fahrzeuge $k$ und der verschiedenen Unfalltypen $n$ auf. \\
+
+\input{./tables/t-06-01-Unfallrisiko}
 
 \newpage
 

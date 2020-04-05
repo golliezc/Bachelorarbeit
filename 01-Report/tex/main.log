@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  4 APR 2020 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  5 APR 2020 15:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -2226,21 +2226,34 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 322--330
 [] 
  []
 
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 339.
+
 [16]
-Overfull \hbox (4.93695pt too wide) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+(tables/t-06-01-Unfallrisiko.tex
+Overfull \hbox (2.06642pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/bx/n/10.95 Fahrezugtyp$[]$| 
+ []
+
+) [17]
+Overfull \hbox (4.93695pt too wide) in paragraph at lines 354--355
  \T1/cmr/m/n/10.95 die Be-hand-lung und Pfle-ge ei-ner schwer-ver-letz-ten Per-
 son wer-den mit $\OT1/cmr/m/n/10.95 100[]000 []$ 
  []
 
-) ("content/07- Szenarien.tex" [17]
+) ("content/07- Szenarien.tex" [18]
 chapter 7.
-) (content/08-Varianten.tex [18
+) (content/08-Varianten.tex [19
 
 ]
 chapter 8.
-[19
+[20
 
-]) [20]
+]) [21]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 75.
@@ -2250,7 +2263,7 @@ tt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 No file main.ind.
-[21
+[22
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
@@ -2263,10 +2276,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50989 strings out of 480934
- 1156960 string characters out of 2895703
- 2272233 words of memory out of 3000000
- 65795 multiletter control sequences out of 15000+200000
+ 51018 strings out of 480934
+ 1157712 string characters out of 2895703
+ 2272528 words of memory out of 3000000
+ 65813 multiletter control sequences out of 15000+200000
  560657 words of font info for 93 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2317,9 +2330,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
 yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
 .pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on main.pdf (43 pages, 693192 bytes).
+Output written on main.pdf (44 pages, 708971 bytes).
 PDF statistics:
- 1215 PDF objects out of 1440 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
+ 1257 PDF objects out of 1440 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
