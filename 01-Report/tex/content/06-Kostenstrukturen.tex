@@ -80,9 +80,9 @@ K_{U,i}(t) = K_{\text{Bau,i}} + \sum_{t=0}^T \  EK_{U} \cdot s_{i} \cdot \lambda
          & \text{falls}\ \thinspace
         \end{aligned}
         \begin{aligned}
-          & DTV < Kapazit"at_{i} \\
-          & DTV = Kapazit"at_{i} \\
-          & DTV > Kapazit"at_{i}
+          & DTV < C_{i} \\
+          & DTV = C_{i} \\
+          & DTV > C_{i}
         \end{aligned}
       \end{cases}
 \end{align*}
@@ -94,7 +94,8 @@ wobei:
  K_{Bau,i}           			&  Baukosten der Variante $i$    \\
  EK_{U}      	     			&  Kosten der Instandhaltung pro Kilometer im Jahr $t$  \\
  s_i	    	     			&  Länge der Variante $i$ \\  
- \lambda_{\mathrm{Unterhalt}} 	&  Auslastungsgrad
+ \lambda_{\mathrm{Unterhalt}} 	&  Auslastungsgrad   \\
+ C_{i}							&  Kapazität der Variante $i$ \\
 \end{conditions}
 }
 
@@ -198,12 +199,13 @@ Die nachfolgenden Kosten sind die massgebenden Einwirkungen auf die Allgemeinhei
 \label{sec:Umweltkosten}
 
 Die \textbf{Kosten die durch die Belastung der Umwelt} $K_{E}(t)$ (\textit{Englisch}: Environment) entstehen,
-setzen sich auf den Kosten durch die Schadstoffbelastung $K_{S}(t)$ und der Kosten durch die Lärmbelastung $K_{L}(t)$ zusammen. 
-Die Einheitskosten der Umweltbelastung wird aus der Summe der Einheitskosten für die Lärm- und Schadstoffbelastung gebildet.
-Die Einheitskosten der Schadstoffbelastung pro Fahrzeug beträgt 500 $\frac{CHF}{Fahrzeug}$. Die Einheitskosten der Lärmbelastung liegen bei 500 $\frac{CHF}{Fahrzeug}$. 	 
+setzen sich auf den Kosten der Luftverschmutzung durch die Schadstoffbelastung $K_{S}(t)$ und der Kosten durch die Lärmbelastung $K_{L}(t)$ zusammen. 
+Die Einheitskosten der Umweltbelastung werden aus der Summe der Einheitskosten für die Lärm- und Schadstoffbelastungen gebildet. \\
+Die Einheitskosten der Schadstoffbelastung pro Fahrzeugkilometer betragen gemäss Tabelle 3-1 \textit{Durchschnittliche externe Kosten der Luftverschmutzung im Strassenverkehr im Jahr 2000} \cite[p.38]{Ecoplan2007} 0.0345 $\frac{CHF}{Fahrzeugkilometer}$.\footcite{Ecoplan2007} \\
+Die Einheitskosten der Lärmbelastung betragen gemäss Tabelle 7-4 \textit{Lärmkosten pro Fzkm, pkm und tkm im Strassenverkehr} \cite[p.127]{Lärm2000} 0.0149 $\frac{CHF}{Fahrzeugkilometer}$.\footcite{Lärm2000} 	 
 
 \begin{equation}
-K_{E}(t) = \sum_{t=0}^T \ [(K_{S,t} + K_{L,t}) \cdot S_{MIV,t}]
+K_{E}(t) = \sum_{t=0}^T \ \biggl(K_{S,t} + K_{L,t} \biggr) 
 \label{equation:6}
 \end{equation}
 
@@ -213,25 +215,39 @@ wobei:
  K_{E}(t)	   &  Totale Umwelkosten im Jahr $t$ \\
  K_{S,t}       &  Kosten durch die Schadstoffbelastung pro Jahr \\
  K_{L,t}       &  Kosten durch die Lärmbelastung pro Jahr  \\
- S_{MIV,t}     &  Totale Anzahl Nutzer im Jahr $t$. Berechnet gemäss Formel \ref{equation:7}   \\
 \end{conditions} 
 }
 
-Die Anzahl Fahrzeuge des motoriesierten Individualverkehrs (MIV), die pro Jahr auf der Infrastruktur unterwegs sind, wird gemäss Formel \ref{equation:7} berechnet.
+Die Kosten durch die \textbf{Schadstoffbelastung} werden gemäss Formel \ref{equation:7} berechnet.
 
 \begin{equation}
-S_{MIV,t} = S_{MIV,0} + S_{Bev,MIV,t} + S_{SBB,MIV,t} + S_{Var,MIV,t}
+K_{S,t} = EK_{S} \cdot DTV_{MIV,t} \cdot s_{i} \biggl( 1 - \Phi_{E-Auto,t} \biggr) 
 \label{equation:7}
 \end{equation}
 
 {\setstretch{0.75}
 wobei:
 \begin{conditions}
- S_{MIV,t}      &  Totale Anzahl Fahrzeuge im Jahr $t$ \\
- S_{MIV,0}      &  Initiale Anzahl Fahrzeuge im Jahr $0$ \\
- S_{Bev,MIV,t}  &  Veränderung der Anzahl Fahrzeuge aufgrund des Bevölkerungswachstum im Jahr $t$ \\
- S_{SBB,MIV,t}  &  Veränderung der Anzahl Fahrzeuge aufgrund der Kapazitätserhöhung der SBB-Linie im Jahr $t$ \\
- S_{Var,MIV,t}  &  Veränderung der Anzahl Fahrzeuge aufgrund der gebauten Variaten im Jahr $t$ \\
+ EK_{S}         	&  Einheitskosten der Schadstoffbelastug pro Fahrzeugkilometer \\
+ s_{i}          	&  Länge der Variante $i$ in $[km]$ \\
+ DTV_{MIV,t}    	&  Durchschnittliche tägliche Verkehrsaufkommen im Jahr $t$  \\
+ \Phi_{E-Auto,t}  &  Marktanteil E-Autos am $DTV_{MIV,t}$ im Jahr $t$ \\
+\end{conditions} 
+}
+
+Die Kosten durch die \textbf{Lärmbelastung} werden gemäss Formel \ref{equation:7.1} berechnet.
+
+\begin{equation}
+K_{L,t} = EK_{L} \cdot DTV_{MIV,t} \cdot s_{i}
+\label{equation:7.1}
+\end{equation}
+
+{\setstretch{0.75}
+wobei:
+\begin{conditions}
+ EK_{L}         	&  Einheitskosten der Lärmbelastung pro Fahrzeugkilometer \\
+ s_{i}          	&  Länge der Variante $i$ in $[km]$ \\
+ DTV_{MIV,t}    	&  Durchschnittliche tägliche Verkehrsaufkommen im Jahr $t$  \\
 \end{conditions} 
 }
 
@@ -255,7 +271,7 @@ Der Lärm entsteht mehrheitlich durch Motorengeräusche sowie der Abrollgeräusc
 
 Die totalen \textbf{Unfallkosten} $K_{A}$ für den betrachteten Zeitraum von $T$ Jahren werden gemäss Formel \ref{equation:8} berechnet. \\
 Die Berechnung dieser Kosten basiert auf der Kostenberechnung in ADEY (ZITAT).
-In Betracht gezogen werden drei verschiedene Unfaltypen [a,b,c]. Unfälle mit Leichtverletzte Personen und entstandenem Sachschaden werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. Die Kategorien unterscheidenen sich in der Häufigkeit des Unfalls pro Fahrzeug \( \lambda_{k} \) sowie der entstehenden Einheitskosten pro Unfall $EK_{k,n}$. \\
+In Betracht gezogen werden drei verschiedene Unfaltypen [a,b,c]. Unfälle mit Sachschäden eichtverletzten Personen und werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. Die Kategorien unterscheidenen sich in der Häufigkeit des Unfalls pro Fahrzeug \( \lambda_{k} \) sowie der entstehenden Einheitskosten pro Unfall $EK_{k,n}$. \\
 Die enstehenden Einheitskosten pro Unfall werden auf der nächsten Seite dargestellt.
 
 \begin{equation}
@@ -277,7 +293,7 @@ K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdo
          & \text{für}\ \thinspace
         \end{aligned}
         \begin{aligned}
-          & {Materialschaden und Leichtverletzte} \\
+          & {Sachsch"aden\,und\,Leichtverletzte} \\
           & {Schwerverletzte} \\
           & {Todesfall}
         \end{aligned}
@@ -310,9 +326,9 @@ K_{A}(t) = \sum_{t=0}^T \Biggl[ \sum_{k=1}^2 \Bigl( \sum_{n=a}^c \ EK_{k,n} \cdo
          & \text{falls}\ \thinspace
         \end{aligned}
         \begin{aligned}
-          & DTV_{k} < Kapazit"at_{k} \\
-          & DTV_{k} = Kapazit"at_{k} \\
-          & DTV_{k} > Kapazit"at_{k}
+          & DTV_{k} < C_{i,k} \\
+          & DTV_{k} = C_{i,k} \\
+          & DTV_{k} > C_{i,k}
         \end{aligned}
       \end{cases}
 \end{align*}
@@ -323,7 +339,7 @@ wobei:
  K_{A}(t) 		 &  Totale Unfallkosten im Jahr $t$ \\
  EK_{k,n} 		 &  Einheitskosten pro Unfall  \\
  \gamma_{k,n} 	 &  Anzahl Unfälle pro Fahrzeug \\
- C_{k}       	 &  Kapazität der Infrastruktur \\
+ C_{i,k}       	 &  Kapazität der Variante $i$ \\
  n 				 &  Unfallart  \\
  k          	 &  Art des Fahrzeugs \\   
  \lambda_{k}	 &  Ausnützungsgrad der Infrastruktur\\
@@ -333,30 +349,29 @@ wobei:
 Die Anzahl Unfälle pro Personenkilometer wird mithilfe der Risiken eines Unfall mit Todesfolge gemäss \cite{Unfallrisiko2019} ermittelt. 
 Die Anzahl Strassenmotorfahrzeuge in der Schweiz betrug 2019 6'160'262 Fahrzeuge.\footcite[Vlg.]{Bestand2019}
 Davon waren 744'542 Motorräder, was einem Anteil von 12.09\% entspricht, der Rest wird in dieser Betrachtung als Autos definiert. Da das Unfallrisiko für Motorräder deutlich höher ist als für Autos, wurde der prozentuale Anteil an der gesamten Menge an Strassenmotorfahrzeugen verwendet um das Unfallrisiko des MIV's zu berechnen. \\
-$\gamma_{MIV,c} = Anteil_{Motorrad} \cdot \gamma_{Motorrad,c} + Anteil_{Auto,c} \cdot \gamma_{Auto,c}$ 
-Die Berechnung der Unfallrisiken der Unfalltypen $a$ und $b$ erfolgte mithilfe der prozentualen Anteile der Unfalltypen an der Gesamtanzahl an Unfällen im Jahr 2019.\footcite{Unfall2019}
+$\gamma_{MIV,c} = Anteil_{Motorrad} \cdot \gamma_{Motorrad,c} + Anteil_{Auto,c} \cdot \gamma_{Auto,c}$ \\
+Die Berechnung der Unfallrisiken der Unfalltypen $a$ und $b$ erfolgte mithilfe der prozentualen Anteile der Unfalltypen an der Gesamtanzahl an Unfällen im Jahr 2019.
 Die Anzahl Unfälle der verschiedenen Typen wird der Strassenverkehrsunfall-Statistik des Bundesamt für Strassen entnommen. Die Werte beziehen sich auf das Jahr 2019.
 So waren 2019 0.334\% aller Unfälle, Unfälle mit Todesfolge, 6.45\% aller Unfäller waren Unfälle mit Schwerverletzten und 93.21\% der Unfälle haten Sachschaden und Leichtverletzte Personen zur Folge.\footcite{Unfall2019}
 Die Unfallrisiken der Unfalltypen $a$ und $b$ wurden somit mithilfer dieser Anteile aus dem Unfallrisiko für die Unfälle des Typs $c$ geschätzt.
 
-Die folgenden Tabelle \ref{tab:t-06-01-Unfallrisiko} listet die Unfallrisiken $\gamma_{k,n}\,\Bigl[\frac{Unf"alle_{k,n}}{Pkm_{k}}\Bigl]$ der verschiedenene Fahrzeuge $k$ und der verschiedenen Unfalltypen $n$ auf. \\
+Die folgenden Tabelle \ref{tab:t-06-01-Unfallrisiko} listet die berechneten Unfallrisiken für die verschiedenen Fahrzeuge $k$ und die verschiedenen Unfalltypen $n$ auf. 
 
 \input{./tables/t-06-01-Unfallrisiko}
 
 \newpage
 
-Die Unfallkosten pro Jahr werden bestimmt durch die Anzahl an Unfällen die in einem Jahr auf der betrachteten Infrastruktur passieren. Die Anzahl Unfälle pro Jahr wurde mithilfe der Unfalldaten aus dem GIS-Browser geschätzt. So wurde Anzahl Unfälle pro Jahr und Kategorie aufsummiert und durch die totale Anzahl Fahrzeuge geteilt. Dies generierte den Faktor \( \gamma_{k,n} \) welcher die Anzahl Unfälle der Kategorie $n$ pro Fahrzeuge der Art $k$ beschreibt. \\
-Der Ausnützungsgrad \( \lambda_{k} \) bezieht die Auslastung der Kapazitäten der Infrastruktur in die Berechnung der Kosten mit ein. So verdoppelt sich die Anzahl Unfälle bei Überschreiten der Kapazitätsgrenze $C_{k}$ und verringert sich um 20\% bei Unterschreiten der Kapazität.
+Die Unfallkosten pro Jahr werden durch die Anzahl an Unfällen die in einem Jahr auf der betrachteten Infrastruktur passieren bestimmt. Die Anzahl Unfälle pro Jahr sind vom  Ausnützungsgrad \( \lambda_{k} \) der Infrastruktur abhängig. Mit den geschätzten Faktoren wird die Auslastung der Kapazitäten der Infrastruktur in die Berechnung der Kosten mit ein bezogen. So verdoppelt sich die Anzahl Unfälle bei Überschreiten der Kapazitätsgrenze $C_{k}$ und verringert sich um 20\% bei Unterschreiten der Kapazität.
 
 \begin{IMleftrightskip}
-Für die Kategorie $a$ setzen sich die Einheitskosten pro Unfall aus dem Verlust der Einnahmen für 30 Tage pro Unfall sowie der entstehenden durchschnittlichen Materialschäden zusammen. Der Verlust an Einnahmen wird mit $11'500 \thinspace \frac{CHF}{Unfall}$ verrechnet. Die entstehenden Materialschäden können stark variiere. Zur Vereinfachung wird hier $3'500 \thinspace \frac{CHF}{Unfall}$ angesetzt. Dies entspricht in etwas dem Wiederverkaufswert eine 12 Jahre alten Autos.
+Für die Kategorie $a$ setzen sich die Einheitskosten pro Unfall aus den entstandenen Sachschäden und den Arbeits- und Materialkösten der Reperatur der Fahrzeuge zusammen. Unter der Annahme, dass das durchschnittliche Alter eines Personenenwagens in der Schweiz 8.5 Jahre beträgt und somit schon einen deutlichen Wertverlust erlitten hat, wird gemäss (EBERLEHOFMMAN MSC) die Einheitskosten der Kategorie a mit $15'000 \frac{CHF}{Unfall}$ angesetzt. Die Kosten für die Behandlung leichtverletzter Personen wird in dieser Betrachtung aufgrund ihrer geringen grösse vernachlässigt.
 
-Die Kosten für Unfälle der Kategorie $b$ werden durch die enstehenden Behandlungskosten dominiert. Da die Kosten der Materialschäden deutlich geringen ausfallen werden diese in diesem Fall vernachlässigt. Die durchschnittliche Kosten für die Behandlung und Pflege einer schwerverletzten Person werden mit $100'000 \thinspace \frac{CHF}{Unfall}$ angesetzt.
+Die Kosten für Unfälle der Kategorie $b$ werden durch die enstehenden Behandlungskosten dominiert. Die entstehenden Kosten durch den Erwerbsausfall für die Dauer der Arbeitsunfähigkeit sowie die Kosten der entstandenen Sachschäden werden in dieser Berechnung aufgrund ihrer im Vergleich zu den Behandlungskosten geringen Grösse, vernachlässigt.  Die durchschnittliche Kosten die durch eine schwerverletzte Person entstehen, werden mit $110'000 \thinspace \frac{CHF}{Unfall}$ angesetzt. SIEHE MSC EBERLEHOFMANN was 3\% der Kosten einer tödlich verunfallten Person entspricht.
 
-Und zuletzt die Kategorie $c$, die Kosten für einen Unfall mit Todesfolge. Hierfür werden $3.7mio \thinspace \frac{CHF}{Unfall}$ angesetzt. 
+Und zuletzt die Kategorie $c$, die Kosten für einen Unfall mit Todesfolge. Hierfür werden $3.7mio \thinspace \frac{CHF}{Unfall}$ angesetzt.
 \end{IMleftrightskip}
 
-Hier ist zu Vermerken, dass die Anzahl Unfälle pro Jahr mit einer Unsichererheit behaftet ist, welche aus der Ungewissheit resultiert, um wie viel die Nachfrage auf der Route steigen wird. \\ [2ex]
+Hier ist zu Vermerken, dass die Anzahl Unfälle pro Jahr mit einer Unsichererheit behaftet sind. Diese resultiert aus der Ungewissheit, um wie viel die Nachfrage auf der Route steigen wird und ab welchem Zeitpunkt die Infrastruktur an ihre Grenzen stossen wird.\\ [2ex]
 So ist in diesem Fall die Anzahl Unfälle pro Jahr abhängig von der Anzahl Nutzer pro Jahr. Die Anzahl Nutzer wiederum ist abhängig von der Verkehrstechnischen Entwicklung Usters sowie vom progonstizierten Bevölkerungswachstum. \\
 Für die Unfallkosten sind somit die Anzahl Unfälle und demnach die Anzahl Nutzer die unsicheren Randbedingungen die im Falle einer Optimierung modeliert werden müssten.
 

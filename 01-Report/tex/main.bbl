@@ -73,6 +73,28 @@
       \field{type}{techreport}
       \field{year}{2019}
     \endentry
+    \entry{Lärm2000}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5261217e7a65232c39d2e298be07a384}{%
+           family={{Bundesamt für Raumentwicklung}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{fullhash}{5261217e7a65232c39d2e298be07a384}
+      \strng{bibnamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authorbibnamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authornamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authorfullhash}{5261217e7a65232c39d2e298be07a384}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Externe Lärmkosten des Strassen- und Schienenverkehrs der Schweiz, Aktualisierung für das Jahr 2000.}}
+      \field{type}{techreport}
+      \field{year}{Bern 2004}
+    \endentry
     \entry{Unfall2019}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
@@ -126,6 +148,35 @@
       \field{series}{Chicago Manual of Style}
       \field{title}{The Chicago Manual of Style}
       \field{year}{2010}
+    \endentry
+    \entry{Ecoplan2007}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a252bf4a0321e900724ac4fbfab3f9e}{%
+           family={{Ecoplan, VSS}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \strng{fullhash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \strng{bibnamehash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \strng{authorbibnamehash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \strng{authornamehash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \strng{authorfullhash}{7a252bf4a0321e900724ac4fbfab3f9e}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Grundlagen für die Durchführung einer Kosten-Nutzen-Analyse}}
+      \field{title}{{Externe Kosten im Strassenverkehr}}
+      \field{type}{techreport}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf
+      \endverb
+      \verb{url}
+      \verb https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf
+      \endverb
     \endentry
     \entry{Nowak2000}{book}{}
       \name{author}{2}{}{%

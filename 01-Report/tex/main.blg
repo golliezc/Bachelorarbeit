@@ -1,20 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[2] Config.pm:307> INFO - Logfile is 'main.blg'
-[121] biber-MSWIN64:322> INFO - === 
-[155] Biber.pm:415> INFO - Reading 'main.bcf'
-[507] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[546] Biber.pm:4256> INFO - Processing section 0
-[547] Utils.pm:75> INFO - Globbing data source './literature.bib'
-[570] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
-[604] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
-[610] bibtex.pm:1653> INFO - LaTeX decoding ...
-[633] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
-[733] Utils.pm:304> WARN - I didn't find a database entry for 'STEK Kap.7' (section 0)
-[761] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[762] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
-[763] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[763] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
-[764] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[781] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[790] bbl.pm:755> INFO - Output to main.bbl
-[791] Biber.pm:128> INFO - WARNINGS: 1
+[1] Config.pm:307> INFO - Logfile is 'main.blg'
+[107] biber-MSWIN64:322> INFO - === 
+[137] Biber.pm:415> INFO - Reading 'main.bcf'
+[442] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[473] Biber.pm:4256> INFO - Processing section 0
+[474] Utils.pm:75> INFO - Globbing data source './literature.bib'
+[495] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
+[522] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
+[527] bibtex.pm:1653> INFO - LaTeX decoding ...
+[555] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
+[639] Utils.pm:304> WARN - year field 'Bern 2004' in entry 'Lärm2000' is not an integer - this will probably not sort properly.
+[660] Utils.pm:304> WARN - I didn't find a database entry for 'STEK Kap.7' (section 0)
+[694] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[695] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
+[696] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[696] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
+[696] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[727] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[737] bbl.pm:755> INFO - Output to main.bbl
+[737] Biber.pm:128> INFO - WARNINGS: 2

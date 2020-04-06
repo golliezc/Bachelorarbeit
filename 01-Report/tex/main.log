@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  5 APR 2020 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  7 APR 2020 01:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -2192,60 +2192,47 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 55--61
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 92--98
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 92--99
 [] 
  []
 
 [9] [10]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 129--134
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 130--135
 [] 
  []
 
 [11]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 154--160
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 155--161
 [] 
  []
 
 [12]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 179--184
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 180--185
 [] 
  []
 
 [13]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 212--217
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 214--218
 [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 229--235
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 230--235
 [] 
  []
 
-[14] [15]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 322--330
+[14]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 247--251
 [] 
  []
 
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 339.
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
+[15]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 338--346
+[] 
  []
 
-(tables/t-06-01-Unfallrisiko.tex
-Overfull \hbox (2.06642pt too wide) in paragraph at lines 24--24
-[]|\T1/cmr/bx/n/10.95 Fahrezugtyp$[]$| 
- []
-
-) [17]
-Overfull \hbox (4.93695pt too wide) in paragraph at lines 354--355
- \T1/cmr/m/n/10.95 die Be-hand-lung und Pfle-ge ei-ner schwer-ver-letz-ten Per-
-son wer-den mit $\OT1/cmr/m/n/10.95 100[]000 []$ 
- []
-
-) ("content/07- Szenarien.tex" [18]
+[16] (tables/t-06-01-Unfallrisiko.tex) [17]) ("content/07- Szenarien.tex"
+[18]
 chapter 7.
 ) (content/08-Varianten.tex [19
 
@@ -2276,10 +2263,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51018 strings out of 480934
- 1157712 string characters out of 2895703
- 2272528 words of memory out of 3000000
- 65813 multiletter control sequences out of 15000+200000
+ 51033 strings out of 480934
+ 1158034 string characters out of 2895703
+ 2272673 words of memory out of 3000000
+ 65824 multiletter control sequences out of 15000+200000
  560657 words of font info for 93 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2319,20 +2306,21 @@ s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Goll
 iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano 
-Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/C
-yrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
-.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/palatino/uplri8a.pfb>
-Output written on main.pdf (44 pages, 708971 bytes).
+msfonts/cm/cmr6.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Go
+lliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Use
+rs/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/up
+lb8a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/palatino/uplr8a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (44 pages, 728535 bytes).
 PDF statistics:
- 1257 PDF objects out of 1440 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 1296 PDF objects out of 1440 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
