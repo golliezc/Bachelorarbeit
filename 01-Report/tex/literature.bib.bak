@@ -1,12 +1,13 @@
 % Encoding: UTF-8
-@BOOK{chicago2010,
-  title={The Chicago Manual of Style},
-  author={University of Chicago Press},
-  isbn={9780226104201},
-  lccn={92037475},
-  series={Chicago Manual of Style},
-  year={2010},
-  publisher={University of Chicago Press}
+
+@Book{chicago2010,
+  author    = {University of Chicago Press},
+  publisher = {University of Chicago Press},
+  title     = {The Chicago Manual of Style},
+  year      = {2010},
+  isbn      = {9780226104201},
+  series    = {Chicago Manual of Style},
+  lccn      = {92037475},
 }
 
 @BOOK{Nowak2000,
@@ -64,12 +65,19 @@
   year   = {Bern 2004},
 }
 
-@TechReport{Ecoplan2007,
+@Article{Ecoplan2007,
   author  = {{Ecoplan, VSS}},
+  journal = {{Grundlagen für die Durchführung einer Kosten-Nutzen-Analyse}},
   title   = {{Externe Kosten im Strassenverkehr}},
   year    = {2007},
-  journal = {{Grundlagen für die Durchführung einer Kosten-Nutzen-Analyse}},
   url     = {https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf},
+}
+
+@Article{Nacto2018,
+  author = {{NACTO.}},
+  title  = {{'Bike Lane Capacity'}},
+  year   = {2018},
+  url    = {https://streets-alive-yarra.org/bicycle-lane-capacity/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

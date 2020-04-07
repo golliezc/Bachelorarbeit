@@ -149,7 +149,7 @@
       \field{title}{The Chicago Manual of Style}
       \field{year}{2010}
     \endentry
-    \entry{Ecoplan2007}{report}{}
+    \entry{Ecoplan2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7a252bf4a0321e900724ac4fbfab3f9e}{%
            family={{Ecoplan, VSS}},
@@ -169,7 +169,6 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Grundlagen für die Durchführung einer Kosten-Nutzen-Analyse}}
       \field{title}{{Externe Kosten im Strassenverkehr}}
-      \field{type}{techreport}
       \field{year}{2007}
       \verb{urlraw}
       \verb https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf
