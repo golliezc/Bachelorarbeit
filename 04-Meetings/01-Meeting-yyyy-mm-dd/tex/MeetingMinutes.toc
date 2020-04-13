@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}\relax \fontsize {12}{14}\selectfont Problemlösungszyklus}{1}%
+\contentsline {section}{\numberline {2}\relax \fontsize {12}{14}\selectfont Zielfunktion}{1}%
+\contentsline {section}{\numberline {3}\relax \fontsize {12}{14}\selectfont Richtlinien}{2}%
+\contentsline {section}{\numberline {4}\relax \fontsize {12}{14}\selectfont Argumentation}{2}%
+\contentsline {section}{\numberline {5}\relax \fontsize {12}{14}\selectfont Wichtige Anmerkungen}{3}%
