@@ -16,18 +16,19 @@
 
 \begin{table}[ht!]
 \flushleft
+\renewcommand{\arraystretch}{1.4}
 %\small\renewcommand{\arraystretch}{1.2} 
 %
 %
-\begin{tabular}{@{}p{3.5cm} p{4cm} p{1.35cm} p{4.55cm}@{}} \\   
+\begin{tabular}{@{}p{3.3cm} p{4cm} p{1.2cm} r l @{}} \\   
 \toprule
-\textbf{Interessensgruppe} & \textbf{Kostentyp} & \textbf{Symbol} & \textbf{Einheitskosten} \\
+\textbf{Interessensgruppe} & \textbf{Kostentyp} & \textbf{Symbol} & \multicolumn{2}{c}{\textbf{Einheitskosten}} 			\\
 \midrule
-Besitzer                   & Unterhaltkosten (\textit{U})                    & $K_{U}(t)$    & 5 - 30 $\frac{CHF}{m^2 \ Jahr}$              \\
-Nutzer		               & Reisezeitkosten (\textit{TT})                   & $K_{TT}(t)$   & 35 - 56 $\frac{CHF}{Stunde \ DTV_{k}}$               \\
-                           & Betriebskosten (\textit{B})            		 & $K_{B}(t)$    & 0.15 - 0.7 $\frac{CHF}{km \ DTV_{k}}$              \\
-Öffentliche Hand           & Kosten durch Belastung \newline der Umwelt \newline (Environment) (\textit{E})   & $K_{E}(t)$    & 0.05 $\frac{CHF}{Fahrzeugkilometer}$      \\
-                           & Unfallkosten (\textit{A})                       & $K_{A}(t)$    & 15'000 - 3.7mio \ $\frac{CHF}{Unfall_{n}}$    \\
+Besitzer                   & Unterhaltkosten (\textit{U})                    & $K_{U}(t)$    & 5 - 30 		&	$\frac{CHF}{m^2 \ Jahr}$              \\
+Nutzer		               & Reisezeitkosten (\textit{TT})                   & $K_{TT}(t)$   & 35 - 56 		&	$\frac{CHF}{Stunde \ DTV_{k}}$         \\
+                           & Betriebskosten (\textit{B})            		 & $K_{B}(t)$    & 0.15 - 0.7 	&	$\frac{CHF}{km \ DTV_{k}}$              \\
+Öffentliche Hand           & Kosten durch Belastung \newline der Umwelt \newline (Environment) (\textit{E})   & $K_{E}(t)$    & 0.05  & $\frac{CHF}{Fahrzeugkilometer}$      \\
+                           & Unfallkosten (\textit{A})                       & $K_{A}(t)$    & 15'000 - 3.7mio & $\frac{CHF}{Unfall_{n}}$    \\
 \bottomrule
 
 \end{tabular}
