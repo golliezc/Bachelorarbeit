@@ -1,48 +1,80 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abstract}{v}{figure.caption.1}%
+\contentsline {chapter}{Acknowledgment}{v}{Doc-Start}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgment}{vii}{chapter*.2}%
+\contentsline {chapter}{Abstract}{vii}{chapter*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Hilfestellung}{ix}{chapter*.3}%
+\contentsline {chapter}{Zusammenfassung}{ix}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Hilfestellung}{xi}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Zielformulierung}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Grundlagen und Theorie}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Infrastrukturobjekt}{4}{chapter.3}%
+\contentsline {section}{\numberline {2.1}Problemlösungszyklus}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Interessensgruppen}{5}{chapter.4}%
+\contentsline {section}{\numberline {2.2}Zielfunktion}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Zielfunktion}{7}{chapter.5}%
+\contentsline {section}{\numberline {2.3}Entscheidungsbaum}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Kostenstrukturen}{8}{chapter.6}%
+\contentsline {section}{\numberline {2.4}Sensitivitätsanalyse}{3}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Besitzer}{8}{section.6.1}%
+\contentsline {section}{\numberline {2.5}Real option methodology}{3}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Unterhaltskosten}{8}{subsection.6.1.1}%
+\contentsline {chapter}{\numberline {3}Vorgehen und Methodik}{4}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Nutzer}{11}{section.6.2}%
+\contentsline {chapter}{\numberline {4}Fallstudie}{5}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Reisezeitkosten}{11}{subsection.6.2.1}%
+\contentsline {section}{\numberline {4.1}Situationsanalyse}{5}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Betriebskosten}{12}{subsection.6.2.2}%
+\contentsline {section}{\numberline {4.2}Formulierung der Ziele und Rahmenbedingungen}{5}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Öffentliche Hand}{14}{section.6.3}%
+\contentsline {subsection}{\numberline {4.2.1}Interessensgruppen}{6}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Kosten durch Belastung der Umwelt}{14}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {4.2.2}Zielfunktion}{7}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Unfallkosten}{16}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {4.2.3}Kostenstruktur}{8}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Szenarien}{19}{chapter.7}%
+\contentsline {subsubsection}{\nonumberline Unterhaltskosten}{9}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Varianten}{20}{chapter.8}%
+\contentsline {subsubsection}{\nonumberline Reisezeitkosten}{11}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Variante: \ 1}{20}{section.8.1}%
+\contentsline {subsubsection}{\nonumberline Betriebskosten}{12}{section*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Variante: \ 2}{20}{section.8.2}%
+\contentsline {subsubsection}{\nonumberline Kosten durch Belastung der Umwelt}{14}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Variante: \ 3}{21}{section.8.3}%
+\contentsline {subsubsection}{\nonumberline Unfallkosten}{15}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{23}{chapter*.25}%
+\contentsline {paragraph}{\nonumberline Katergorie $a$}{17}{section*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Kategorie $b$}{17}{section*.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Kategorie $c$}{17}{section*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Unsichere Parameter}{17}{subsection.4.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Generierung möglicher Lösungen}{19}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Variante: \ 1}{19}{subsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Variante: \ 2}{19}{subsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Variante: \ 3}{19}{subsection.4.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Analyse der Lösungen}{20}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Bewertung der Lösungen}{21}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Resultate}{22}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Diskussion}{23}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Schlussfolgerung und Ausblick}{24}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{26}{chapter*.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Unfallrisiko Schätzung}{26}{section.A.1}%

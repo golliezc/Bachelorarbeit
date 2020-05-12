@@ -41,7 +41,7 @@
 % General metadata for the PDF
 \newcommand{\myauthor}{Cyrano Golliez}  %% also used for PDF metadata (hyperref)
 \newcommand{\myethnr}{15-914-609}
-\newcommand{\mytitle}{Improving Uster}  %% also used for PDF metadata (hyperref)
+\newcommand{\mytitle}{Verbesserung des Velonetz in Uster in angesicht der unsicheren zukünftigen Nachfragebeziehungen}  %% also used for PDF metadata (hyperref)
 \newcommand{\mysubject}{SUBJECT}  %% also used for PDF metadatay (hyperref)
 \newcommand{\mykeywords}{KEYWORDS}  %% also used for PDF metadata (hyperref)
 \newcommand{\myprofessor}{Prof. Dr. Bryan T. Adey}
@@ -81,24 +81,29 @@
 %\input{content/00-02-c-Declaration}
 \includepdf[pagecommand={\thispagestyle{empty}},fitpaper=true,pages=-]{content/00-02-a-Declaration}
 
+% Acknowledgment
+% --------------
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Acknowledgment}
+\input{content/00-03-Acknowledgment}
 
 % Abstract
 % --------
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Abstract}
-\input{content/00-03-Abstract}
+\input{content/00-04-Abstract}
 
-% Acknowledgment
-% --------------
+% Zusammenfassung
+% --------
 \cleardoublepage
-\addcontentsline{toc}{chapter}{Acknowledgment}
-\input{content/00-04-Acknowledgment}
+\addcontentsline{toc}{chapter}{Zusammenfassung}
+\input{content/00-05-Zusammenfassung}
 
 % Hilfestellung Template
 % ----------------------
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Hilfestellung}
-\input{content/00-05-Hilfestellung} 
+\input{content/00-06-Hilfestellung} 
 
 % Table of Contents
 % -----------------
@@ -135,31 +140,31 @@
 
 % Chapter 2
 % ---------
-\input{content/02-Zielformulierung}
+\input{content/02-Grundlagen und Theorie}
 
 % Chapter 3
 % ---------
-\input{content/03-Infrastrukturobjekt}
+\input{content/03-Vorgehen und Methodik}
 
 % Chapter 4
 % ---------
-\input{content/04-Interessensgruppen} 
+\input{content/04-Fallstudie}
 
 % Chapter 5
 % ---------
-\input{content/05-Zielfunktion}
+\input{content/05-Resultate}
 
 % Chapter 6
 % ---------
-\input{content/06-Kostenstrukturen}
+\input{content/06-Diskussion}
 
 % Chapter 7
 % ---------
-\input{content/07- Szenarien}
+\input{content/07-Schlussfolgerung}
 
-% Chapter 8
-% ---------
-\input{content/08-Varianten}
+
+%___________________________________
+
 
 % Reference
 % ---------
@@ -179,6 +184,18 @@
 % Appendix
 % --------
 \appendix
+\addchap{Anhang}
+\label{chap:Anhang}
+\refstepcounter{chapter}
+
+\section{Unfallrisiko Schätzung}
+\label{subsec:Unfallrisiko}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/f-04-03-Unfallrisiko-Schätzung.pdf}
+	\caption[Unfallrisiko Schätzung]{Berechnung des Unfallrisiko}
+	\label{img:Unfallrisiko}
+\end{figure}
 
 % Index
 % -----

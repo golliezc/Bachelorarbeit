@@ -1,21 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[78] biber-MSWIN64:322> INFO - === 
-[128] Biber.pm:415> INFO - Reading 'main.bcf'
-[324] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
-[343] Biber.pm:4256> INFO - Processing section 0
-[345] Utils.pm:75> INFO - Globbing data source './literature.bib'
-[367] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
-[392] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
-[405] bibtex.pm:1653> INFO - LaTeX decoding ...
-[425] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
-[524] Utils.pm:304> WARN - year field 'Bern 2004' in entry 'Lärm2000' is not an integer - this will probably not sort properly.
-[539] Utils.pm:304> WARN - I didn't find a database entry for 'STEK Kap.7' (section 0)
-[557] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
-[558] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[558] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[559] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
-[559] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[594] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[600] bbl.pm:755> INFO - Output to main.bbl
-[604] Biber.pm:128> INFO - WARNINGS: 2
+[2] Config.pm:307> INFO - Logfile is 'main.blg'
+[122] biber-MSWIN64:322> INFO - === 
+[157] Biber.pm:415> INFO - Reading 'main.bcf'
+[488] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
+[549] Biber.pm:4256> INFO - Processing section 0
+[550] Utils.pm:75> INFO - Globbing data source './literature.bib'
+[587] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
+[623] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
+[630] bibtex.pm:1653> INFO - LaTeX decoding ...
+[681] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
+[851] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[851] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
+[852] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[853] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
+[853] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[888] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[904] bbl.pm:755> INFO - Output to main.bbl

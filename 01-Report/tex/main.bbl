@@ -19,6 +19,80 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{Adey2012}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97f3dd3274835fe075ebc999fd387712}{%
+           family={Adey},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29e35da7eb17fc878f31de04ba15459b}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f0ad793b7b4935358970853499bcee8}{%
+           family={Tsafatinos},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b7f1d86367294ef86d9134e37227c83}{%
+           family={Lüking},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2891df9a3767a711889d2de1e7ba9a81}{%
+           family={Schindele},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1e57d4f93f3563771bc36ed80f0cd6e}{%
+           family={Hajdin},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{418330e4b936e77ec32f945ff14d9f23}
+      \strng{fullhash}{c4f4c2316d4c3a04c92f07aa472ef5fa}
+      \strng{bibnamehash}{c4f4c2316d4c3a04c92f07aa472ef5fa}
+      \strng{authorbibnamehash}{c4f4c2316d4c3a04c92f07aa472ef5fa}
+      \strng{authornamehash}{418330e4b936e77ec32f945ff14d9f23}
+      \strng{authorfullhash}{c4f4c2316d4c3a04c92f07aa472ef5fa}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structure and Infrastructure Engineering}
+      \field{number}{7}
+      \field{title}{Methodology and base cost models to determine the total benefits of preservation interventions on road sections in Switzerland}
+      \field{volume}{8}
+      \field{year}{2012}
+      \field{pages}{639\bibrangedash 654}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/15732479.2010.491119
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/15732479.2010.491119
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15732479.2010.491119
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15732479.2010.491119
+      \endverb
+    \endentry
     \entry{Unfallrisiko2019}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
@@ -73,7 +147,7 @@
       \field{type}{techreport}
       \field{year}{2019}
     \endentry
-    \entry{Lärm2000}{report}{}
+    \entry{Lärm2000}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5261217e7a65232c39d2e298be07a384}{%
            family={{Bundesamt für Raumentwicklung}},
@@ -91,9 +165,30 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Externe Lärmkosten des Strassen- und Schienenverkehrs der Schweiz, Aktualisierung für das Jahr 2000.}}
-      \field{type}{techreport}
-      \field{year}{Bern 2004}
+      \field{title}{{Externe Lärmkosten des Strassen- und Schienenverkehrs der Schweiz, Aktualisierung für das Jahr 2000, Bern}}
+      \field{year}{2004}
+    \endentry
+    \entry{Mikrozensus2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7632af483d2caa44a7eacd50f12eba4b}{%
+           family={{Bundesamt für Statistik / Bundesamt für Raumentwicklung}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7632af483d2caa44a7eacd50f12eba4b}
+      \strng{fullhash}{7632af483d2caa44a7eacd50f12eba4b}
+      \strng{bibnamehash}{7632af483d2caa44a7eacd50f12eba4b}
+      \strng{authorbibnamehash}{7632af483d2caa44a7eacd50f12eba4b}
+      \strng{authornamehash}{7632af483d2caa44a7eacd50f12eba4b}
+      \strng{authorfullhash}{7632af483d2caa44a7eacd50f12eba4b}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ergebnisse des Mikrozensus Mobilität und Verkehr 2015}
+      \field{title}{Verkehrsverhalten der Bevölkerung}
+      \field{year}{2017}
     \endentry
     \entry{Unfall2019}{report}{}
       \name{author}{1}{}{%
@@ -177,6 +272,36 @@
       \verb https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf
       \endverb
     \endentry
+    \entry{Baukosten2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e2090e4f52dc25452391dba97295b77}{%
+           family={KONTEXTPLAN\bibnamedelima AG},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Chrisina\bibnamedelima Farner},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0,
+           suffix={Markus\bibnamedelima Hofstetter},
+           suffixi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Hrsg. Bundesamt für Strassen (ASTRA)}%
+      }
+      \strng{namehash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{fullhash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{bibnamehash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{authorbibnamehash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{authornamehash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{authorfullhash}{6e2090e4f52dc25452391dba97295b77}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Baukosten der häufigsten Langsamverkehrsinfrastrukturen}
+      \field{year}{2010}
+    \endentry
     \entry{Nowak2000}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b3531b0ae12b3283ce219f4e9a86530c}{%
@@ -250,7 +375,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{STEK Kap.7}
 \endrefsection
 \endinput
 
