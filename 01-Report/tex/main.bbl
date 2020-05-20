@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{Adey2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97f3dd3274835fe075ebc999fd387712}{%
+           family={Adey},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{97f3dd3274835fe075ebc999fd387712}
+      \strng{fullhash}{97f3dd3274835fe075ebc999fd387712}
+      \strng{bibnamehash}{97f3dd3274835fe075ebc999fd387712}
+      \strng{authorbibnamehash}{97f3dd3274835fe075ebc999fd387712}
+      \strng{authornamehash}{97f3dd3274835fe075ebc999fd387712}
+      \strng{authorfullhash}{97f3dd3274835fe075ebc999fd387712}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Unterrichtsmaterial von Systems Engineering}}
+      \field{year}{2019}
+    \endentry
     \entry{Adey2012}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=97f3dd3274835fe075ebc999fd387712}{%
@@ -93,21 +117,73 @@
       \verb https://doi.org/10.1080/15732479.2010.491119
       \endverb
     \endentry
-    \entry{Unfallrisiko2019}{report}{}
+    \entry{Adeyetall2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ad73daf2d9a4a39092509de39b05d487}{%
+           family={Adey},
+           familyi={A\bibinitperiod},
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ca95eb3e62b8487aaa5630575fc6018}{%
+           family={Burkhalter},
+           familyi={B\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0cd922c8d36dd21edf6d868d9dd64a8}{%
+           family={Martani},
+           familyi={M\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d52572aad71d1f99a695fca83fe4061}
+      \strng{fullhash}{0d52572aad71d1f99a695fca83fe4061}
+      \strng{bibnamehash}{0d52572aad71d1f99a695fca83fe4061}
+      \strng{authorbibnamehash}{0d52572aad71d1f99a695fca83fe4061}
+      \strng{authornamehash}{0d52572aad71d1f99a695fca83fe4061}
+      \strng{authorfullhash}{0d52572aad71d1f99a695fca83fe4061}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Infrastructure Asset Management}
+      \field{number}{0}
+      \field{title}{Defining road service to facilitate road infrastructure asset management}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1680/jinam.18.00045
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1680/jinam.18.00045
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1680/jinam.18.00045
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1680/jinam.18.00045
+      \endverb
+    \endentry
+    \entry{Unfallrisiko2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
            family={{BFS}},
            familyi={B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
-           family={{Bundesamt für Strassen ASTRA}},
-           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=92f86fdfa4f03036536527e912af7ebf}{%
+           family={{ASTRA}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{fullhash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{bibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authorbibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authornamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authorfullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{namehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{fullhash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{bibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authorbibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authornamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authorfullhash}{a5743ed2b425891f8544a9ccc95e81b2}
       \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
@@ -117,24 +193,29 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Risikovergleich ausgewählter Landverkehrsmittel, 2008-2017}}
-      \field{type}{techreport}
       \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/grafiken.assetdetail.9346478.html
+      \endverb
+      \verb{url}
+      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/grafiken.assetdetail.9346478.html
+      \endverb
     \endentry
-    \entry{Bestand2019}{report}{}
+    \entry{Bestand2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
            family={{BFS}},
            familyi={B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=749efa97b626cb04e76af02310551cec}{%
-           family={{Bundesamt für Strassen ASTRA}},
-           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=92f86fdfa4f03036536527e912af7ebf}{%
+           family={{ASTRA}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{fullhash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{bibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authorbibnamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authornamehash}{37104ea39d0f1c43a6ea893295154ed6}
-      \strng{authorfullhash}{37104ea39d0f1c43a6ea893295154ed6}
+      \strng{namehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{fullhash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{bibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authorbibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authornamehash}{a5743ed2b425891f8544a9ccc95e81b2}
+      \strng{authorfullhash}{a5743ed2b425891f8544a9ccc95e81b2}
       \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
@@ -144,8 +225,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Strassenfahrzeugbestand (MFZ)}}
-      \field{type}{techreport}
       \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/mobilitaet-verkehr/verkehrsinfrastruktur-fahrzeuge/fahrzeuge/strassenfahrzeuge-bestand-motorisierungsgrad.html
+      \endverb
+      \verb{url}
+      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/mobilitaet-verkehr/verkehrsinfrastruktur-fahrzeuge/fahrzeuge/strassenfahrzeuge-bestand-motorisierungsgrad.html
+      \endverb
     \endentry
     \entry{Lärm2000}{article}{}
       \name{author}{1}{}{%
@@ -159,6 +245,7 @@
       \strng{authorbibnamehash}{5261217e7a65232c39d2e298be07a384}
       \strng{authornamehash}{5261217e7a65232c39d2e298be07a384}
       \strng{authorfullhash}{5261217e7a65232c39d2e298be07a384}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -167,6 +254,29 @@
       \field{labeltitlesource}{title}
       \field{title}{{Externe Lärmkosten des Strassen- und Schienenverkehrs der Schweiz, Aktualisierung für das Jahr 2000, Bern}}
       \field{year}{2004}
+    \endentry
+    \entry{Perspektive2040}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5261217e7a65232c39d2e298be07a384}{%
+           family={{Bundesamt für Raumentwicklung}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{fullhash}{5261217e7a65232c39d2e298be07a384}
+      \strng{bibnamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authorbibnamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authornamehash}{5261217e7a65232c39d2e298be07a384}
+      \strng{authorfullhash}{5261217e7a65232c39d2e298be07a384}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entwicklung des Personen- und Güterverkehrs in der Schweiz}
+      \field{title}{Verkehrsperspektiven 2040}
+      \field{year}{2016}
     \endentry
     \entry{Mikrozensus2015}{article}{}
       \name{author}{1}{}{%
@@ -272,11 +382,143 @@
       \verb https://ethz.ch/content/dam/ethz/special-interest/baug/ivt/ivt-dam/vpl/vss-ek/2005-204.pdf
       \endverb
     \endentry
+    \entry{Esders2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d623cfa1f85729a2ec62f3b248faf18e}{%
+           family={Esders},
+           familyi={E\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33f9c853172cece81999fa79ff8e90cd}{%
+           family={Morte},
+           familyi={M\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d4d36cc54fd1f5f7ed9d2c469f61b1}{%
+           family={Adey},
+           familyi={A\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbda4770a2f23012328565a610360cb5}
+      \strng{fullhash}{cbda4770a2f23012328565a610360cb5}
+      \strng{bibnamehash}{cbda4770a2f23012328565a610360cb5}
+      \strng{authorbibnamehash}{cbda4770a2f23012328565a610360cb5}
+      \strng{authornamehash}{cbda4770a2f23012328565a610360cb5}
+      \strng{authorfullhash}{cbda4770a2f23012328565a610360cb5}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Architecture, Engineering and Construction}
+      \field{month}{09}
+      \field{title}{{A Methodology to Ensure the Consideration of Flexibility and Robustness in the Selection of Facility Renewal Projects}}
+      \field{volume}{4}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.7492/ICSDM.2015.013
+      \endverb
+    \endentry
+    \entry{STEK}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71b422ad725b35d32803dedbcf884b37}{%
+           family={{Geschäftsfeld Stadtraum und Natur}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stadt Uster}%
+      }
+      \strng{namehash}{71b422ad725b35d32803dedbcf884b37}
+      \strng{fullhash}{71b422ad725b35d32803dedbcf884b37}
+      \strng{bibnamehash}{71b422ad725b35d32803dedbcf884b37}
+      \strng{authorbibnamehash}{71b422ad725b35d32803dedbcf884b37}
+      \strng{authornamehash}{71b422ad725b35d32803dedbcf884b37}
+      \strng{authorfullhash}{71b422ad725b35d32803dedbcf884b37}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stadtentwicklungskonzept STEK}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.uster.ch/publikationen/229951
+      \endverb
+      \verb{url}
+      \verb https://www.uster.ch/publikationen/229951
+      \endverb
+    \endentry
+    \entry{MIVSeefeld}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=faad3dd4738ae8ce79eeba4b57ff01d3}{%
+           family={{Kanton Zürich}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{fullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{bibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorbibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authornamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorfullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Daten}
+      \field{title}{{{Strassenverkehrszählung Uster (ZH0787), Seefeldstrasse (Route Nr. 744) (787)}}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://maps.zh.ch/system/docs/verkzaehlstellen/1119.pdf
+      \endverb
+      \verb{url}
+      \verb https://maps.zh.ch/system/docs/verkzaehlstellen/1119.pdf
+      \endverb
+    \endentry
+    \entry{VeloSeefeld}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=faad3dd4738ae8ce79eeba4b57ff01d3}{%
+           family={{Kanton Zürich}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{fullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{bibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorbibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authornamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorfullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jahresreport}
+      \field{title}{{{Veloverkehrszählung Uster (ZH1119), Radweg, (1119 Uster) Alltagsroute (05 038)}}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://maps.zh.ch/system/docs/verkzaehlstellen/787.pdf
+      \endverb
+      \verb{url}
+      \verb https://maps.zh.ch/system/docs/verkzaehlstellen/787.pdf
+      \endverb
+    \endentry
     \entry{Baukosten2010}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6e2090e4f52dc25452391dba97295b77}{%
-           family={KONTEXTPLAN\bibnamedelima AG},
-           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a740874d69eb0240553c0958b253def9}{%
+           family={{Kontextplan AG}},
+           familyi={K\bibinitperiod},
            given={Chrisina\bibnamedelima Farner},
            giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0,
@@ -287,12 +529,12 @@
       \list{publisher}{1}{%
         {Hrsg. Bundesamt für Strassen (ASTRA)}%
       }
-      \strng{namehash}{6e2090e4f52dc25452391dba97295b77}
-      \strng{fullhash}{6e2090e4f52dc25452391dba97295b77}
-      \strng{bibnamehash}{6e2090e4f52dc25452391dba97295b77}
-      \strng{authorbibnamehash}{6e2090e4f52dc25452391dba97295b77}
-      \strng{authornamehash}{6e2090e4f52dc25452391dba97295b77}
-      \strng{authorfullhash}{6e2090e4f52dc25452391dba97295b77}
+      \strng{namehash}{a740874d69eb0240553c0958b253def9}
+      \strng{fullhash}{a740874d69eb0240553c0958b253def9}
+      \strng{bibnamehash}{a740874d69eb0240553c0958b253def9}
+      \strng{authorbibnamehash}{a740874d69eb0240553c0958b253def9}
+      \strng{authornamehash}{a740874d69eb0240553c0958b253def9}
+      \strng{authorfullhash}{a740874d69eb0240553c0958b253def9}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
@@ -301,6 +543,98 @@
       \field{labeltitlesource}{title}
       \field{title}{Baukosten der häufigsten Langsamverkehrsinfrastrukturen}
       \field{year}{2010}
+    \endentry
+    \entry{Martani2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f0cd922c8d36dd21edf6d868d9dd64a8}{%
+           family={Martani},
+           familyi={M\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ca3f4589c5919bfe13469acac11b5ec}{%
+           family={Cattarinussi},
+           familyi={C\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad73daf2d9a4a39092509de39b05d487}{%
+           family={Adey},
+           familyi={A\bibinitperiod},
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{919dd444d4a386caea2dd66d780f3caf}
+      \strng{fullhash}{919dd444d4a386caea2dd66d780f3caf}
+      \strng{bibnamehash}{919dd444d4a386caea2dd66d780f3caf}
+      \strng{authorbibnamehash}{919dd444d4a386caea2dd66d780f3caf}
+      \strng{authornamehash}{919dd444d4a386caea2dd66d780f3caf}
+      \strng{authorfullhash}{919dd444d4a386caea2dd66d780f3caf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-7102}
+      \field{journaltitle}{Journal of Building Engineering}
+      \field{series}{Journal of Building Engineering}
+      \field{title}{{A new process for the evaluation of the net-benefit of flexible ground-floor ceiling in the face of use transition uncertainty. The application case of an office building in London}}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{156\bibrangedash 170}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.jobe.2017.11.019
+      \endverb
+    \endentry
+    \entry{Neufville2011}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=96ffdede49f015a6d8e6a60bbcae1fdf}{%
+           family={Neufville},
+           familyi={N\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=536f3ecf88e3ddb2157f7350702beb6b}{%
+           family={Scholtes},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a32f98076aecdde605410b6e08bbee29}
+      \strng{fullhash}{a32f98076aecdde605410b6e08bbee29}
+      \strng{bibnamehash}{a32f98076aecdde605410b6e08bbee29}
+      \strng{authorbibnamehash}{a32f98076aecdde605410b6e08bbee29}
+      \strng{authornamehash}{a32f98076aecdde605410b6e08bbee29}
+      \strng{authorfullhash}{a32f98076aecdde605410b6e08bbee29}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780262303569}
+      \field{month}{01}
+      \field{title}{Flexibility in Engineering Design}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.7551/mitpress/8292.001.0001
+      \endverb
     \endentry
     \entry{Nowak2000}{book}{}
       \name{author}{2}{}{%

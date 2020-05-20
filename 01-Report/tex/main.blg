@@ -1,18 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[2] Config.pm:307> INFO - Logfile is 'main.blg'
-[122] biber-MSWIN64:322> INFO - === 
-[157] Biber.pm:415> INFO - Reading 'main.bcf'
-[488] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
-[549] Biber.pm:4256> INFO - Processing section 0
-[550] Utils.pm:75> INFO - Globbing data source './literature.bib'
-[587] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
-[623] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
-[630] bibtex.pm:1653> INFO - LaTeX decoding ...
-[681] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
-[851] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[851] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
-[852] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[853] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
-[853] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[888] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[904] bbl.pm:755> INFO - Output to main.bbl
+[1] Config.pm:307> INFO - Logfile is 'main.blg'
+[132] biber-MSWIN64:322> INFO - === 
+[184] Biber.pm:415> INFO - Reading 'main.bcf'
+[465] Biber.pm:943> INFO - Found 20 citekeys in bib section 0
+[502] Biber.pm:4256> INFO - Processing section 0
+[503] Utils.pm:75> INFO - Globbing data source './literature.bib'
+[522] Utils.pm:91> INFO - Globbed data source './literature.bib' to ./literature.bib
+[546] Biber.pm:4455> INFO - Looking for bibtex format file './literature.bib' for section 0
+[552] bibtex.pm:1653> INFO - LaTeX decoding ...
+[608] bibtex.pm:1471> INFO - Found BibTeX data source './literature.bib'
+[949] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[949] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'level = 4' with 'level = 2'
+[950] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[950] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'de-DE'
+[950] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[1011] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1031] bbl.pm:755> INFO - Output to main.bbl

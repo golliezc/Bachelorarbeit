@@ -13,37 +13,37 @@
 %
 % More information on LaTeX: http://www.latex-project.org/
 %=============================================================================
-
-\begin{table}[ht!]
-\renewcommand{\arraystretch}{1.2}
-\flushleft
 %\small\renewcommand{\arraystretch}{1.2} 
 %
+
+
+\begin{table}[h!]
+{\setstretch{0.6}
+%\renewcommand{\arraystretch}{1.4}
+\flushleft
 \begin{tabular}{@{}p{5cm} p{2.5cm} p{2.5cm} p{2.5cm}@{}} \\   
 \toprule 		
 \textbf{Eigenschaften}  				   								&\textbf{Variante\,1}  & \textbf{Variante\,2} & \textbf{Variante\,3}   \\			
 \midrule 
 Länge Fahrbahn ($m$)         	 		   								& 80                    & 80    			   & 80             	\\
 Länge Unterführung ($m$)       	 		   								& -                     & 55    			   & 65             	\\
-\underline{Anzahl Spuren} 		 		   								&  					    &   				   &  					 \\
-\hspace*{5mm}\textbullet\, Veloweg:					   					&  2				    &  2				   &  4         		\\
-\hspace*{5mm}\textbullet\, Strasse:			 		   					&  2				    &  2				   &  1         		\vspace*{0.25mm} \\
-\underline{Breite der Spur} ($m$)	 		   							&  					    &   				   &  					\\
-\hspace*{5mm}\textbullet\, Veloweg:					   					&  1.5				    &  1.5				   &  2         		\\
-\hspace*{5mm}\textbullet\, Strasse:			 		   					&  3.5				    &  3				   &  5         		\vspace*{0.25mm} \\
+Velospuren:					   											&  2				    &  2				   &  4         		\\
+Fahrbahnen									 		   					&  2				    &  2				   &  1         		\vspace*{0.25mm} \\
+Breite eines Veloweg ($m$):				   								&  1.5				    &  1.5				   &  2         		\\
+Breite einer Fahrbahn ($m$):			 		   					    &  3.5				    &  3				   &  5         		\vspace*{0.25mm} \\
 Tempolimit	($\frac{km}{h}$) 		   						    		& 50				    & 30				   & 30                	\\
 \underline{$\varnothing$\,Geschwindigkeit} ($\frac{km}{h}$) 			&       	            &   				   &               		 \\
 \hspace*{5mm}\textbullet\, Velo            		       					& 15  					& 15    			   & 20      			\\
 \hspace*{5mm}\textbullet\, MIV            		       					& 37  					& 30    			   & 30      			\vspace*{0.25mm} \\
 \underline{Kapazität} ($\frac{Fahrzeug}{h}$)		        			&    				    &  				       &                  	 \\
-\hspace*{5mm}\textbullet\, Velo            		       					& 3350 					& 3767    			   & 4600      			\\
-\hspace*{5mm}\textbullet\, MIV            		       					& 2500 					& 2500    			   & 1250      			\\
+\hspace*{5mm}\textbullet\, Veloweg            	       					& 3350 					& 3767    			   & 4600      			\\
+\hspace*{5mm}\textbullet\, Strasse         		       					& 2500 					& 2500    			   & 1250      			\\
 \bottomrule
 
 \end{tabular}
 \caption{Basis Informationen der Varianten}
 \label{tab:t-08-01-Varianten}
-\renewcommand{\arraystretch}{1}
+}
 \end{table}
 
 

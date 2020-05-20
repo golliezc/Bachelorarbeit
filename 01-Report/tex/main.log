@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  12 MAY 2020 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  20 MAY 2020 20:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1613,6 +1613,10 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \Hy@SavedSpaceFactor=\count521
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@normalcr' on input line 4421.
+
+
 Package hyperref Warning: Option `a4paper' is no longer used.
 
 
@@ -1714,7 +1718,14 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count529
 \l__pdf_internal_box=\box126
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `img:Problemlösung' multiply defined.
+
+
+LaTeX Warning: Label `tab:t-04-03-01-Unterhalt' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1882,19 +1893,26 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
 e 168.
 \BKM@id=\count538
 )) (content/00-01-a-Titlepage.tex
-(figures/f-00-00-Background.tex) [1
+(figures/f-00-00-Background.tex)
+<figures/01-02-Titelbild-GIS.png, id=6, 542.025pt x 408.92775pt>
+File: figures/01-02-Titelbild-GIS.png Graphic file (type png)
+<use figures/01-02-Titelbild-GIS.png>
+Package pdftex.def Info: figures/01-02-Titelbild-GIS.png  used on input line 43
+.
+(pdftex.def)             Requested size: 426.7914pt x 322.0011pt.
+ [1
 
 
 
-{C:/Users/Cyrano Golliez/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) [
-2
+{C:/Users/Cyrano Golliez/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./
+figures/01-02-Titelbild-GIS.png>]) [2
 
 
 ]
 
 pdfTeX warning: pdflatex (file ./content/00-02-a-Declaration.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<content/00-02-a-Declaration.pdf, id=20, 597.55246pt x 845.07718pt>
+<content/00-02-a-Declaration.pdf, id=22, 597.55246pt x 845.07718pt>
 File: content/00-02-a-Declaration.pdf Graphic file (type pdf)
 <use content/00-02-a-Declaration.pdf>
 Package pdftex.def Info: content/00-02-a-Declaration.pdf  used on input line 82
@@ -1917,7 +1935,7 @@ n: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./content/00-02-a-Declaration.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<content/00-02-a-Declaration.pdf, id=23, page=1, 597.55246pt x 845.07718pt>
+<content/00-02-a-Declaration.pdf, id=25, page=1, 597.55246pt x 845.07718pt>
 File: content/00-02-a-Declaration.pdf Graphic file (type pdf)
 <use content/00-02-a-Declaration.pdf, page 1>
 Package pdftex.def Info: content/00-02-a-Declaration.pdf , page1 used on input 
@@ -2077,17 +2095,17 @@ File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/f-01-02-a-FORM.pdf, id=162, 110.89128pt x 135.6267pt>
+<./figures/f-01-02-a-FORM.pdf, id=164, 110.89128pt x 135.6267pt>
 File: ./figures/f-01-02-a-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-a-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-a-FORM.pdf  used on input line 207.
 (pdftex.def)             Requested size: 136.57637pt x 167.04128pt.
-<./figures/f-01-02-b-FORM.pdf, id=163, 109.2893pt x 135.6267pt>
+<./figures/f-01-02-b-FORM.pdf, id=165, 109.2893pt x 135.6267pt>
 File: ./figures/f-01-02-b-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-b-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-b-FORM.pdf  used on input line 209.
 (pdftex.def)             Requested size: 136.57637pt x 169.49983pt.
-<./figures/f-01-02-c-FORM.pdf, id=164, 109.2893pt x 135.04352pt>
+<./figures/f-01-02-c-FORM.pdf, id=166, 109.2893pt x 135.04352pt>
 File: ./figures/f-01-02-c-FORM.pdf Graphic file (type pdf)
 <use ./figures/f-01-02-c-FORM.pdf>
 Package pdftex.def Info: ./figures/f-01-02-c-FORM.pdf  used on input line 211.
@@ -2106,13 +2124,13 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 243.
 ) [17] [18
 
 
-] (main.toc)
+] (main.toc [19
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [19
-
-] [20] (main.lof)
+ [20] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2150,23 +2168,58 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-) ("content/02-Grundlagen und Theorie.tex" [1
+[1
 
-] [2]
+]) ("content/02-Grundlagen und Theorie.tex" [2]
 chapter 2.
-) ("content/03-Vorgehen und Methodik.tex" [3
+<figures/02-01-Problemlösungsprozess.png, id=429, 597.432pt x 69.861pt>
+File: figures/02-01-Problemlösungsprozess.png Graphic file (type png)
+<use figures/02-01-Problemlösungsprozess.png>
+Package pdftex.def Info: figures/02-01-Problemlösungsprozess.png  used on inpu
+t line 29.
+(pdftex.def)             Requested size: 426.7914pt x 49.90865pt.
+[3
 
-]
+ <./figures/02-01-Problemlösungsprozess.png>] [4]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 65.
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 74--78
+[] 
+ []
+
+[5]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 96--102
+[] 
+ []
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 107.
+
+[6] [7]
+<figures/02-02-EntscheidungsbaumBSP.png, id=478, 702.82574pt x 292.09125pt>
+File: figures/02-02-EntscheidungsbaumBSP.png Graphic file (type png)
+<use figures/02-02-EntscheidungsbaumBSP.png>
+Package pdftex.def Info: figures/02-02-EntscheidungsbaumBSP.png  used on input 
+line 139.
+(pdftex.def)             Requested size: 426.7914pt x 177.37314pt.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 151.
+
+[8 <./figures/02-02-EntscheidungsbaumBSP.png>])
+("content/03-Vorgehen und Methodik.tex" [9]
 chapter 3.
-) (content/04-Fallstudie.tex [4
+[10
 
-]
+]) (content/04-Fallstudie.tex [11]
 chapter 4.
-(content/Fallstudie/04-01-Interessensgruppen.tex [5
+[12
 
-])
-(content/Fallstudie/04-02-Zielfunktion.tex [6]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 42--50
+] [13] (content/Fallstudie/04-01-Interessensgruppen.tex [14] [15])
+(content/Fallstudie/04-02-Zielfunktion.tex
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 36--44
 [] 
  []
 
@@ -2176,84 +2229,154 @@ Overfull \hbox (4.57347pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (6.51262pt too wide) in paragraph at lines 25--25
+Overfull \hbox (12.2031pt too wide) in paragraph at lines 25--25
 []|\T1/cmr/bx/n/10.95 Symbol| 
  []
 
 
-Overfull \hbox (12.40144pt too wide) in paragraph at lines 23--35
-[]  
+Overfull \hbox (0.62366pt too wide) in paragraph at lines 28--28
+[]|$\OML/cmm/m/it/10.95 K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
+n/10.95 )$| 
  []
 
-) [7]) (content/Fallstudie/04-03-Kostenstrukturen.tex [8]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 60--68
-[] 
+
+Overfull \hbox (6.07654pt too wide) in paragraph at lines 29--29
+[]|$\OML/cmm/m/it/10.95 K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
+n/10.95 )$| 
  []
 
-[9] [10]
 
-LaTeX Warning: Command \" invalid in math mode on input line 105.
+Overfull \hbox (67.5759pt too wide) in paragraph at lines 30--31
+[]|\T1/cmr/m/n/10.95 Fahrzeugtechnologie| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [16]) (content/Fallstudie/04-03-Kostenstrukturen.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 46.
 
 Missing character: There is no � in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 105.
+LaTeX Warning: Command \" invalid in math mode on input line 46.
 
 Missing character: There is no � in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 105.
-
-Missing character: There is no � in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 105.
-
-Missing character: There is no � in font cmr10!
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 109--117
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 50--54
 [] 
  []
 
-[11]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 142--146
+[17]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 65--70
 [] 
  []
 
-[12] [13]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 174--178
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+  
+ []
+
+(tables/t-04-03-01-Unterhaltskosten.tex) [19]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 101--105
 [] 
  []
 
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 189--194
+[20]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 148--154
 [] 
  []
 
-[14]
+[21]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 175.
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 169--175
+[] 
+ []
+
+(tables/t-04-03-02-Nutzerkosten.tex) [22]
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 205--209
 [] 
  []
 
-[15]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 272--280
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 221--225
 [] 
  []
 
-(tables/t-06-01-Unfallrisiko.tex) [16])
-("content/Fallstudie/04-04-Unsichere Parameter.tex" [17])
-(content/Fallstudie/04-05-Varianten.tex [18] [19] (tables/t-08-01-Varianten.tex
-)) (content/Fallstudie/04-06-Szenarien.tex)
-(content/Fallstudie/04-07-Risiken.tex) [20]
-(content/Fallstudie/04-08-Sensitivitätsanalyse.tex)) (content/05-Resultate.tex
-[21]
+[23]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 243--248
+[] 
+ []
+
+(tables/t-04-03-03-Umweltkosten.tex) [24]
+<figures/04-04-01-MarktanteilE-Auto.png, id=620, 672.111pt x 401.0985pt>
+File: figures/04-04-01-MarktanteilE-Auto.png Graphic file (type png)
+<use figures/04-04-01-MarktanteilE-Auto.png>
+Package pdftex.def Info: figures/04-04-01-MarktanteilE-Auto.png  used on input 
+line 267.
+(pdftex.def)             Requested size: 256.07744pt x 152.82294pt.
+ [25 <./figures/04-04-01-MarktanteilE-Auto.png>]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 333--341
+[] 
+ []
+
+[26] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+LaTeX Warning: Citation 'Leistung2019' on page 28 undefined on input line 366.
+
+(tables/t-06-01-Unfallrisiko.tex) [28] (tables/t-04-03-04-Unfallkosten.tex)
+[29]) ("content/Fallstudie/04-04-Unsichere Parameter.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+[30] [31]) (content/Fallstudie/04-05-Varianten.tex [32]
+(tables/t-08-01-Varianten.tex) [33]) (content/Fallstudie/04-06-Szenarien.tex
+[34] [35]
+<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=711, 758.23276pt x 4
+09.53pt>
+File: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png Graphic file (type 
+png)
+<use ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png>
+Package pdftex.def Info: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png 
+ used on input line 86.
+(pdftex.def)             Requested size: 192.05482pt x 103.73201pt.
+<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=712, 759.43726pt x 
+407.121pt>
+File: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png Graphic file (type
+ png)
+<use ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png>
+Package pdftex.def Info: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png
+  used on input line 88.
+(pdftex.def)             Requested size: 192.05482pt x 102.95409pt.
+ [36 <./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png> <./figures/04-06-0
+3-DTV(VELO)-SzenarienBev.wachstum.png>] [37])
+(content/Fallstudie/04-07-Risiken.tex)
+(content/Fallstudie/04-08-Entscheidungsbaum.tex)
+(content/Fallstudie/04-09-Sensitivitätsanalyse.tex)) (content/05-Resultate.tex
+[38]
 chapter 5.
-) (content/06-Diskussion.tex [22
+) (content/06-Diskussion.tex [39
 
 ]
 chapter 6.
-) (content/07-Schlussfolgerung.tex [23
+) (content/07-Schlussfolgerung.tex [40
 
 ]
 chapter 7.
-) [24
+) [41
 
 ]
 chapter without number
@@ -2263,11 +2386,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
 tt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [25
+) [42
 
-]
+] [43]
 chapter without number
-<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=571, 845.07718pt x 597.55246pt
+<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=780, 845.07718pt x 597.55246pt
 >
 File: figures/f-04-03-Unfallrisiko-Schätzung.pdf Graphic file (type pdf)
 <use figures/f-04-03-Unfallrisiko-Schätzung.pdf>
@@ -2275,7 +2398,7 @@ Package pdftex.def Info: figures/f-04-03-Unfallrisiko-Schätzung.pdf  used on i
 nput line 195.
 (pdftex.def)             Requested size: 426.7914pt x 301.7844pt.
 No file main.ind.
-[26
+[44
 
  <./figures/f-04-03-Unfallrisiko-Schätzung.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
@@ -2283,68 +2406,122 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 204.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50433 strings out of 480934
- 1147466 string characters out of 2895703
- 2244290 words of memory out of 3000000
- 65169 multiletter control sequences out of 15000+200000
+ 50657 strings out of 480934
+ 1153266 string characters out of 2895703
+ 2246783 words of memory out of 3000000
+ 65289 multiletter control sequences out of 15000+200000
  559881 words of font info for 92 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\eccc1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Cyrano Golliez\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Go
-lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> 
-<C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm0700.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golli
-ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:
-\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Us
-ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users
-\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
-m2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/
-Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Go
-lliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
-><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano
- Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/
-Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
-a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/palatino/uplri8a.pfb>
-Output written on main.pdf (50 pages, 1504224 bytes).
+pdfTeX warning (dest): name{section*.63} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.61} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.60} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.58} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.54} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.51} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.47} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.42} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.64} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
+dpi600\eccc1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Goll
+iez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C
+:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecrm0700.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golliez
+\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\U
+sers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\User
+s\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+sx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\C
+yrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2
+488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Cy
+rano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
+sers/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Goll
+iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano G
+olliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cy
+rano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.
+pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+palatino/uplri8a.pfb>
+Output written on main.pdf (68 pages, 1789990 bytes).
 PDF statistics:
- 1444 PDF objects out of 1728 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1700 PDF objects out of 1728 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

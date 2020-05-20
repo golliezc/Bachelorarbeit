@@ -14,24 +14,34 @@
 % More information on LaTeX: http://www.latex-project.org/
 %=============================================================================
 
-\begin{table}[hbt!]
+\begin{table}[h!]
 \center
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{l|c}
+            			& Umweltkosten   $\frac{CHF}{Pkm}$	       \\ \hline
+Schadstoffbelastung	    &       0.0345          		                \\
+Lärmbelastung           &      	0.0149          		                       
+\end{tabular}
+\caption{Übersich der Nutzerkosten}
+\label{tab:t-04-03-01-Unterhalt}
+\end{table}
+
+%\begin{table}[h!]
+%\flushleft
+%\renewcommand{\arraystretch}{1.4}
 %\small\renewcommand{\arraystretch}{1.2} 
 %
 %
-\begin{tabular}{@{}p{2.6cm} p{3.3cm} p{3.3cm} p{3.3cm}@{}} \\   
-\toprule
-\textbf{Fahrzeugtyp} & \textbf{Unfalltyp\,a} & \textbf{Unfalltyp\,b} & \textbf{Unfalltyp\,c} \\
-\midrule
-MIV      & \(1.317\,\mathrm{10^{-6}}\)  & \(9.116\,\mathrm{10^{-8}}\)  & \(4.7243\,\mathrm{10^{-9}}\)  \\
-Velo	 & \(3.818\,\mathrm{10^{-6}}\)  & \(2.643\,\mathrm{10^{-7}}\)  & \(1.37\,\mathrm{10^{-8}}\)   \\
+%\begin{tabular}{@{}p{3.3cm} p{4cm} p{1cm} r l @{}} \\   
+%\toprule
+%\textbf{Interessensgruppe} & \textbf{Kostentyp} & \textbf{Symbol} & \multicolumn{2}{c}{\textbf{Einheitskosten}} 			\\
+%\midrule
 
-\bottomrule
+%\bottomrule
 
-\end{tabular}
-\caption[Tabelle der Unfallrisiken]{Tabelle der Unfallrisiken $\gamma_{j,n}\,\Bigl[\frac{Unf"alle_{j,n}}{Pkm_{j}}\Bigl]$}
-\label{tab:t-06-01-Unfallrisiko}
-\end{table}
+%\end{tabular}
+
+%\end{table}
 
 
 %=============================================================================
