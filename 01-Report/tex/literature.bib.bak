@@ -55,11 +55,12 @@
   url       = {https://www.bfs.admin.ch/bfs/de/home/statistiken/mobilitaet-verkehr/verkehrsinfrastruktur-fahrzeuge/fahrzeuge/strassenfahrzeuge-bestand-motorisierungsgrad.html},
 }
 
-@Article{Unfallrisiko2019,
-  author = {{BFS} and {ASTRA}},
-  title  = {{Risikovergleich ausgewählter Landverkehrsmittel, 2008-2017}},
-  year   = {2019},
-  url    = {https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/grafiken.assetdetail.9346478.html},
+@Article{Verkehrsleistung2019,
+  author  = {{Bundesamt für Statistik (BFS)}},
+  journal = {{Methodenbericht 2019}},
+  title   = {{Leistungen des privaten Personenverkehrs auf der Strasse}},
+  year    = {2019},
+  url     = {https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.9867227.html},
 }
 
 @Article{Lärm2000,
@@ -202,13 +203,6 @@
   month   = {09},
   volume  = {4},
   doi     = {10.7492/ICSDM.2015.013},
-}
-
-@Article{,
-  author  = {{Bundesamt für Statistik (BFS)}},
-  journal = {Methodenbericht},
-  title   = {Leistungen des privaten Personenverkehrs auf der Strasse},
-  year    = {2019},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

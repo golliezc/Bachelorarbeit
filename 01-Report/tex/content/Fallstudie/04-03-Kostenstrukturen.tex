@@ -351,27 +351,21 @@ Eine Untersuchung des Effekts der Veränderung der Unfallrisiken in Abhängigkei
 \subsubsection*{Unfallrisiko}
 \label{subsubsec:Unfallrisiko}
 
-Die Anzahl Unfälle pro Personenkilometer und somit die Unfallwahrscheinlichkeit \( \gamma_{j,n} \), wird mithilfe der Risiken eines Unfalls im Strassenverkehr ermittelt. Das Sterberisiko pro zurückgelegter Distanz, lag im Zeitraum von 2008 bis 2017 für einen Personenwagen bei; einem Todesfall pro 828 Mio. Personenkilometer (\cite{Unfallrisiko2019}). \\
 
-Ermittelt man aus diesen Angaben, die Anzahl Unfälle pro einem Personenkilometer, erhält man die Unfallwahrscheinlichkeit eines Unfalls mit Todesfolge.
-Um die Berechnung zu vereinfachen habe ich die Personenwagen und die Motorräder unter der Bezeichnung MIV zusammengefasst. Um der höheren Unfallwahrscheinlichkeit der Motorradfahrer rechnung zu tragen, berechne ich die Unfallwahrscheinlichkeit des MIV aus dem Anteil dieser Verkehrsmittel am Fahrzeugbestand. Die Anzahl Strassenmotorfahrzeuge in der Schweiz betrug 2019 6'160'262 Fahrzeuge.
-Davon waren 744'542 Motorräder, was einem Anteil von 12.09\% entspricht. Der Rest wird in dieser Betrachtung als Autos definiert.(\cite{Bestand2019}) 
-Anhand dieser Überlegungen berechne ich das Unfallrisiko des MIV gemäss der folgenden Formel.
+Das Risiko im Strassenverkehr einen Unfall zu erleiden, ist von verschiedenen Faktoren abhängig. Ich berechne das sogenannten Unfallrisiko, also die Wahrscheinlichkeit im Strassenverkehr einen Unfall zu erleiden, mit den Angaben zu den Leistungen des privaten Personenverkehrs auf der Strasse und der Strasenverkehrsunfall-Statistik. So teile ich die Anzahl Unfälle nach Unfallart, durch die Verkehrsleistungen der verschiedenen Verkehrsteilnehmer und erhalte so das Risiko eines Unfalls pro Personenkilometer.  Diese Unfallwahrscheinlichkeit bezeichne ich mit  \( \gamma_{j,n} \).
 
-\begin{equation*}
-\gamma_{MIV,c} = Anteil_{Motorrad} \cdot \gamma_{Motorrad,c} + Anteil_{Auto,c} \cdot \gamma_{Auto,c}
-\end{equation*}
+Das Unfallrisiko des MIV ermittle ich aus den Unfallzahlen und den Verkehrsleistung der Personenwagen und der Motorräder in der Schweiz. Die Gesamtleistung der Personenwagen in der Schweiz, lag im Jahr 2018 bei 96.9 Mrd. Personenkilometer. Die Verkehrsleistung der Motorräder, inklusive Motorfahrräder und schnelle E-Bikes lag hingegen bei 2.2 Mrd. Personenkilometer. So ergibt sich für die den MIV eine Verkehrsleistung von 99.1 Mrd. Personenkilometer für das Jahr 2018. (\cite{Verkehrsleistung2019})\\
+Die Unfallzahlen des MIV setzten sich aus den Unfallzahlen der Personenwagen, der Motorräder inklusive Motorfahrräder und schnelle E-Bikes zusammen. Im Jahr 2018 erlagen ingsesamt 116 Personen den Folgen eines Unfalls mit Beteiligung des MIV, 1898 Personen wurden schwer- und 12'106 Personen leicht verletzt. (\cite{Unfall2019})\\
+Aus diesen Angaben habe ich die in Tabelle \ref{tab:t-06-01-Unfallrisiko} aufgelisteten Unfallrisiken ermittelt, indem ich die Anzahl Unfälle durch die Verkehrsleistungen geteilt habe.
 
-Die Berechnung der Unfallrisiken der Kategorien $a$ und $b$b, erfolgte mithilfe der Unfallzahlen des Jahrs 2018. Die Anzahl Unfälle, aufgeschlüsselt nach Unfallart kann der Strassenverkehrsunfall-Statistik des Bundesamt für Strassen entnommen werden. Zusätzlich wir die totale Anzahl an Personenkilometer verwendet, um gemäss der Berechung des Unfallrisikos der Kategorie $c$, die Unfallrisiken der Kategorien $a$ und $b$ zu bestimmten.  
-So waren 2019, 0.334\% aller Unfälle, Unfälle mit Todesfolge, 6.45\%  waren Unfälle mit Schwerverletzten und 93.21\% der Unfälle hatten Sachschäden und Leichtverletzte Personen zur Folge. Die im Jahr 2018 gemäss ASTRA erbrachte Leistung des Personverkehrs, lag bei 79'270 Mio. Personenkilometer. (\cite{Unfall2019}) (\cite{Leistung2019})
-
-Die Berechnung der Unfallrisiken für die Fahrradfahrer folgt dem gleichen Vorgehen, jedoch mit den Unfallzahlen und den Angaben zu den Personenkilometer für den Langsamverkehr. 
-Die nachfolgenden Tabelle \ref{tab:t-06-01-Unfallrisiko} listet die berechneten Unfallrisiken für die verschiedenen Fahrzeuge $j$ und die verschiedenen Unfalltypen $n$ auf. 
+Für den Langsamverkehr, den ich unter dem Begriff \textit{Velo} zusammenfasse, ergibt sich das selbe Vorgehen bei der Berechung der Unfallrisiken. So lag die Verkehrsleitung im Jahr 2018, der Velofahrer und langsamen E-Bikes, bei 2'520 Mio. Personenkilometer. (\cite{Verkehrsleistung2019}) \\
+Im Jahr 2018 verunfallten in Zusammenhang mit dem Langsamverkehr, sprich mit den Velos oder den langsamen E-Bikes, 26 Personen tödlich. Im selben Zeitraum wurden 878 Personen schwer- und 2815 Personen leicht verletzt. (\cite{Unfall2019})
+Wie für das Unfallrisiko des MIV habe ich aus diesen Angaben die Unfallrisiken der verschiedenen Unfalltypen für die Verkehrsteilnehmer des Langsamverkehrs ermittelt. Die berechneten Risiken sind in Tabelle \ref{tab:t-06-01-Unfallrisiko} für die verschiedenen Fahrzeuge $j$ und Unfalltypen $n$ zusammengefasst.
 
 \input{./tables/t-06-01-Unfallrisiko}
 
 
-Nach der ausführlichen Betrachtung verschiedenster Literatur zum Thema: \textit{Kosten die durch Strassenverkehrsunfälle entstehen} und einem Gespräch mit Herr Dr. Martani habe ich für die Berechnung der Unfallkosten im Rahmen dieser Untersuchung die folgenden Einheitskosten der verschiedenen Unfalltypen festgelegt.
+Nach der ausführlichen Betrachtung verschiedenster Literaturen zum Thema: \textit{Kosten die durch Strassenverkehrsunfälle entstehen} und einem Gespräch mit Herr Dr. Martani, habe ich für die Berechnung der Unfallkosten im Rahmen dieser Untersuchung, die folgenden Einheitskosten der verschiedenen Unfalltypen festgelegt.
 
 \paragraph{Katergorie $a$} Die Einheitskosten pro Unfall der Kategorie $a$ setzen sich aus den entstandenen Sachschäden und den Arbeits- und Materialkosten der Reperatur eines Fahrzeugs zusammen. Das durchschnittliche Alter eines Personenenwagens in der Schweiz liegt bei 8.5 Jahren und der durschnittliche Wert eines solchen Fahrzeuge liegt gemäss TCS bei 15'000 CHF. Die Kosten der Behandlung der leichtverletzter Personen wird in dieser Betrachtung, aufgrund ihrer geringen grösse vernachlässigt, weshalb die pro Unfall enstehenden Kosten der Kategorie $a$ mit 15'000 CHF/Unfall angesetzt, werden.
 
