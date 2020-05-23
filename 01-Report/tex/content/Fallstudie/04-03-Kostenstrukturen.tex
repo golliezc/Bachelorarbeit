@@ -28,6 +28,24 @@ Die Berechnung der Unterhaltskosten $K_{U}$ der Infrastruktur erfolgt gemäss de
 K_{U} = K_{Bau} + \sum_{t=0}^T \  K_{Wartung,t}  \label{eq.2} \\ 
 \end{equation}
 
+
+{\setstretch{0.6}
+wobei:
+\begin{conditions}
+ K_{U}      	     			&  Totale Unterhaltskosten für $T$ Jahre  \\
+ K_{Bau}           			    &  Baukosten der Variante     \\
+ K_{Wartung,t}                  &  Wartungskosten pro Jahr     
+\end{conditions}
+}
+
+\pagebreak
+
+Die Berechnung der Wartungskosten erfolgt ahand Formel \ref{eq.3}. Die Einheitskosten für den Bau und die Wartung werden nachfolgend erläutert.
+
+\begin{equation}
+K_{Wartung,t} = \sum_{k=1}^2 \ EK_{Wartung,k} \cdot s_{k} \cdot b_{k}  \label{eq.3} 
+\end{equation}
+
 \begin{align*}
 	  k &=
       \begin{cases}
@@ -40,26 +58,11 @@ K_{U} = K_{Bau} + \sum_{t=0}^T \  K_{Wartung,t}  \label{eq.2} \\
          & \text{für}\ \thinspace
         \end{aligned}
         \begin{aligned}
-          & Strasse \\
-          & Unterführung
+          & \text{Strasse} \\
+          & \text{Unterführung}
         \end{aligned}
       \end{cases} \\
 \end{align*}
-
-{\setstretch{0.6}
-wobei:
-\begin{conditions}
- K_{U}      	     			&  Totale Unterhaltskosten für $T$ Jahre  \\
- K_{Bau}           			    &  Baukosten der Variante     \\
- K_{Wartung,t}                  &  Wartungskosten pro Jahr     
-\end{conditions}
-}
-
-Die Berechnung der Wartungskosten erfolgt ahand Formel \ref{eq.3}. Die Einheitskosten für den Bau und die Wartung werden nachfolgend erläutert.
-
-\begin{equation}
-K_{Wartung,t} = \sum_{t=1}^2 \ EK_{Wartung,k} \cdot s_{k} \cdot b_{k}  \label{eq.3} 
-\end{equation}
 
 {\setstretch{0.6}
 wobei:
@@ -92,37 +95,7 @@ Diese sogenannten Fahrzeugsbetriebkosten sind im Rahmen dieser Optimierung, als 
 Diese Kosten sind abhängig von der Qualität des Fahrbahnbelags, von der Ausführung der Infrastruktur und von der Kapazität der Infrastruktur. Weiter ist ein entscheidender Faktor in der Bestimmung der Fahrzeugbetriebskosten die Strassengeometry. Diese beinhaltet die Anzahl und Form der Kurven, die Steigungen sowie die Breite der Strasse und die daraus resultierende Möglichkeit des sicheren Überholens. Die Anzahl an Kreuzungsstellen und die davon abhänginge Anzahl an Brems- und Beschleunigungsmanöver haben einen direkten Einfluss auf den Verschleiss der Mechanik des Fahrzeugs. So werden im Falle des Fahrrads die Kette und die Bremsbeläge durch vermehrtes Bremsen und Anfahren verstärkt abgenutzt und im Falle des Autos erhöhen sich die Betriebskosten bei vermehrtem \textit{Stop-and-Go} Verkehr.
 
 \begin{equation}
-K_{B} =  \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ EK_{B,j} \cdot s_{k} \cdot DTV_{j} \Biggr]  \label{eq.6} \\
-\end{equation}
-
-{\setstretch{0.6}
-wobei:
-\begin{conditions}
- K_{B}			   &  Totale Fahrzeugbetriebskosten \\
- EK_{B,j}	       &  Einheitskosten pro $km$ \\
- s_j	    	   &  Länge der Infrastruktur; nach Fahrzeugtyp in $km$  \\
- DTV_{j}    	   &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp 
-\end{conditions}
-}
-
-Die Einheitskosten des Fahrzeugsbetrieb sind mehrheitlich abhängig von der Entwicklung der Fahrzeugtechnologie und der Verarbeitungsqualität. 
-Die Einführung autonomer Fahrzeuge, würde diese Kostenposition in Zukunft obsolet machen. Jedoch ist die Zulassung solcher Fahrzeuge für den innerstädtischen Verkehr nicht vor 2050 zu erwarten. Da dies, erst am Ende meines betrachteten Zeithorizont eine Rolle spielen wird und der Effekt der die einführung von autonomen Fahrzeugen auf die Betriebskosten des Nutzers nicht eindeutig beziffert werden kann, verzichte ich auf eine Variation dieser Parameter. Somit bleiben die Einheitskosten des Fahrzeugbetriebs über den betrachteten Zeithorizont konstant.
-Zur Vereinfachung der Berechnung, werden die entstehenden Betriebskosten anhand der nachfolgenden Referenzwerte ermittelt.
-Die Kosten der Arbeitsstunden sowie die Kosten der Materialien werden zusammengefasst als die Einheitskosten $EK_{B}$ für den Fahrzeugbetrieb.
-Diese betragen pro Auto 0.7 $CHF$ pro $km$ und pro Velo 0.15 $CHF$ pro $km$ (Quelle: TCS und eigene Erfahrungswerte). 
-
-
-
-\subsection*{Reisezeitkosten}
-\label{sub:Reisezeit}
-
-Erleidet man beim befahren einer Infrastruktur einen Zeitverlust, entsteht dem Nutzer einen Schaden. Zieht man in betracht, dass der Nutzer in dieser Zeit hätte arbeiten können oder Freizeit verbringen, kann dieser Schaden monäter beziffert werden. Beispiele hierfür wären, die Mehrkosten eines Spediteurs aufgrund des Zeitverlust oder die Mehrkosten auf einem Ausflug, durch eine verpasste Verbindung .
-Diese Kosten werden indirekt vom Zustand des Fahrbahnbelags beeinflusst. Vom Zustand des Fahrbahnbelags ist die Reisegeschwindigkeit und somit die Zeit die benötigt wird, eine gewisse Strecke zurückzulegen, abhängig.
-
-Die Berechnung der totalen Reisezeitkosten $K_{TT}$ erfolgt gemäss Formel \ref{eq.4} in Anlehnung an die Berechnung der \textit{Travel time cost} aus \cite[S.643]{Adey2012}.
-
-\begin{equation}
-K_{TT} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ DTV_{j} \cdot t_{j} \cdot EK_{TT,j} \Biggr]  \label{eq.4}
+K_{B} =  \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ EK_{B,j} \cdot s_{k} \cdot DTV_{j} \Biggr] \cdot 365  \label{eq.6} \\
 \end{equation}
 
 \begin{align*}
@@ -146,10 +119,40 @@ K_{TT} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ DTV_{j} \cdot t_{j} \cdot EK_{TT,j}
 {\setstretch{0.6}
 wobei:
 \begin{conditions}
+ K_{B}			   &  Totale Fahrzeugbetriebskosten \\
+ EK_{B,j}	       &  Einheitskosten pro $km$ \\
+ s_j	    	   &  Länge der Infrastruktur; nach Fahrzeugtyp in $km$  \\
+ DTV_{j}    	   &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp \\
+  j				   &  Art des Fahrzeugs  
+\end{conditions}
+}
+
+Die Einheitskosten des Fahrzeugsbetrieb sind mehrheitlich abhängig von der Entwicklung der Fahrzeugtechnologie und der Verarbeitungsqualität. 
+Die Einführung autonomer Fahrzeuge, würde diese Kostenposition in Zukunft obsolet machen. Jedoch ist die Zulassung solcher Fahrzeuge für den innerstädtischen Verkehr nicht vor 2050 zu erwarten. Da dies, erst am Ende meines betrachteten Zeithorizont eine Rolle spielen wird und der Effekt der die einführung von autonomen Fahrzeugen auf die Betriebskosten des Nutzers nicht eindeutig beziffert werden kann, verzichte ich auf eine Variation dieser Parameter. Somit bleiben die Einheitskosten des Fahrzeugbetriebs über den betrachteten Zeithorizont konstant.
+Zur Vereinfachung der Berechnung, werden die entstehenden Betriebskosten anhand der nachfolgenden Referenzwerte ermittelt.
+Die Kosten der Arbeitsstunden sowie die Kosten der Materialien werden zusammengefasst als die Einheitskosten $EK_{B}$ für den Fahrzeugbetrieb.
+Diese betragen pro Auto 0.7 $CHF$ pro $km$ und pro Velo 0.15 $CHF$ pro $km$ (Quelle: TCS und eigene Erfahrungswerte). 
+
+
+
+\subsection*{Reisezeitkosten}
+\label{sub:Reisezeit}
+
+Erleidet man beim befahren einer Infrastruktur einen Zeitverlust, entsteht dem Nutzer einen Schaden. Zieht man in betracht, dass der Nutzer in dieser Zeit hätte arbeiten können oder Freizeit verbringen, kann dieser Schaden monäter beziffert werden. Beispiele hierfür wären, die Mehrkosten eines Spediteurs aufgrund des Zeitverlust oder die Mehrkosten auf einem Ausflug, durch eine verpasste Verbindung .
+Diese Kosten werden indirekt vom Zustand des Fahrbahnbelags beeinflusst. Vom Zustand des Fahrbahnbelags ist die Reisegeschwindigkeit und somit die Zeit die benötigt wird, eine gewisse Strecke zurückzulegen, abhängig.
+
+Die Berechnung der totalen Reisezeitkosten $K_{TT}$ erfolgt gemäss Formel \ref{eq.4} in Anlehnung an die Berechnung der \textit{Travel time cost} aus \cite[S.643]{Adey2012}.
+
+\begin{equation}
+K_{TT} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ DTV_{j} \cdot t_{j} \cdot EK_{TT,j} \Biggr] \cdot 365 \label{eq.4}
+\end{equation}
+
+{\setstretch{0.6}
+wobei:
+\begin{conditions}
  K_{TT}		 	 &  Totale Reisezeitkosten für $T$ Jahre  \\
  t_{j} 			 &  Zeitverlust nach Fahrzeugtyp \\
- EK_{TT,j} 		 &  Einheitskosten der verlorenen Zeit in $CHF/h$ \\
- j				 &  Art des Fahrzeugs   
+ EK_{TT,j} 		 &  Einheitskosten der verlorenen Zeit in $CHF/h$  
 \end{conditions}
 }
 
@@ -169,8 +172,7 @@ wobei:
  v_{j}			 &  Gefahrene Geschwindigkeit nach Fahrzeugtyp \\
  \alpha			 &  (0.15 vorgeschlagen nach (\cite{Adey2012}))  \\
  \beta			 &  (4 vorgeschlagen nach (\cite{Adey2012}))  \\
- C_{j}			 &  Kapazität der Infrastruktur pro Tag nach Fahrzeugtyp  \\
- j				 &  Art des Fahrzeugs   
+ C_{j}			 &  Kapazität der Infrastruktur pro Tag nach Fahrzeugtyp  \\  
 \end{conditions}
 }
 
@@ -213,7 +215,7 @@ Die \textbf{Lärmbelastung} durch den Verkehr verursacht Kosten $K_{L}$, die von
 Diese Gesundheitskosten entstehen durch die Störung und Beeinträchtigung der Anwohner in Form von Kopfschmerzen, Bluthochdruck, Schlafstörrungen sowie psychischer Belastung. (\cite{Ecoplan2007}) \\
 
 \begin{equation}
-K_{L,t} = EK_{L} \cdot DTV_{MIV,t} \cdot s_{i}  \label{eq.9} \\
+K_{L,t} = EK_{L} \cdot DTV_{MIV,t} \cdot s_{i} \cdot 365 \label{eq.9} \\
 \end{equation}
 
 {\setstretch{0.6}
@@ -230,12 +232,10 @@ Der Lärm entsteht mehrheitlich durch Motorengeräusche sowie der Abrollgeräusc
 Das Ausmass des entstandenen Schadens, ist somit vollständig von der Fahrzeugtechnologie abghängig. Eine Reduktion der Lärmbelastung durch Veränderung der Reifentechnologie, ist im betrachten Zeithorizont nicht zuerwarten. Die Einheitskosten der Lärmbelastung $EK_{L}$ werden infolge, anhand des Berichts zu den externen Lärmkosten des Strassenverkehrs, mit 0.0149 $CHF$/Fahrzeugkilometer angenähert. (\cite{Lärm2000})
 \end{IMleftrightskip}
 
-
-
 Die in Formel \ref{eq.8} dargestellten Kosten der \textbf{Schadstoffbelastung} $K_{S}$, sind die Kosten die der Allgemeinheit durch die Emissionen von Motorfahrzeugen entstehen. Diese Schäden können neben gesundheitlichen Problemen für die Anwohner und Nutzer der Strasse und der Beeinträchtigung des Pflanzenwachstums entlang der Infrastruktur auch die Reduktion des Werts einer Liegenschafts sein. 
 
 \begin{equation}
-K_{S,t} = EK_{S} \cdot DTV_{MIV,t} \cdot s_{i} \biggl( 1 - \Phi_{E-Auto,t} \biggr)   \label{eq.8} \\
+K_{S,t} = EK_{S} \cdot DTV_{MIV,t} \cdot s_{i} \cdot \biggl( 1 - \Phi_{E-Auto,t} \biggr) \cdot 365 \label{eq.8} \\
 \end{equation}
 
 {\setstretch{0.6}
@@ -288,7 +288,7 @@ Wichtig anzumerken ist, dass die ermittelten Unfallrisiken die Anzahl Unfälle e
 \end{IMleftrightskip}
 
 \begin{equation}
-K_{A} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \Bigl( \sum_{n=a}^c \ EK_{j,n} \cdot \gamma_{j,n} \Bigr) \cdot DTV_{j} \cdot s_j \Biggr] 
+K_{A} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \Bigl( \sum_{n=a}^c \ EK_{j,n} \cdot \gamma_{j,n} \Bigr) \cdot DTV_{j} \cdot s_j \cdot 365 \Biggr] 
 \label{eq.10}
 \end{equation}
 

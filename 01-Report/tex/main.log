@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  23 MAY 2020 03:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  23 MAY 2020 16:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -2255,7 +2255,7 @@ File: figures/04-01-Bahnübergang-FOTO.png Graphic file (type png)
 <use figures/04-01-Bahnübergang-FOTO.png>
 Package pdftex.def Info: figures/04-01-Bahnübergang-FOTO.png  used on input li
 ne 77.
-(pdftex.def)             Requested size: 426.7914pt x 213.40121pt.
+(pdftex.def)             Requested size: 256.07744pt x 128.03983pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2263,7 +2263,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [16 <./figures/04-01-Veloweg-Alltag.png>]
 (content/Fallstudie/04-01-Interessensgruppen.tex [17 <./figures/04-01-Bahnüber
 gang-FOTO.png>] [18]) (content/Fallstudie/04-02-Zielfunktion.tex
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 35--43
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 37--45
 [] 
  []
 
@@ -2278,125 +2278,101 @@ Overfull \hbox (12.2031pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (0.62366pt too wide) in paragraph at lines 28--28
-[]|$\OML/cmm/m/it/10.95 K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
-n/10.95 )$| 
- []
-
-
-Overfull \hbox (6.07654pt too wide) in paragraph at lines 29--29
-[]|$\OML/cmm/m/it/10.95 K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/
-n/10.95 )$| 
- []
-
-
-Overfull \hbox (67.5759pt too wide) in paragraph at lines 30--31
-[]|\T1/cmr/m/n/10.95 Fahrzeugtechnologie| 
+Overfull \hbox (3.1116pt too wide) in paragraph at lines 30--30
+[]|\T1/cmr/m/n/10.95 Umweltbelastungskosten 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [19]) (content/Fallstudie/04-03-Kostenstrukturen.tex
-
-LaTeX Warning: Command \" invalid in math mode on input line 46.
-
-Missing character: There is no � in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 46.
-
-Missing character: There is no � in font cmr10!
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 50--54
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 34--38
 [] 
  []
 
 [20]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 65--70
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 69--74
 [] 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
   
  []
 
-(tables/t-04-03-01-Unterhaltskosten.tex) [22]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 101--106
+(tables/t-04-03-01-Unterhaltskosten.tex) [21]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 121--127
+[] 
+ []
+
+[22]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 152--156
 [] 
  []
 
 [23]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 149--154
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 176.
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 171--176
 [] 
  []
 
-[24]
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 175.
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 175.
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 169--175
-[] 
- []
-
-(tables/t-04-03-02-Nutzerkosten.tex) [25]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 206--210
+(tables/t-04-03-02-Nutzerkosten.tex) [24]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 207--211
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 222--226
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 223--227
 [] 
  []
 
-[26]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 244--249
+[25]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 243--248
 [] 
  []
 
-(tables/t-04-03-03-Umweltkosten.tex) [27]
-<figures/04-04-01-MarktanteilE-Auto.png, id=654, 672.111pt x 401.0985pt>
+(tables/t-04-03-03-Umweltkosten.tex) [26]
+<figures/04-04-01-MarktanteilE-Auto.png, id=650, 672.111pt x 401.0985pt>
 File: figures/04-04-01-MarktanteilE-Auto.png Graphic file (type png)
 <use figures/04-04-01-MarktanteilE-Auto.png>
 Package pdftex.def Info: figures/04-04-01-MarktanteilE-Auto.png  used on input 
-line 268.
+line 267.
 (pdftex.def)             Requested size: 256.07744pt x 152.82294pt.
- [28 <./figures/04-04-01-MarktanteilE-Auto.png>]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 334--342
+ [27 <./figures/04-04-01-MarktanteilE-Auto.png>]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 333--341
 [] 
  []
 
-[29] [30] (tables/t-06-01-Unfallrisiko.tex) [31]
-(tables/t-04-03-04-Unfallkosten.tex) [32])
+[28] [29] (tables/t-06-01-Unfallrisiko.tex) [30]
+(tables/t-04-03-04-Unfallkosten.tex) [31])
 ("content/Fallstudie/04-04-Unsichere Einflussfaktoren.tex"
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 41.
 
-[33]) (content/Fallstudie/04-05-Varianten.tex [34]
-(tables/t-08-01-Varianten.tex) [35])
+[32]) (content/Fallstudie/04-05-Varianten.tex [33]
+(tables/t-08-01-Varianten.tex) [34])
 
-LaTeX Warning: Reference `subsubsec:Demographie' on page 36 undefined on input 
-line 140.
+LaTeX Warning: Reference `subsubsec:Demographie' on page 35 undefined on input 
+line 141.
 
-<figures/04-06-01-Entscheidungsbaum-Szenarien.png, id=715, 699.8145pt x 342.680
+<figures/04-06-01-Entscheidungsbaum-Szenarien.png, id=711, 699.8145pt x 342.680
 25pt>
 File: figures/04-06-01-Entscheidungsbaum-Szenarien.png Graphic file (type png)
 <use figures/04-06-01-Entscheidungsbaum-Szenarien.png>
 Package pdftex.def Info: figures/04-06-01-Entscheidungsbaum-Szenarien.png  used
- on input line 146.
+ on input line 147.
 (pdftex.def)             Requested size: 426.7914pt x 208.98758pt.
-(content/Fallstudie/04-06-Szenarien.tex [36 <./figures/04-06-01-Entscheidungsba
-um-Szenarien.png>] [37]
-<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=733, 758.23276pt x 4
+(content/Fallstudie/04-06-Szenarien.tex [35 <./figures/04-06-01-Entscheidungsba
+um-Szenarien.png>] [36]
+<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=728, 758.23276pt x 4
 09.53pt>
 File: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png Graphic file (type 
 png)
@@ -2404,7 +2380,7 @@ png)
 Package pdftex.def Info: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png 
  used on input line 79.
 (pdftex.def)             Requested size: 192.05482pt x 103.73201pt.
-<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=734, 759.43726pt x 
+<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=729, 759.43726pt x 
 407.121pt>
 File: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png Graphic file (type
  png)
@@ -2412,24 +2388,24 @@ File: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png Graphic file (type
 Package pdftex.def Info: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png
   used on input line 81.
 (pdftex.def)             Requested size: 192.05482pt x 102.95409pt.
- [38 <./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png> <./figures/04-06-0
+ [37 <./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png> <./figures/04-06-0
 3-DTV(VELO)-SzenarienBev.wachstum.png>]
 
-LaTeX Warning: Reference `subsubsec:Demographie' on page 39 undefined on input 
+LaTeX Warning: Reference `subsubsec:Demographie' on page 38 undefined on input 
 line 126.
 
 
-LaTeX Warning: Reference `subsubsec:Demographie' on page 39 undefined on input 
+LaTeX Warning: Reference `subsubsec:Demographie' on page 38 undefined on input 
 line 128.
 
-[39]) (content/Fallstudie/04-07-Kostenberechnung.tex
+[38]) (content/Fallstudie/04-07-Kostenberechnung.tex
 
-LaTeX Warning: Reference `eq.5' on page 40 undefined on input line 25.
+LaTeX Warning: Reference `eq.5' on page 39 undefined on input line 25.
 
 
-LaTeX Warning: Reference `eq.5' on page 40 undefined on input line 25.
+LaTeX Warning: Reference `eq.5' on page 39 undefined on input line 25.
 
-<figures/04-06-04-Kostenberechnung.png, id=761, 978.054pt x 289.08pt>
+<figures/04-06-04-Kostenberechnung.png, id=757, 978.054pt x 289.08pt>
 File: figures/04-06-04-Kostenberechnung.png Graphic file (type png)
 <use figures/04-06-04-Kostenberechnung.png>
 Package pdftex.def Info: figures/04-06-04-Kostenberechnung.png  used on input l
@@ -2438,8 +2414,8 @@ ine 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [40] (content/Fallstudie/04-08-Risiken.tex
-<figures/04-08-01-Risikoberechnung.png, id=766, 963.6pt x 272.81924pt>
+) [39] (content/Fallstudie/04-08-Risiken.tex
+<figures/04-08-01-Risikoberechnung.png, id=762, 963.6pt x 272.81924pt>
 File: figures/04-08-01-Risikoberechnung.png Graphic file (type png)
 <use figures/04-08-01-Risikoberechnung.png>
 Package pdftex.def Info: figures/04-08-01-Risikoberechnung.png  used on input l
@@ -2447,18 +2423,18 @@ ine 28.
 (pdftex.def)             Requested size: 426.7914pt x 120.83177pt.
 )
 (content/Fallstudie/04-09-Sensitivitätsanalyse.tex)) (content/05-Resultate.tex
-[41 <./figures/04-06-04-Kostenberechnung.png> <./figures/04-08-01-Risikoberechn
-ung.png>] [42]
+[40 <./figures/04-06-04-Kostenberechnung.png> <./figures/04-08-01-Risikoberechn
+ung.png>] [41]
 chapter 5.
-) (content/06-Diskussion.tex [43
+) (content/06-Diskussion.tex [42
 
 ]
 chapter 6.
-) (content/07-Schlussfolgerung.tex [44
+) (content/07-Schlussfolgerung.tex [43
 
 ]
 chapter 7.
-) [45
+) [44
 
 ]
 chapter without number
@@ -2468,11 +2444,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
 tt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [46
+) [45
 
-] [47]
+] [46]
 chapter without number
-<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=826, 845.07718pt x 597.55246pt
+<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=822, 845.07718pt x 597.55246pt
 >
 File: figures/f-04-03-Unfallrisiko-Schätzung.pdf Graphic file (type pdf)
 <use figures/f-04-03-Unfallrisiko-Schätzung.pdf>
@@ -2480,7 +2456,7 @@ Package pdftex.def Info: figures/f-04-03-Unfallrisiko-Schätzung.pdf  used on i
 nput line 195.
 (pdftex.def)             Requested size: 426.7914pt x 301.7844pt.
 No file main.ind.
-[48
+[47
 
  <./figures/f-04-03-Unfallrisiko-Schätzung.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
@@ -2497,9 +2473,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50722 strings out of 480934
- 1155498 string characters out of 2895703
- 2247179 words of memory out of 3000000
+ 50721 strings out of 480934
+ 1155491 string characters out of 2895703
+ 2247180 words of memory out of 3000000
  65348 multiletter control sequences out of 15000+200000
  559881 words of font info for 92 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -2551,9 +2527,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/
 Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
 a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (72 pages, 4045862 bytes).
+Output written on main.pdf (71 pages, 4045930 bytes).
 PDF statistics:
- 1748 PDF objects out of 2073 (max. 8388607)
- 231 named destinations out of 1000 (max. 500000)
+ 1746 PDF objects out of 2073 (max. 8388607)
+ 230 named destinations out of 1000 (max. 500000)
  489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

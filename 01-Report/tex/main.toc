@@ -57,7 +57,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Formulierung der Ziele und Rahmenbedingungen}{17}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Interessensgruppen}{18}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Interessensgruppen}{17}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Besitzer}{18}{section*.43}%
 \defcounter {refsection}{0}\relax 
@@ -69,42 +69,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Kostenstruktur}{20}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Katergorie $a$}{32}{section*.59}%
+\contentsline {paragraph}{\nonumberline Katergorie $a$}{31}{section*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Kategorie $b$}{32}{section*.60}%
+\contentsline {paragraph}{\nonumberline Kategorie $b$}{31}{section*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Kategorie $c$}{32}{section*.61}%
+\contentsline {paragraph}{\nonumberline Kategorie $c$}{31}{section*.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Unsichere Einflussfaktoren}{33}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Unsichere Einflussfaktoren}{32}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Generierung möglicher Lösungen}{34}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Generierung möglicher Lösungen}{33}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Variante: \ 1}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Variante: \ 1}{33}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Variante: \ 2}{34}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Variante: \ 2}{33}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Variante: \ 3}{34}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.3}Variante: \ 3}{33}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analyse der Lösungen}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Analyse der Lösungen}{35}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Modellierung des DTV}{36}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Modellierung des DTV}{35}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Berechnung der Kosten der Varianten}{40}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Berechnung der Kosten der Varianten}{39}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Bewertung der Lösungen}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Bewertung der Lösungen}{40}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Berechnung der Risiken der Varianten}{41}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Berechnung der Risiken der Varianten}{40}{subsection.4.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Sensitivitätsanalyse}{41}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Sensitivitätsanalyse}{40}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Resultate}{43}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Resultate}{42}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Diskussion}{44}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Diskussion}{43}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Schlussfolgerung und Ausblick}{45}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Schlussfolgerung und Ausblick}{44}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{46}{chapter*.74}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{45}{chapter*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{48}{chapter*.75}%
+\contentsline {chapter}{\nonumberline Anhang}{47}{chapter*.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Unfallrisiko Schätzung}{48}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Unfallrisiko Schätzung}{47}{section.A.1}%
