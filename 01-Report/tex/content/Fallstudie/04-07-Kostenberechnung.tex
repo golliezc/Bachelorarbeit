@@ -17,23 +17,24 @@
 % Unterkapitel Kosten
 % ---------
 
-Die Berechnung der Kosten der Varianten erfolgt ahand der Berchnung der Zielfunktion über den Zeitraum von 40 Jahren. In Abbildung \ref , wird für die Variante 1 im Szenario SB1/SU1, die Berechnung der ersten 5 Jahre gezeigt. Zur Übersicht zeige ich die Formel der Zielfunktion hier erneut. 
+Die Abbildung \ref{img:Kostenberechnung} zeigt die Kostenberechnung der ersten 8 Jahre am Beispiel der Variante 1 im Szenario SB1/SU1. 
+Die jährlichen DTV Werte sind gemäss dem Abschnitt \ref{subsec:Modellierung} berechnet und die Reisezeitverluste $t$ gemäss Abschnitt \ref{sub:Reisezeit}. 
 
-\begin{equation*}
-Min. \thinspace TK_{i} = Min. \thinspace [K_{U}^i + K_{B}^i + K_{TT}^i + K_{E}^i + K_{A}^i]
-\end{equation*} 
+Nach \ref{sub:Unterhalt} werden die Unterhaltskosten, bestehend aus Bau- und jährlichen Wartungskosten berechnet. Die Berechnung der Wartungskosten erfolgt mit den in Abschnitt ref{•} beschriebenen Abmessungen der Variante. Die im Jahr 2020 anfallenden Interventionskosten belaufen sich gemäss Abschnitt ref{•} auf 68'000 CHF.
 
-Was man im Excell sieht:
+Die Betriebskosten der Nutzer sind gemäss Abschnitt \ref{sub:Betrieb} berechnet. Die Berechnung erfolgt duch die Mulitplikation des DTV mit der Länge der jeweiligen Fahrbahn und den Einheitskosten des Fahrzeugbetriebs. Um die Kosten eines Jahres zu ermitteln, wird der berechnet Wert mit 365 multipliziert. Die weiteren Kosten der Nutzer sind die Reisezeitkosten, die nach Abschnitt \ref{sub:Reisezeit} berechnet werden. Hierfür wird der im oberen Bereich der Tabelle dargestellte Zeitverlust pro Nutzer, berechnet aus dem Zeitverlust, der durch das befahren der Infrastruktur, gemäss Formel \ref{eq.5}, und durch die durchschnittliche Wartezeit aufgrund der Bahnschranke gemäss Abschnitt \ref{sub:Reisezeit}, entsteht, mit dem DTV und den Einheitskosten des Zeitverlust, multipliziert. Die Berechnung des Zeitverlust nach Formel \ref{eq.5} ist abhängig von der Kapazität, der Annahme zur gefahrenen Durchschnittsgeschwindigkeit und der Länger der Variante.
 
--> DTV die ich in mit den im vorangegangenen Abschnitt erläuterten Szenarien ermittelt habe.
+Die Berechnung der Umweltkosten erfolgt nach Abschnitt \ref{subsec:Environment}. Diese setzten sich zusammen aus, den Lärm- und Schadstoffbelastungskosten. Die Berechnug erfolgt jeweils, durch die multiplikation des DTV mit den jeweiligen Einheitskosten und der Länge der Fahrbahn. Im Fall der Schadstoffbelastungskosten wird, vom MIV DTV der jährliche E-Auto Anteil abgezogen. \\
+Die Berechnung der Unfallkosten erfolgt durch die Multiplikation des DTV mit der Länger der Fahrbahn den Unfallriskien gemäss Abschnitt \ref{subsubsec:Unfallrisiko}. Dies erfolgt pro Unfallkategorie. Daraus ergibt sich die jeweilige Unfallanzahl nach Unfallart. Diese werden mit den Einheitskosten der jeweiligen Unfallart mulipliziert und die berechneten Kosten, um die totalen Unfallkosten zu ermitteln, aufsummiert.
+ 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/04-06-04-Kostenberechnung}
+	\caption[Kostenberechnung]{Beispiel der Kostenberechnung}
+	\label{img:Kostenberechnung}
+\end{figure}
 
-Mit excell beispiel File... gemäss MA BSP
 
-Was genau mache ich:
--Berechnung der Zielfunktion über den betrachteten Zeithorizont
--Darstellen der Szenarien mit ihren Eintrittswahrscheinlichkeiten
--Kombination der berechneten Kosten mit den Eintrittswahrscheinlichkeiten -> ergibt die Risiken der Varianten
--Summe aller Risiken ergibt das Risiko der Variante selbst.
 
 % ===========================================================================
 % EOF

@@ -169,38 +169,6 @@
       \verb https://doi.org/10.1680/jinam.18.00045
       \endverb
     \endentry
-    \entry{Unfallrisiko2019}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
-           family={{BFS}},
-           familyi={B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=92f86fdfa4f03036536527e912af7ebf}{%
-           family={{ASTRA}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \strng{fullhash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \strng{bibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \strng{authorbibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \strng{authornamehash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \strng{authorfullhash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Risikovergleich ausgewählter Landverkehrsmittel, 2008-2017}}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/grafiken.assetdetail.9346478.html
-      \endverb
-      \verb{url}
-      \verb https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/grafiken.assetdetail.9346478.html
-      \endverb
-    \endentry
     \entry{Bestand2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
@@ -216,10 +184,8 @@
       \strng{authorbibnamehash}{a5743ed2b425891f8544a9ccc95e81b2}
       \strng{authornamehash}{a5743ed2b425891f8544a9ccc95e81b2}
       \strng{authorfullhash}{a5743ed2b425891f8544a9ccc95e81b2}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -277,6 +243,34 @@
       \field{journaltitle}{Entwicklung des Personen- und Güterverkehrs in der Schweiz}
       \field{title}{Verkehrsperspektiven 2040}
       \field{year}{2016}
+    \endentry
+    \entry{Verkehrsleistung2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b392ed152f2f48e90145f0783606da6a}{%
+           family={{Bundesamt für Statistik (BFS)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{fullhash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{bibnamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authorbibnamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authornamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authorfullhash}{b392ed152f2f48e90145f0783606da6a}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Methodenbericht 2019}}
+      \field{title}{{Leistungen des privaten Personenverkehrs auf der Strasse}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.9867227.html
+      \endverb
+      \verb{url}
+      \verb https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.9867227.html
+      \endverb
     \endentry
     \entry{Mikrozensus2015}{article}{}
       \name{author}{1}{}{%
@@ -454,7 +448,7 @@
       \verb https://www.uster.ch/publikationen/229951
       \endverb
     \endentry
-    \entry{MIVSeefeld}{article}{}
+    \entry{GIS}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=faad3dd4738ae8ce79eeba4b57ff01d3}{%
            family={{Kanton Zürich}},
@@ -470,6 +464,35 @@
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GIS-Browser Kanton Zürich}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://maps.zh.ch/
+      \endverb
+      \verb{url}
+      \verb https://maps.zh.ch/
+      \endverb
+    \endentry
+    \entry{MIVSeefeld}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=faad3dd4738ae8ce79eeba4b57ff01d3}{%
+           family={{Kanton Zürich}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{fullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{bibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorbibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authornamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \strng{authorfullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -496,10 +519,10 @@
       \strng{authorbibnamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
       \strng{authornamehash}{faad3dd4738ae8ce79eeba4b57ff01d3}
       \strng{authorfullhash}{faad3dd4738ae8ce79eeba4b57ff01d3}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}

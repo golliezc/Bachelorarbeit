@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  20 MAY 2020 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  23 MAY 2020 03:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -1718,14 +1718,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count529
 \l__pdf_internal_box=\box126
-) (main.aux
-
-LaTeX Warning: Label `img:Problemlösung' multiply defined.
-
-
-LaTeX Warning: Label `tab:t-04-03-01-Unterhalt' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -2172,7 +2165,7 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ]) ("content/02-Grundlagen und Theorie.tex" [2]
 chapter 2.
-<figures/02-01-Problemlösungsprozess.png, id=429, 597.432pt x 69.861pt>
+<figures/02-01-Problemlösungsprozess.png, id=441, 597.432pt x 69.861pt>
 File: figures/02-01-Problemlösungsprozess.png Graphic file (type png)
 <use figures/02-01-Problemlösungsprozess.png>
 Package pdftex.def Info: figures/02-01-Problemlösungsprozess.png  used on inpu
@@ -2194,32 +2187,83 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 96--102
 [] 
  []
 
+[6]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 107.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 120.
 
-[6] [7]
-<figures/02-02-EntscheidungsbaumBSP.png, id=478, 702.82574pt x 292.09125pt>
+[7]
+<figures/02-02-EntscheidungsbaumBSP.png, id=490, 702.82574pt x 292.09125pt>
 File: figures/02-02-EntscheidungsbaumBSP.png Graphic file (type png)
 <use figures/02-02-EntscheidungsbaumBSP.png>
 Package pdftex.def Info: figures/02-02-EntscheidungsbaumBSP.png  used on input 
 line 139.
 (pdftex.def)             Requested size: 426.7914pt x 177.37314pt.
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 151.
-
-[8 <./figures/02-02-EntscheidungsbaumBSP.png>])
+ [8 <./figures/02-02-EntscheidungsbaumBSP.png>])
 ("content/03-Vorgehen und Methodik.tex" [9]
 chapter 3.
 [10
 
 ]) (content/04-Fallstudie.tex [11]
 chapter 4.
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 26.
+
 [12
 
-] [13] (content/Fallstudie/04-01-Interessensgruppen.tex [14] [15])
-(content/Fallstudie/04-02-Zielfunktion.tex
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 36--44
+]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 35.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[13]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 44.
+
+<figures/04-04-UsterWest-Moosackerstr.png, id=529, 341.47575pt x 310.761pt>
+File: figures/04-04-UsterWest-Moosackerstr.png Graphic file (type png)
+<use figures/04-04-UsterWest-Moosackerstr.png>
+Package pdftex.def Info: figures/04-04-UsterWest-Moosackerstr.png  used on inpu
+t line 52.
+(pdftex.def)             Requested size: 426.7914pt x 388.40761pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (7.99513pt too wide) in paragraph at lines 57--58
+[]\T1/cmr/m/n/10.95 Die Ab-bil-dung []4.1[] zeigt die ge-plan-ten kan-to-na-len
+ Stras-sen-pro-jek-te Us-ter-west und Moosacker-
+ []
+
+[14]
+<figures/04-01-Veloweg-Alltag.png, id=537, 884.103pt x 412.54124pt>
+File: figures/04-01-Veloweg-Alltag.png Graphic file (type png)
+<use figures/04-01-Veloweg-Alltag.png>
+Package pdftex.def Info: figures/04-01-Veloweg-Alltag.png  used on input line 6
+1.
+(pdftex.def)             Requested size: 426.7914pt x 199.15062pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./figures/04-04-UsterWest-Moosackerstr.png>]
+<figures/04-01-Bahnübergang-FOTO.png, id=544, 590.205pt x 295.1025pt>
+File: figures/04-01-Bahnübergang-FOTO.png Graphic file (type png)
+<use figures/04-01-Bahnübergang-FOTO.png>
+Package pdftex.def Info: figures/04-01-Bahnübergang-FOTO.png  used on input li
+ne 77.
+(pdftex.def)             Requested size: 426.7914pt x 213.40121pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./figures/04-01-Veloweg-Alltag.png>]
+(content/Fallstudie/04-01-Interessensgruppen.tex [17 <./figures/04-01-Bahnüber
+gang-FOTO.png>] [18]) (content/Fallstudie/04-02-Zielfunktion.tex
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 35--43
 [] 
  []
 
@@ -2253,7 +2297,7 @@ Overfull \hbox (67.5759pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [16]) (content/Fallstudie/04-03-Kostenstrukturen.tex
+) [19]) (content/Fallstudie/04-03-Kostenstrukturen.tex
 
 LaTeX Warning: Command \" invalid in math mode on input line 46.
 
@@ -2267,27 +2311,30 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 50--54
 [] 
  []
 
-[17]
+[20]
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 65--70
 [] 
  []
 
-[18]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 76--78
   
  []
 
-(tables/t-04-03-01-Unterhaltskosten.tex) [19]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 101--105
+(tables/t-04-03-01-Unterhaltskosten.tex) [22]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 101--106
 [] 
  []
 
-[20]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 148--154
+[23]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 149--154
 [] 
  []
 
-[21]
+[24]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 175.
+
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 175.
 
@@ -2296,87 +2343,122 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 169--175
 [] 
  []
 
-(tables/t-04-03-02-Nutzerkosten.tex) [22]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 205--209
+(tables/t-04-03-02-Nutzerkosten.tex) [25]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 206--210
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 221--225
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 222--226
 [] 
  []
 
-[23]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 243--248
+[26]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 244--249
 [] 
  []
 
-(tables/t-04-03-03-Umweltkosten.tex) [24]
-<figures/04-04-01-MarktanteilE-Auto.png, id=620, 672.111pt x 401.0985pt>
+(tables/t-04-03-03-Umweltkosten.tex) [27]
+<figures/04-04-01-MarktanteilE-Auto.png, id=654, 672.111pt x 401.0985pt>
 File: figures/04-04-01-MarktanteilE-Auto.png Graphic file (type png)
 <use figures/04-04-01-MarktanteilE-Auto.png>
 Package pdftex.def Info: figures/04-04-01-MarktanteilE-Auto.png  used on input 
-line 267.
+line 268.
 (pdftex.def)             Requested size: 256.07744pt x 152.82294pt.
- [25 <./figures/04-04-01-MarktanteilE-Auto.png>]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 333--341
+ [28 <./figures/04-04-01-MarktanteilE-Auto.png>]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 334--342
 [] 
  []
 
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+[29] [30] (tables/t-06-01-Unfallrisiko.tex) [31]
+(tables/t-04-03-04-Unfallkosten.tex) [32])
+("content/Fallstudie/04-04-Unsichere Einflussfaktoren.tex"
 
- []
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 41.
 
+[33]) (content/Fallstudie/04-05-Varianten.tex [34]
+(tables/t-08-01-Varianten.tex) [35])
 
-LaTeX Warning: Citation 'Leistung2019' on page 28 undefined on input line 366.
+LaTeX Warning: Reference `subsubsec:Demographie' on page 36 undefined on input 
+line 140.
 
-(tables/t-06-01-Unfallrisiko.tex) [28] (tables/t-04-03-04-Unfallkosten.tex)
-[29]) ("content/Fallstudie/04-04-Unsichere Parameter.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-[30] [31]) (content/Fallstudie/04-05-Varianten.tex [32]
-(tables/t-08-01-Varianten.tex) [33]) (content/Fallstudie/04-06-Szenarien.tex
-[34] [35]
-<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=711, 758.23276pt x 4
+<figures/04-06-01-Entscheidungsbaum-Szenarien.png, id=715, 699.8145pt x 342.680
+25pt>
+File: figures/04-06-01-Entscheidungsbaum-Szenarien.png Graphic file (type png)
+<use figures/04-06-01-Entscheidungsbaum-Szenarien.png>
+Package pdftex.def Info: figures/04-06-01-Entscheidungsbaum-Szenarien.png  used
+ on input line 146.
+(pdftex.def)             Requested size: 426.7914pt x 208.98758pt.
+(content/Fallstudie/04-06-Szenarien.tex [36 <./figures/04-06-01-Entscheidungsba
+um-Szenarien.png>] [37]
+<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=733, 758.23276pt x 4
 09.53pt>
 File: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png Graphic file (type 
 png)
 <use ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png>
 Package pdftex.def Info: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png 
- used on input line 86.
+ used on input line 79.
 (pdftex.def)             Requested size: 192.05482pt x 103.73201pt.
-<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=712, 759.43726pt x 
+<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=734, 759.43726pt x 
 407.121pt>
 File: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png Graphic file (type
  png)
 <use ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png>
 Package pdftex.def Info: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png
-  used on input line 88.
+  used on input line 81.
 (pdftex.def)             Requested size: 192.05482pt x 102.95409pt.
- [36 <./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png> <./figures/04-06-0
-3-DTV(VELO)-SzenarienBev.wachstum.png>] [37])
-(content/Fallstudie/04-07-Risiken.tex)
-(content/Fallstudie/04-08-Entscheidungsbaum.tex)
+ [38 <./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png> <./figures/04-06-0
+3-DTV(VELO)-SzenarienBev.wachstum.png>]
+
+LaTeX Warning: Reference `subsubsec:Demographie' on page 39 undefined on input 
+line 126.
+
+
+LaTeX Warning: Reference `subsubsec:Demographie' on page 39 undefined on input 
+line 128.
+
+[39]) (content/Fallstudie/04-07-Kostenberechnung.tex
+
+LaTeX Warning: Reference `eq.5' on page 40 undefined on input line 25.
+
+
+LaTeX Warning: Reference `eq.5' on page 40 undefined on input line 25.
+
+<figures/04-06-04-Kostenberechnung.png, id=761, 978.054pt x 289.08pt>
+File: figures/04-06-04-Kostenberechnung.png Graphic file (type png)
+<use figures/04-06-04-Kostenberechnung.png>
+Package pdftex.def Info: figures/04-06-04-Kostenberechnung.png  used on input l
+ine 32.
+(pdftex.def)             Requested size: 426.7914pt x 126.14577pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [40] (content/Fallstudie/04-08-Risiken.tex
+<figures/04-08-01-Risikoberechnung.png, id=766, 963.6pt x 272.81924pt>
+File: figures/04-08-01-Risikoberechnung.png Graphic file (type png)
+<use figures/04-08-01-Risikoberechnung.png>
+Package pdftex.def Info: figures/04-08-01-Risikoberechnung.png  used on input l
+ine 28.
+(pdftex.def)             Requested size: 426.7914pt x 120.83177pt.
+)
 (content/Fallstudie/04-09-Sensitivitätsanalyse.tex)) (content/05-Resultate.tex
-[38]
+[41 <./figures/04-06-04-Kostenberechnung.png> <./figures/04-08-01-Risikoberechn
+ung.png>] [42]
 chapter 5.
-) (content/06-Diskussion.tex [39
+) (content/06-Diskussion.tex [43
 
 ]
 chapter 6.
-) (content/07-Schlussfolgerung.tex [40
+) (content/07-Schlussfolgerung.tex [44
 
 ]
 chapter 7.
-) [41
+) [45
 
 ]
 chapter without number
@@ -2386,11 +2468,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
 tt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [42
+) [46
 
-] [43]
+] [47]
 chapter without number
-<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=780, 845.07718pt x 597.55246pt
+<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=826, 845.07718pt x 597.55246pt
 >
 File: figures/f-04-03-Unfallrisiko-Schätzung.pdf Graphic file (type pdf)
 <use figures/f-04-03-Unfallrisiko-Schätzung.pdf>
@@ -2398,7 +2480,7 @@ Package pdftex.def Info: figures/f-04-03-Unfallrisiko-Schätzung.pdf  used on i
 nput line 195.
 (pdftex.def)             Requested size: 426.7914pt x 301.7844pt.
 No file main.ind.
-[44
+[48
 
  <./figures/f-04-03-Unfallrisiko-Schätzung.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
@@ -2410,118 +2492,68 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 204.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50657 strings out of 480934
- 1153266 string characters out of 2895703
- 2246783 words of memory out of 3000000
- 65289 multiletter control sequences out of 15000+200000
+ 50722 strings out of 480934
+ 1155498 string characters out of 2895703
+ 2247179 words of memory out of 3000000
+ 65348 multiletter control sequences out of 15000+200000
  559881 words of font info for 92 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.63} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.61} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.60} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.58} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.54} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.51} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.47} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.42} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.64} has been referenced but does not exist
-, replaced by a fixed one
-
- <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
-dpi600\eccc1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/
-ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Goll
-iez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C
-:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\ecrm0700.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golliez
-\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\U
-sers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\User
-s\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-sx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\C
-yrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2
-488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Cy
-rano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
-sers/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Goll
-iez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano G
-olliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Cy
-rano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.
-pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
-palatino/uplri8a.pfb>
-Output written on main.pdf (68 pages, 1789990 bytes).
+ <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\eccc1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Cyrano Golliez\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\Cyrano Go
+lliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> 
+<C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecrm0700.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Cyrano Golliez\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Cyrano Golli
+ez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:
+\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecbx1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Cyrano Golliez\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Us
+ers\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecsx1440.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecsx2074.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Cyrano Golliez\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users
+\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
+m2488.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecrm0800.pk> <C:\Users\Cyrano Golliez\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/Cyrano Golliez/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/
+Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cyrano Golliez/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Cyrano Golliez
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Cyrano Golliez/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cyrano Go
+lliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Cyrano Golliez/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cyrano
+ Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Cyrano Golliez/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/
+Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
+a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on main.pdf (72 pages, 4045862 bytes).
 PDF statistics:
- 1700 PDF objects out of 1728 (max. 8388607)
+ 1748 PDF objects out of 2073 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

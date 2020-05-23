@@ -18,6 +18,7 @@
 % ---------
 
 
+
 \subsection*{Unterhaltskosten}
 \label{sub:Unterhalt}
 
@@ -70,8 +71,6 @@ wobei:
 \end{conditions}
 }
 
-\newpage
-
 \begin{IMleftrightskip}
 Die Erstellung zweier neuer Radstreifen à je 1.5 $m$ Breite kostet pro Laufmeter 850 CHF. Die Investitionskosten pro Quadratmeter für den Bau einer Velounterführung unter dem Lastfall Eisenbahn, betragen 3750 CHF. Der Bau der Zufahrtsrampen zu den Velounterführungen kostet pro Rampe 130'000 $CHF$. (\cite{Baukosten2010})
 Die Wartungskosten habe ich nach einem Gespräch mit Herr Dr. Martani wie folgt angesetzt. Für die Instandhaltung der Strasse, inklusive der Fahrradstreifen und der Fussgängerwege fallen jährlich 5 \thinspace $\frac{CHF}{m^2}$ an. Die wartungsintesivere Infrastruktur der Unterführung wird jährlich mit 30 \thinspace $\frac{CHF}{m^2}$ instand gehalten. \\
@@ -102,7 +101,7 @@ wobei:
  K_{B}			   &  Totale Fahrzeugbetriebskosten \\
  EK_{B,j}	       &  Einheitskosten pro $km$ \\
  s_j	    	   &  Länge der Infrastruktur; nach Fahrzeugtyp in $km$  \\
- DTV_{j}    	 &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp 
+ DTV_{j}    	   &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp 
 \end{conditions}
 }
 
@@ -176,9 +175,10 @@ wobei:
 }
 
 \begin{IMleftrightskip}
-Der Bahnübergang Brunnenstrasse ist augfrund des regen S-Bahn Verkehrs und somit dichten Fahrplans am Bahnhof Uster, pro Stunde bis zu 40' geschlossen. Daraus resultiert gemäss STEK pro Benutzer des Bahnübergangs eine durchschnittliche Wartezeit von 5 Minuten, was einem einem Zeitverlust von 0.0833 $h$/Fahrzeug entspricht. Um die durchschnittliche Wartezeit in die Berechnung der Reisezeitkosten miteinzubeziehen, wird der berechnete Zeitverlust $t_{j}$ um diesen Faktor vergrössert. \\
-Der effektive beim benutzen des Bahnübergangs anfallende Zeitverlust nach Formel \ref{eg.5} ist somit hauptsächlich von der Schliesszeit der Bahnschranken abhängig. Die durchschnittliche Wartezeit pro Nutzer setzt sich aus der Zeit die ein Zug für die Durchfahrt benötigt und einem Faktor der die Zeit für die Öffnung der Schranken sowie die Wartzeit aufgrund eines allfällige enstehehden Rückstaus repräsentiert, zusammen. Die durchschnittliche Durchfahrtszeit eines Zuges beträgt gemäss (\cite{STEK}) 3' und der vorgängig erläuterte Faktor wird für die Berechnung, nach konsultation verschiedener Literaturen, mit 2' angesetzt. 
-Der Einfluss der Veränderung des Fahrplans wird im Abschnitt \ref{subsec:Sensitivitätsanalyse} weitere untersucht. 
+Der Bahnübergang Brunnenstrasse ist augfrund des regen S-Bahn Verkehrs und somit dichten Fahrplans am Bahnhof Uster, pro Stunde bis zu 40' geschlossen. Daraus resultiert, gemäss STEK pro Benutzer des Bahnübergangs eine durchschnittliche Wartezeit von bis zu 5 Minuten, was einem einem Zeitverlust von 0.0833 $h$/Fahrzeug entspricht. Um die durchschnittliche Wartezeit in die Berechnung der Reisezeitkosten miteinzubeziehen, wird der, beim befahren der Infrastruktur entstehende Zeitverlust $t_{j}$, um diesen Faktor vergrössert. \\
+Der effektive beim benutzen des Bahnübergangs anfallende Zeitverlust nach Formel \ref{eg.5} ist somit hauptsächlich von der Schliesszeit der Bahnschranken abhängig. 
+
+Die durchschnittliche Wartezeit pro Nutzer, setzt sich aus der Zeit die ein Zug für die Durchfahrt benötigt und einem Faktor der die Zeit für die Öffnung der Schranken, sowie die Wartzeit aufgrund eines allfällige enstehehden Rückstaus repräsentiert, zusammen. Die durchschnittliche Durchfahrtszeit eines Zuges beträgt gemäss (\cite{STEK}) 3' und der vorgängig erläuterte Faktor wird für die Berechnung, nach konsultation verschiedener Literaturen, mit 2' angesetzt.  
 \end{IMleftrightskip}
 
 Die Einheitskosten des Zeitverlustes $EK_{TT,j}$ pro Velofahrer betragen 19.70 $CHF/h$. Um denn durchschnittlichen Auslastungsgrad von 1.6 Personen pro Auto  zuberücksichtigen, wird dieser Wert mit dem Faktor 1.6 multipliziert. Somit betragen die Einheitskosten des Zeitverlustes für den motorisierten Individualverkehr 31.52 $CHF/h$ pro Auto. (\cite{Adey2012}) (\cite{Mikrozensus2015})
