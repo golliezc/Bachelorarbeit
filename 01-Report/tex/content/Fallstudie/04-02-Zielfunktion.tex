@@ -21,27 +21,29 @@
 Bei einer Optimierung eines Systems sind mathematische Modelle sehr hilfreich. Ein besonders nützliches Modell in der Analyse von Varianten ist ein Lineares Programm. Dies setzt vorraus das alle relevanten Informationen aus der Situationsanalyse und der Zielformulierung in ein mathematisches Modell umgewandelt werden. Im Rahmen dieser Arbeit, erfolgt dies durch die nachfolgend beschriebene Zielfunktion. Die Zielfunktion beinhaltet alle relevanten Kosten der Interessensgruppen der Infrastruktur. (\cite{Adey2019})
 
 Die Gleichung \ref{equation:1} stellt das zu optimierende Problem als mathematische Funktion dar.
-Die totalen Kosten $TK$ einer Interventionsstrategie sind definiert als, die netto Kosten aller Steakholder über einen untersuchten Zeitraum $[0,T]$  \\
-Da in userem Fall die Erlöse, während einer Zeitperiode $[0,T]$ generiert werden können, nicht in Betracht gezogen werden, ist die Minimierung der Gesamtkosten äquivalent zur Maximierung des netto Nutzens aller beteiligter Interessensverände. 
+Die totalen Kosten $TK$ einer Interventionsstrategie sind definiert als, die Kosten aller Steakholder über den untersuchten Zeitraum $[0,T]$  \\
+Da in meinem Fall die Erlöse nicht in Betracht gezogen werden, ist die Minimierung der Gesamtkosten äquivalent zur Maximierung des netto Nutzens aller beteiligten Interessensgruppen. Zusätzlich setzt die Bedingungen \ref{eq.1.1} voraus, dass keine Negativen Werte berücksichtigt werden.
 Die Zeit $0$ kennzeichnet den Startpunkt der Untersuchung wobei die Zeit $T$ das Ende der Untersuchungsperiode ist. 
 
 \begin{equation}
-Min. \thinspace TK_{i} = Min. \thinspace [K_{U}^i + K_{B}^i + K_{TT}^i + K_{E}^i + K_{A}^i]
+Min. \thinspace K = Min. \thinspace [K_{U} + K_{B} + K_{TT} + K_{E} + K_{A}]
 \label{equation:1}
 \end{equation} 
 
-FORMEL verbessern, + Nichtnegativitätsbedingunge
+\begin{equation}
+K_{U} \geq 0, K_{B} \geq 0, K_{TT} \geq 0, K_{E} \geq 0, K_{A} \geq 0  \label{eq.1.1}
+\end{equation}
 
 {\setstretch{0.75}
 wobei:
 \begin{conditions}
 \renewcommand{\arraystretch}{0.7}
- TK_{i}   	    &  Totale Kosten der Variante $i$ für den betrachteten Zeitraum von $T$ Jahren \\
- K_{U}^i		&  Totale Unterhalts- und Baukosten der Variante $i$ \\
- K_{B}^i        &  Totale Betriebskosten der Variante $i$ \\
- K_{TT}^i       &  Totale Reisezeitkosten der Variante $i$    \\
- K_{E}^i	    &  Totale Umweltbelastungskosten der Variante $i$  \\
- K_{A}^i        &  Totale Unfallkosten der Variante $i$ 
+ K   	      &  Totale Kosten über den betrachteten Zeitraum von $T$ Jahren \\
+ K_{U}		  &  Totale Unterhalts- und Baukosten  \\
+ K_{B}        &  Totale Betriebskosten \\
+ K_{TT}       &  Totale Reisezeitkosten   \\
+ K_{E}	      &  Totale Umweltbelastungskosten \\
+ K_{A}        &  Totale Unfallkosten 
 \end{conditions}
 }
 

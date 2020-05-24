@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  23 MAY 2020 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  24 MAY 2020 13:03
 entering extended mode
 **./main.tex
 (main.tex
@@ -2228,7 +2228,7 @@ File: figures/04-04-UsterWest-Moosackerstr.png Graphic file (type png)
 <use figures/04-04-UsterWest-Moosackerstr.png>
 Package pdftex.def Info: figures/04-04-UsterWest-Moosackerstr.png  used on inpu
 t line 52.
-(pdftex.def)             Requested size: 426.7914pt x 388.40761pt.
+(pdftex.def)             Requested size: 256.07744pt x 233.04646pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2245,25 +2245,18 @@ File: figures/04-01-Veloweg-Alltag.png Graphic file (type png)
 Package pdftex.def Info: figures/04-01-Veloweg-Alltag.png  used on input line 6
 1.
 (pdftex.def)             Requested size: 426.7914pt x 199.15062pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15 <./figures/04-04-UsterWest-Moosackerstr.png>]
-<figures/04-01-Bahnübergang-FOTO.png, id=544, 590.205pt x 295.1025pt>
+ [15 <./figures/04-04-UsterWest-Moosackerstr.png> <./figures/04-01-Veloweg-Allt
+ag.png>]
+<figures/04-01-Bahnübergang-FOTO.png, id=545, 590.205pt x 295.1025pt>
 File: figures/04-01-Bahnübergang-FOTO.png Graphic file (type png)
 <use figures/04-01-Bahnübergang-FOTO.png>
 Package pdftex.def Info: figures/04-01-Bahnübergang-FOTO.png  used on input li
-ne 77.
+ne 75.
 (pdftex.def)             Requested size: 256.07744pt x 128.03983pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <./figures/04-01-Veloweg-Alltag.png>]
-(content/Fallstudie/04-01-Interessensgruppen.tex [17 <./figures/04-01-Bahnüber
-gang-FOTO.png>] [18]) (content/Fallstudie/04-02-Zielfunktion.tex
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 37--45
+ [16 <./figures/04-01-Bahnübergang-FOTO.png>]
+(content/Fallstudie/04-01-Interessensgruppen.tex [17])
+(content/Fallstudie/04-02-Zielfunktion.tex [18]
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 39--47
 [] 
  []
 
@@ -2340,7 +2333,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 243--248
  []
 
 (tables/t-04-03-03-Umweltkosten.tex) [26]
-<figures/04-04-01-MarktanteilE-Auto.png, id=650, 672.111pt x 401.0985pt>
+<figures/04-04-01-MarktanteilE-Auto.png, id=652, 672.111pt x 401.0985pt>
 File: figures/04-04-01-MarktanteilE-Auto.png Graphic file (type png)
 <use figures/04-04-01-MarktanteilE-Auto.png>
 Package pdftex.def Info: figures/04-04-01-MarktanteilE-Auto.png  used on input 
@@ -2361,18 +2354,18 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 41.
 (tables/t-08-01-Varianten.tex) [34])
 
 LaTeX Warning: Reference `subsubsec:Demographie' on page 35 undefined on input 
-line 141.
+line 139.
 
-<figures/04-06-01-Entscheidungsbaum-Szenarien.png, id=711, 699.8145pt x 342.680
-25pt>
+<figures/04-06-01-Entscheidungsbaum-Szenarien.png, id=713, 648.62325pt x 335.45
+325pt>
 File: figures/04-06-01-Entscheidungsbaum-Szenarien.png Graphic file (type png)
 <use figures/04-06-01-Entscheidungsbaum-Szenarien.png>
 Package pdftex.def Info: figures/04-06-01-Entscheidungsbaum-Szenarien.png  used
- on input line 147.
-(pdftex.def)             Requested size: 426.7914pt x 208.98758pt.
+ on input line 145.
+(pdftex.def)             Requested size: 426.7914pt x 220.73439pt.
 (content/Fallstudie/04-06-Szenarien.tex [35 <./figures/04-06-01-Entscheidungsba
 um-Szenarien.png>] [36]
-<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=728, 758.23276pt x 4
+<./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png, id=730, 758.23276pt x 4
 09.53pt>
 File: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png Graphic file (type 
 png)
@@ -2380,7 +2373,7 @@ png)
 Package pdftex.def Info: ./figures/04-06-02-DTV(MIV)-SzenarienBev.Wachstum.png 
  used on input line 79.
 (pdftex.def)             Requested size: 192.05482pt x 103.73201pt.
-<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=729, 759.43726pt x 
+<./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png, id=731, 759.43726pt x 
 407.121pt>
 File: ./figures/04-06-03-DTV(VELO)-SzenarienBev.wachstum.png Graphic file (type
  png)
@@ -2405,7 +2398,7 @@ LaTeX Warning: Reference `eq.5' on page 39 undefined on input line 25.
 
 LaTeX Warning: Reference `eq.5' on page 39 undefined on input line 25.
 
-<figures/04-06-04-Kostenberechnung.png, id=757, 978.054pt x 289.08pt>
+<figures/04-06-04-Kostenberechnung.png, id=759, 978.054pt x 289.08pt>
 File: figures/04-06-04-Kostenberechnung.png Graphic file (type png)
 <use figures/04-06-04-Kostenberechnung.png>
 Package pdftex.def Info: figures/04-06-04-Kostenberechnung.png  used on input l
@@ -2415,12 +2408,12 @@ ine 32.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [39] (content/Fallstudie/04-08-Risiken.tex
-<figures/04-08-01-Risikoberechnung.png, id=762, 963.6pt x 272.81924pt>
+<figures/04-08-01-Risikoberechnung.png, id=764, 777.50475pt x 234.8775pt>
 File: figures/04-08-01-Risikoberechnung.png Graphic file (type png)
 <use figures/04-08-01-Risikoberechnung.png>
 Package pdftex.def Info: figures/04-08-01-Risikoberechnung.png  used on input l
 ine 28.
-(pdftex.def)             Requested size: 426.7914pt x 120.83177pt.
+(pdftex.def)             Requested size: 426.7914pt x 128.92856pt.
 )
 (content/Fallstudie/04-09-Sensitivitätsanalyse.tex)) (content/05-Resultate.tex
 [40 <./figures/04-06-04-Kostenberechnung.png> <./figures/04-08-01-Risikoberechn
@@ -2448,7 +2441,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 ] [46]
 chapter without number
-<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=822, 845.07718pt x 597.55246pt
+<figures/f-04-03-Unfallrisiko-Schätzung.pdf, id=824, 845.07718pt x 597.55246pt
 >
 File: figures/f-04-03-Unfallrisiko-Schätzung.pdf Graphic file (type pdf)
 <use figures/f-04-03-Unfallrisiko-Schätzung.pdf>
@@ -2473,10 +2466,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50721 strings out of 480934
- 1155491 string characters out of 2895703
- 2247180 words of memory out of 3000000
- 65348 multiletter control sequences out of 15000+200000
+ 50723 strings out of 480934
+ 1155514 string characters out of 2895703
+ 2247225 words of memory out of 3000000
+ 65349 multiletter control sequences out of 15000+200000
  559881 words of font info for 92 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2527,9 +2520,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/
 Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
 a.pfb><C:/Users/Cyrano Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (71 pages, 4045930 bytes).
+Output written on main.pdf (71 pages, 4027930 bytes).
 PDF statistics:
- 1746 PDF objects out of 2073 (max. 8388607)
- 230 named destinations out of 1000 (max. 500000)
+ 1747 PDF objects out of 2073 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
  489 words of extra memory for PDF output out of 10000 (max. 10000000)
 
