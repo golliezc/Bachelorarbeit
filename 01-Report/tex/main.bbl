@@ -316,38 +316,6 @@
       \field{type}{techreport}
       \field{year}{2020}
     \endentry
-    \entry{chicago2010}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a83f49d3cb847229a8f512acd76a7155}{%
-           family={Chicago\bibnamedelima Press},
-           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={University},
-           giveni={U\bibinitperiod},
-           givenun=0,
-           prefix={of},
-           prefixi={o\bibinitperiod},
-           prefixun=0}}%
-      }
-      \list{publisher}{1}{%
-        {University of Chicago Press}%
-      }
-      \strng{namehash}{a83f49d3cb847229a8f512acd76a7155}
-      \strng{fullhash}{a83f49d3cb847229a8f512acd76a7155}
-      \strng{bibnamehash}{a83f49d3cb847229a8f512acd76a7155}
-      \strng{authorbibnamehash}{a83f49d3cb847229a8f512acd76a7155}
-      \strng{authornamehash}{a83f49d3cb847229a8f512acd76a7155}
-      \strng{authorfullhash}{a83f49d3cb847229a8f512acd76a7155}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780226104201}
-      \field{series}{Chicago Manual of Style}
-      \field{title}{The Chicago Manual of Style}
-      \field{year}{2010}
-    \endentry
     \entry{Ecoplan2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7a252bf4a0321e900724ac4fbfab3f9e}{%
@@ -621,6 +589,33 @@
       \verb 10.1016/j.jobe.2017.11.019
       \endverb
     \endentry
+    \entry{Nacto2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d93b81d2e9682991bb6032c88445529}{%
+           family={{NACTO.}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d93b81d2e9682991bb6032c88445529}
+      \strng{fullhash}{5d93b81d2e9682991bb6032c88445529}
+      \strng{bibnamehash}{5d93b81d2e9682991bb6032c88445529}
+      \strng{authorbibnamehash}{5d93b81d2e9682991bb6032c88445529}
+      \strng{authornamehash}{5d93b81d2e9682991bb6032c88445529}
+      \strng{authorfullhash}{5d93b81d2e9682991bb6032c88445529}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{'Bike Lane Capacity'}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://streets-alive-yarra.org/bicycle-lane-capacity/
+      \endverb
+      \verb{url}
+      \verb https://streets-alive-yarra.org/bicycle-lane-capacity/
+      \endverb
+    \endentry
     \entry{Neufville2011}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=96ffdede49f015a6d8e6a60bbcae1fdf}{%
@@ -657,78 +652,6 @@
       \field{year}{2011}
       \verb{doi}
       \verb 10.7551/mitpress/8292.001.0001
-      \endverb
-    \endentry
-    \entry{Nowak2000}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b3531b0ae12b3283ce219f4e9a86530c}{%
-           family={Nowak},
-           familyi={N\bibinitperiod},
-           given={Andrzej\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=088572025487855d422cd872e41250a9}{%
-           family={Collins},
-           familyi={C\bibinitperiod},
-           given={Kevin\bibnamedelima R.},
-           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Boston}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill Higher Education}%
-      }
-      \strng{namehash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \strng{fullhash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \strng{bibnamehash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \strng{authorbibnamehash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \strng{authornamehash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \strng{authorfullhash}{b0ddc6eaf91e4c58c19b38b3c5d98aa0}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{first edition}
-      \field{isbn}{9780070481633}
-      \field{series}{McGraw-Hill civil engineering series}
-      \field{title}{Reliability of Structures}
-      \field{year}{2000}
-    \endentry
-    \entry{Stewart2009}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fa80c9ec2fb4403a66672441e3d9c15c}{%
-           family={Stewart},
-           familyi={S\bibinitperiod},
-           given={Mark\bibnamedelima G.},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \strng{fullhash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \strng{bibnamehash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \strng{authorbibnamehash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \strng{authornamehash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \strng{authorfullhash}{fa80c9ec2fb4403a66672441e3d9c15c}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0167-4730}
-      \field{journaltitle}{Structural Safety}
-      \field{number}{1}
-      \field{title}{Mechanical behaviour of pitting corrosion of flexural and shear reinforcement and its effect on structural reliability of corroding RC beams}
-      \field{volume}{31}
-      \field{year}{2009}
-      \field{pages}{19\bibrangedash 30}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/j.strusafe.2007.12.001
       \endverb
     \endentry
   \enddatalist

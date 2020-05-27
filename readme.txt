@@ -2,10 +2,10 @@
 Title of the Work
 *****************
 
-:Date: September 2014
-:Authors: Max Mustermann
-:Contact: max@mustermann.ch
-:Version: 1.0.2
+:Date: 29.05.2020
+:Autor: Cyrano Golliez
+:Contact: golliezc@student.ethz.ch
+:Version: 1.0
 
 Summary
 =======
@@ -20,31 +20,27 @@ language in which the thesis itself is written.
 Structure
 =========
 
-IM-Example-Project
-|-- 00-Administration
+Bachelorarbeit
 |-- 01-Report
-|   |-- doc
-|   |-- LyX
-|   |   |-- figures
-|   |   `-- literature
+|   |   FS2020-BScProject-Cyrano-Golliez-Bedarfsgerechte_Optimierung_der_Veloinfrastruktur_Uster-29.05.2020.pdf
 |   `-- tex
 |       |-- content
 |       |-- figures
 |       `-- tables
 |-- 02-Presentations
-|   `-- 01-Interim-yyyy-mm-dd
+|   `-- 01-Interim-2020-04-08
+|   |   |-- ppt
+|   |   `-- tex
+|     `--01-Final-2020-05-25
 |       |-- ppt
-|       `-- tex
 |-- 03-Poster
 |   |-- ppt
-|   `-- tex
-|-- 04-Meetings
-|   `-- 01-Meeting-yyyy-mm-dd
+|-- 04-Besprechungsprotokolle
+|   `-- 01-Meeting-2020-04-08
 |       `-- tex
-|-- 05-Figures
-|-- 06-Tables
 |-- 07-Literature
-|   |-- Nowak2000_ReliabilityOfStructures
-|   `-- Stewart2009_MechanicalBehaviourOf
-`-- 08-Developments
-    `-- 01-Matlab
+`-- 09-Excell
+    `-- Zustand 1
+    `-- Zustand 2
+    `-- Zustand 3
+    `-- Zustand 4

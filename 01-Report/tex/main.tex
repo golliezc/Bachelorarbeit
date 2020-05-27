@@ -78,8 +78,21 @@
 % Declaration
 % -----------
 \cleardoublepage
-%\input{content/00-02-c-Declaration}
-\includepdf[pagecommand={\thispagestyle{empty}},fitpaper=true,pages=-]{content/00-02-a-Declaration}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{content/f-00-02-a-Declaration}
+\end{figure}
+
+
+\cleardoublepage
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{content/f-00-02-b-Declaration}
+\end{figure}
+
+%\includepdf[pagecommand={\thispagestyle{empty}},fitpaper=true,pages=-]{content/00-02-a-Declaration}
 
 % Acknowledgment
 % --------------
@@ -101,9 +114,9 @@
 
 % Hilfestellung Template
 % ----------------------
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Hilfestellung}
-\input{content/00-06-Hilfestellung} 
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Hilfestellung}
+%\input{content/00-06-Hilfestellung} 
 
 % Table of Contents
 % -----------------
@@ -127,6 +140,14 @@
 % Glossary
 % --------
 %\addcontentsline{toc}{chapter}{Glossary}
+
+%\cleardoublepage
+%\printglossary[type=main]
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Glossary}
+\input{content/00-06-Glossar}
+
 
 % arabic page numbers
 % ------------------
@@ -188,14 +209,21 @@
 \label{chap:Anhang}
 \refstepcounter{chapter}
 
-\section{Unfallrisiko Schätzung}
-\label{subsec:UnfallrisikoSchätzung}
+\section{DTV Modellierung}
+\label{subsec:DTVModellierung}
+
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{figures/f-04-03-Unfallrisiko-Schätzung.pdf}
-	\caption[Unfallrisiko Schätzung]{Berechnung des Unfallrisiko}
-	\label{img:Unfallrisiko}
+	\includegraphics[width=\textwidth]{figures/f-00-10-01-DTV-Modellierung}
+	\caption{Berechnung des DTV}
+	\label{img:DTVModellierung}
 \end{figure}
+
+
+\section{Kostenberechung der Varianten}
+\label{sec:Ahangkostenberechnug}
+
+\input{content/Anhang}
 
 % Index
 % -----

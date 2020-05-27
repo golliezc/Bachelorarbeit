@@ -18,15 +18,43 @@
 % ---------
 \label{subsec:Sensitivitätsanalyse}
 
-Dieser Abschnitt beschreibt die drei durchgeführten Sensitivitätsanalyse. Was der sinn der Aufteilung ist und einleiten wie ich die analysen beschreiben werde.
+Wie im Abschnitt \ref{sec:Sensitivität} erläutert, wird mithilfe der Sensitivitätsanalysen, die in einem ersten Schritt ermittelte Lösung weiter untersucht, um die Belastbarkeit der Ergebnisse, in einer allfälligen Diskussion der Variante, zu stärken. Da auf die Phase der Erarbeitung einer Infrastruktur Intervention eine politische Diskussionen folgt, die den weiteren Verlauf des Projekts massgeblich bestimmt, ist eine vertiefte Untersuchung der Ergebnisse unerlässlich. Dies dient der Erabeitung einer Argumentationsbasis für die Verteidung der entwickelten optimalen Variante.
 
-\subsubsection*{Zustand 0}
+In diesem Schritt werden die Parameter der Risikoberechung verändert, die im Rahmen der politischen Auseinandersetzung das grösste Diskussionspotential bieten.
+Die nachfolgenden Abschnitte umschreiben die durchgeführten Sensitivitätsanalysen und stellen die jeweiligen veränderten Parameter dar.
 
-\subsubsection*{Zustand 1}
+\paragraph{Zustand 0} untersucht der Grundzustand der Parameter und ist der Referenzwert der Sensitivitätsanalyse.
 
-\subsubsection*{Zustand 2}
+\paragraph{Zustand 1} Da der im Zustand 0 angenommene E-Auto Anteil eine progressive Prognosse ist, erachte ich eine differenzierte Untersuchung für angebracht. So simuliert der Zustand 1 eine konservative Prognosse des E-Auto Anteils im Jahr 2050 von 50\%. Wie in Abschnitt \ref{subsubsec:Marktanteil}, habe ich unter der Anahme eines linearen Wachstum, den in Abbildung \ref{img:Marktanteil-Z1} dargestellten jährlichen E-Auto Anteil \( \Phi_{E-Auto} \) berechnet. (\cite{Bestand2019})
 
-\subsubsection*{Zustand 3}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.6\textwidth]{figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1}
+	\caption[Marktanteil E-Autos - Zustand 1]{Marktanteils der E-Autos am Strassenfahrzeugbestand - Zustand 1}
+	\label{img:Marktanteil-Z1}
+\end{figure}
+
+
+\paragraph{Zustand 2} Da ich die Unfallwahrscheinlichkeiten anhand der gesamtschweizerischen Unfalldaten und Leistungen des Personenverkehrs berechne, erachte ich eine vertiefte Untersuchung dieser Parameter als notwenig. Um die effektive Gefahrenlage am Bahnübergang zu simulieren, verändere ich im Zustand 2 die Unfallwahrscheinlichkeiten. 
+
+Um in der Variante 2 zu berücksichtigen, dass die erhöhte Durchfahrtsgeschwindigkeit in Verbindung mit der geringen Breite der Unterführung ein gewisses Sicherheitsrisiko darstellt, wird die Unfallwahrscheinlichkeit der Velofahrer um 50\% erhöht. \\
+Im gleichen Schritt habe ich, unter der Annahme, dass die Einführung eines Ampelsystems und die dementsprechende einspurige Verkehrsführung, die Anzahl Unfälle auf dem Bahnübergang mit MIV-Beteiligung merklich reduziert sollte, die Unfallwahrscheinlichkeit des MIV wird in der Variante 3 demnach um 50\% gesenkt. 
+
+Die ermittelten Unfallrisiken für den Zustand 2 sind in der nachfolgenden Tabelle zusammengefasst. 
+
+\input{./tables/t-09-01-Unfallrisiko-Zustand-2}
+
+\paragraph{Zustand 3} Die Eintrittswahrscheinlichkeiten im Zustand 0 habe ich anhand von Prognossen gesetzt. Um zu untersuchen welchen Effekt die Veränderung der Eintrittswahrscheinlichkeiten der Szenarien, auf die optimale Lösung hat, verändere ich im Zustand 3 die angenommen Eintrittswahrscheinlichkeiten. Die Eintrittswahrscheinlichkeit sind, wie in Abbildung \ref{img:EntscheidunSzenarien-Z3} ersichtlich, so verteilt, dass den Szenarien mit den grössten Wachstumsprognossen mehr Gewicht gegeben wird. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand-3}
+	\caption[Szenarienübersicht - Zustand 3]{Übersicht über die Szenarien und ihre Eintrittswahrscheinlichkeiten - Zustand 3}
+	\label{img:EntscheidunSzenarien-Z3}
+\end{figure}
+
+\paragraph{Zustand 4} Um den Faktor Reisezeit genauer zu untersuchen und zu analysieren welchen Effekt die Veränderung der Reisezeit auf das Ergebniss hat, habe ich die prognostizierte durchschnittliche Wartezeit der Variante 3 wird von 7' auf 5' gesenkt, unter der Annahme, dass das eingeführte Ampelsystem zu keiner zusätzlichen Wartezeit führen wird.
 
 
 
