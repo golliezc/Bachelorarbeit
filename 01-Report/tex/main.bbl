@@ -19,30 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{Adey2019}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=97f3dd3274835fe075ebc999fd387712}{%
-           family={Adey},
-           familyi={A\bibinitperiod},
-           given={B.\bibnamedelimi T.},
-           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{97f3dd3274835fe075ebc999fd387712}
-      \strng{fullhash}{97f3dd3274835fe075ebc999fd387712}
-      \strng{bibnamehash}{97f3dd3274835fe075ebc999fd387712}
-      \strng{authorbibnamehash}{97f3dd3274835fe075ebc999fd387712}
-      \strng{authornamehash}{97f3dd3274835fe075ebc999fd387712}
-      \strng{authorfullhash}{97f3dd3274835fe075ebc999fd387712}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Unterrichtsmaterial von Systems Engineering}}
-      \field{year}{2019}
-    \endentry
     \entry{Adey2012}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=97f3dd3274835fe075ebc999fd387712}{%
@@ -169,6 +145,27 @@
       \verb https://doi.org/10.1680/jinam.18.00045
       \endverb
     \endentry
+    \entry{Adey2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e1fbd8a3b64ed2d1831d20655be0e43}{%
+           family={{Adey et al.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \strng{fullhash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \strng{bibnamehash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \strng{authorbibnamehash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \strng{authornamehash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \strng{authorfullhash}{4e1fbd8a3b64ed2d1831d20655be0e43}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Unterrichtsmaterial von Systems Engineering}}
+      \field{year}{2019}
+    \endentry
     \entry{Bestand2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=838fea3c1a3e8dd6c22fe9605a701668}{%
@@ -244,6 +241,29 @@
       \field{title}{Verkehrsperspektiven 2040}
       \field{year}{2016}
     \endentry
+    \entry{Mikrozensus2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b392ed152f2f48e90145f0783606da6a}{%
+           family={{Bundesamt für Statistik (BFS)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{fullhash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{bibnamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authorbibnamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authornamehash}{b392ed152f2f48e90145f0783606da6a}
+      \strng{authorfullhash}{b392ed152f2f48e90145f0783606da6a}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ergebnisse des Mikrozensus Mobilität und Verkehr 2015}
+      \field{title}{{Verkehrsverhalten der Bevölkerung}}
+      \field{year}{2017}
+    \endentry
     \entry{Verkehrsleistung2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b392ed152f2f48e90145f0783606da6a}{%
@@ -256,6 +276,7 @@
       \strng{authorbibnamehash}{b392ed152f2f48e90145f0783606da6a}
       \strng{authornamehash}{b392ed152f2f48e90145f0783606da6a}
       \strng{authorfullhash}{b392ed152f2f48e90145f0783606da6a}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -271,28 +292,6 @@
       \verb{url}
       \verb https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.9867227.html
       \endverb
-    \endentry
-    \entry{Mikrozensus2015}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7632af483d2caa44a7eacd50f12eba4b}{%
-           family={{Bundesamt für Statistik / Bundesamt für Raumentwicklung}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{7632af483d2caa44a7eacd50f12eba4b}
-      \strng{fullhash}{7632af483d2caa44a7eacd50f12eba4b}
-      \strng{bibnamehash}{7632af483d2caa44a7eacd50f12eba4b}
-      \strng{authorbibnamehash}{7632af483d2caa44a7eacd50f12eba4b}
-      \strng{authornamehash}{7632af483d2caa44a7eacd50f12eba4b}
-      \strng{authorfullhash}{7632af483d2caa44a7eacd50f12eba4b}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ergebnisse des Mikrozensus Mobilität und Verkehr 2015}
-      \field{title}{Verkehrsverhalten der Bevölkerung}
-      \field{year}{2017}
     \endentry
     \entry{Unfall2019}{report}{}
       \name{author}{1}{}{%
@@ -534,60 +533,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Baukosten der häufigsten Langsamverkehrsinfrastrukturen}
       \field{year}{2010}
-    \endentry
-    \entry{Martani2018}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=f0cd922c8d36dd21edf6d868d9dd64a8}{%
-           family={Martani},
-           familyi={M\bibinitperiod},
-           given={Claudio},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ca3f4589c5919bfe13469acac11b5ec}{%
-           family={Cattarinussi},
-           familyi={C\bibinitperiod},
-           given={Laurent},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ad73daf2d9a4a39092509de39b05d487}{%
-           family={Adey},
-           familyi={A\bibinitperiod},
-           given={Bryan\bibnamedelima T.},
-           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Amsterdam}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{919dd444d4a386caea2dd66d780f3caf}
-      \strng{fullhash}{919dd444d4a386caea2dd66d780f3caf}
-      \strng{bibnamehash}{919dd444d4a386caea2dd66d780f3caf}
-      \strng{authorbibnamehash}{919dd444d4a386caea2dd66d780f3caf}
-      \strng{authornamehash}{919dd444d4a386caea2dd66d780f3caf}
-      \strng{authorfullhash}{919dd444d4a386caea2dd66d780f3caf}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2352-7102}
-      \field{journaltitle}{Journal of Building Engineering}
-      \field{series}{Journal of Building Engineering}
-      \field{title}{{A new process for the evaluation of the net-benefit of flexible ground-floor ceiling in the face of use transition uncertainty. The application case of an office building in London}}
-      \field{volume}{15}
-      \field{year}{2018}
-      \field{pages}{156\bibrangedash 170}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1016/j.jobe.2017.11.019
-      \endverb
     \endentry
     \entry{Nacto2018}{article}{}
       \name{author}{1}{}{%
