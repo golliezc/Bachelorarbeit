@@ -1,0 +1,63 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% File:  t-05-01-IsingModel.tex -- Table for the Ising
+% Author(s): Juergen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+% Time-stamp: <Tue 2013-08-13 20:14 juergen>
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+%\small\renewcommand{\arraystretch}{1.2} 
+%
+
+
+\begin{table}[h!]
+\scriptsize
+{\setstretch{0.6}
+%\renewcommand{\arraystretch}{1.4}
+\flushleft
+\begin{tabular}{@{}p{5cm} p{2.5cm} p{2.5cm} p{2.5cm}@{}} \\   
+\toprule 		
+\textbf{Eigenschaften}  				   								&\textbf{Variante\,1}  & \textbf{Variante\,2} & \textbf{Variante\,3}   \\			
+\midrule 
+Länge Fahrbahn ($m$)         	 		   								& 80                    & 80    			   & 80             	\\
+Länge Unterführung ($m$)       	 		   								& -                     & 55    			   & 65             	\\
+Velospuren:					   											&  2				    &  2				   &  4         		\\
+Fahrbahnen									 		   					&  2				    &  2				   &  1         		\vspace*{0.25mm} \\
+Breite eines Veloweg ($m$):				   								&  1.5				    &  1.5				   &  2         		\\
+Breite einer Fahrbahn ($m$):			 		   					    &  3.5				    &  3				   &  5         		\vspace*{0.25mm} \\
+Tempolimit	($\frac{km}{h}$) 		   						    		& 50				    & 30				   & 30                	\\
+\underline{$\varnothing$\,Geschwindigkeit} ($\frac{km}{h}$) 			&       	            &   				   &               		 \\
+\hspace*{5mm}\textbullet\, Velo            		       					& 15  					& 20    			   & 25      			\\
+\hspace*{5mm}\textbullet\, MIV            		       					& 37  					& 30    			   & 30      			\vspace*{0.25mm} \\
+\underline{Kapazität} ($\frac{Fahrzeug}{h}$)		        			&    				    &  				       &                  	 \\
+\hspace*{5mm}\textbullet\, Velo            	       					    & 3350 					& 3767    			   & 4600      			\\
+\hspace*{5mm}\textbullet\, MIV         		       					    & 2500 					& 2500    			   & 1250      			\\
+\underline{Wartezeit} ($Minuten$)        		    			   		&    				    &  				       &                  	 \\
+\hspace*{5mm}\textbullet\, Velo            	       					    & 5 					& 5    			       & 7      			\\
+\hspace*{5mm}\textbullet\, MIV         		       					    & 5  					& 0      			   & 0      			\\
+Baukosten ($CHF$)														& 68'000				& 1.16 Mio.			   & 1.51 Mio.           \\
+\bottomrule
+
+\end{tabular}
+\caption{Basis Informationen der Varianten}
+\label{tab:t-08-01-Varianten}
+}
+\end{table}
+
+
+%=============================================================================
+% EOF
+%
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../guidelines"
+%%% End:
+

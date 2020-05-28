@@ -1,0 +1,49 @@
+%=============================================================================
+% Thesis Template in LaTex
+%
+% File:  t-05-01-IsingModel.tex -- Table for the Ising
+% Author(s): Juergen Hackl <hackl@ibi.baug.ethz.ch>
+%            Clemens Kielhauser <kielhauser@ibi.baug.ethz.ch>
+%
+% Creation:  27 Jan 2014
+% Time-stamp: <Tue 2013-08-13 20:14 juergen>
+%
+% Copyright (c) 2014 Infrastructure Management Group (IMG)
+%               http://ibi.ethz.ch
+%
+% More information on LaTeX: http://www.latex-project.org/
+%=============================================================================
+
+\begin{table}[h!]
+\flushleft
+\renewcommand{\arraystretch}{1.4}
+
+%\small\renewcommand{\arraystretch}{1.2} 
+%
+%
+\begin{tabular}{@{}p{3.3cm} p{4cm} p{1cm} l @{}} \\   
+\toprule
+\textbf{Interessensgruppe} & \textbf{Kostentyp} & \textbf{Symbol} & \textbf{Einflussfaktoren} 			\\
+\midrule
+Besitzer                   & Unterhaltkosten (\textit{U})                    		& $K_{U}$    & Arbeits- und Materialkosten              \\
+Nutzer		               & Betriebskosten (\textit{B})                     		& $K_{B}$    & Krafstoff- und Reperaturkosten                     \\
+                           & Reisezeitkosten (\textit{TT})            		 		& $K_{TT}$   & Kosten einer Abeitsstunde   \\
+Öffentlichekeit           & Umweltbelastungskosten \newline (Environment) (\textit{E}) & $K_{E}$  &  Fahrzeugtechnologie      \\
+                           & Unfallkosten (\textit{A})                       		& $K_{A}$    & Verkehrssicherheit    \\
+\bottomrule
+
+\end{tabular}
+\caption{Tabelle der Interessensgruppen und Kostenstrukturen}
+\label{tab:t-04-01-Interessensgruppen}
+\end{table}
+
+
+%=============================================================================
+% EOF
+%
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../guidelines"
+%%% End:
+
