@@ -19,27 +19,27 @@
 
 
 
-\subsection*{Unterhaltskosten}
+\subsection*{Wartungskosten}
 \label{sub:Unterhalt}
 
-Die Berechnung der Unterhaltskosten $K_{U}$ der Infrastruktur erfolgt gemäss der Formel \ref{eq.2}. Sie setzen sich zusammen aus den einmaligen Investitionskosten für den Bau der Infrastruktur $K_{Bau}$ und den jährlich anfallenden Wartungskosten $K_{Wartung,t}$.
+Die Berechnung der Wartungskosten $K_{W}$ der Infrastruktur erfolgt gemäss der Formel \ref{eq.2}. Sie setzen sich zusammen aus den einmaligen Investitionskosten für den Bau der Infrastruktur $K_{Bau}$ und den jährlich anfallenden Wartungskosten $K_{Wartung,t}$.
 
 \begin{equation}
-K_{U} = K_{Bau} + \sum_{t=0}^T \  K_{Wartung,t}  \label{eq.2} \\ 
+K_{W} = K_{Bau} + \sum_{t=0}^T \  K_{Wartung,t}  \label{eq.2} \\ 
 \end{equation}
 
 
 {\setstretch{0.6}
 wobei:
 \begin{conditions}
- K_{U}      	     			&  Totale Unterhaltskosten für $T$ Jahre  \\
+ K_{W}      	     			&  Totale Wartungskosten für $T$ Jahre  \\
  K_{Bau}           			    &  Baukosten der Variante     \\
  K_{Wartung,t}                  &  Wartungskosten pro Jahr     
 \end{conditions}
 }
 
 
-Die Berechnung der Wartungskosten erfolgt anhand Formel \ref{eq.3}. Die angenommenen Einheitskosten für den Bau und die Instandhaltung sind anhand von Werten der Fachliteratur hergeleitet und werden nachfolgend erläutert. 
+Die Berechnung der jährlichen Wartungskosten erfolgt anhand Formel \ref{eq.3}. Die angenommenen Einheitskosten für den Bau und die Instandhaltung sind anhand von Werten der Fachliteratur hergeleitet und werden nachfolgend erläutert. 
 
 \begin{equation}
 K_{Wartung,t} = \sum_{k=1}^2 \ EK_{Wartung,k} \cdot s_{k} \cdot b_{k}  \label{eq.3} 
@@ -66,27 +66,27 @@ K_{Wartung,t} = \sum_{k=1}^2 \ EK_{Wartung,k} \cdot s_{k} \cdot b_{k}  \label{eq
 
 wobei:
 \begin{conditions}
- EK_{Wartung,k}      	     	&  Einheitskosten pro $m^2$   \\
- s_k	    	     			&  Länge der Infrastruktur in $m$ \\
- b_k	    	     			&  Breite der Infrastruktur in $m$   \\
+ EK_{Wartung,k}      	     	&  Einheitskosten pro [$m^2$]   \\
+ s_k	    	     			&  Länge der Infrastruktur in [$m$] \\
+ b_k	    	     			&  Breite der Infrastruktur in [$m$]   \\
  k								&  Art der Infrastruktur  
 \end{conditions}
 }
 
 Die Erstellung zweier neuer Radstreifen à je 1.5 $m$ Breite kostet pro Laufmeter 850 CHF. Die Investitionskosten pro Quadratmeter für den Bau einer Velounterführung unter dem Lastfall Eisenbahn, betragen 3750 CHF. Der Bau der Zufahrtsrampen zu den Velounterführungen kostet pro Rampe 130'000 $CHF$. \\
-Die Wartungskosten welche für die Instandhaltung der Strassen, inklusive der Fahrradstreifen und der Fussgängerwege anfallen, betragen jährlich 5 \thinspace $\frac{CHF}{m^2}$. Die wartungsintesivere Infrastruktur der Unterführung wird jährlich mit 30 \thinspace $\frac{CHF}{m^2}$ instand gehalten. (\cite{Baukosten2010}) 
+Die Wartungskosten welche für die Instandhaltung der Strassen, inklusive der Fahrradstreifen und der Fussgängerwege anfallen, betragen jährlich 5 \thinspace $\frac{CHF}{m^2}$. Die wartungsintensivere Infrastruktur der Unterführung wird jährlich mit 30 \thinspace $\frac{CHF}{m^2}$ instand gehalten. (\cite{Baukosten2010}) 
 
-Diese Kosten sind hauptsächtlich von der Auslastung der Infrastruktur und vom Gewicht der Fahrzeuge, die sie befahren, abhängig. Da diese Kosten im Vergleich zu den anderen Kostenpositionen deutlich geringen ausfallen, verzichte ich auf eine Variation dieser Parameter über den betrachteten Zeithorizont. Die nachfolgende Tabelle \ref{tab:t-04-03-01-Unterhalt} fasst die für die Besitzer anfallenden Einheitskosten zusammen.
+Diese Kosten sind hauptsächlich von der Auslastung der Infrastruktur und vom Gewicht der Fahrzeuge, die sie befahren, abhängig. Da diese Kosten im Vergleich zu den anderen Kostenpositionen deutlich geringen ausfallen, verzichte ich auf eine Variation dieser Parameter über den betrachteten Zeitraum. Die nachfolgende Tabelle \ref{tab:t-04-03-01-Unterhalt} fasst die für die Besitzer anfallenden Einheitskosten zusammen.
 
-\input{./tables/t-04-03-01-Unterhaltskosten}
+\input{./tables/t-04-03-01-Wartungskosten}
 
 \newpage
 
 \subsection*{Betriebskosten}
 \label{sub:Betrieb}
 
-Die Fahrzeugsbetriebkosten $K_{B}$ sind als die, jährlich für den Nutzer für die Instandsetzung und den Betrieb eines Fahrzeugs anfallenden Kosten definiert und somit die Kosten die bei der Nutzung der Infrastruktur entstehen können. \\
-Die Kosten die für den betrachteten Zeitraum von $T$ Jahren anfallen, werden gemäss Formel \ref{eq.6} durch die Multiplikation der Anzahl Nutzer mit der zurückgelegten Distanz und mit den Einheitskosten pro Fahrzeugkilometer, berechnet. 
+Die Fahrzeugbetriebskosten $K_{B}$ sind als die, jährlich für den Nutzer für die Instandsetzung und den Betrieb eines Fahrzeugs anfallenden Kosten definiert und somit die Kosten die bei der Nutzung der Infrastruktur entstehen können. \\
+Die Kosten, die für den betrachteten Zeitraum von $T$ Jahren anfallen, werden gemäss Formel \ref{eq.6} durch die Multiplikation der Anzahl Nutzer mit der zurückgelegten Distanz und mit den Einheitskosten pro Fahrzeugkilometer, berechnet. 
 
 \begin{equation}
 K_{B} =  \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ EK_{B,j} \cdot s_{j} \cdot DTV_{j,t} \Biggr] \cdot 365  \label{eq.6} \\
@@ -114,18 +114,17 @@ K_{B} =  \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ EK_{B,j} \cdot s_{j} \cdot DTV_{j,t
 wobei:
 \begin{conditions}
  K_{B}			   &  Totale Fahrzeugbetriebskosten \\
- EK_{B,j}	       &  Einheitskosten pro $km$ \\
- s_j	    	   &  Länge der Infrastruktur; nach Fahrzeugtyp in $km$  \\
+ EK_{B,j}	       &  Einheitskosten pro [$km$] \\
+ s_j	    	   &  Länge der Infrastruktur; nach Fahrzeugtyp in [$km$]  \\
  DTV_{j,t}    	   &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp im Jahr $t$\\
   j				   &  Art des Fahrzeugs  
 \end{conditions}
 }
 
-Die Einheitskosten des Fahrzeugsbetriebs sind mehrheitlich abhängig von der Entwicklung der Fahrzeugtechnologie und der Verarbeitungsqualität. 
-Die Einführung autonomer Fahrzeuge, würde diese Kostenposition in Zukunft obsolet machen. Jedoch ist die Zulassung solcher Fahrzeuge für den innerstädtischen Verkehr nicht vor 2050 zu erwarten. Da dies, erst am Ende meines betrachteten Zeithorizont eine Rolle spielen wird und der Effekt der die einführung von autonomen Fahrzeugen auf die Betriebskosten des Nutzers nicht eindeutig beziffert werden kann, verzichte ich auf eine Variation dieser Parameter und erachte die Einheitskosten des Fahrzeugbetriebs über den betrachteten Zeithorizont als konstant.
+Die Einheitskosten des Fahrzeugbetriebs sind mehrheitlich abhängig von der Entwicklung der Fahrzeugtechnologie und der Verarbeitungsqualität. Die Einführung autonomer Fahrzeuge würde diese Kostenposition in Zukunft obsolet machen. Jedoch ist die Zulassung solcher Fahrzeuge für den innerstädtischen Verkehr nicht vor 2050 zu erwarten. Da dies, erst am Ende des betrachteten Zeithorizont eine Rolle spielen wird und der Effekt, den die Einführung autonomer Fahrzeuge auf die Betriebskosten des Nutzers hat, nicht eindeutig beziffert werden kann, verzichte ich auf eine Variation dieser Parameter und erachte die Einheitskosten des Fahrzeugbetriebs über den betrachteten Zeithorizont als konstant.
 
-Zur Vereinfachung der Berechnung, werden die entstehenden Betriebskosten anhand der nachfolgenden Referenzwerte, für die angenommenen Einheitskosten $EK_{B}$ für den Fahrzeugbetrieb ermittelt. \\
-Für den MIV nehmen ich gemäss dem TCS an das die Kosten für den Betrieb eines Fahrzeugs bei 0.7 CHF pro $km$ liegen. Diese Kosten setzen sich aus den Kosten für den Kraftstoff, den Kosten für die Instadhaltung des Fahrzeugs und dem Wertverlust zusammen. Für die Velofahrer nehme ich, nach der konsultation verschiedener Fachliteraturen sowie der Berechnung eigener Referenzwerte, dass sich die Kosten für den Betrieb auf 0.15 CHF pro $km$ belaufen. (Quelle: TCS und eigene Erfahrungswerte)
+Die entstehenden Betriebskosten werden anhand der nachfolgenden Referenzwerte des Fahrzeugbetriebs ermittelt. \\
+Für den MIV nehmen ich gemäss der Angaben des TCS an, dass die Einheitskosten $EK_{B}$  für den Betrieb eines Fahrzeugs bei 0.7 CHF pro $km$ liegen. Diese Kosten setzen sich aus den Kosten für den Kraftstoff, den Kosten für die Instandhaltung des Fahrzeugs und dem Wertverlust zusammen. Für die Velofahrer nehme ich, nach der Konsultation verschiedener Fachliteraturen sowie der Berechnung eigener Referenzwerte, dass sich die Kosten für den Betrieb auf 0.15 CHF pro $km$ belaufen. (Quelle: TCS und eigene Erfahrungswerte)
 
 
 
@@ -133,10 +132,10 @@ Für den MIV nehmen ich gemäss dem TCS an das die Kosten für den Betrieb eines
 \subsection*{Reisezeitkosten}
 \label{sub:Reisezeit}
 
-Erleidet man beim befahren einer Infrastruktur einen Zeitverlust, entsteht dem Nutzer einen Schaden. Zieht man in betracht, dass der Nutzer in dieser Zeit hätte arbeiten können oder Freizeit verbringen, kann dieser Schaden monäter beziffert werden. Beispiele hierfür wären, die Mehrkosten eines Spediteurs aufgrund des Zeitverlust oder die Mehrkosten auf einem Ausflug, durch eine verpasste Zugverbindung.
-Diese Kosten werden indirekt vom Zustand des Fahrbahnbelags beeinflusst, da vom Zustand des Fahrbahnbelags die Reisegeschwindigkeit und somit die Zeit die benötigt wird, eine gewisse Strecke zurückzulegen, abhängig ist.
+Erleidet man beim Befahren einer Infrastruktur einen Zeitverlust, entsteht dem Nutzer ein Schaden. Zieht man in Betracht, dass der Nutzer in dieser Zeit hätte arbeiten können oder Freizeit verbringen, kann dieser Schaden monetär beziffert werden. Beispiele hierfür wären die Mehrkosten eines Spediteurs aufgrund des Zeitverlustes oder die Mehrkosten auf einem Ausflug durch eine verpasste Zugverbindung. \\
+Diese Kosten werden indirekt vom Zustand des Fahrbahnbelages beeinflusst. Da die Reisegeschwindigkeit und somit die Zeit die benötigt wird, eine gewisse Strecke zurückzulegen, von diesem abhängig ist.
 
-Die Berechnung der totalen Reisezeitkosten $K_{TT}$ erfolgt gemäss Formel \ref{eq.4} in Anlehnung an die Berechnung der \textit{Travel time cost} aus \cite[S.643]{Adey2012}.
+Die Berechnung der totalen Reisezeitkosten $K_{TT}$ erfolgt gemäss Formel \ref{eq.4} in Anlehnung an die Berechnung der \textit{Travel Time Cost} aus (\cite[S.643]{Adey2012}).
 
 \begin{equation}
 K_{TT} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ DTV_{j,t} \cdot t_{j} \cdot EK_{TT,j} \Biggr] \cdot 365 \label{eq.4}
@@ -146,12 +145,13 @@ K_{TT} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \ DTV_{j,t} \cdot t_{j} \cdot EK_{TT,
 wobei:
 \begin{conditions}
  K_{TT}		 	 &  Totale Reisezeitkosten für $T$ Jahre  \\
+ DTV_{j,t}    	   &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp im Jahr $t$  \\
  t_{j} 			 &  Zeitverlust nach Fahrzeugtyp \\
- EK_{TT,j} 		 &  Einheitskosten der verlorenen Zeit in $CHF/h$  
+ EK_{TT,j} 		 &  Einheitskosten der verlorenen Zeit in [$CHF/h$]  
 \end{conditions}
 }
 
-Die Zeit die man benötigt eine bestimmte Strecke zurück zu legen ist abhängig von der gefahrenen Geschwindigkeit $v_{j}$, welche wiederum durch Zustand der Strasse sowie von der Kapazität $C_{j}$ der Infrastruktur, bestimmt wird. Diese Approximation ermöglicht es mir, die verlorene Zeit, gemäss \ref{eg.5} zu berechnen, wobei die Parameter $\alpha$ und $\beta$ die Strasseneigenschaften repräsentieren.  
+Die Zeit, die man benötigt eine bestimmte Strecke zurück zu legen, ist abhängig von der gefahrenen Geschwindigkeit $v_{j}$, welche wiederum durch den Zustand der Strasse sowie die Kapazität $C_{j}$ der Infrastruktur bestimmt wird. Diese Approximation ermöglicht es, die verlorene Zeit gemäss \ref{eg.5} zu berechnen, wobei die Parameter $\alpha$ und $\beta$ die Strasseneigenschaften repräsentieren.  
 
 \begin{equation}
 t = \frac{s_{k}}{v_{j}} \Biggl( 1 + \alpha \Bigl(\frac{DTV_{j,t}}{C_{j}} \Bigr)^\beta \Biggr) \label{eg.5} 
@@ -167,13 +167,14 @@ wobei:
 \end{conditions}
 }
 
+Der Bahnübergang Brunnenstrasse ist aufgrund des regen S-Bahn-Verkehrs und somit dichten Fahrplans am Bahnhof Uster pro Stunde bis zu 40' geschlossen. Daraus resultiert gemäss STEK pro Nutzer des Bahnübergangs eine durchschnittliche Wartezeit von bis zu 5 Minuten, was einem Zeitverlust von 0.0833 $h$/Fahrzeug entspricht. Um die durchschnittliche Wartezeit in die Berechnung der Reisezeitkosten miteinzubeziehen, wird der beim Befahren der Infrastruktur entstehende Zeitverlust $t_{j}$ um diesen Faktor vergrössert. \\
+Der beim Benutzen des Bahnübergangs anfallende Zeitverlust nach Formel \ref{eg.5} ist somit hauptsächlich von der Schliesszeit der Bahnschranken abhängig. 
 
-Der Bahnübergang Brunnenstrasse ist augfrund des regen S-Bahn Verkehrs und somit dichten Fahrplans am Bahnhof Uster, pro Stunde bis zu 40' geschlossen. Daraus resultiert, gemäss STEK pro Benutzer des Bahnübergangs eine durchschnittliche Wartezeit von bis zu 5 Minuten, was einem einem Zeitverlust von 0.0833 $h$/Fahrzeug entspricht. Um die durchschnittliche Wartezeit in die Berechnung der Reisezeitkosten miteinzubeziehen, wird der, beim befahren der Infrastruktur entstehende Zeitverlust $t_{j}$, um diesen Faktor vergrössert. \\
-Der effektive beim benutzen des Bahnübergangs anfallende Zeitverlust nach Formel \ref{eg.5} ist somit hauptsächlich von der Schliesszeit der Bahnschranken abhängig. 
+Die durchschnittliche Wartezeit pro Nutzer setzt sich aus der Zeit, die ein Zug für die Durchfahrt benötigt, und einem Faktor, der die Zeit für die Öffnung der Schranken sowie die Wartezeit aufgrund eines allfällige entstehenden Rückstaus repräsentiert, zusammen. Die durchschnittliche Durchfahrtszeit eines Zuges beträgt gemäss STEK 3' und der vorgängig erläuterte Faktor wird für die Berechnung, nach Konsultation verschiedener Literaturen mit 2' angesetzt.  
 
-Die durchschnittliche Wartezeit pro Nutzer, setzt sich aus der Zeit die ein Zug für die Durchfahrt benötigt und einem Faktor der die Zeit für die Öffnung der Schranken, sowie die Wartzeit aufgrund eines allfällige enstehehden Rückstaus repräsentiert, zusammen. Die durchschnittliche Durchfahrtszeit eines Zuges beträgt gemäss (\cite{STEK}) 3' und der vorgängig erläuterte Faktor wird für die Berechnung, nach konsultation verschiedener Literaturen, mit 2' angesetzt.  
+Die Einheitskosten des Zeitverlustes $EK_{TT,j}$ pro Velofahrer betragen 19.70 $CHF/h$.  \\
+Um den durchschnittlichen Auslastungsgrad von 1.6 Personen pro Auto zu berücksichtigen, wird dieser Betrag mit dem Faktor 1.6 multipliziert. Somit betragen die Einheitskosten des Zeitverlustes für den motorisierten Individualverkehr 31.52 $CHF/h$ pro Auto.  \\ (\cite{Adey2012}) (\cite{Mikrozensus2015}) 
 
-Die Einheitskosten des Zeitverlustes $EK_{TT,j}$ pro Velofahrer betragen 19.70 $CHF/h$. Um denn durchschnittlichen Auslastungsgrad von 1.6 Personen pro Auto  zuberücksichtigen, wird dieser Wert mit dem Faktor 1.6 multipliziert. Somit betragen die Einheitskosten des Zeitverlustes für den motorisierten Individualverkehr 31.52 $CHF/h$ pro Auto. (\cite{Adey2012}) (\cite{Mikrozensus2015}) \\
 Die nachfolgenden Tabelle \ref{tab:t-04-03-02-Nutzerkosten} fast die für die Nutzer anfallenden Einheitskosten zusammen.
 
 \input{./tables/t-04-03-02-Nutzerkosten}
@@ -181,11 +182,11 @@ Die nachfolgenden Tabelle \ref{tab:t-04-03-02-Nutzerkosten} fast die für die Nu
 \newpage
 
 
-\subsection*{Umwelkosten}
+\subsection*{Umweltkosten}
 \label{subsec:Environment}
 
 
-Die gemäss Formel \ref{eq.7} berechneten Kosten der Belastung der Umwelt $K_{E}$ (\textit{Englisch}: Environment), bestehen aus den Kosten durch die Schadstoffbelastung $K_{S}$ und der Kosten durch die Lärmbelastung $K_{L}$, die durch den motorisierten Individualverkehr verursacht werden.  
+Die gemäss Formel \ref{eq.7} berechneten Kosten der Belastung der Umwelt $K_{E}$ (\textit{Englisch}: Environment), bestehen aus den Kosten durch die Schadstoffbelastung $K_{S}$ und der Kosten durch die Lärmbelastung $K_{L}$, die durch den MIV verursacht werden.  
 
 \begin{equation}
 K_{E} = \sum_{t=0}^T \ \biggl(K_{L,t} + K_{S,t} \biggr)  \label{eq.7} \\
@@ -194,13 +195,13 @@ K_{E} = \sum_{t=0}^T \ \biggl(K_{L,t} + K_{S,t} \biggr)  \label{eq.7} \\
 {\setstretch{0.6}
 wobei:
 \begin{conditions}
- K_{E}		   &  Totale Umwelkosten  \\
+ K_{E}		   &  Totale Umweltkosten  \\
  K_{L,t}       &  Kosten durch die Lärmbelastung pro Jahr  \\
  K_{S,t}       &  Kosten durch die Schadstoffbelastung pro Jahr 
 \end{conditions} 
 }
 
-Die \textbf{Lärmbelastung} durch den Verkehr verursacht Kosten $K_{L}$ und werden gemäss Formel \ref{eq.9} berechnet. Diese Lärmbelastung kann einerseits zu Mietzinsausfällen führe, da eine erhöhte Lärmbelastung zu einer Reduktion des Mietzins führen kann und andererseits zu Kosten infolge der Schädigung der Gesundheit der Anwohner. Eine solche Beeinträchtigung der Gesundheit kann in Form von Kopfschmerzen, Bluthochdruck, Schlafstörrungen sowie psychischer Belastung auftretten. (\cite{Ecoplan2007})
+Die \textbf{Lärmbelastung} durch den Verkehr verursacht Kosten $K_{L}$ die gemäss Formel \ref{eq.9} berechnet werden. Eine solche Lärmbelastung kann einerseits zu Mietzinsausfällen führen, da eine erhöhte Lärmbelastung zu einer Reduktion des Mietzinses führen kann, und andererseits zu Kosten infolge der Schädigung der Gesundheit der Anwohner. Eine solche Beeinträchtigung der Gesundheit kann in Form von Kopfschmerzen, Bluthochdruck, Schlafstörungen sowie psychischer Belastung auftreten. (\cite{Ecoplan2007})
 
 \begin{equation}
 K_{L,t} = EK_{L} \cdot DTV_{MIV,t} \cdot s_{i} \cdot 365 \label{eq.9} \\
@@ -210,16 +211,17 @@ K_{L,t} = EK_{L} \cdot DTV_{MIV,t} \cdot s_{i} \cdot 365 \label{eq.9} \\
 wobei:
 \begin{conditions}
  EK_{L}         	&  Einheitskosten der Lärmbelastung pro Fahrzeugkilometer \\
+ DTV_{MIV,t}        &  Tägliches Verkehrsaufkommen des MIV im Jahr $t$  \\
  s_{MIV}          	&  Zurückgelegte Distanz in $[km]$ pro Motorfahrzeug 
 \end{conditions} 
 }
 
-Der Lärm entsteht mehrheitlich durch die Motorengeräusche sowie durch die Abrollgeräusche der Reifen. Eine Schweirigkeit bei der bezifferung des Ausmasses dieser Kosten ist es, die erwähnten Auswirkungen des Lärms auf die Öffentlichkeit zu quantifizieren. (\cite{Adey2012})
-Das Ausmass des entstandenen Schadens, ist somit vollständig von der Fahrzeugtechnologie abghängig. Eine Reduktion der Lärmbelastung durch Veränderung der Reifentechnologie, ist im betrachten Zeithorizont nicht zuerwarten. Die Einheitskosten der Lärmbelastung $EK_{L}$ werden infolge, anhand des Berichts zu den externen Lärmkosten des Strassenverkehrs, mit 0.0149 $CHF$/Fahrzeugkilometer angenähert. (\cite{Lärm2000})
+Der Lärm entsteht mehrheitlich durch die Motorengeräusche sowie durch die Abrollgeräusche der Reifen. Eine Schwierigkeit bei der Bezifferung des Ausmasses dieser Kosten liegt darin, die erwähnten Auswirkungen des Lärms auf die Öffentlichkeit zu quantifizieren. (\cite{Adey2012}) \\
+Das Ausmass des entstandenen Schadens ist somit vollständig von der Fahrzeugtechnologie abhängig. Eine Reduktion der Lärmbelastung durch Veränderung der Reifentechnologie ist im betrachten Zeitraum nicht zu erwarten. Die Einheitskosten der Lärmbelastung $EK_{L}$ werden anhand des Berichts zu den externen Lärmkosten des Strassenverkehrs, mit 0.0149 $CHF$/Fahrzeugkilometer angenähert. (\cite{Lärm2000})
 
 \newpage
 
-Die in Formel \ref{eq.8} dargestellten Kosten der \textbf{Schadstoffbelastung} $K_{S}$, sind die Kosten die der Öffentlichkeit infolge der Emissionen von Motorfahrzeugen entstehen. Diese Schäden können neben gesundheitlichen Problemen für die Anwohner und Nutzer der Strasse und der Beeinträchtigung des Pflanzenwachstums entlang der Infrastruktur auch die Reduktion des Werts einer Liegenschafts sein. 
+Die in Formel \ref{eq.8} dargestellten Kosten der \textbf{Schadstoffbelastung} $K_{S}$, sind die Kosten, die der Öffentlichkeit infolge der Emissionen von Motorfahrzeugen entstehen. Diese Schäden können neben gesundheitlichen Problemen für die Anwohner und Nutzer der Strasse und der Beeinträchtigung des Pflanzenwachstums entlang der Infrastruktur auch die Reduktion des Werts einer Liegenschaft sein. 
 
 \begin{equation}
 K_{S,t} = EK_{S} \cdot DTV_{MIV,t} \cdot s_{MIV} \cdot \biggl( 1 - \Phi_{E-Auto,t} \biggr) \cdot 365 \label{eq.8} \\
@@ -228,15 +230,18 @@ K_{S,t} = EK_{S} \cdot DTV_{MIV,t} \cdot s_{MIV} \cdot \biggl( 1 - \Phi_{E-Auto,
 {\setstretch{0.6}
 wobei:
 \begin{conditions}
- EK_{S}         	&  Einheitskosten der Schadstoffbelastug pro Fahrzeugkilometer \\
+ EK_{S}         	&  Einheitskosten der Schadstoffbelastung pro Fahrzeugkilometer \\
+ DTV_{MIV,t}        &  Tägliches Verkehrsaufkommen des MIV im Jahr $t$  \\
+ s_{MIV}          	&  Zurückgelegte Distanz in $[km]$ pro Motorfahrzeug  \\
  \Phi_{E-Auto,t}    &  Marktanteil E-Autos am $DTV_{MIV,t}$ im Jahr $t$ 
 \end{conditions} 
 }
 
 
-Die entstehenden Kosten der Schadstoffbelastung werden mehrheitlich durh die gefahrenen Geschwindigkeit und den Verkehrsfluss beeinflusst. So nimmt die Belastung der Luft durch Schadstoffe deutlich zu, wenn vermehrt im \textit{Stopp and Go-Verkehr} gefahren wird. Da für das modellieren dieser Beziehung im Rahmen meiner Untersuchungen nicht genügend Zeit zur Verfügung stand, bestimme ich die Kosten der Schadstoffbelastung  anhand des Schlussberichts zu den externen Kosten im Strassenverkehr. Somit betragen die, für die Öffentlichkeit anfallenden Einheitskosten $EK_{S}$ 0.0345 CHF/Fahrzeugkilometer.  (\cite{Ecoplan2007}) \\
+Die entstehenden Kosten der Schadstoffbelastung werden mehrheitlich durch die gefahrene Geschwindigkeit und den Verkehrsfluss beeinflusst. So nimmt die Belastung der Luft durch Schadstoffe deutlich zu, wenn vermehrt im \textit{Stopp and Go}-Verkehr gefahren wird. Da für das Modellieren dieser Beziehung im Rahmen meiner Untersuchungen nicht genügend Zeit zur Verfügung stand, bestimme ich die Kosten der Schadstoffbelastung  anhand des Schlussberichts zu den externen Kosten im Strassenverkehr. Somit betragen die für die Öffentlichkeit anfallenden Einheitskosten $EK_{S}$ 0.0345 CHF/Fahrzeugkilometer. \\
+ (\cite{Ecoplan2007}) 
 
-Da elektronisch angetrieben Fahrzeuge keine Emissionen verursachen und demzufolge keine Kosten infolge Schadstoffbelastung, wird der Anteil an E-Autos \( \Phi_{E-Auto,t} \) beim berechnen der Umweltkosten vom täglichen Verkehrsaufkommen abgezogen.  
+Da elektronisch angetrieben Fahrzeuge keine Emissionen verursachen und demzufolge keine Kosten infolge Schadstoffbelastung entstehen, wird der Anteil an E-Autos beim Berechnen der Umweltkosten vom DTV abgezogen.  
 
 
 \input{./tables/t-04-03-03-Umweltkosten}
@@ -245,8 +250,8 @@ Da elektronisch angetrieben Fahrzeuge keine Emissionen verursachen und demzufolg
 \subsubsection*{Marktanteil E-Autos}
 \label{subsubsec:Marktanteil}
 
-Im Jahr 2019 betrug der Marktanteil der E-Autos am Personenwagenbestand in der Schweiz 0.621 \%. Für das Jahr 2050 nehmen ich an, nach konsultation verschiedenster Literaturen, dass der Marktanteil der E-Autos in der Schweiz bei 90 \% zu liegen kommt. (\cite{Bestand2019}) \\
-Um die Berechnung zu vereinfachen nehme ich an, dass das Wachstum linear erfolgt. Somit beträgt der jährliche Anstieg des Marktanteils der E-Autos am Personenwagebestand 2.88 \%. Die Resultate meiner Berechnungen des jährlichen Marktanteils der E-Autos am Strassenfahrzeugbestand \( \Phi_{E-Auto} \) ist in der nachfolgenden Abbildung \ref{img:Marktanteil} festgehalten. 
+Im Jahr 2019 betrug der Marktanteil der E-Autos am Personenwagenbestand in der Schweiz 0.621 \%. Für das Jahr 2050 nehmen ich an, nach Konsultation verschiedenster Literaturen, dass der Marktanteil der E-Autos in der Schweiz bei 90 \% zu liegen kommt. \\ (\cite{Bestand2019}) 
+Um die Berechnung zu vereinfachen nehme ich an, dass das Wachstum linear erfolgt. Somit beträgt der jährliche Anstieg des Marktanteils der E-Autos am Personenwagenbestand 2.88 \%. Die Resultate meiner Berechnungen des jährlichen Marktanteils der E-Autos am Strassenfahrzeugbestand \( \Phi_{E-Auto} \) ist in der nachfolgenden Abbildung \ref{img:Marktanteil} festgehalten. 
 
 \begin{figure}[h!]
 	\centering
@@ -261,11 +266,11 @@ Um die Berechnung zu vereinfachen nehme ich an, dass das Wachstum linear erfolgt
 \subsection*{Unfallkosten}
 \label{subsec:Unfall}
 
-Die totalen Unfallkosten $K_{A}$ welche von der Öffentlichkeit für den betrachteten Zeitraum getragen werden müssen, werden gemäss Formel \ref{eq.10} berechnet. So ergibt sich aus der Multiplikation der Anzahl Fahrzeuge und der Unfallwahrscheinlichkeit, die Anzahl Unfälle auf der Infrastruktur. Die Anzahl Unfälle multipliziert man, um die gesamten Unfallkosten zu ermittelt, mit den Einheitskosten der jeweiligen Unfalltypen.
+Die totalen Unfallkosten $K_{A}$, welche von der Öffentlichkeit für den betrachteten Zeitraum getragen werden müssen, werden gemäss Formel \ref{eq.10} berechnet. So ergibt sich aus der Multiplikation der Anzahl Fahrzeuge und der Unfallwahrscheinlichkeit, die Anzahl Unfälle auf der Infrastruktur. Die Anzahl Unfälle multipliziert man, um die gesamten Unfallkosten zu ermittelt, mit den Einheitskosten der jeweiligen Unfalltypen.
 
-In Betracht gezogen werden drei verschiedene Unfaltypen [$a$,$b$,$c$].
+In Betracht gezogen werden drei verschiedene Unfalltypen [$a$,$b$,$c$].
 Unfälle mit entstandenen Sachschäden und leichtverletzten Personen werden in die Kategorie $a$ eingeteilt. Für Unfälle mit schwerverletzten Beteiligten wird die Kategorie $b$ definiert und für Unfälle mit Todesfolge die Kategorie $c$. 
-Die Kategorien unterscheidenen sich in der Unfallhäufigkeit nach Fahrzeugart \( \gamma_{j,n} \), sowie der entstehenden Einheitskosten pro Unfall $EK_{j,n}$.
+Die Kategorien unterscheiden sich in der Unfallhäufigkeit nach Fahrzeugart \( \gamma_{j,n} \), sowie der entstehenden Einheitskosten pro Unfall $EK_{j,n}$.
 
 \begin{equation}
 K_{A} = \sum_{t=0}^T \Biggl[ \sum_{j=1}^2 \Bigl( \sum_{n=a}^c \ EK_{j,n} \cdot \gamma_{j,n} \Bigr) \cdot DTV_{j} \cdot s_j \cdot 365 \Biggr] 
@@ -298,17 +303,16 @@ wobei:
 \begin{conditions}
  K_{A}	 		 &  Totale Unfallkosten \\
  EK_{j,n} 		 &  Einheitskosten pro Unfall nach Fahrzeugtyp \\
+ DTV_{j,t}    	 &  Tägliches Verkehrsaufkommen nach Fahrzeugtyp im Jahr $t$  \\
  \gamma_{j,n} 	 &  Unfallwahrscheinlichkeit nach Fahrzeugtyp \\
  n 				 &  Unfallart  \\
 \end{conditions}
 } 
 
-\begin{IMleftrightskip}
-Wichtig anzumerken ist, dass die ermittelten Unfallrisiken die Anzahl Unfälle eines Unfalltyps pro Personenkilometer darstellen. Das bedeuted, dass für die Berechnung der Personenkilometer der mototrisierten Fahrzeuge, der Auslastungsgrad gemäss (\cite{Mikrozensus2015}) in Betracht gezogen werden muss. Somit wird in der Berechnung der Unfallkosten der $DTV_{MIV}$ mit einem Faktor 1.6 multipliziert.
-\end{IMleftrightskip}
+Wichtig anzumerken ist, dass die ermittelten Unfallrisiken die Anzahl Unfälle eines Unfalltyps pro Personenkilometer darstellen. Das bedeutet, dass für die Berechnung der Personenkilometer des MIV, der durchschnittliche Auslastungsgrad in Betracht gezogen werden muss. Somit wird in der Berechnung der Unfallkosten der $DTV_{MIV}$ mit einem Faktor 1.6 multipliziert. (\cite{Mikrozensus2015})
 
-Die Gefahrenlage auf der Infrastruktur wird von mir, durch die Berechnung der Unfallrisiken anhand der gesamtschweizerischen Unfalldaten, abgeschätzt.
-Die effektive Gefahrensituation wird, dadurch jedoch nicht berücksichtig. Um diese berücksichtigen zu können, müssten die Unfalldaten der Brunnenstrasse verwendet werden. Diese sind jedoch unvollständig und daher verwende ich zur Berechnung der Unfallrisken die Unfalldaten für die ganze Schweiz. 
+Die Gefahrenlage auf der Infrastruktur wird durch die Berechnung der Unfallrisiken anhand der gesamtschweizerischen Unfalldaten, abgeschätzt. Die effektive Gefahrensituation wird dadurch jedoch nicht berücksichtig. Um diese berücksichtigen zu können, müssten die Unfalldaten der Brunnenstrasse verwendet werden. Diese sind jedoch unvollständig und daher verwende ich zur Berechnung der Unfallrisiken die Unfalldaten für die ganze Schweiz. 
+
 Da die Entwicklung der Verkehrssicherheit von verschiedensten Faktoren abhängig ist, habe ich mich im Rahmen dieser Untersuchungen aus Zeitgründen dazu entschieden, die Entwicklung der Unfallrisiken über den betrachteten Zeithorizont nicht zu variieren. 
 Eine Untersuchung des Effekts der Veränderung der Unfallrisiken in Abhängigkeit der gebauten Variante erfolgt im Abschnitt \ref{subsec:Sensitivitätsanalyse}.
 
@@ -317,26 +321,27 @@ Eine Untersuchung des Effekts der Veränderung der Unfallrisiken in Abhängigkei
 \label{subsubsec:Unfallrisiko}
 
 
-Die Wahrscheinlichkeit im Strassenverkehr einen Unfall zu erleiden, ist von verschiedenen Faktoren abhängig. In dem ich die Anzahl Unfälle nach Unfallart durch die totale Anzal gefahrener Personenkilometer nach Fahrzeugart teile, erhalte ich das Risiko eines Unfalls pro gefahrenem Personenkilometer \( \gamma_{j,n} \). 
+Die Wahrscheinlichkeit, im Strassenverkehr einen Unfall zu erleiden, ist von verschiedenen Faktoren abhängig. In dem ich die Anzahl Unfälle nach Unfallart durch die totale Anzahl gefahrener Personenkilometer nach Fahrzeugart teile, erhalte ich das Risiko eines Unfalls pro gefahrenem Personenkilometer \( \gamma_{j,n} \). 
 
-Unter dem Stichpunkt MIV zusammengefasst, sind die Personenwagen und Motorräder sowie Motorfahrräder und schnelle E-Bikes. Die Gesamtleistung der Personenwagen in der Schweiz, lag im Jahr 2018 bei 96.9 Mrd. Personenkilometer. Die Verkehrsleistung der Motorräder, inklusive Motorfahrräder und schnelle E-Bikes lag bei 2.2 Mrd. Personenkilometer. Daraus ergibt sich eine Verkehrsleistung des MIV von 99.1 Mrd. Personenkilometer für das Jahr 2018. (\cite{Verkehrsleistung2019})
-Im Jahr 2018 erlagen ingsesamt 116 Personen den Folgen eines Unfalls mit Beteiligung des MIV, 1898 Personen wurden schwer- und 12'106 Personen leicht verletzt. (\cite{Unfall2019})\\
+Unter dem Stichpunkt MIV zusammengefasst sind die Personenwagen und Motorräder sowie Motorfahrräder und schnelle E-Bikes. Die Gesamtleistung der Personenwagen in der Schweiz, lag im Jahr 2018 bei 96.9 Mrd. Personenkilometer. Die Verkehrsleistung der Motorräder, inklusive Motorfahrräder und schnelle E-Bikes lag bei 2.2 Mrd. Personenkilometer. Daraus ergibt sich eine Verkehrsleistung des MIV von 99.1 Mrd. Personenkilometer für das Jahr 2018. \\
+Im Jahr 2018 erlagen insgesamt 116 Personen den Folgen eines Unfalls mit Beteiligung des MIV, 1898 Personen wurden schwer- und 12'106 Personen leicht verletzt. \\ (\cite{Verkehrsleistung2019}) (\cite{Unfall2019}) 
 
-Das Unfallrisiko des Langsamverkehrs, den ich unter dem Begriff \textit{Velo} zusammenfasse, berechne ich nach dem dem selben Vorgehen.
-Die Verkehrsleitung der Velofahrer und langsamen E-Bikes lag im Jahr 2018 bei 2'520 Mio. Personenkilometer. (\cite{Verkehrsleistung2019}) \\
-Im Jahr 2018 verunfallten in Zusammenhang mit dem Langsamverkehr 26 Personen tödlich. Im selben Zeitraum wurden 878 Personen schwer- und 2815 Personen leicht verletzt. (\cite{Unfall2019})
+Das Unfallrisiko des Langsamverkehrs, den ich unter dem Begriff \textit{Velo} zusammenfasse, berechne ich nach demselben Vorgehen.
+Die Verkehrsleistung der Velofahrer und langsamen E-Bikes lag im Jahr 2018 bei 2'520 Mio. Personenkilometer. \\
+Im Jahr 2018 verunfallten in Zusammenhang mit dem Langsamverkehr 26 Personen tödlich. Im selben Zeitraum wurden 878 Personen schwer- und 2815 Personen leicht verletzt. \\ (\cite{Verkehrsleistung2019}) (\cite{Unfall2019})
+
 Die berechneten Risiken sind in Tabelle \ref{tab:t-06-01-Unfallrisiko} für die verschiedenen Fahrzeuge $j$ und Unfalltypen $n$ zusammengefasst.
 
 \input{./tables/t-06-01-Unfallrisiko}
 
 
-Nach der ausführlichen Betrachtung verschiedenster Literaturen zum Thema: \textit{Kosten die durch Strassenverkehrsunfälle entstehen} und einem Gespräch mit Herr Dr. Martani, habe ich für die Berechnung der Unfallkosten im Rahmen dieser Untersuchung, die folgenden Einheitskosten der verschiedenen Unfalltypen festgelegt.
+Nach der ausführlichen Betrachtung verschiedenster Literaturen zum Thema: \textit{Kosten die durch Strassenverkehrsunfälle entstehen} und einem Gespräch mit Herr Dr. Martani, habe ich für die Berechnung der Unfallkosten im Rahmen dieser Untersuchung die folgenden Einheitskosten der verschiedenen Unfalltypen festgelegt.
 
-\paragraph{Katergorie $a$} Die Einheitskosten pro Unfall der Kategorie $a$ setzen sich aus den entstandenen Sachschäden und den Arbeits- und Materialkosten der Reperatur eines Fahrzeugs zusammen. Das durchschnittliche Alter eines Personenenwagens in der Schweiz liegt bei 8.5 Jahren und der durschnittliche Wert eines solchen Fahrzeuge liegt gemäss TCS bei 15'000 CHF. Die Kosten der Behandlung der leichtverletzter Personen wird in dieser Betrachtung, aufgrund ihrer geringen grösse vernachlässigt, weshalb die pro Unfall enstehenden Kosten der Kategorie $a$ mit 15'000 CHF/Unfall angesetzt, werden.
+\paragraph{Kategorie $a$} Die Einheitskosten pro Unfall der Kategorie $a$ setzen sich aus den entstandenen Sachschäden und den Arbeits- und Materialkosten der Reparatur eines Fahrzeugs zusammen. Das durchschnittliche Alter eines Personenwagens in der Schweiz liegt bei 8.5 Jahren und der durchschnittliche Wert eines solchen Fahrzeuge liegt gemäss TCS bei 15'000 CHF. Die Kosten der Behandlung leichtverletzter Personen wird in dieser Betrachtung, aufgrund ihrer geringen Grösse vernachlässigt, weshalb die pro Unfall entstehenden Kosten der Kategorie $a$ mit 15'000 CHF/Unfall angesetzt, werden.
 
-\paragraph{Kategorie $b$} Die Kosten die aufgrund eines Unfalls der Kategorie $b$ entstehen, werden durch die anfallenden Behandlungskosten der verunfallten Person dominiert. Die Kosten durch den Erwerbsausfall für die Dauer der Arbeitsunfähigkeit, sowie die Kosten der entstandenen Sachschäden, werden in dieser Berechnung aufgrund ihrer im Vergleich zu den Behandlungskosten geringen Grösse, vernachlässigt. Die durchschnittliche Kosten die durch die Behandlung einer schwerverletzte Person entstehen, werden mit 110'000 $CHF/Unfall$ angesetzt. Dies entspricht 3\% der Kosten einer tödlich verunfallten Person.
+\paragraph{Kategorie $b$} Die Kosten die aufgrund eines Unfalls der Kategorie $b$ entstehen, werden durch die anfallenden Behandlungskosten der verunfallten Person bestimmt. Die Kosten durch den Erwerbsausfall für die Dauer der Arbeitsunfähigkeit, sowie die Kosten der entstandenen Sachschäden, werden in dieser Berechnung aufgrund ihrer im Vergleich zu den Behandlungskosten geringen Grösse, vernachlässigt. Die durchschnittlichen Kosten, die durch die Behandlung einer schwerverletzten Person entstehen, werden mit 110'000 $CHF/Unfall$ angesetzt. Dies entspricht 3\% der Kosten einer tödlich verunfallten Person.
 
-\paragraph{Kategorie $c$} Und zuletzt die Einheitskosten für die Folgen eines Unfalls der Kategorie $c$. Diese Kosten, für einen Unfall mit Todesfolge, basieren auf der Schätzung des Werts eines statistischen Lebens. Hierfür werden gemäss ASTRA 3.7 Mio. $CHF/Unfall$ angesetzt.
+\paragraph{Kategorie $c$} Diese Kosten, für einen Unfall mit Todesfolge, basieren auf der Schätzung des Werts eines statistischen Lebens. Hierfür werden gemäss dem ASTRA 3.7 Mio. $CHF/Unfall$ angesetzt.
 
 \input{./tables/t-04-03-04-Unfallkosten}
 

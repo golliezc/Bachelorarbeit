@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  28 MAY 2020 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  29 MAY 2020 10:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -1720,13 +1720,13 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__pdf_internal_box=\box126
 ) (main.aux
 
-LaTeX Warning: Label `fig:Z4' multiply defined.
-
-
 LaTeX Warning: Label `img:' multiply defined.
 
 
 LaTeX Warning: Label `sub@img:' multiply defined.
+
+
+LaTeX Warning: Label `img:DTVModellierung' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1952,7 +1952,7 @@ Package pdftex.def Info: content/f-00-02-b-Declaration.jpeg  used on input line
  [5 <./content/f-00-02-b-Declaration.jpeg>] [6
 
 
-] (content/00-03-Acknowledgment.tex
+] (content/00-03-Danksagung.tex
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 7.
 
@@ -1964,16 +1964,13 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ] [8
 
 
-] (content/00-04-Abstract.tex
-
-Package hyperref Warning: Suppressing empty link on input line 20.
-
-) [9
+] (content/00-04-Abstract.tex) [9
 
 ] [10
 
 
-] (content/00-05-Zusammenfassung.tex) [11
+]
+(content/00-05-Zusammenfassung.tex) [11
 
 ] [12
 
@@ -1984,8 +1981,8 @@ Package hyperref Warning: Suppressing empty link on input line 20.
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-
-[14] (main.lof [15
+ [14] (main.lof
+[15
 
 
 
@@ -2021,11 +2018,16 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
 [1
 
 ]) ("content/02-Grundlagen und Theorie.tex" [2]
 chapter 2.
-<figures/f-02-01-Problemlösungsprozess.png, id=307, 597.432pt x 69.861pt>
+<figures/f-02-01-Problemlösungsprozess.png, id=311, 597.432pt x 69.861pt>
 File: figures/f-02-01-Problemlösungsprozess.png Graphic file (type png)
 <use figures/f-02-01-Problemlösungsprozess.png>
 Package pdftex.def Info: figures/f-02-01-Problemlösungsprozess.png  used on in
@@ -2035,29 +2037,32 @@ put line 29.
 
  <./figures/f-02-01-Problemlösungsprozess.png>] [4]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 64.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 63.
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 73--77
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 72--76
 [] 
  []
 
 [5]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 95--101
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 94--100
 [] 
  []
 
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 105.
+
 [6]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 119.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 118.
 
 [7]
-<figures/f-02-02-EntscheidungsbaumBSP.png, id=364, 702.82574pt x 292.09125pt>
+<figures/f-02-02-EntscheidungsbaumBSP.png, id=369, 712.46175pt x 296.307pt>
 File: figures/f-02-02-EntscheidungsbaumBSP.png Graphic file (type png)
 <use figures/f-02-02-EntscheidungsbaumBSP.png>
 Package pdftex.def Info: figures/f-02-02-EntscheidungsbaumBSP.png  used on inpu
-t line 138.
-(pdftex.def)             Requested size: 426.7914pt x 177.37314pt.
+t line 135.
+(pdftex.def)             Requested size: 426.7914pt x 177.50073pt.
  [8 <./figures/f-02-02-EntscheidungsbaumBSP.png>])
 ("content/03-Vorgehen und Methodik.tex" [9]
 chapter 3.
@@ -2067,12 +2072,6 @@ chapter 3.
 chapter 4.
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 29.
-
-
-Overfull \hbox (1.42921pt too wide) in paragraph at lines 29--30
-[]\T1/cmr/m/n/10.95 Um die-se Be-d�rf-nis-se be-frie-di-gen zu k�n-ne, wur-de i
-m Stadt-ent-wick-lungs-kon-zet, kurz STEK,
- []
 
 [12
 
@@ -2094,7 +2093,7 @@ Overfull \hbox (3.022pt too wide) in paragraph at lines 52--54
 re-du-ziert. Ins-be-son-de-re die Bankstras-
  []
 
-<figures/f-04-04-UsterWest-Moosackerstr.png, id=401, 341.47575pt x 310.761pt>
+<figures/f-04-04-UsterWest-Moosackerstr.png, id=407, 341.47575pt x 310.761pt>
 File: figures/f-04-04-UsterWest-Moosackerstr.png Graphic file (type png)
 <use figures/f-04-04-UsterWest-Moosackerstr.png>
 Package pdftex.def Info: figures/f-04-04-UsterWest-Moosackerstr.png  used on in
@@ -2109,7 +2108,7 @@ Overfull \hbox (7.99513pt too wide) in paragraph at lines 67--68
  Stras-sen-pro-jek-te Us-ter-west und Moosacker-
  []
 
-<figures/f-04-01-Veloweg-Alltag.png, id=404, 884.103pt x 412.54124pt>
+<figures/f-04-01-Veloweg-Alltag.png, id=410, 884.103pt x 412.54124pt>
 File: figures/f-04-01-Veloweg-Alltag.png Graphic file (type png)
 <use figures/f-04-01-Veloweg-Alltag.png>
 Package pdftex.def Info: figures/f-04-01-Veloweg-Alltag.png  used on input line
@@ -2125,16 +2124,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
 [15 <./figures/f-04-04-UsterWest-Moosackerstr.png> <./figures/f-04-01-Veloweg-A
 lltag.png>]
-<figures/f-04-01-Bahnübergang-FOTO.png, id=417, 590.205pt x 295.1025pt>
+<figures/f-04-01-Bahnübergang-FOTO.png, id=423, 590.205pt x 295.1025pt>
 File: figures/f-04-01-Bahnübergang-FOTO.png Graphic file (type png)
 <use figures/f-04-01-Bahnübergang-FOTO.png>
 Package pdftex.def Info: figures/f-04-01-Bahnübergang-FOTO.png  used on input 
 line 89.
 (pdftex.def)             Requested size: 256.07744pt x 128.03983pt.
  [16 <./figures/f-04-01-Bahnübergang-FOTO.png>]
-(content/Fallstudie/04-01-Interessensgruppen.tex [17])
-(content/Fallstudie/04-02-Zielfunktion.tex [18]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 41--49
+(content/Fallstudie/04-01-Interessensgruppen.tex [17]) [18]
+(content/Fallstudie/04-02-Zielfunktion.tex
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 39--46
 [] 
  []
 
@@ -2144,7 +2143,7 @@ Overfull \hbox (4.57347pt too wide) in paragraph at lines 26--26
  []
 
 
-Overfull \hbox (12.2031pt too wide) in paragraph at lines 26--26
+Overfull \hbox (6.51262pt too wide) in paragraph at lines 26--26
 []|\T1/cmr/bx/n/10.95 Symbol| 
  []
 
@@ -2153,7 +2152,7 @@ Overfull \hbox (3.1116pt too wide) in paragraph at lines 31--31
 []|\T1/cmr/m/n/10.95 Umweltbelastungskosten 
  []
 
-) [19]) (content/Fallstudie/04-03-Kostenstrukturen.tex
+)) [19] (content/Fallstudie/04-03-Kostenstrukturen.tex
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 34--38
 [] 
  []
@@ -2163,13 +2162,13 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 68--73
 [] 
  []
 
-[20] (tables/t-04-03-01-Unterhaltskosten.tex) [21]
+[20] (tables/t-04-03-01-Wartungskosten.tex) [21]
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 115--121
 [] 
  []
 
 [22]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 147--151
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 146--151
 [] 
  []
 
@@ -2185,160 +2184,148 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 162--167
  []
 
 [23] (tables/t-04-03-02-Nutzerkosten.tex) [24]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 196--200
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 197--201
 [] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 211--214
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 212--216
 [] 
  []
 
 [25]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 230--233
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 232--237
 [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
  []
 
 (tables/t-04-03-03-Umweltkosten.tex) [26]
-<figures/f-04-04-01-MarktanteilE-Auto.png, id=527, 663.07726pt x 388.45125pt>
+<figures/f-04-04-01-MarktanteilE-Auto.png, id=532, 663.07726pt x 388.45125pt>
 File: figures/f-04-04-01-MarktanteilE-Auto.png Graphic file (type png)
 <use figures/f-04-04-01-MarktanteilE-Auto.png>
 Package pdftex.def Info: figures/f-04-04-01-MarktanteilE-Auto.png  used on inpu
-t line 253.
+t line 258.
 (pdftex.def)             Requested size: 256.07744pt x 150.01947pt.
  [27 <./figures/f-04-04-01-MarktanteilE-Auto.png>]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 298--303
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 303--309
 [] 
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
-
+[28] (tables/t-06-01-Unfallrisiko.tex) [29]
+Overfull \hbox (6.53879pt too wide) in paragraph at lines 344--345
+\T1/cmr/m/n/10.95 Werts ei-nes sta-tis-ti-schen Le-bens. Hier-f�r wer-den ge-m�
+-ss dem ASTRA 3.7 Mio. $\OML/cmm/m/it/10.95 CHF=Unfall$
  []
 
-(tables/t-06-01-Unfallrisiko.tex) [29] (tables/t-04-03-04-Unfallkosten.tex)
-[30]) ("content/Fallstudie/04-04-Unsichere Einflussfaktoren.tex"
+(tables/t-04-03-04-Unfallkosten.tex) [30])
+("content/Fallstudie/04-04-Unsichere Einflussfaktoren.tex"
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 41.
 
 [31]) (content/Fallstudie/04-05-Varianten.tex
-<figures/f-04-05-01-a-V1.png, id=573, 316.0608pt x 381.1038pt>
+<figures/f-04-05-01-a-V1.png, id=578, 316.0608pt x 381.1038pt>
 File: figures/f-04-05-01-a-V1.png Graphic file (type png)
 <use figures/f-04-05-01-a-V1.png>
 Package pdftex.def Info: figures/f-04-05-01-a-V1.png  used on input line 40.
 (pdftex.def)             Requested size: 277.41179pt x 334.52917pt.
  [32 <./figures/f-04-05-01-a-V1.png (PNG copy)>]
-<figures/f-04-05-01-b-V1.png, id=580, 305.943pt x 124.5453pt>
+<figures/f-04-05-01-b-V1.png, id=585, 305.943pt x 124.5453pt>
 File: figures/f-04-05-01-b-V1.png Graphic file (type png)
 <use figures/f-04-05-01-b-V1.png>
 Package pdftex.def Info: figures/f-04-05-01-b-V1.png  used on input line 52.
 (pdftex.def)             Requested size: 298.75267pt x 121.61835pt.
  [33 <./figures/f-04-05-01-b-V1.png (PNG copy)>]
-<figures/f-04-05-02-a-V2.png, id=591, 316.0608pt x 381.1038pt>
+<figures/f-04-05-02-a-V2.png, id=596, 316.0608pt x 381.1038pt>
 File: figures/f-04-05-02-a-V2.png Graphic file (type png)
 <use figures/f-04-05-02-a-V2.png>
 Package pdftex.def Info: figures/f-04-05-02-a-V2.png  used on input line 79.
 (pdftex.def)             Requested size: 277.41179pt x 334.52917pt.
-<figures/f-04-05-02-b-V2.png, id=593, 305.943pt x 124.5453pt>
+<figures/f-04-05-02-b-V2.png, id=598, 305.943pt x 124.5453pt>
 File: figures/f-04-05-02-b-V2.png Graphic file (type png)
 <use figures/f-04-05-02-b-V2.png>
-Package pdftex.def Info: figures/f-04-05-02-b-V2.png  used on input line 90.
+Package pdftex.def Info: figures/f-04-05-02-b-V2.png  used on input line 89.
 (pdftex.def)             Requested size: 298.75267pt x 121.61835pt.
  [34 <./figures/f-04-05-02-a-V2.png (PNG copy)>] [35 <./figures/f-04-05-02-b-V2
 .png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<figures/f-04-05-03-a-V3.png, id=606, 316.0608pt x 381.1038pt>
+<figures/f-04-05-03-a-V3.png, id=611, 316.0608pt x 381.1038pt>
 File: figures/f-04-05-03-a-V3.png Graphic file (type png)
 <use figures/f-04-05-03-a-V3.png>
-Package pdftex.def Info: figures/f-04-05-03-a-V3.png  used on input line 117.
+Package pdftex.def Info: figures/f-04-05-03-a-V3.png  used on input line 116.
 (pdftex.def)             Requested size: 277.41179pt x 334.52917pt.
 [36 <./figures/f-04-05-03-a-V3.png (PNG copy)>]
-<figures/f-04-05-03-b-V3.png, id=612, 305.943pt x 124.5453pt>
+<figures/f-04-05-03-b-V3.png, id=617, 305.943pt x 124.5453pt>
 File: figures/f-04-05-03-b-V3.png Graphic file (type png)
 <use figures/f-04-05-03-b-V3.png>
-Package pdftex.def Info: figures/f-04-05-03-b-V3.png  used on input line 128.
+Package pdftex.def Info: figures/f-04-05-03-b-V3.png  used on input line 127.
 (pdftex.def)             Requested size: 298.75267pt x 121.61835pt.
  (tables/t-08-01-Varianten.tex)
 [37 <./figures/f-04-05-03-b-V3.png (PNG copy)>])
-<figures/f-04-06-01-Entscheidungsbaum-Szenarien.png, id=626, 648.62325pt x 335.
+<figures/f-04-06-01-Entscheidungsbaum-Szenarien.png, id=631, 648.62325pt x 335.
 45325pt>
 File: figures/f-04-06-01-Entscheidungsbaum-Szenarien.png Graphic file (type png
 )
 <use figures/f-04-06-01-Entscheidungsbaum-Szenarien.png>
 Package pdftex.def Info: figures/f-04-06-01-Entscheidungsbaum-Szenarien.png  us
-ed on input line 156.
+ed on input line 161.
 (pdftex.def)             Requested size: 426.7914pt x 220.73439pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38] (content/Fallstudie/04-06-Szenarien.tex [39 <./figures/f-04-06-01-Entschei
-dungsbaum-Szenarien.png>] [40]
-<./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png, id=655, 758.23276pt x
+ [38 <./figures/f-04-06-01-Entscheidungsbaum-Szenarien.png>] (content/Fallstudi
+e/04-06-Szenarien.tex [39]
+[40]
+<./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png, id=662, 758.23276pt x
  409.53pt>
 File: ./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png Graphic file (typ
 e png)
 <use ./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png>
 Package pdftex.def Info: ./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.pn
-g  used on input line 84.
-(pdftex.def)             Requested size: 192.05482pt x 103.73201pt.
-<./figures/f-04-06-03-DTV(VELO)-SzenarienBev-wachstum.png, id=656, 759.43726pt 
+g  used on input line 90.
+(pdftex.def)             Requested size: 213.39569pt x 115.255pt.
+<./figures/f-04-06-03-DTV(VELO)-SzenarienBev-wachstum.png, id=663, 759.43726pt 
 x 407.121pt>
 File: ./figures/f-04-06-03-DTV(VELO)-SzenarienBev-wachstum.png Graphic file (ty
 pe png)
 <use ./figures/f-04-06-03-DTV(VELO)-SzenarienBev-wachstum.png>
 Package pdftex.def Info: ./figures/f-04-06-03-DTV(VELO)-SzenarienBev-wachstum.p
-ng  used on input line 86.
-(pdftex.def)             Requested size: 192.05482pt x 102.95409pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-[41 <./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png> <./figures/f-04-0
-6-03-DTV(VELO)-SzenarienBev-wachstum.png>] [42])
+ng  used on input line 92.
+(pdftex.def)             Requested size: 213.39569pt x 114.39688pt.
+ [41 <./figures/f-04-06-02-DTV(MIV)-SzenarienBev-Wachstum.png> <./figures/f-04-
+06-03-DTV(VELO)-SzenarienBev-wachstum.png>] [42])
 (content/Fallstudie/04-07-Kostenberechnung.tex
-<figures/f-04-06-04-Kostenberechnung.png, id=673, 978.65625pt x 291.489pt>
+<figures/f-04-06-04-Kostenberechnung.png, id=681, 979.86075pt x 290.88675pt>
 File: figures/f-04-06-04-Kostenberechnung.png Graphic file (type png)
 <use figures/f-04-06-04-Kostenberechnung.png>
 Package pdftex.def Info: figures/f-04-06-04-Kostenberechnung.png  used on input
- line 29.
-(pdftex.def)             Requested size: 426.7914pt x 127.12137pt.
- [43 <./figures/f-04-06-04-Kostenberechnung.png>]) (content/Fallstudie/04-08-Ri
+ line 30.
+(pdftex.def)             Requested size: 426.7914pt x 126.69893pt.
+) [43 <./figures/f-04-06-04-Kostenberechnung.png>] (content/Fallstudie/04-08-Ri
 siken.tex
-<figures/f-04-08-01-Risikoberechnung.png, id=688, 777.50475pt x 234.8775pt>
+<figures/f-04-08-01-Risikoberechnung.png, id=700, 770.88pt x 239.09325pt>
 File: figures/f-04-08-01-Risikoberechnung.png Graphic file (type png)
 <use figures/f-04-08-01-Risikoberechnung.png>
 Package pdftex.def Info: figures/f-04-08-01-Risikoberechnung.png  used on input
  line 28.
-(pdftex.def)             Requested size: 426.7914pt x 128.92856pt.
+(pdftex.def)             Requested size: 426.7914pt x 132.36996pt.
 )
 (content/Fallstudie/04-09-Sensitivitätsanalyse.tex [44 <./figures/f-04-08-01-R
 isikoberechnung.png>]
-<figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png, id=697, 664.28175pt x 39
-4.47375pt>
+<figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png, id=709, 662.475pt x 390.
+86024pt>
 File: figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png Graphic file (type p
 ng)
 <use figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png>
 Package pdftex.def Info: figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png  
 used on input line 33.
-(pdftex.def)             Requested size: 256.07744pt x 152.0745pt.
+(pdftex.def)             Requested size: 256.07744pt x 151.08104pt.
  [45 <./figures/f-04-09-01-Marktanteil-E-Autos-Zustand-1.png>] (tables/t-09-01-
-Unfallrisiko-Zustand-2.tex
-Overfull \hbox (12.16556pt too wide) in paragraph at lines 23--33
+Unfallrisiko-Parameterauswahl-2.tex
+Overfull \hbox (27.80896pt too wide) in paragraph at lines 23--33
 []  
  []
 
 )
-<figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand-3.png, id=706, 654.0435
+<figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand-3.png, id=718, 654.0435
 pt x 330.033pt>
 File: figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand-3.png Graphic file
  (type png)
@@ -2349,30 +2336,29 @@ Package pdftex.def Info: figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand
  [46 <./figures/f-04-09-02-Entscheidungsbaum-Szenarien-Zustand-3.png>]))
 (content/05-Resultate.tex [47]
 chapter 5.
-<./figures/f-05-02-RisikenVarianteZ0.png, id=718, 748.59676pt x 501.67426pt>
+<./figures/f-05-02-RisikenVarianteZ0.png, id=731, 747.39224pt x 501.072pt>
 File: ./figures/f-05-02-RisikenVarianteZ0.png Graphic file (type png)
 <use ./figures/f-05-02-RisikenVarianteZ0.png>
 Package pdftex.def Info: ./figures/f-05-02-RisikenVarianteZ0.png  used on input
  line 24.
-(pdftex.def)             Requested size: 192.05482pt x 128.70221pt.
-<./figures/f-05-01-Variantenwahl.png, id=719, 451.6875pt x 322.806pt>
+(pdftex.def)             Requested size: 213.39569pt x 143.06696pt.
+<./figures/f-05-01-Variantenwahl.png, id=732, 451.6875pt x 322.806pt>
 File: ./figures/f-05-01-Variantenwahl.png Graphic file (type png)
 <use ./figures/f-05-01-Variantenwahl.png>
 Package pdftex.def Info: ./figures/f-05-01-Variantenwahl.png  used on input lin
 e 26.
-(pdftex.def)             Requested size: 192.05482pt x 137.25722pt.
+(pdftex.def)             Requested size: 213.39569pt x 152.50693pt.
 
-LaTeX Warning: Reference `img:VariantenwahlZ0' on page 48 undefined on input li
-ne 34.
+LaTeX Warning: Reference `img:Z0' on page 48 undefined on input line 33.
 
-<figures/f-05-00-01-RisikenVergleichZustände1-3.png, id=722, 747.9945pt x 252.
-945pt>
+<figures/f-05-00-01-RisikenVergleichZustände1-3.png, id=736, 743.77875pt x 250
+.536pt>
 File: figures/f-05-00-01-RisikenVergleichZustände1-3.png Graphic file (type pn
 g)
 <use figures/f-05-00-01-RisikenVergleichZustände1-3.png>
 Package pdftex.def Info: figures/f-05-00-01-RisikenVergleichZustände1-3.png  u
 sed on input line 42.
-(pdftex.def)             Requested size: 426.7914pt x 144.32681pt.
+(pdftex.def)             Requested size: 426.7914pt x 143.76271pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2380,95 +2366,100 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./figures/f-05-02-RisikenVarianteZ0.png> <./figures/f-05-01-Variantenwahl.png
 >]
-<./figures/f-05-05-RisikenVarianteZ4.png, id=733, 751.608pt x 502.87875pt>
+<./figures/f-05-05-RisikenVarianteZ4.png, id=747, 747.9945pt x 501.072pt>
 File: ./figures/f-05-05-RisikenVarianteZ4.png Graphic file (type png)
 <use ./figures/f-05-05-RisikenVarianteZ4.png>
 Package pdftex.def Info: ./figures/f-05-05-RisikenVarianteZ4.png  used on input
  line 55.
-(pdftex.def)             Requested size: 192.05482pt x 128.4971pt.
-<./figures/f-05-06-RisikenVariante-2und3-Z4.png, id=734, 747.39224pt x 502.8787
-5pt>
+(pdftex.def)             Requested size: 213.39569pt x 142.95227pt.
+<./figures/f-05-06-RisikenVariante-2und3-Z4.png, id=748, 749.80125pt x 502.2765
+pt>
 File: ./figures/f-05-06-RisikenVariante-2und3-Z4.png Graphic file (type png)
 <use ./figures/f-05-06-RisikenVariante-2und3-Z4.png>
 Package pdftex.def Info: ./figures/f-05-06-RisikenVariante-2und3-Z4.png  used o
 n input line 57.
-(pdftex.def)             Requested size: 192.05482pt x 129.2184pt.
+(pdftex.def)             Requested size: 213.39569pt x 142.94336pt.
 ) (content/06-Diskussion.tex [49 <./figures/f-05-00-01-RisikenVergleichZuständ
 e1-3.png> <./figures/f-05-05-RisikenVarianteZ4.png> <./figures/f-05-06-RisikenV
 ariante-2und3-Z4.png>]
 chapter 6.
-<./figures/f-06-01-Unterhaltskosten-Z0.png, id=746, 747.9945pt x 495.0495pt>
+<./figures/f-06-01-Unterhaltskosten-Z0.png, id=760, 747.9945pt x 460.72125pt>
 File: ./figures/f-06-01-Unterhaltskosten-Z0.png Graphic file (type png)
 <use ./figures/f-06-01-Unterhaltskosten-Z0.png>
 Package pdftex.def Info: ./figures/f-06-01-Unterhaltskosten-Z0.png  used on inp
 ut line 30.
-(pdftex.def)             Requested size: 192.05482pt x 127.10841pt.
-<./figures/f-06-02-Reisezeitkosten-Z0.png, id=747, 747.39224pt x 483.60675pt>
+(pdftex.def)             Requested size: 213.39569pt x 131.44049pt.
+<./figures/f-06-02-Reisezeitkosten-Z0.png, id=761, 746.18774pt x 492.03825pt>
 File: ./figures/f-06-02-Reisezeitkosten-Z0.png Graphic file (type png)
 <use ./figures/f-06-02-Reisezeitkosten-Z0.png>
 Package pdftex.def Info: ./figures/f-06-02-Reisezeitkosten-Z0.png  used on inpu
 t line 32.
-(pdftex.def)             Requested size: 192.05482pt x 124.26631pt.
+(pdftex.def)             Requested size: 213.39569pt x 140.71286pt.
 [50
 
  <./figures/f-06-01-Unterhaltskosten-Z0.png> <./figures/f-06-02-Reisezeitkosten
 -Z0.png>]
-<figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png, id=759, 749.199pt x 496.254pt
->
+<figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png, id=773, 744.98325pt x 493.242
+75pt>
 File: figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png Graphic file (type png)
 <use figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png>
 Package pdftex.def Info: figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png  used 
-on input line 60.
-(pdftex.def)             Requested size: 192.05482pt x 127.21323pt.
+on input line 59.
+(pdftex.def)             Requested size: 213.39569pt x 141.28311pt.
  [51 <./figures/f-06-03-Unfallkostenvergleich-Z0-Z2.png>]
-<figures/f-06-04-RisikenSzenarienZ0.png, id=768, 745.5855pt x 193.9245pt>
+<figures/f-06-04-RisikenSzenarienZ0.png, id=782, 743.77875pt x 192.11775pt>
 File: figures/f-06-04-RisikenSzenarienZ0.png Graphic file (type png)
 <use figures/f-06-04-RisikenSzenarienZ0.png>
 Package pdftex.def Info: figures/f-06-04-RisikenSzenarienZ0.png  used on input 
-line 75.
-(pdftex.def)             Requested size: 426.7914pt x 111.00859pt.
-<figures/f-06-05-RisikenSzenarienZ3.png, id=770, 746.79pt x 195.129pt>
+line 74.
+(pdftex.def)             Requested size: 426.7914pt x 110.24112pt.
+<figures/f-06-05-RisikenSzenarienZ3.png, id=784, 745.5855pt x 192.11775pt>
 File: figures/f-06-05-RisikenSzenarienZ3.png Graphic file (type png)
 <use figures/f-06-05-RisikenSzenarienZ3.png>
 Package pdftex.def Info: figures/f-06-05-RisikenSzenarienZ3.png  used on input 
-line 84.
-(pdftex.def)             Requested size: 192.05482pt x 50.1815pt.
+line 83.
+(pdftex.def)             Requested size: 426.7914pt x 109.97435pt.
  [52 <./figures/f-06-04-RisikenSzenarienZ0.png> <./figures/f-06-05-RisikenSzena
 rienZ3.png>]
-<figures/f-06-06-ReisezeitVergleichZ0-Z4.png, id=780, 748.59676pt x 493.845pt>
+<figures/f-06-06-ReisezeitVergleichZ0-Z4.png, id=793, 747.9945pt x 492.6405pt>
 File: figures/f-06-06-ReisezeitVergleichZ0-Z4.png Graphic file (type png)
 <use figures/f-06-06-ReisezeitVergleichZ0-Z4.png>
 Package pdftex.def Info: figures/f-06-06-ReisezeitVergleichZ0-Z4.png  used on i
-nput line 102.
-(pdftex.def)             Requested size: 192.05482pt x 126.69365pt.
-<figures/f-06-07-ReisezeitVergleichV2_V3-Z0.png, id=782, 747.39224pt x 493.2427
+nput line 101.
+(pdftex.def)             Requested size: 192.05482pt x 126.48988pt.
+<figures/f-06-07-ReisezeitVergleichV2_V3-Z0.png, id=795, 747.39224pt x 493.2427
 5pt>
 File: figures/f-06-07-ReisezeitVergleichV2_V3-Z0.png Graphic file (type png)
 <use figures/f-06-07-ReisezeitVergleichV2_V3-Z0.png>
 Package pdftex.def Info: figures/f-06-07-ReisezeitVergleichV2_V3-Z0.png  used o
-n input line 112.
+n input line 111.
 (pdftex.def)             Requested size: 192.05482pt x 126.74236pt.
- [53 <./figures/f-06-06-ReisezeitVergleichZ0-Z4.png> <./figures/f-06-07-Reiseze
-itVergleichV2_V3-Z0.png>]) (content/07-Schlussfolgerung.tex [54]
-chapter 7.
-[55
-
-]
-<figures/f-07-01-EntscheidungsprozessUster.png, id=807, 527.571pt x 239.6955pt>
-
-File: figures/f-07-01-EntscheidungsprozessUster.png Graphic file (type png)
-<use figures/f-07-01-EntscheidungsprozessUster.png>
-Package pdftex.def Info: figures/f-07-01-EntscheidungsprozessUster.png  used on
- input line 43.
-(pdftex.def)             Requested size: 256.07744pt x 116.34726pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56]) [57 <./figures/f-07-01-EntscheidungsprozessUster.png>]
+[53 <./figures/f-06-06-ReisezeitVergleichZ0-Z4.png>])
+(content/07-Schlussfolgerung.tex [54 <./figures/f-06-07-ReisezeitVergleichV2_V3
+-Z0.png>]
+chapter 7.
+[55
+
+]
+<figures/f-07-01-EntscheidungsprozessUster.png, id=821, 527.571pt x 239.6955pt>
+
+File: figures/f-07-01-EntscheidungsprozessUster.png Graphic file (type png)
+<use figures/f-07-01-EntscheidungsprozessUster.png>
+Package pdftex.def Info: figures/f-07-01-EntscheidungsprozessUster.png  used on
+ input line 47.
+(pdftex.def)             Requested size: 426.7914pt x 193.90723pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [56] [57 <./figures/f-07-01-EntscheidungsprozessUster.png>]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-96.
+91.
 
 ("C:\Users\Cyrano Golliez\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cm
 tt.fd"
@@ -2486,38 +2477,38 @@ Underfull \vbox (badness 10000) detected at line 29
 
 ]
 chapter without number
-<figures/Anhang/f-00-10-01-DTV-Modellierung.pdf, id=862, 597.55246pt x 845.0771
+<figures/Anhang/f-00-10-01-DTV-Modellierung.pdf, id=876, 597.55246pt x 845.0771
 8pt>
 File: figures/Anhang/f-00-10-01-DTV-Modellierung.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-10-01-DTV-Modellierung.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-10-01-DTV-Modellierung.pdf  used o
-n input line 217.
+n input line 212.
 (pdftex.def)             Requested size: 426.7914pt x 603.59377pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-10-02-DTV-Modellierung.pdf, id=863, 597.55246pt x 845.0771
+<figures/Anhang/f-00-10-02-DTV-Modellierung.pdf, id=877, 597.55246pt x 845.0771
 8pt>
 File: figures/Anhang/f-00-10-02-DTV-Modellierung.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-10-02-DTV-Modellierung.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-10-02-DTV-Modellierung.pdf  used o
-n input line 224.
+n input line 219.
 (pdftex.def)             Requested size: 426.7914pt x 603.59377pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-10-03-DTV-Modellierung.pdf, id=864, 597.55246pt x 845.0771
+<figures/Anhang/f-00-10-03-DTV-Modellierung.pdf, id=878, 597.55246pt x 845.0771
 8pt>
 File: figures/Anhang/f-00-10-03-DTV-Modellierung.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-10-03-DTV-Modellierung.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-10-03-DTV-Modellierung.pdf  used o
-n input line 230.
+n input line 225.
 (pdftex.def)             Requested size: 426.7914pt x 603.59377pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (content/Anhang.tex
-<figures/Anhang/f-00-A-V1-B1-U1.pdf, id=865, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B1-U1.pdf, id=879, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B1-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B1-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U1.pdf  used on input line
@@ -2527,7 +2518,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B1-U2.pdf, id=866, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B1-U2.pdf, id=880, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B1-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B1-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U2.pdf  used on input line
@@ -2536,7 +2527,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B1-U3.pdf, id=867, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B1-U3.pdf, id=881, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B1-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B1-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U3.pdf  used on input line
@@ -2545,7 +2536,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B1-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B2-U1.pdf, id=868, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B2-U1.pdf, id=882, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B2-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B2-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U1.pdf  used on input line
@@ -2554,7 +2545,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B2-U2.pdf, id=869, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B2-U2.pdf, id=883, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B2-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B2-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U2.pdf  used on input line
@@ -2563,7 +2554,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B2-U3.pdf, id=870, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B2-U3.pdf, id=884, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B2-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B2-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U3.pdf  used on input line
@@ -2572,7 +2563,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B2-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B3-U1.pdf, id=871, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B3-U1.pdf, id=885, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B3-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B3-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U1.pdf  used on input line
@@ -2581,7 +2572,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B3-U2.pdf, id=872, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B3-U2.pdf, id=886, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B3-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B3-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U2.pdf  used on input line
@@ -2590,7 +2581,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V1-B3-U3.pdf, id=873, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V1-B3-U3.pdf, id=887, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V1-B3-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V1-B3-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U3.pdf  used on input line
@@ -2599,7 +2590,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V1-B3-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B1-U1.pdf, id=874, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B1-U1.pdf, id=888, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B1-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B1-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U1.pdf  used on input line
@@ -2608,7 +2599,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B1-U2.pdf, id=875, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B1-U2.pdf, id=889, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B1-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B1-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U2.pdf  used on input line
@@ -2617,7 +2608,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B1-U3.pdf, id=876, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B1-U3.pdf, id=890, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B1-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B1-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U3.pdf  used on input line
@@ -2626,7 +2617,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B1-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B2-U1.pdf, id=877, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B2-U1.pdf, id=891, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B2-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B2-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U1.pdf  used on input line
@@ -2635,7 +2626,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B2-U2.pdf, id=878, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B2-U2.pdf, id=892, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B2-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B2-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U2.pdf  used on input line
@@ -2644,7 +2635,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B2-U3.pdf, id=879, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B2-U3.pdf, id=893, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B2-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B2-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U3.pdf  used on input line
@@ -2653,7 +2644,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B2-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B3-U1.pdf, id=880, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B3-U1.pdf, id=894, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B3-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B3-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U1.pdf  used on input line
@@ -2662,7 +2653,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B3-U2.pdf, id=881, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B3-U2.pdf, id=895, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B3-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B3-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U2.pdf  used on input line
@@ -2671,7 +2662,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V2-B3-U3.pdf, id=882, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V2-B3-U3.pdf, id=896, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V2-B3-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V2-B3-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U3.pdf  used on input line
@@ -2680,7 +2671,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V2-B3-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B1-U1.pdf, id=883, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B1-U1.pdf, id=897, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B1-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B1-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U1.pdf  used on input line
@@ -2689,7 +2680,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B1-U2.pdf, id=884, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B1-U2.pdf, id=898, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B1-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B1-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U2.pdf  used on input line
@@ -2698,7 +2689,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B1-U3.pdf, id=885, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B1-U3.pdf, id=899, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B1-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B1-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U3.pdf  used on input line
@@ -2707,7 +2698,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B1-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B2-U1.pdf, id=886, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B2-U1.pdf, id=900, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B2-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B2-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U1.pdf  used on input line
@@ -2716,7 +2707,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B2-U2.pdf, id=887, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B2-U2.pdf, id=901, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B2-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B2-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U2.pdf  used on input line
@@ -2725,7 +2716,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B2-U3.pdf, id=888, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B2-U3.pdf, id=902, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B2-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B2-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U3.pdf  used on input line
@@ -2734,7 +2725,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B2-U3.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B3-U1.pdf, id=889, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B3-U1.pdf, id=903, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B3-U1.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B3-U1.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B3-U1.pdf  used on input line
@@ -2743,7 +2734,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B3-U1.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B3-U2.pdf, id=890, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B3-U2.pdf, id=904, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B3-U2.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B3-U2.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B3-U2.pdf  used on input line
@@ -2752,7 +2743,7 @@ Package pdftex.def Info: figures/Anhang/f-00-A-V3-B3-U2.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Anhang/f-00-A-V3-B3-U3.pdf, id=891, 597.55246pt x 845.07718pt>
+<figures/Anhang/f-00-A-V3-B3-U3.pdf, id=905, 597.55246pt x 845.07718pt>
 File: figures/Anhang/f-00-A-V3-B3-U3.pdf Graphic file (type pdf)
 <use figures/Anhang/f-00-A-V3-B3-U3.pdf>
 Package pdftex.def Info: figures/Anhang/f-00-A-V3-B3-U3.pdf  used on input line
@@ -2783,11 +2774,11 @@ igures/Anhang/f-00-A-V3-B2-U1.pdf>] [88 <./figures/Anhang/f-00-A-V3-B2-U2.pdf>]
 [89 <./figures/Anhang/f-00-A-V3-B2-U3.pdf>] [90 <./figures/Anhang/f-00-A-V3-B3-
 U1.pdf>] [91 <./figures/Anhang/f-00-A-V3-B3-U2.pdf>] [92 <./figures/Anhang/f-00
 -A-V3-B3-U3.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 240.
 
 
 LaTeX Warning: There were undefined references.
@@ -2800,10 +2791,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49363 strings out of 480934
- 1116822 string characters out of 2895703
- 2250781 words of memory out of 3000000
- 63921 multiletter control sequences out of 15000+200000
+ 49367 strings out of 480934
+ 1116859 string characters out of 2895703
+ 2251042 words of memory out of 3000000
+ 63923 multiletter control sequences out of 15000+200000
  551724 words of font info for 68 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,22n,131p,10150b,8299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2843,9 +2834,9 @@ fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Cyrano Golliez/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Cyrano 
 Golliez/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on main.pdf (110 pages, 25009684 bytes).
+Output written on main.pdf (110 pages, 25023049 bytes).
 PDF statistics:
- 2472 PDF objects out of 2487 (max. 8388607)
- 308 named destinations out of 1000 (max. 500000)
+ 2489 PDF objects out of 2984 (max. 8388607)
+ 310 named destinations out of 1000 (max. 500000)
  626 words of extra memory for PDF output out of 10000 (max. 10000000)
 

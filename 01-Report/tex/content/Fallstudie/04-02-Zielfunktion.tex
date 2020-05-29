@@ -16,32 +16,29 @@
 
 % Unterkapitel Zielfunktion
 % ---------
+
 \label{subsec:Funktion}
 
-Bei der Optimierung eines Systems sind mathematische Modelle sehr hilfreich. Ein besonders nützliches Modell in der Analyse von Varianten ist ein Lineares Programm. Dies setzt vorraus das alle relevanten Informationen aus der Situationsanalyse und der Zielformulierung in ein mathematisches Modell umgewandelt werden und mithilfe der Zielfunktion das Problem mathematisch formuliert wird.
+Bei der Optimierung eines Systems sind mathematische Modelle sehr hilfreich. Ein besonders nützliches Modell in der Analyse von Varianten ist ein Lineares Programm. Dies setzt voraus, dass alle relevanten Informationen aus der Situationsanalyse und der Zielformulierung in ein mathematisches Modell umgewandelt werden und das Problem mithilfe der Zielfunktion mathematisch formuliert wird.
 Im Rahmen dieser Arbeit, erfolgt dies durch die nachfolgend beschriebene Zielfunktion \ref{equation:1}, welche alle relevanten Kosten der Interessensgruppen der Infrastruktur beinhaltet. (\cite{Adey2019})
 
-\pagebreak
-
-Die totalen Kosten $K$ einer Interventionsstrategie sind definiert als, die Kosten aller Steakholder über den untersuchten Zeitraum $[0,T]$  \\
-Da in meinem Fall die Erlöse nicht in Betracht gezogen werden, ist die Minimierung der Gesamtkosten äquivalent zur Maximierung des netto Nutzens aller beteiligten Interessensgruppen. Zusätzlich setzt die Bedingungen \ref{eq.1.1} voraus, dass keine negativen Werte berücksichtigt werden.
-Die Zeit $0$ kennzeichnet den Startpunkt der Untersuchung wobei die Zeit $T$ das Ende der Untersuchungsperiode ist. 
+Die totalen Kosten $K$ einer Interventionsstrategie sind definiert als die Kosten aller Interessensgruppen über den untersuchten Zeitraum von vierzig Jahren $[0, T]$ . \\
+Da keine Erlöse in Betracht gezogen werden, ist die Minimierung der Gesamtkosten äquivalent zur Maximierung des Netto-Nutzens aller Beteiligten. Die Bedingungen \ref{eq.1.1} voraus, dass keine negativen Werte berücksichtigt werden.
 
 \begin{equation}
-Min. \thinspace K = Min. \thinspace [K_{U} + K_{B} + K_{TT} + K_{E} + K_{A}]
+Min. \thinspace K = Min. \thinspace [K_{W} + K_{B} + K_{TT} + K_{E} + K_{A}]
 \label{equation:1}
 \end{equation} 
 
 \begin{equation}
-K_{U} \geq 0, K_{B} \geq 0, K_{TT} \geq 0, K_{E} \geq 0, K_{A} \geq 0  \label{eq.1.1}
+K_{W} \geq 0, K_{B} \geq 0, K_{TT} \geq 0, K_{E} \geq 0, K_{A} \geq 0  \label{eq.1.1}
 \end{equation}
 
-{\setstretch{0.7}
+{\setstretch{0.6}
 wobei:
 \begin{conditions}
-\renewcommand{\arraystretch}{0.7}
  K   	      &  Totale Kosten über den betrachteten Zeitraum von $T$ Jahren \\
- K_{U}		  &  Totale Unterhalts- und Baukosten  \\
+ K_{W}		  &  Totale Bau- und Wartungskosten  \\
  K_{B}        &  Totale Betriebskosten \\
  K_{TT}       &  Totale Reisezeitkosten   \\
  K_{E}	      &  Totale Umweltbelastungskosten \\
@@ -49,12 +46,11 @@ wobei:
 \end{conditions}
 }
 
-Mithilfe der Optimierung der Zielfunktion und der anschliessenden Analyse der Resultate, wird diejenige Intervention bestimmt, die den totalen Nutzen über den betrachteten Zeitraum am meisten steigert. 
-Zur Übersicht fasst die Tabelle \ref{tab:t-04-01-Interessensgruppen} die Interessensgruppen, sowie die jeweiligen Kosten zusammen. Die Kosten, der verschienden Interessensgruppen werden im nachfolgenden Kapitel erläutert.
-
 \input{./tables/t-04-01-Interessensgruppen}
 
-\pagebreak
+Zur Übersicht fasst die Tabelle \ref{tab:t-04-01-Interessensgruppen} die Interessensgruppen, sowie die jeweiligen Kosten zusammen. Diese Kosten werden im nachfolgenden Kapitel erläutert.
+
+
 
 % ===========================================================================
 % EOF

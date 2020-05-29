@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgment}{vii}{figure.caption.3}%
+\contentsline {chapter}{Danksagung}{vii}{figure.caption.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{ix}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
@@ -45,7 +45,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Sensitivitätsanalyse}{8}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Real option methodology}{9}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Real Option Methodology}{9}{section.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Vorgehen und Methodik}{10}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -63,13 +63,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Nutzer}{18}{section*.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline öffentlichkeit}{18}{section*.33}%
+\contentsline {paragraph}{\nonumberline Öffentlichkeit}{18}{section*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Zielfunktion}{18}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Zielfunktion}{19}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Kostenstruktur}{20}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Katergorie $a$}{29}{section*.47}%
+\contentsline {paragraph}{\nonumberline Kategorie $a$}{30}{section*.47}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Kategorie $b$}{30}{section*.48}%
 \defcounter {refsection}{0}\relax 
@@ -79,7 +79,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Generierung möglicher Lösungen}{32}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Variante \ 1}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Variante: \ 1}{32}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Variante: \ 2}{34}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
@@ -97,39 +97,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Sensitivitätsanalyse}{45}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 0}{45}{section*.64}%
+\contentsline {paragraph}{\nonumberline Grundzustand}{45}{section*.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 1}{45}{section*.65}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 1}{45}{section*.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 2}{45}{section*.67}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 2}{45}{section*.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 3}{46}{section*.69}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 3}{46}{section*.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 4}{46}{section*.71}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 4}{47}{section*.71}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Resultate}{48}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 0}{48}{section*.73}%
+\contentsline {paragraph}{\nonumberline Grundzustand}{48}{section*.73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 1 bis 3}{48}{section*.74}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 1, 2 und 3}{48}{section*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 4}{49}{section*.76}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 4}{49}{section*.76}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Diskussion}{50}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 0}{50}{section*.78}%
+\contentsline {paragraph}{\nonumberline Grundzustand}{50}{section*.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 1}{51}{section*.80}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 1: Veränderung E-Auto Anteil}{51}{section*.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 2}{51}{section*.81}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 2: Veränderung der Unfallwahrscheinlichkeit}{51}{section*.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 3}{52}{section*.83}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 3: Veränderung der Eintrittswahrscheinlichkeit}{52}{section*.83}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Zustand 4}{52}{section*.86}%
+\contentsline {paragraph}{\nonumberline Parameterauswahl 4: Veränderung der Reisezeit}{53}{section*.86}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Schlussfolgerung und Ausblick}{55}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Ausblick}{57}{section*.90}%
+\contentsline {paragraph}{\nonumberline Ausblick}{56}{section*.89}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{58}{chapter*.91}%
 \defcounter {refsection}{0}\relax 
